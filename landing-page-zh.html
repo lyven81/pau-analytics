@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>中小企业数据分析服务 | Pau Analytics</title>
+  <link rel="canonical" href="https://www.pauanalytics.com/landing-page-zh.html" />
+  <meta name="description" content="别再靠感觉做决定。Pau Analytics 帮您把生意数据变成清晰的报告、实时看板和AI助手，让每个决策都有数据支撑。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { font-family: 'Noto Sans SC', 'Inter', sans-serif; }
+    h1, h2, h3, h4 { font-family: 'Noto Sans SC', 'Playfair Display', serif; }
+    .pain-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+    .proof-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .proof-card { background: var(--white); border-radius: var(--radius); padding: 1.75rem; border: 1px solid var(--border); }
+    .proof-card h3 { font-size: 1rem; color: var(--brown); margin-bottom: 0.5rem; }
+    .proof-card .result { font-size: 0.85rem; color: var(--gold); font-weight: 600; margin-bottom: 0.75rem; }
+    .proof-card p { font-size: 0.875rem; color: var(--muted); line-height: 1.65; }
+    .pricing-compact { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; text-align: center; }
+    .pricing-compact-card { background: var(--white); border-radius: var(--radius); padding: 1.5rem 1rem; border: 1px solid var(--border); }
+    .pricing-compact-card .name { font-weight: 700; color: var(--brown); font-size: 1rem; margin-bottom: 0.25rem; }
+    .pricing-compact-card .price { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 700; color: var(--gold); margin-bottom: 0.25rem; }
+    .pricing-compact-card .period { font-size: 0.78rem; color: var(--muted); margin-bottom: 0.75rem; }
+    .pricing-compact-card .includes { font-size: 0.78rem; color: var(--muted); line-height: 1.5; }
+    .lp-cta-form { max-width: 480px; margin: 0 auto; }
+    .lp-cta-form input { display: block; width: 100%; padding: 0.85rem 1rem; margin-bottom: 0.75rem; border: 1px solid var(--border); border-radius: 8px; font-family: 'Noto Sans SC', 'Inter', sans-serif; font-size: 0.95rem; color: var(--text); background: var(--white); box-sizing: border-box; }
+    .lp-cta-form input:focus { outline: none; border-color: var(--gold); }
+    .lp-cta-form input::placeholder { color: #aaa; }
+    .lp-cta-form button { display: block; width: 100%; padding: 0.85rem; background: var(--gold); color: var(--white); border: none; border-radius: 8px; font-family: 'Noto Sans SC', 'Inter', sans-serif; font-weight: 600; font-size: 1rem; cursor: pointer; transition: background 0.25s ease; }
+    .lp-cta-form button:hover { background: var(--gold-hover); }
+    @media (max-width: 768px) {
+      .proof-grid { grid-template-columns: 1fr; }
+      .pricing-compact { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 480px) {
+      .pricing-compact { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero-full" style="text-align:center; padding:5rem 1.5rem;">
+  <div class="container" style="max-width:750px;">
+    <h1 style="font-size:2.8rem; line-height:1.3; margin-bottom:1rem;">别再靠感觉做决定。<br>让数据告诉你答案。</h1>
+    <p style="font-size:1.15rem; color:rgba(255,255,255,0.75); margin-bottom:2rem;">我们把您的生意数据变成清晰的分析报告、实时看板和AI助手——让每个决策都有数据支撑，而不是靠猜。</p>
+    <a href="#contact" class="btn btn-primary" style="font-size:1.05rem; padding:0.9rem 2.5rem;">了解我们怎么做</a>
+  </div>
+</section>
+
+<!-- PAIN POINTS -->
+<section class="section section-cream">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">老板们的烦恼</span>
+      <h2>这些情况，是不是很熟悉？</h2>
+    </div>
+    <div class="three-col">
+      <div class="card card-gold-top" style="text-align:center;">
+        <div class="pain-icon">📉</div>
+        <h3>营业额下滑，但不知道为什么</h3>
+        <p>销售在跌，但你分不清是产品的问题、定价的问题、季节的问题，还是顾客的问题。你需要先看清楚，才能采取行动。</p>
+      </div>
+      <div class="card card-gold-top" style="text-align:center;">
+        <div class="pain-icon">💸</div>
+        <h3>广告费花了，但不知道花在哪里最有效</h3>
+        <p>你在社交媒体、广告、促销上都花了钱——但哪个渠道真正带来了顾客？没有数据，每次投放都像在赌运气。</p>
+      </div>
+      <div class="card card-gold-top" style="text-align:center;">
+        <div class="pain-icon">🚪</div>
+        <h3>顾客悄悄流失，你却一无所知</h3>
+        <p>等你发现顾客不来了，已经太迟了。你需要一个系统，在顾客离开之前就发现警告信号。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">我们怎么做</span>
+      <h2>从你的数据到你的决策——只需3步</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h4>把数据给我们</h4>
+        <p>Excel表格、CSV文件、系统导出的数据——什么都行。我们负责清理和整理。你只需要告诉我们，你想回答什么问题。</p>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <h4>我们帮你分析</h4>
+        <p>根据你的问题，我们用合适的分析方法——回归、分群、预测、优化。你不需要懂方法，只需要看懂结果就好。</p>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <h4>你收到报告、看板和AI助手</h4>
+        <p>一份用人话写的分析报告，带结论和下一步建议。一个可以筛选和探索的实时看板。还有一个AI助手，随时回答你的后续问题。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROOF -->
+<section class="section section-cream">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">真实案例</span>
+      <h2>我们帮过的老板们</h2>
+    </div>
+    <div class="proof-grid">
+      <div class="proof-card">
+        <h3>健身房经营者</h3>
+        <div class="result">提前发现可能退出的会员</div>
+        <p>数据显示，来馆频率是预测退出的第一指标——不是年龄，也不是运动时长。健身房开始每周关注被标记的会员，提前介入留住他们。</p>
+      </div>
+      <div class="proof-card">
+        <h3>零售店老板</h3>
+        <div class="result">发现折扣并没有推动营业额</div>
+        <p>产品选择和购买件数才是关键，不是促销。老板停止了大面积打折，改为优化产品组合。利润率提高了。</p>
+      </div>
+      <div class="proof-card">
+        <h3>营销经理</h3>
+        <div class="result">把广告预算转移到有效的渠道</div>
+        <p>展示广告和搜索广告的效果比电邮高出25%。经理把预算从电邮转到高效渠道——同样的花费，更好的效果。</p>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:2rem;">
+      <a href="data-analytics.html" class="btn btn-outline">查看全部19个案例 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING SNAPSHOT -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">收费</span>
+      <h2>透明价格，没有隐藏费用</h2>
+    </div>
+    <div class="pricing-compact">
+      <div class="pricing-compact-card">
+        <div class="name">月度体检</div>
+        <div class="price">RM750</div>
+        <div class="period">/月</div>
+        <div class="includes">分析报告</div>
+      </div>
+      <div class="pricing-compact-card" style="border-top:3px solid var(--gold);">
+        <div class="name">成长追踪</div>
+        <div class="price">RM1,500</div>
+        <div class="period">/月</div>
+        <div class="includes">报告 + 看板</div>
+      </div>
+      <div class="pricing-compact-card">
+        <div class="name">全面合作</div>
+        <div class="price">RM2,250</div>
+        <div class="period">/月</div>
+        <div class="includes">报告 + 看板 + AI</div>
+      </div>
+      <div class="pricing-compact-card">
+        <div class="name">企业诊断</div>
+        <div class="price">RM3,500</div>
+        <div class="period">一次性</div>
+        <div class="includes">全面业务审查</div>
+      </div>
+    </div>
+    <div style="text-align:center; margin-top:1.5rem;">
+      <a href="pricing.html" class="btn btn-outline">查看完整定价 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section section-dark" id="contact">
+  <div class="container" style="text-align:center;">
+    <div class="section-header">
+      <span class="section-tag">联系我们</span>
+      <h2 style="color:var(--white);">告诉我们你的生意困扰</h2>
+    </div>
+    <p style="color:rgba(255,255,255,0.65); max-width:550px; margin:0 auto 2rem; font-size:1rem;">留下你的姓名和目前遇到的问题。我们会在24小时内回复，告诉你数据能怎样帮你。</p>
+    <div class="lp-cta-form">
+      <input type="text" id="lp-name" placeholder="您的姓名（可选）" />
+      <input type="text" id="lp-challenge" placeholder="您目前生意上最大的困扰 *" />
+      <button onclick="submitLandingCTA('landing-page-zh', 'zh')">WhatsApp 联系我们 →</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="brand-name">Pau <span>Analytics</span></div>
+      <p class="tagline">"Every decision deserves better data."</p>
+      <p>马来西亚中小企业数据分析服务——报告、看板、AI助手。</p>
+    </div>
+    <div class="footer-col">
+      <h5>服务</h5>
+      <ul>
+        <li><a href="data-analytics.html">案例研究</a></li>
+        <li><a href="blog/index.html">博客</a></li>
+        <li><a href="pricing.html">定价</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>公司</h5>
+      <ul>
+        <li><a href="about.html">关于我们</a></li>
+        <li><a href="faq.html">常见问题</a></li>
+        <li><a href="contact.html">联系方式</a></li>
+        <li><a href="https://lyven81.github.io/pau-ai/" target="_blank">Pau AI ↗</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Pau Analytics</span>
+    <span><a href="privacy-policy.html">隐私政策</a></span>
+  </div>
+</footer>
+
+<script>
+function submitLandingCTA(slug, lang) {
+  var nameEl = document.getElementById('lp-name');
+  var challengeEl = document.getElementById('lp-challenge');
+  var name = (nameEl ? nameEl.value.trim() : '') || 'Visitor';
+  var challenge = (challengeEl ? challengeEl.value.trim() : '');
+  if (!challenge) { if (challengeEl) challengeEl.focus(); return; }
+
+  var btn = document.querySelector('.lp-cta-form button');
+  if (btn) { btn.disabled = true; btn.textContent = '\u63d0\u4ea4\u4e2d...'; }
+
+  var msg = '[CH-A]\n\u59d3\u540d\uff1a' + name + '\n\u6211\u6700\u5927\u7684\u56f0\u6270\uff1a' + challenge;
+  window.open('https://wa.me/60149207099?text=' + encodeURIComponent(msg), '_blank');
+  if (btn) {
+    btn.disabled = false;
+    btn.textContent = 'WhatsApp \u8054\u7cfb\u6211\u4eec \u2192';
+  }
+}
+</script>
+
+</body>
+</html>
