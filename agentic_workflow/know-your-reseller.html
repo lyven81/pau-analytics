@@ -327,8 +327,12 @@
         }
     
     .left-column { display: none !important; }
-    .right-column { margin-left: 0 !important; width: 100% !important; }
-    .container { display: block; }
+    .right-column { margin-left: 0 !important; width: 100% !important; padding: 20px 0 !important; }
+    body > .container, .container { display: block; min-height: auto !important; }
+    .chat-container { margin-top: 0; }
+    .suggested-questions { margin-bottom: 20px; }
+    .suggested-questions h3 { margin-bottom: 10px; }
+    .question-btn { padding: 10px 16px; margin-bottom: 8px; font-size: 0.95em; }
   </style>
 </head>
 <body>
@@ -358,15 +362,9 @@
 <!-- AI ASSISTANT CONTENT -->
 <section class="section section-cream">
   <div class="container">
-    <div class="container">
-        <!-- Left Column -->
-        <!-- Right Column - Chatbot Interface -->
+    <!-- Left Column removed -->
+<!-- Right Column - Chatbot Interface -->
         <main class="right-column">
-            <div class="chatbot-header">
-                <h1>🤖 AI Reseller Assistant</h1>
-                <p>After your analysis is complete, imagine having these conversations available whenever you need them.</p>
-            </div>
-
             <div class="chat-container">
                 <div class="suggested-questions">
                     <h3>Try these questions:</h3>
