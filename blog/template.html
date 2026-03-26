@@ -27,33 +27,6 @@
       font-style: italic;
       color: var(--brown-mid);
     }
-    .sidebar { position: sticky; top: 100px; }
-    .sidebar-card {
-      background: var(--white);
-      border-radius: var(--radius);
-      padding: 1.5rem;
-      border: 1px solid var(--border);
-      margin-bottom: 1.5rem;
-    }
-    .sidebar-card h4 {
-      font-size: 0.8rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      color: var(--muted);
-      margin-bottom: 1rem;
-    }
-    .sidebar-related a {
-      display: block;
-      font-size: 0.875rem;
-      color: var(--gold);
-      font-weight: 600;
-      padding: 0.4rem 0;
-      border-bottom: 1px solid var(--border);
-      transition: color var(--transition);
-    }
-    .sidebar-related a:last-child { border-bottom: none; }
-    .sidebar-related a:hover { color: var(--gold-hover); }
   
     .post-cta {
       margin-top: 2.5rem;
@@ -139,7 +112,7 @@
 <!-- POST BODY -->
 <section class="section section-cream">
   <div class="container">
-    <div class="two-col" style="align-items:start; gap:4rem;">
+    
 
       <!-- Article -->
       <article class="post-body">
@@ -168,22 +141,6 @@
       </article>
 
       <!-- Sidebar -->
-      <aside class="sidebar">
-        <div class="sidebar-card">
-          <h4>Written By</h4>
-          <p style="font-size:0.875rem; color:var(--muted); line-height:1.65;">Lee Yih Ven — data analyst and founder of Pau Analytics. Helping Malaysian SMEs turn business data into clear decisions.</p>
-        </div>
-        <div class="sidebar-card sidebar-related">
-          <h4>Related Posts</h4>
-          <a href="{{RELATED POST 1 SLUG}}.html">{{RELATED POST 1 TITLE}}</a>
-          <a href="{{RELATED POST 2 SLUG}}.html">{{RELATED POST 2 TITLE}}</a>
-          <a href="{{RELATED POST 3 SLUG}}.html">{{RELATED POST 3 TITLE}}</a>
-        </div>
-        <div class="sidebar-card" style="text-align:center;">
-          <h4>Want This Analysis for Your Business?</h4>
-          <a href="../contact.html" class="btn btn-primary" style="width:100%; text-align:center; margin-top:0.5rem;">Talk to Us →</a>
-        </div>
-      </aside>
 
     </div>
   </div>
