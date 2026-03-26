@@ -10,6 +10,35 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="../style.css" />
+  <style>
+    .lang-toggle {
+      display: flex;
+      gap: 0.5rem;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .lang-btn {
+      padding: 0.5rem 1.5rem;
+      border: 1px solid var(--border);
+      border-radius: 30px;
+      background: var(--white);
+      color: var(--muted);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.25s ease;
+    }
+    .lang-btn:hover {
+      border-color: var(--gold);
+      color: var(--brown);
+    }
+    .lang-btn.active {
+      background: var(--gold);
+      color: var(--white);
+      border-color: var(--gold);
+    }
+  </style>
 </head>
 <body>
 
@@ -71,9 +100,16 @@
       <span class="section-tag">All Posts</span>
       <h2>Data Questions? We Have Answers.</h2>
     </div>
+
+    <div class="lang-toggle" id="langToggle">
+      <button class="lang-btn active" data-lang="all">All</button>
+      <button class="lang-btn" data-lang="EN">EN</button>
+      <button class="lang-btn" data-lang="ZH">CN</button>
+    </div>
+
     <div class="three-col" id="blogGrid">
 
-      <div class="blog-card fade-in">
+      <div class="blog-card fade-in" data-lang="EN">
         <div class="blog-card-body">
           <span class="blog-lang">EN</span>
           <h3>Your Top Resellers May Not Be Your Best</h3>
@@ -82,7 +118,7 @@
         </div>
       </div>
 
-      <div class="blog-card fade-in">
+      <div class="blog-card fade-in" data-lang="EN">
         <div class="blog-card-body">
           <span class="blog-lang">EN</span>
           <h3>How to Get the Most from Your Marketing Budget</h3>
@@ -91,7 +127,7 @@
         </div>
       </div>
 
-      <div class="blog-card fade-in">
+      <div class="blog-card fade-in" data-lang="EN">
         <div class="blog-card-body">
           <span class="blog-lang">EN</span>
           <h3>Where to Find Loyal Customers Who Spend More</h3>
@@ -100,7 +136,7 @@
         </div>
       </div>
 
-      <div class="blog-card fade-in">
+      <div class="blog-card fade-in" data-lang="EN">
         <div class="blog-card-body">
           <span class="blog-lang">EN</span>
           <h3>Why Your Best-Selling Products May Not Be Your Most Profitable</h3>
@@ -109,7 +145,7 @@
         </div>
       </div>
 
-      <div class="blog-card fade-in">
+      <div class="blog-card fade-in" data-lang="ZH">
         <div class="blog-card-body">
           <span class="blog-lang">ZH</span>
           <h3>卖得多，不等于赚得多</h3>
@@ -118,7 +154,7 @@
         </div>
       </div>
 
-      <div class="blog-card fade-in">
+      <div class="blog-card fade-in" data-lang="ZH">
         <div class="blog-card-body">
           <span class="blog-lang">ZH</span>
           <h3>你的营业额真的从哪里来？</h3>
@@ -127,7 +163,7 @@
         </div>
       </div>
 
-      <div class="blog-card fade-in">
+      <div class="blog-card fade-in" data-lang="ZH">
         <div class="blog-card-body">
           <span class="blog-lang">ZH</span>
           <h3>为什么顾客看了不买？</h3>
@@ -136,7 +172,7 @@
         </div>
       </div>
 
-      <div class="blog-card fade-in">
+      <div class="blog-card fade-in" data-lang="ZH">
         <div class="blog-card-body">
           <span class="blog-lang">ZH</span>
           <h3>顾客最在乎什么</h3>
@@ -145,7 +181,7 @@
         </div>
       </div>
 
-      <div class="blog-card fade-in">
+      <div class="blog-card fade-in" data-lang="ZH">
         <div class="blog-card-body">
           <span class="blog-lang">ZH</span>
           <h3>你以为卖东西靠运气？</h3>
@@ -199,6 +235,21 @@
 </footer>
 
 <script>
+  // Language toggle
+  const langBtns = document.querySelectorAll('.lang-btn');
+  const blogCards = document.querySelectorAll('#blogGrid .blog-card');
+  langBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      langBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const lang = btn.dataset.lang;
+      blogCards.forEach(card => {
+        card.style.display = (lang === 'all' || card.dataset.lang === lang) ? '' : 'none';
+      });
+    });
+  });
+
+  // Fade-in
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
   }, { threshold: 0.1 });
