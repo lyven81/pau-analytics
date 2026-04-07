@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Do Dollars Drive Decisions? — Lending Fairness Dashboard | Pau Analytics</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <style>
     :root {
@@ -23,16 +24,9 @@
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Poppins', sans-serif; background: var(--background-color); color: var(--text-color); line-height: 1.6; }
-    .container { max-width: 1400px; margin: 0 auto; padding: 0 20px; }
+    .dashboard-container { max-width: 100%; }
 
-    .header { background: var(--gradient); color: #fff; padding: 40px 20px; text-align: center; }
-    .header h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 8px; }
-    .header p { font-size: 1.05rem; opacity: 0.9; max-width: 800px; margin: 0 auto; }
-    .nav-buttons { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 20px; }
-    .nav-btn { padding: 10px 22px; background: rgba(255,255,255,0.1); color: #fff; border: 1px solid rgba(255,255,255,0.3); border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: all 0.3s; }
-    .nav-btn:hover { background: var(--secondary-color); border-color: var(--secondary-color); }
-
-    main { padding: 30px 0 60px; }
+    /* dashboard-container adjustments */
 
     .filters { background: #fff; padding: 20px; border-radius: 12px; box-shadow: var(--shadow); margin-bottom: 30px; display: flex; gap: 15px; flex-wrap: wrap; align-items: center; }
     .filters label { font-weight: 600; color: var(--primary-color); font-size: 0.9rem; }
@@ -68,8 +62,7 @@
     .insights ul { margin-left: 20px; color: #555; font-size: 0.92rem; }
     .insights li { margin-bottom: 6px; }
 
-    footer { background: #333; color: #fff; text-align: center; padding: 25px 20px; margin-top: 40px; }
-    footer p { font-size: 0.9rem; }
+
 
     @media (max-width: 1024px) { .chart-grid { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 768px) {
@@ -82,21 +75,32 @@
 </head>
 <body>
 
-<header class="header">
-  <div class="container">
-    <h1>Do Dollars Drive Decisions?</h1>
-    <p>A lending fairness dashboard for loan approval officers — benchmark rates, spot risk flags, and check fairness across 2,990 historical loan approvals.</p>
-    <div class="nav-buttons">
-      <a class="nav-btn" href="https://www.pauanalytics.com/index.html">Home</a>
-      <a class="nav-btn" href="https://www.pauanalytics.com/case-study/do-dollars-drive-decisions.html">View Full Case Study</a>
-      <a class="nav-btn" href="https://www.pauanalytics.com/agentic_workflow/do-dollars-drive-decisions.html">AI Assistant</a>
-      <a class="nav-btn" href="https://www.pauanalytics.com/data-analytics.html">Case Studies</a>
-    </div>
+<div class="sticky-header">
+  <div class="navbar">
+    <div class="nav-brand">Pau <span>Analytics</span></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../data-analytics.html" class="active">Case Studies</a>
+      <a href="../blog/index.html">Blog</a>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
   </div>
-</header>
+</div>
 
-<main>
+<!-- HERO -->
+<section class="hero-medium">
   <div class="container">
+    <span class="section-tag">Interactive Dashboard</span>
+    <h1 style="margin-top:0.75rem;">Do Dollars Drive Decisions? &mdash; Lending Fairness Dashboard</h1>
+  </div>
+</section>
+
+<!-- DASHBOARD CONTENT -->
+<section class="section section-cream">
+  <div class="container">
+    <div class="dashboard-container">
 
     <div class="filters">
       <label>Income Group:
@@ -196,11 +200,47 @@
       </ul></div>
     </div>
 
+    </div>
   </div>
-</main>
+</section>
+
+<section class="section-gold cta-strip">
+  <div class="container">
+    <h2>Want This Kind of Analysis for Your Business?</h2>
+    <p>Tell us the question you're trying to answer. We'll tell you what's possible.</p>
+    <a href="../contact.html" class="btn btn-dark">Start a Conversation</a>
+  </div>
+</section>
 
 <footer>
-  <p>&copy; 2026 Pau Analytics</p>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="brand-name">Pau <span>Analytics</span></div>
+      <p class="tagline">"Every decision deserves better data."</p>
+      <p>Data analytics consulting for Malaysian SMEs &mdash; reports, dashboards, and AI assistants.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Work</h5>
+      <ul>
+        <li><a href="../data-analytics.html">Case Studies</a></li>
+        <li><a href="../blog/index.html">Blog</a></li>
+        <li><a href="../pricing.html">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="https://lyven81.github.io/pau-ai/" target="_blank">Pau AI &uarr;</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Pau Analytics</span>
+    <span><a href="../privacy-policy.html">Privacy Policy</a></span>
+  </div>
 </footer>
 
 <script>
