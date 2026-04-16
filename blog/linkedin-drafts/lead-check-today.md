@@ -1,4 +1,4 @@
-# Lead Check — 2026-04-13
+# Lead Check — 2026-04-16
 
 **Status: API Unreachable**
 
@@ -10,20 +10,28 @@ The Web Chat Lead Manager API could not be reached during this check.
 
 | Endpoint | Status |
 |---|---|
-| `https://web-chat-lead-manager-production.up.railway.app/api/leads` | 403 — blocked by network proxy (host not in allowed list) |
-| `http://localhost:8000/api/leads` | Connection refused — service not running locally |
+| `https://web-chat-lead-manager-production.up.railway.app/api/leads` | 403 — blocked by network proxy |
+| `https://web-chat-lead-manager-production.up.railway.app/api/stats` | 403 — blocked by network proxy |
+
+Both `curl` (host not in allowlist) and `WebFetch` (HTTP 403) are blocked by the Claude Code web environment's egress proxy. This is the same restriction as the 2026-04-13 check.
+
+---
+
+## Root Cause
+
+The Claude Code web environment routes outbound requests through a proxy that restricts which external hosts can be reached. `web-chat-lead-manager-production.up.railway.app` is not on the allowlist, so all API calls fail before reaching Railway.
 
 ---
 
 ## Action Required
 
-The Railway deployment URL (`web-chat-lead-manager-production.up.railway.app`) is not accessible from this Claude Code environment due to egress proxy restrictions.
+Choose one of the following to run a successful lead check:
 
-**Options to resolve:**
+1. **Run from a local Claude Code session** — Start the Web Chat Lead Manager on your machine (`localhost:8000`) and run `/check-leads` from the Claude Code desktop app or terminal, where the proxy restriction does not apply.
 
-1. **Run locally:** Start the Web Chat Lead Manager on your machine and trigger this check from a local Claude Code session where `localhost:8000` is reachable.
-2. **Check Railway dashboard directly:** Log in to [railway.app](https://railway.app) and view leads from the Web Chat Lead Manager dashboard.
-3. **Network allowlist:** Ask your infrastructure team to add `web-chat-lead-manager-production.up.railway.app` to the Claude Code egress proxy allowlist.
+2. **Check Railway dashboard directly** — Log in to railway.app and view leads from the Web Chat Lead Manager UI.
+
+3. **Add to allowlist** — Ask Anthropic / Claude Code support to add `web-chat-lead-manager-production.up.railway.app` to the egress proxy allowlist for your account.
 
 ---
 
@@ -32,10 +40,11 @@ The Railway deployment URL (`web-chat-lead-manager-production.up.railway.app`) i
 Once the API is accessible, this check will:
 
 1. Fetch all leads with status `New` or `Qualifying`
-2. Sort by urgency (overdue first, then urgency score 5→1)
-3. Draft a personalized WhatsApp follow-up message for each lead
-4. Display a prioritized action list
+2. Sort by urgency — overdue leads (New >24 hours) first, then urgency score 5→1
+3. Draft a personalized WhatsApp follow-up message for each lead (per channel: Google Ads, Blog, Chat widget)
+4. Display a prioritized action list with copy-ready WhatsApp messages
+5. Save the full report here and commit to GitHub
 
 ---
 
-*Next check: Run `/check-leads` again once the API is accessible.*
+*Next check: Run `/check-leads` again from a local Claude Code session where `localhost:8000` is reachable.*
