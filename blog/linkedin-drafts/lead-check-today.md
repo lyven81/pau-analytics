@@ -1,4 +1,4 @@
-# Lead Check — 2026-04-16
+# Lead Check — 2026-04-18
 
 **Status: API Unreachable**
 
@@ -9,11 +9,12 @@
 The Web Chat Lead Manager API could not be reached during this check.
 
 | Endpoint | Status |
-|---|---|
+|---|
+---|
 | `https://web-chat-lead-manager-production.up.railway.app/api/leads` | 403 — blocked by network proxy |
 | `https://web-chat-lead-manager-production.up.railway.app/api/stats` | 403 — blocked by network proxy |
 
-Both `curl` (host not in allowlist) and `WebFetch` (HTTP 403) are blocked by the Claude Code web environment's egress proxy. This is the same restriction as the 2026-04-13 check.
+Both `curl` (host not in allowlist) and `WebFetch` (HTTP 403) are blocked by the Claude Code web environment's egress proxy. This is a recurring restriction — same result as checks on 2026-04-13 and 2026-04-16.
 
 ---
 
