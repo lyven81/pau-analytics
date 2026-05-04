@@ -1,0 +1,2 @@
+2026-05-04 | booking-system | solution-showcase
+2026-05-04 | booking-system/salon | usecase-spotlight

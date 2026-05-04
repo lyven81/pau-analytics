@@ -1,0 +1,23 @@
+THURSDAY — Pau Analytics Standalone Insight Post
+Source: predicting-gym-member-dropout case study
+Published: 4 May 2026
+
+---
+
+We looked at 200 gym members to find who was most likely to quit.
+
+Age was almost useless as a predictor.
+
+Most gym owners assume demographics tell you something about retention — younger members are more committed, older ones more likely to fade out. The data said otherwise.
+
+We analysed visit frequency, workout duration, calories burned, and age for every member. The numbers showed one thing clearly: how often someone shows up is what matters. The correlation between visit frequency and dropout was -0.85. That is a very strong signal.
+
+Age? It barely moved the needle. Training habits turned out to be 30 times more predictive than how old a member was.
+
+Two groups emerged from the data. Most members visited regularly — they were safe. A smaller group came in rarely and had inconsistent workouts. These members were already halfway out the door. The model predicted their departure with near-perfect accuracy because the pattern was so clear.
+
+The middle group needed the most attention: members visiting 8 to 12 times a month. Losing just three visits in a week was a red flag.
+
+If you run a membership business — gym, yoga studio, swim school — check your visit frequency data before doing anything else. You probably already have the signal. The question is whether you're reading it.
+
+#CustomerRetention #FitnessIndustry #MalaysianSME #DataAnalytics #MemberRetention

@@ -1,0 +1,27 @@
+MONDAY — Pau Analytics Blog Teaser
+Published: 4 May 2026
+Blog: How 30 Customer Reviews Can Predict Which Shopee Products Will Take Off
+URL: https://www.pauanalytics.com/blog/from-ratings-to-revenue.html
+
+---
+
+Most Shopee sellers promote what sold well last month.
+
+There's a better signal.
+
+When we analysed a Malaysian Shopee retailer's full product catalogue, we found something specific: a product's rating count predicts its future sales more reliably than its current sales history.
+
+And the tipping point is earlier than you'd think.
+
+At just 30 to 50 ratings, a product's probability of becoming a high seller jumps to almost 100 percent. Below that mark, even good products stay stuck.
+
+But here's the part that changes how you spend your ad budget: the 1,000-rating threshold is where sales start to compound. Products crossing that line averaged 2,400 units sold. Products reaching 10,000 ratings averaged 23,000 units.
+
+One clothing retailer in Petaling Jaya had 15 products below 300 ratings for nearly a year. She had been splitting her budget equally across all of them. Once she saw the thresholds, she redirected to the five products closest to 1,000. Three crossed within two months. Their monthly sales nearly doubled.
+
+The signal was there the whole time. It just wasn't being read.
+
+Read the full post to see the three rating stages and how to restructure your promotion budget around them:
+https://www.pauanalytics.com/blog/from-ratings-to-revenue.html
+
+#Shopee #ECommerce #MalaysianSME #DataAnalytics #ProductStrategy

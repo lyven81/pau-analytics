@@ -1,0 +1,28 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: booking-system / beauty salon
+Published: 4 May 2026
+
+---
+
+Mei Ling runs a beauty salon in Subang Jaya with four treatment rooms.
+
+On a Saturday, all four chairs are full. Her phone rings at 2pm. She's mid-facial. By the time she finishes, there's a missed call and no message — the customer booked elsewhere.
+
+This happened three or four times every weekend. She knew she was losing customers. She just had no way to catch them in time.
+
+Now a customer messages on WhatsApp at 2pm asking about a facial on Saturday. Mei Ling is still in the treatment room. But the booking is confirmed in under two minutes — without her touching the phone.
+
+Here is what the system does on her behalf:
+
+- Checks Saturday's availability in real time and finds an open slot at 4pm
+- Quotes RM120 for a 60-minute signature facial and confirms the price
+- Sends a booking confirmation to the customer immediately
+- Sends a reminder message on Friday evening so the customer shows up
+
+Mei Ling sees the booking in her schedule when she finishes with her current client. No missed revenue. No chasing.
+
+For a salon running four rooms six days a week, even catching two missed bookings a day adds up to RM700 to RM1,000 in recovered revenue every week.
+
+See how it works: https://lyven81.github.io/pau-ai/booking-system.html
+
+#AI #MalaysianSME #BeautySalon #WhatsApp #BookingSystem

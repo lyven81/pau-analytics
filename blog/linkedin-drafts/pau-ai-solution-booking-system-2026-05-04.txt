@@ -1,0 +1,24 @@
+TUESDAY — Pau AI Solution Showcase
+Category: booking-system
+Demo: https://lyven81.github.io/pau-ai/booking-system.html
+Published: 4 May 2026
+
+---
+
+Your receptionist missed 4 booking calls today.
+
+Each one was worth RM100 to RM150. That's RM400 to RM600 gone — on a normal Tuesday.
+
+It happens because the phone rings during a treatment, a class, or a peak-hour rush. The customer tries once, gets no answer, and books somewhere else. You never know it happened.
+
+Pau AI's booking system handles this automatically. Customers send a WhatsApp message. The system checks your real-time availability, applies your pricing rules, confirms the appointment, and sends a reminder before the booking date. No missed calls. No double-bookings. No manual back-and-forth.
+
+It handles conflicts on its own: if a slot is taken, it offers the next available time without asking you. Peak-hour pricing, package deals, and service durations are all baked into the configuration — so it quotes correctly every time.
+
+Businesses using it: beauty salons, tuition centres, fitness studios, dental clinics, home service providers.
+
+You do not need new software. You do not need to train staff. Customers book the same way they already message you — on WhatsApp.
+
+See how it works: https://lyven81.github.io/pau-ai/booking-system.html
+
+#AI #MalaysianSME #WhatsApp #BookingSystem #SmallBusiness
