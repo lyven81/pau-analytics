@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sales OK Tapi Tight? Cari Cash Flow Leak — Pau Analytics</title>
+  <meta name="description" content="Sales macam biasa tapi bank account makin kurang. Tahu duit lari ke mana — day-by-day, SKU-by-SKU, cost-by-cost. Pricing transparent, cancel anytime." />
+  <meta property="og:title" content="Sales OK Tapi Tight? Cari Cash Flow Leak" />
+  <meta property="og:description" content="Real case studies. Tahu duit lari ke mana. RM750–2,250/bulan, cancel anytime." />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="https://pauanalytics.com/og/cash-flow-leak.png" />
+  <link rel="canonical" href="https://pauanalytics.com/cash-flow-leak.html" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* LP-specific styles (most styling inherits from style.css) */
+    .pull-quote-list {
+      background: #fff;
+      border-left: 4px solid #CBA135;
+      padding: 1.5rem 1.8rem;
+      margin: 1.5rem 0 2rem;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    }
+    .pull-quote-list p {
+      font-style: italic;
+      color: #403B36;
+      margin: 0.5rem 0;
+      font-size: 1.02rem;
+      font-family: 'Playfair Display', serif;
+    }
+    .leak-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    .leak-card {
+      background: #fff;
+      border: 1px solid #e0ddd3;
+      border-radius: 8px;
+      padding: 1.4rem 1.5rem;
+    }
+    .leak-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      color: #403B36;
+      margin: 0 0 0.6rem 0;
+      font-weight: 700;
+    }
+    .leak-card p {
+      font-size: 0.95rem;
+      color: #555;
+      margin: 0;
+      line-height: 1.6;
+    }
+    .deliverable-list {
+      counter-reset: dlist;
+      list-style: none;
+      padding: 0;
+      margin: 1.5rem 0;
+    }
+    .deliverable-list li {
+      counter-increment: dlist;
+      padding: 1rem 0 1rem 3rem;
+      position: relative;
+      border-bottom: 1px solid #e0ddd3;
+    }
+    .deliverable-list li:last-child { border-bottom: none; }
+    .deliverable-list li::before {
+      content: counter(dlist);
+      position: absolute;
+      left: 0;
+      top: 0.9rem;
+      width: 32px;
+      height: 32px;
+      background: #CBA135;
+      color: #fff;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 32px;
+      font-weight: 700;
+    }
+    .deliverable-list strong {
+      color: #403B36;
+      display: block;
+      margin-bottom: 0.3rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+    }
+    .pau-does-summary {
+      background: #fff8ec;
+      border: 1px solid #e5c97a;
+      border-radius: 6px;
+      padding: 1.2rem 1.5rem;
+      margin-top: 1.5rem;
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .proof-block {
+      background: #403B36;
+      color: #f5f0e3;
+      border-radius: 8px;
+      padding: 2rem;
+      margin: 1.5rem 0;
+    }
+    .proof-block .proof-tag {
+      color: #CBA135;
+      font-size: 0.85rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin: 0 0 1rem 0;
+      font-weight: 600;
+    }
+    .proof-block .case-quote {
+      font-style: italic;
+      color: #fff;
+      margin: 0 0 1rem 0;
+      font-size: 1.1rem;
+      font-family: 'Playfair Display', serif;
+    }
+    .proof-block .result {
+      background: rgba(203, 161, 53, 0.18);
+      border-left: 3px solid #CBA135;
+      padding: 1rem 1.2rem;
+      margin: 1.2rem 0;
+      border-radius: 0 4px 4px 0;
+    }
+    .proof-block .result strong { color: #CBA135; }
+    .proof-block a { color: #CBA135; text-decoration: none; font-weight: 600; }
+    .proof-block a:hover { text-decoration: underline; }
+    .faq-list { margin-top: 1.5rem; }
+    .faq-item {
+      border-bottom: 1px solid #e0ddd3;
+      padding: 1.2rem 0;
+    }
+    .faq-item h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      color: #403B36;
+      margin: 0 0 0.5rem 0;
+      font-weight: 700;
+    }
+    .faq-item p {
+      margin: 0;
+      color: #555;
+      font-size: 0.96rem;
+      line-height: 1.65;
+    }
+    .bm-line {
+      font-style: italic;
+      color: #7a6a55;
+      font-size: 1.15rem;
+      margin: 0.5rem 0 1.5rem 0;
+      font-family: 'Playfair Display', serif;
+    }
+    @media (max-width: 768px) {
+      .leak-grid { grid-template-columns: 1fr; }
+      .proof-block { padding: 1.5rem 1.3rem; }
+    }
+  </style>
+
+  <!-- FAQPage JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much data do you need to find cash flow leaks?",
+        "acceptedAnswer": { "@type": "Answer", "text": "12 months of POS exports ideally. 6 months gets us started; 12 lets us see seasonality." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need to share bank statements?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ideal for the recurring-spend audit, but not required. Without them we still catch 70% of leak types." }
+      },
+      {
+        "@type": "Question",
+        "name": "What if my accountant says we're profitable?",
+        "acceptedAnswer": { "@type": "Answer", "text": "P&L profit and cash flow health are different questions. A profitable business can still leak cash. We look at the cash flow layer directly." }
+      },
+      {
+        "@type": "Question",
+        "name": "Ada Bahasa Malaysia?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Ya. Laporan dan dashboard boleh dalam BM atau English." }
+      },
+      {
+        "@type": "Question",
+        "name": "Boleh cancel bila-bila?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Boleh. Tiada kontrak panjang." }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<div class="sticky-header">
+  <div class="navbar">
+    <div class="nav-brand">Pau <span>Analytics</span></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="data-analytics.html">Case Studies</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero-medium">
+  <div class="container">
+    <h1>Sales look normal. Bank account doesn't.<br>Find the cash flow leak before next month closes.</h1>
+    <p class="bm-line">Bulan ni rasa tight. Duit lari mana? Kita tengok.</p>
+    <p>Your weekly sales report looks fine. Your P&amp;L is green. But the bank account keeps drifting down, and you can't point to what's causing it. That's a cash flow leak — small, compounding, invisible to the reports you're looking at. Pau Analytics finds it in your transaction data.</p>
+    <div class="hero-btns">
+      <a href="contact.html" class="btn btn-primary">Start a Conversation</a>
+      <a href="case-study/friday-through-sunday.html" class="btn btn-ghost">See the Friday Through Sunday case study</a>
+    </div>
+  </div>
+</section>
+
+<!-- SOUND FAMILIAR -->
+<section class="section section-cream">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Sound Familiar?</span>
+      <h2>Things business owners often say</h2>
+    </div>
+    <div class="pull-quote-list">
+      <p>"Sales last month OK lah. Tapi bulan ni kena tambah modal."</p>
+      <p>"Accountant kata untung. Tapi aku rasa tight."</p>
+      <p>"Duit datang, duit keluar — tapi macam keluar lagi cepat."</p>
+      <p>"Setiap hari ada jualan. Tapi end-of-month tak cukup."</p>
+    </div>
+    <p>Not imagined. Cash flow leaks are compound small costs — a 2% over-pay on wholesale, a Sunday labour cost that shouldn't be there, a recurring subscription nobody's using. Each one feels small. Together they drain a month quietly.</p>
+  </div>
+</section>
+
+<!-- WHERE THE LEAK HIDES -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">The Four Leaks</span>
+      <h2>Where the leak usually hides</h2>
+    </div>
+    <p>Four places we find leaks most often:</p>
+    <div class="leak-grid">
+      <div class="leak-card">
+        <h3>1. Time-of-week labour mismatch</h3>
+        <p>You're paying for staff hours that aren't matched to when customers actually come. Friday busy, Monday quiet — but payroll is flat.</p>
+      </div>
+      <div class="leak-card">
+        <h3>2. Category margin drift</h3>
+        <p>One category's margin has slipped 3–5% over 6 months. P&amp;L doesn't catch it because total revenue is up. You're selling more of a lower-margin product.</p>
+      </div>
+      <div class="leak-card">
+        <h3>3. Wholesale creep</h3>
+        <p>Your supplier price went up 1–3% quarterly. Nobody re-negotiated. The cumulative effect over 12 months is meaningful.</p>
+      </div>
+      <div class="leak-card">
+        <h3>4. Dead recurring spend</h3>
+        <p>SaaS subscriptions, POS add-ons, software licences nobody's cancelling. Each RM50/mo feels nothing. Twenty of them = RM1,000/mo = RM12,000/year.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT PAU DOES -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">What You Get</span>
+      <h2>What Pau does for cash flow leaks</h2>
+    </div>
+    <p>Send your POS export + 12 months of bank statements (or just the P&amp;L if that's what you have). We produce:</p>
+    <ol class="deliverable-list">
+      <li><strong>Leak map</strong>Top 10 places cash is leaking, ranked by RM/month impact.</li>
+      <li><strong>Day-of-week P&amp;L</strong>So labour and ops cost align with the actual revenue pattern.</li>
+      <li><strong>Category margin drift chart</strong>Which categories are silently losing margin.</li>
+      <li><strong>Recurring-spend audit</strong>Every recurring charge — is it earning its keep?</li>
+    </ol>
+    <div class="pau-does-summary">
+      You get a leak-ranked list + plain-language report + interactive dashboard to re-check monthly. Typical first-pass finding: <strong>4–8% of monthly cost is recoverable within 90 days.</strong>
+    </div>
+  </div>
+</section>
+
+<!-- PROOF — FRIDAY THROUGH SUNDAY -->
+<section class="section section-cream">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Proof</span>
+      <h2>Friday Through Sunday</h2>
+    </div>
+    <div class="proof-block">
+      <p class="proof-tag">F&amp;B CLIENT, MALAYSIA</p>
+      <p class="case-quote">"Friday is our best day. But somehow it's also the most expensive. Why?"</p>
+      <p>We analyzed 12 months of POS data + payroll + inventory. Friday revenue was 3.2× Monday — but Friday cost was 4.1× Monday. Labour scheduling was flat across the week. Friday inventory spoilage was 2× the weekly average because of over-prep.</p>
+      <div class="result">
+        <strong>Result:</strong> Shifted labour to match revenue shape (40% Friday weight, 10% Monday weight). Prep quantity keyed to 3-week rolling average, not flat daily. <strong>Net savings: 11% of weekly operating cost.</strong>
+      </div>
+      <p><a href="case-study/friday-through-sunday.html">Read the full Friday Through Sunday case study →</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING TIERS -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Pricing</span>
+      <h2>Transparent. No retainer trap.</h2>
+    </div>
+    <div class="pricing-grid">
+
+      <div class="pricing-card">
+        <div class="pricing-name">Monthly Check-Up</div>
+        <div class="pricing-type">📋 Report only</div>
+        <div class="pricing-price">RM750</div>
+        <div class="pricing-period">/month</div>
+        <div class="pricing-desc">A clear monthly leak-watch report — what's draining cash and what to fix next.</div>
+        <ul class="pricing-features">
+          <li>Monthly written report</li>
+          <li>Plain language, stakeholder-ready</li>
+          <li>Email delivery</li>
+        </ul>
+        <a href="contact.html" class="btn btn-outline">Start a Conversation</a>
+      </div>
+
+      <div class="pricing-card featured">
+        <div class="pricing-badge">Most Popular</div>
+        <div class="pricing-name">Growth Tracker</div>
+        <div class="pricing-type">📋 Report + 📊 Dashboard</div>
+        <div class="pricing-price">RM1,500</div>
+        <div class="pricing-period">/month</div>
+        <div class="pricing-desc">Watch leaks in real time on an interactive dashboard you can re-check anytime.</div>
+        <ul class="pricing-features">
+          <li>Monthly written report</li>
+          <li>Interactive dashboard</li>
+          <li>4 working filters, 24 charts</li>
+          <li>Email + dashboard delivery</li>
+        </ul>
+        <a href="contact.html" class="btn btn-primary">Start a Conversation</a>
+      </div>
+
+      <div class="pricing-card">
+        <div class="pricing-name">Full Analytics Partner</div>
+        <div class="pricing-type">📋 Report + 📊 Dashboard + 🤖 AI Agent</div>
+        <div class="pricing-price">RM2,250</div>
+        <div class="pricing-period">/month</div>
+        <div class="pricing-desc">AI agent watches your leak rules every day and flags anything new before it compounds.</div>
+        <ul class="pricing-features">
+          <li>Everything in Growth Tracker</li>
+          <li>AI agent running rules daily</li>
+          <li>Priority support (24h response)</li>
+          <li>Quarterly strategy review call</li>
+        </ul>
+        <a href="contact.html" class="btn btn-outline">Start a Conversation</a>
+      </div>
+
+      <div class="pricing-card">
+        <div class="pricing-name">Business Diagnostic</div>
+        <div class="pricing-type">🔍 First time? Start here</div>
+        <div class="pricing-price">RM3,500</div>
+        <div class="pricing-period">one-off</div>
+        <div class="pricing-desc">Full 90-day review of your leaks. Counts toward 2 months of monthly tier if you upgrade within 30 days.</div>
+        <ul class="pricing-features">
+          <li>Full 90-day review</li>
+          <li>All 4 artefacts delivered</li>
+          <li>90-min debrief call</li>
+          <li>Credit toward monthly upgrade</li>
+        </ul>
+        <a href="contact.html" class="btn btn-outline">Learn More</a>
+      </div>
+
+    </div>
+    <p style="text-align:center;color:#7a6a55;margin-top:2rem;font-style:italic;">All plans: cancel anytime · you own your data · BYO-API-key.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">FAQ</span>
+      <h2>Frequently asked questions</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>How much data do you need?</h3>
+        <p>12 months of POS exports ideally. 6 months gets us started; 12 lets us see seasonality.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do I need to share bank statements?</h3>
+        <p>Ideal for the recurring-spend audit, but not required. Without them we still catch 70% of leak types.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What if my accountant says we're profitable?</h3>
+        <p>P&amp;L profit and cash flow health are different questions. A profitable business can still leak cash. We look at the cash flow layer directly.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Ada Bahasa Malaysia?</h3>
+        <p>Ya. Laporan dan dashboard boleh dalam BM atau English.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Boleh cancel bila-bila?</h3>
+        <p>Boleh. Tiada kontrak panjang.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="section-gold cta-strip">
+  <div class="container">
+    <h2>Cash flow leaks compound quarter-over-quarter.</h2>
+    <p>Worth 30 minutes to find them while the trail is fresh.</p>
+    <a href="contact.html" class="btn btn-dark">Start a Conversation</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="brand-name">Pau <span>Analytics</span></div>
+      <p class="tagline">"Every decision deserves better data."</p>
+      <p>Data analytics consulting for Malaysian SMEs — reports, dashboards, and AI assistants.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Work</h5>
+      <ul>
+        <li><a href="data-analytics.html">Case Studies</a></li>
+        <li><a href="blog/index.html">Blog</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://lyven81.github.io/pau-ai/" target="_blank">Pau AI ↗</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Pau Analytics</span>
+    <span><a href="privacy-policy.html">Privacy Policy</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
