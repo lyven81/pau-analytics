@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Know Which Gym Members Are About to Quit | Pau Analytics Blog</title>
+  <link rel="canonical" href="https://www.pauanalytics.com/blog/predicting-gym-member-dropout.html" />
+  <meta name="description" content="A gym trainer used member visit data to predict dropout before it happened &#8212; and found that age tells you almost nothing about who will actually leave." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .post-body { font-size: 1.05rem; color: var(--text); line-height: 1.85; }
+    .post-body h2 { font-size: 1.5rem; color: var(--brown); margin: 2rem 0 0.75rem; }
+    .post-body h3 { font-size: 1.15rem; color: var(--brown); margin: 1.5rem 0 0.6rem; }
+    .post-body p { margin-bottom: 1.25rem; }
+    .post-body ul, .post-body ol { margin: 0 0 1.25rem 1.5rem; }
+    .post-body li { margin-bottom: 0.5rem; line-height: 1.75; }
+    .post-body strong { color: var(--brown); }
+    .post-body blockquote {
+      border-left: 3px solid var(--gold);
+      padding: 0.75rem 1.5rem;
+      margin: 1.5rem 0;
+      background: var(--alt);
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: var(--brown-mid);
+    }
+    .post-body img { max-width: 100%; border-radius: 8px; margin: 1.5rem 0; }
+    .post-cta {
+      margin-top: 2.5rem;
+      padding: 2rem;
+      background: var(--alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-align: center;
+    }
+    .post-cta p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+    .cta-form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+    .cta-form input {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: var(--text);
+      background: var(--white);
+      transition: border-color 0.25s ease;
+    }
+    .cta-form input:focus {
+      outline: none;
+      border-color: var(--gold);
+    }
+    .cta-form input::placeholder {
+      color: #aaa;
+    }
+    .cta-link {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: var(--gold);
+      color: var(--white);
+      border: none;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.25s ease, transform 0.25s ease;
+    }
+    .cta-link:hover {
+      background: var(--gold-hover);
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+
+<div class="sticky-header">
+  <div class="navbar">
+    <div class="nav-brand">Pau <span>Analytics</span></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../data-analytics.html">Case Studies</a>
+      <a href="index.html" class="active">Blog</a>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero-medium">
+  <div class="container">
+    <span class="section-tag">Customer Retention</span>
+    <h1 style="margin-top:0.75rem;">How to Know Which Gym Members Are About to Quit &#8212; Before They Do</h1>
+    <p style="margin-top:0.5rem; font-size:0.9rem; color:rgba(255,255,255,0.55);">Published 11 May 2026</p>
+  </div>
+</section>
+
+<!-- POST BODY -->
+<section class="section section-cream">
+  <div class="container">
+    <article class="post-body">
+
+      <div class="post-meta">
+        <span class="post-date">11 May 2026</span>
+        <span class="lang-badge">EN</span>
+      </div>
+
+      <p>Most gym owners know when a member has quit. They stop seeing them. A membership expires. Revenue drops. What is harder &#8212; and far more valuable &#8212; is knowing who is about to quit, when there is still time to do something about it.</p>
+
+      <p>Marcus ran a small gym with 200 members. Business looked steady, but every month a handful of members silently drifted away. Some had been regulars for weeks, then suddenly stopped. Others started strong and faded fast. He spent time guessing who might leave next, but by the time he noticed the pattern, they were already gone. He decided to stop guessing and start reading the data.</p>
+
+      <h2>What the Data Actually Predicts</h2>
+
+      <p>Marcus pulled together the data he was already collecting: visit frequency, workout duration, calories burned, and age for each member. He wanted to know which of these predicted whether a member would stay or quit.</p>
+
+      <p>The answer was clear. Visit frequency was the signal. The correlation between visit frequency and dropout was <strong>&#8722;0.85</strong> &#8212; one of the strongest predictive signals you can find in a small business dataset. When visits dropped, departure followed. Workout duration, calories burned, and age barely moved the needle.</p>
+
+      <p>Marcus had been tracking the wrong things. He had assumed age told him something about commitment. Younger members, he thought, were more engaged. Older members more likely to give up. The data proved him wrong. Training habits &#8212; specifically, how often a member showed up &#8212; predicted retention with far more accuracy than any demographic factor.</p>
+
+      <p>In fact, training habits turned out to be <strong>30 times more predictive than age</strong>.</p>
+
+      <h2>Two Groups Emerged from the Data</h2>
+
+      <p>When Marcus mapped the data, two distinct clusters appeared.</p>
+
+      <p>Most members visited regularly and had consistent workout habits. Their patterns were stable week over week. These members were not at risk. The analysis flagged them as safe &#8212; and the data bore that out. Members who visited frequently almost never quit.</p>
+
+      <p>A smaller group told a different story. They came in rarely. Their workouts were short when they did show up. Their attendance was inconsistent. These members were already halfway out the door before Marcus had any reason to act. The model predicted their departure with near-perfect accuracy because the pattern was so consistent.</p>
+
+      <h2>The Middle Group Needed the Most Attention</h2>
+
+      <p>Between the regular visitors and the near-absent ones sat a third group: members who came in 8 to 12 times per month. This group was the most sensitive to change &#8212; and the most recoverable.</p>
+
+      <p>For these members, losing just <strong>three visits in a week</strong> was a red flag. Not a confirmed departure &#8212; but a signal worth acting on. They were still engaged, still paying, still showing up. But slipping.</p>
+
+      <blockquote>
+        <p>This is where early intervention works. A quick message, a class invitation, or a short conversation at the front desk &#8212; any of these, delivered at the right moment, was enough to re-engage members who were on the edge. Left uncontacted, the same members often disappeared within a month.</p>
+      </blockquote>
+
+      <h2>Short Workouts Don&#x27;t Mean Much on Their Own</h2>
+
+      <p>Marcus noticed another nuance in the data: shorter workouts only mattered when combined with falling attendance.</p>
+
+      <p>A member coming in every other day for 20-minute sessions was not a risk &#8212; they had a consistent habit. But a member whose visit frequency was already dropping and whose sessions were getting shorter was showing two signs of disengagement at the same time.</p>
+
+      <p>The combined signal mattered most. Fewer visits plus shorter sessions predicted departure more reliably than either factor alone. Tracking visit frequency gave Marcus most of the prediction. Adding session length helped him prioritise who to contact first.</p>
+
+      <h2>What Marcus Changed</h2>
+
+      <p>Based on what the data showed, Marcus made three practical changes:</p>
+
+      <ol>
+        <li><strong>He tracked attendance weekly</strong>, flagging any member whose visits dropped by three or more in a week.</li>
+        <li><strong>He reached out early</strong> &#8212; before the pattern became a definitive dropout signal. A short check-in or class suggestion was enough to re-engage several members who were slipping.</li>
+        <li><strong>He stopped making assumptions based on age or appearance.</strong> Visit frequency became the only metric that determined who got his attention each week.</li>
+      </ol>
+
+      <p>Within two months, Marcus had caught several at-risk members before they left. A few appreciated the nudge and came back. Others admitted they had been busy and needed the reminder. Some still quit &#8212; data does not stop everyone. But for the first time, Marcus was making decisions based on information rather than instinct.</p>
+
+      <h2>What This Means for Your Business</h2>
+
+      <p>If you run any kind of membership or subscription business &#8212; a gym, a yoga studio, a swim school, a tuition centre &#8212; the same principle applies.</p>
+
+      <p>Your members are already telling you who is at risk. They show you in their behaviour. The question is whether you are reading it.</p>
+
+      <p>You do not need a complex system. A simple weekly check on visit frequency &#8212; or whatever the equivalent engagement signal is in your business &#8212; can be enough to catch members who are slipping before they are gone.</p>
+
+      <p>You can explore the full analysis, including the interactive dashboard and AI assistant, directly from the case study: <a href="../case-study/predicting-gym-member-dropout.html">see the full case study here</a>.</p>
+
+      <!-- CTA to WhatsApp (Channel B lead capture) -->
+      <div class="post-cta">
+        <p>Want to find out which of your customers are at risk of leaving? Share a bit about your business and we&#x27;ll look at it together.</p>
+        <div class="cta-form">
+          <input type="text" id="cta-name" placeholder="Your name (optional)" />
+          <input type="text" id="cta-challenge" placeholder="Your biggest business challenge *" />
+          <button class="cta-link" onclick="submitBlogCTA('predicting-gym-member-dropout', 'en')">Chat with Us on WhatsApp &#x2192;</button>
+        </div>
+      </div>
+
+    </article>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="section-gold cta-strip">
+  <div class="container">
+    <h2>Found This Useful?</h2>
+    <p>Browse the case studies to see this kind of analysis applied to real business problems.</p>
+    <a href="../data-analytics.html" class="btn btn-dark">See Our Case Studies</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="brand-name">Pau <span>Analytics</span></div>
+      <p class="tagline">"Every decision deserves better data."</p>
+      <p>Data analytics consulting for Malaysian SMEs &#8212; reports, dashboards, and AI assistants.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Work</h5>
+      <ul>
+        <li><a href="../data-analytics.html">Case Studies</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="../pricing.html">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="https://lyven81.github.io/pau-ai/" target="_blank">Pau AI &#x2197;</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&#169; 2025 Pau Analytics</span>
+    <span><a href="../privacy-policy.html">Privacy Policy</a></span>
+  </div>
+</footer>
+
+<script>
+async function submitBlogCTA(slug, lang) {
+  var nameEl = document.getElementById('cta-name');
+  var challengeEl = document.getElementById('cta-challenge');
+  var name = (nameEl ? nameEl.value.trim() : '') || 'Visitor';
+  var challenge = (challengeEl ? challengeEl.value.trim() : '');
+  if (!challenge) { if (challengeEl) challengeEl.focus(); return; }
+
+  var btn = document.querySelector('.post-cta .cta-link');
+  if (btn) { btn.disabled = true; btn.textContent = lang === 'zh' ? '提交中...' : 'Sending...'; }
+
+  var msg;
+  if (lang === 'zh') {
+    msg = '[CH-B: ' + slug + ']\n姓名：' + name + '\n我最大的困扰：' + challenge;
+  } else {
+    msg = '[CH-B: ' + slug + ']\nName: ' + name + '\nMy biggest challenge: ' + challenge;
+  }
+  window.open('https://wa.me/60149207099?text=' + encodeURIComponent(msg), '_blank');
+  if (btn) {
+    btn.disabled = false;
+    btn.textContent = lang === 'zh' ? 'WhatsApp 联系我们 →' : 'Chat with Us on WhatsApp →';
+  }
+}
+</script>
+
+</body>
+</html>

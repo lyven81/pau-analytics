@@ -1,1 +1,2 @@
 2026-05-04 | from-ratings-to-revenue | EN | How 30 Customer Reviews Can Predict Which Shopee Products Will Take Off
+2026-05-11 | predicting-gym-member-dropout | EN | How to Know Which Gym Members Are About to Quit — Before They Do

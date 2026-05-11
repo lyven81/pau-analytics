@@ -1,0 +1,26 @@
+TUESDAY — Pau AI Solution Showcase
+Category: whatsapp-agent
+Demo: https://lyven81.github.io/pau-ai/whatsapp-agent.html
+Published: 11 May 2026
+
+---
+
+Your last 20 WhatsApp messages are still unread.
+
+Some are asking about your prices. A few want to know if you are open on Sunday. One is a repeat customer who has not heard back in two days. By the time you reply, half of them have already moved on.
+
+It happens to every small business owner who uses WhatsApp as their main contact point. You are good at what you do. Replying to every message, at any hour, while running the business — that is a different job entirely.
+
+Pau AI's WhatsApp agent handles the conversation for you. A customer messages. The agent reads the request, understands it, and replies — with accurate information pulled from your own business rules. Prices, availability, opening hours, service options. All handled in seconds, not hours.
+
+It does not sound like a robot. It follows your tone, uses your business name, and knows when to pass the conversation to you directly.
+
+One specific thing it handles well: customers who ask three or four questions before deciding. The agent answers all of them immediately. No waiting. The customer gets what they need. You get a ready buyer.
+
+Businesses using it: cafés, tuition centres, clinics, beauty salons, home service providers.
+
+You do not need new software. Customers message you the same way they already do — on WhatsApp.
+
+See how it works: https://lyven81.github.io/pau-ai/whatsapp-agent.html
+
+#AI #MalaysianSME #WhatsApp #CustomerService #SmallBusiness

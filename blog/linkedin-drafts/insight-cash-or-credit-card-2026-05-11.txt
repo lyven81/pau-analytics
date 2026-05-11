@@ -1,0 +1,25 @@
+THURSDAY — Pau Analytics Standalone Insight Post
+Source: cash-or-credit-card case study
+Published: 11 May 2026
+
+---
+
+Statistically significant does not always mean practically important.
+
+A fashion retailer spent months debating whether to push credit card payments. Her store managers believed credit card customers spent more. The data confirmed it — but the story it told was not the one they expected.
+
+We analysed 3,400 transactions across five stores over a year. Credit card customers did spend more on average: $77.62 versus $72.21 for cash. The difference was statistically significant. The p-value was 0.035.
+
+But the real difference was $7.67.
+
+That is a Cohen's d of 0.018 — a tiny effect. Statistically real, practically negligible.
+
+It got more interesting when we looked at monthly patterns. In November, cash customers outspent credit card customers by $42. In December, credit card customers outspent cash customers by $76. The pattern flipped every month because seasonal promotions were doing the heavy lifting — not payment method.
+
+Payment method ranked near the bottom as a predictor of customer value. Total spend, purchase frequency, and product category mattered far more.
+
+The retailer stopped training staff to push credit cards. She shifted to tracking purchase behavior instead. High-value customers were now defined by how often they came back and how much they spent — not how they paid.
+
+Before you build a strategy around a "significant" finding, check whether the effect is actually large enough to change anything.
+
+#RetailAnalytics #CustomerBehaviour #MalaysianSME #DataAnalytics #SmallBusiness

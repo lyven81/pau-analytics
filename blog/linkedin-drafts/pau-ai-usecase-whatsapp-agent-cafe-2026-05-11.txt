@@ -1,0 +1,30 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: whatsapp-agent / café
+Published: 11 May 2026
+
+---
+
+Amir runs a café in Cheras with one kitchen and eight tables.
+
+By 9am on a weekday, his WhatsApp already has 14 messages. Six are asking about the lunch menu. Three want to know if he delivers. Two are regulars who want to reserve a table. One is a complaint from yesterday he has not seen yet. Two are asking what time he closes.
+
+He is in the kitchen. He cannot reply.
+
+By noon, three of those customers have found somewhere else to eat. The complaint has been sitting unread for 19 hours.
+
+Now the WhatsApp agent handles all of this before Amir touches his phone.
+
+Here is what it does on his behalf:
+
+- Sends the set lunch menu with pricing the moment a customer asks — RM12 nasi campur, RM8 economy rice, RM5 for drinks
+- Confirms table reservations for up to 8 tables and sends a reminder one hour before the booking
+- Tells delivery customers which platforms he is on and links to his Grab Food page
+- Flags the complaint to Amir as a priority message so it does not get buried
+
+Amir still cooks. He still greets his regulars. But 90% of the WhatsApp traffic is handled before it reaches him.
+
+For a one-person operation running six days a week, that is several hours of daily back-and-forth resolved automatically.
+
+See how it works: https://lyven81.github.io/pau-ai/whatsapp-agent.html
+
+#AI #MalaysianSME #FnB #WhatsApp #CafeOwner

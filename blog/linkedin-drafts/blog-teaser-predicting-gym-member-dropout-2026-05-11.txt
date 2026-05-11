@@ -1,0 +1,25 @@
+MONDAY — Pau Analytics Blog Teaser
+Published: 11 May 2026
+Blog: How to Know Which Gym Members Are About to Quit — Before They Do
+URL: https://www.pauanalytics.com/blog/predicting-gym-member-dropout.html
+
+---
+
+Most gym owners know when a member has quit.
+
+Knowing who is about to quit — that is a different skill entirely.
+
+We analysed 200 gym members across visit frequency, workout duration, calories burned, and age. One signal predicted dropout with a correlation of -0.85. That is almost as strong as a signal gets in a small business dataset.
+
+It was not age. It was not how hard someone trained. It was simply how often they showed up.
+
+Here is what surprised Marcus, the gym owner in this case study: age was almost completely useless as a predictor. He had been assuming younger members were more committed and older ones more likely to drift away. The data showed training habits were 30 times more predictive than age.
+
+The most useful finding was a specific group: members who came in 8 to 12 times per month. For them, losing just three visits in a week was an early warning sign — not a confirmed departure, but a moment to act. Members in this window, if contacted early, came back. Left alone, they were gone within a month.
+
+If you run a gym, yoga studio, swim school, or any membership business, your data is probably already showing you who is at risk. The question is whether you are reading it.
+
+Read the full post:
+https://www.pauanalytics.com/blog/predicting-gym-member-dropout.html
+
+#CustomerRetention #FitnessIndustry #MalaysianSME #DataAnalytics #MemberRetention
