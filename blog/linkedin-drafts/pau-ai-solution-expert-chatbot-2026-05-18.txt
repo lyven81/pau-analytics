@@ -1,0 +1,26 @@
+TUESDAY — Pau AI Solution Showcase
+Category: expert-chatbot
+Demo: https://lyven81.github.io/pau-ai/expert-chatbot.html
+Published: 18 May 2026
+
+---
+
+Your staff answer the same 10 questions every day.
+
+"What services do you offer?" "How much does it cost?" "Do you have slots on Saturday?" "What is your cancellation policy?"
+
+Each one takes two minutes. Across a full team, across a full week, that adds up to hours spent repeating information that has not changed in months.
+
+Pau AI's expert chatbot handles those questions for you. A customer asks — at any hour, in plain language. The chatbot reads the question, pulls the right answer from your business information, and replies immediately. Pricing, services, policies, availability — all covered, all consistent.
+
+It does not guess. It only answers what you have set up. If a question falls outside its scope, it tells the customer to contact you directly — clearly, not awkwardly.
+
+One thing it handles particularly well: customers who ask several questions before they commit. A person asking about pricing, then timing, then your cancellation terms gets all three answers in one conversation. No waiting. No forwarding. No "let me check and come back to you."
+
+The result is that customers who are ready to buy get their questions answered fast. And staff who were spending half the day on the same FAQs can focus on the work that actually needs them.
+
+Businesses using it: medical clinics, tuition centres, salons, legal offices, property agencies, insurance advisers. Any business where customers have a lot of questions before they say yes.
+
+See the demo: https://lyven81.github.io/pau-ai/expert-chatbot.html
+
+#AI #MalaysianSME #ExpertChatbot #CustomerService #SmallBusiness

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cash or Card: What 3,400 Transactions Reveal About Your Customers | Pau Analytics Blog</title>
+  <link rel="canonical" href="https://www.pauanalytics.com/blog/cash-or-credit-card.html" />
+  <meta name="description" content="Credit card customers do spend more &#8212; but only by $7.67. A fashion retailer&#x27;s year of sales data reveals why payment method is the wrong thing to optimise for." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .post-body { font-size: 1.05rem; color: var(--text); line-height: 1.85; }
+    .post-body h2 { font-size: 1.5rem; color: var(--brown); margin: 2rem 0 0.75rem; }
+    .post-body h3 { font-size: 1.15rem; color: var(--brown); margin: 1.5rem 0 0.6rem; }
+    .post-body p { margin-bottom: 1.25rem; }
+    .post-body ul, .post-body ol { margin: 0 0 1.25rem 1.5rem; }
+    .post-body li { margin-bottom: 0.5rem; line-height: 1.75; }
+    .post-body strong { color: var(--brown); }
+    .post-body blockquote {
+      border-left: 3px solid var(--gold);
+      padding: 0.75rem 1.5rem;
+      margin: 1.5rem 0;
+      background: var(--alt);
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: var(--brown-mid);
+    }
+    .post-body img { max-width: 100%; border-radius: 8px; margin: 1.5rem 0; }
+    .post-cta {
+      margin-top: 2.5rem;
+      padding: 2rem;
+      background: var(--alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-align: center;
+    }
+    .post-cta p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+    .cta-form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+    .cta-form input {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: var(--text);
+      background: var(--white);
+      transition: border-color 0.25s ease;
+    }
+    .cta-form input:focus {
+      outline: none;
+      border-color: var(--gold);
+    }
+    .cta-form input::placeholder {
+      color: #aaa;
+    }
+    .cta-link {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: var(--gold);
+      color: var(--white);
+      border: none;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.25s ease, transform 0.25s ease;
+    }
+    .cta-link:hover {
+      background: var(--gold-hover);
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+
+<div class="sticky-header">
+  <div class="navbar">
+    <div class="nav-brand">Pau <span>Analytics</span></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../data-analytics.html">Case Studies</a>
+      <a href="index.html" class="active">Blog</a>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero-medium">
+  <div class="container">
+    <span class="section-tag">Spending &amp; Behaviour</span>
+    <h1 style="margin-top:0.75rem;">Cash or Card: What 3,400 Transactions Reveal About Your Customers</h1>
+    <p style="margin-top:0.5rem; font-size:0.9rem; color:rgba(255,255,255,0.55);">Published 18 May 2026</p>
+  </div>
+</section>
+
+<!-- POST BODY -->
+<section class="section section-cream">
+  <div class="container">
+    <article class="post-body">
+
+      <div class="post-meta">
+        <span class="post-date">18 May 2026</span>
+        <span class="lang-badge">EN</span>
+      </div>
+
+      <p>Elena ran a fashion boutique chain with five stores across the city. Her store managers were split on payment method. Some pushed customers to pay by card. Others kept it cash. Everyone had an opinion. Nobody had data.</p>
+
+      <p>She hired an analyst to settle the debate. Three thousand, four hundred transactions. A full year of sales. The question: do credit card customers actually spend more?</p>
+
+      <p>The answer was yes. And no.</p>
+
+      <h2>The Statistic That Looked Convincing</h2>
+
+      <p>Credit card users spent an average of $77.62 per transaction. Cash users spent $72.21. The difference was statistically significant &#8212; a p-value of 0.035, well below the standard threshold.</p>
+
+      <p>So credit card customers do spend more. The numbers said so.</p>
+
+      <p>But Elena had a sharper question: does this difference actually matter enough to change how we run the business?</p>
+
+      <p>Her analyst calculated the effect size &#8212; a measure of how meaningful a gap really is in practice. The Cohen&#x27;s d value came back at 0.018.</p>
+
+      <p>That number tells you everything. Anything below 0.2 is considered a small effect. The real-world gap between a cash sale and a card sale was <strong>$7.67 per transaction</strong>. Not enough to redesign a checkout experience. Not enough to train staff around. Not enough to build a strategy on.</p>
+
+      <h2>The Month That Changed Everything</h2>
+
+      <p>When the analyst dug into monthly patterns, the picture became even less clear.</p>
+
+      <p>In November 2022, cash customers outspent credit card customers by more than $40: $198.32 versus $156.52. In December, the pattern flipped completely: credit card customers spent $223.59 while cash customers dropped to $147.49. The gap swung nearly $76 in the opposite direction within a single month.</p>
+
+      <p>What drove the change was not payment method. It was the season, the promotions, and what shoppers were buying. Payment method was just riding along.</p>
+
+      <blockquote>
+        <p>Elena also looked at her top spenders &#8212; the customers who bought the most expensive items. Credit card users produced 345 high spenders. Cash users produced 331. Almost identical.</p>
+      </blockquote>
+
+      <h2>What Actually Predicts Customer Value</h2>
+
+      <p>When the analyst built a model to identify Elena&#x27;s best customers, payment method did not appear among the top predictors.</p>
+
+      <p>What mattered was total spend and purchase frequency &#8212; how much someone bought overall, and how often they came back.</p>
+
+      <p>A customer who paid cash every week and spent $500 per visit was far more valuable than a credit card customer who appeared once a year and spent $80. No payment analysis would have caught that difference.</p>
+
+      <p>Elena had been asking the wrong question. The payment debate had drawn her attention away from the signals that actually predicted which customers were worth investing in.</p>
+
+      <h2>What Elena Changed</h2>
+
+      <p>She made three decisions based on what the data showed:</p>
+
+      <ol>
+        <li><strong>She stopped training staff to push credit cards.</strong> The $7.67 advantage was not worth the friction it created with cash customers.</li>
+        <li><strong>She rebuilt her loyalty programme around total spend and visit frequency.</strong> Customers who spent more than $200 per visit and returned regularly received exclusive previews. Frequent buyers got personalised recommendations.</li>
+        <li><strong>She redesigned promotions around seasonal timing.</strong> The data showed the November and December swings clearly &#8212; she stopped assuming any single month behaved like any other.</li>
+      </ol>
+
+      <p>Within months, her customer segmentation looked completely different. High-value customers were no longer defined by how they paid. They were defined by what they did.</p>
+
+      <h2>What This Means for Your Business</h2>
+
+      <p>The lesson from Elena&#x27;s data is not about payment methods.</p>
+
+      <p>It is about the difference between statistical significance and practical importance. A p-value below 0.05 tells you a result is real &#8212; it is unlikely to be random. But it tells you nothing about whether acting on it will change your business.</p>
+
+      <p>Before you change your pricing, your promotions, or how you train staff based on a data finding, ask one more question: how big is the effect?</p>
+
+      <p>$7.67 per transaction was real. It just was not big enough to matter.</p>
+
+      <p>You can explore the full analysis, including the interactive dashboard and AI assistant, directly from the case study: <a href="../case-study/cash-or-credit-card.html">see the full case study here</a>.</p>
+
+      <!-- CTA to WhatsApp (Channel B lead capture) -->
+      <div class="post-cta">
+        <p>Do you have a business question you have been trying to settle with data? Share your challenge and we will look at it together.</p>
+        <div class="cta-form">
+          <input type="text" id="cta-name" placeholder="Your name (optional)" />
+          <input type="text" id="cta-challenge" placeholder="Your biggest business challenge *" />
+          <button class="cta-link" onclick="submitBlogCTA('cash-or-credit-card', 'en')">Chat with Us on WhatsApp &#x2192;</button>
+        </div>
+      </div>
+
+    </article>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="section-gold cta-strip">
+  <div class="container">
+    <h2>Found This Useful?</h2>
+    <p>Browse the case studies to see this kind of analysis applied to real business problems.</p>
+    <a href="../data-analytics.html" class="btn btn-dark">See Our Case Studies</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="brand-name">Pau <span>Analytics</span></div>
+      <p class="tagline">"Every decision deserves better data."</p>
+      <p>Data analytics consulting for Malaysian SMEs &#8212; reports, dashboards, and AI assistants.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Work</h5>
+      <ul>
+        <li><a href="../data-analytics.html">Case Studies</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="../pricing.html">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="https://lyven81.github.io/pau-ai/" target="_blank">Pau AI &#x2197;</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&#169; 2025 Pau Analytics</span>
+    <span><a href="../privacy-policy.html">Privacy Policy</a></span>
+  </div>
+</footer>
+
+<script>
+async function submitBlogCTA(slug, lang) {
+  var nameEl = document.getElementById('cta-name');
+  var challengeEl = document.getElementById('cta-challenge');
+  var name = (nameEl ? nameEl.value.trim() : '') || 'Visitor';
+  var challenge = (challengeEl ? challengeEl.value.trim() : '');
+  if (!challenge) { if (challengeEl) challengeEl.focus(); return; }
+
+  var btn = document.querySelector('.post-cta .cta-link');
+  if (btn) { btn.disabled = true; btn.textContent = lang === 'zh' ? '提交中...' : 'Sending...'; }
+
+  var msg;
+  if (lang === 'zh') {
+    msg = '[CH-B: ' + slug + ']\n姓名：' + name + '\n我最大的困扰：' + challenge;
+  } else {
+    msg = '[CH-B: ' + slug + ']\nName: ' + name + '\nMy biggest challenge: ' + challenge;
+  }
+  window.open('https://wa.me/60149207099?text=' + encodeURIComponent(msg), '_blank');
+  if (btn) {
+    btn.disabled = false;
+    btn.textContent = lang === 'zh' ? 'WhatsApp 联系我们 →' : 'Chat with Us on WhatsApp →';
+  }
+}
+</script>
+
+</body>
+</html>

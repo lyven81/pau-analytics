@@ -1,0 +1,23 @@
+THURSDAY — Pau Analytics Standalone Insight
+Source: predicting-holiday-peaks case study
+Published: 18 May 2026
+
+---
+
+Most retail businesses spread their Christmas budget evenly across eight weeks.
+
+The data says that is the wrong plan.
+
+We analysed eight years of holiday engagement patterns to find out when Malaysian shoppers actually pay attention to Christmas content. The pattern repeated every single year without exception.
+
+From January to October: almost no engagement. Mid-November: a slow rise begins. Weeks 50 to 52 — the final three weeks of December — that is where everything happens. Right after New Year's: engagement collapses back to near zero within days.
+
+One retail mall marketing manager used to spread his RM300,000 Christmas campaign across eight weeks. After seeing the data, he shifted 60% of his budget to those final three December weeks. Mid-November became a light warm-up at around 20% of budget. Early January became zero.
+
+The change was not based on a hunch. The seasonal pattern was stable enough across eight years of data that he could plan his entire campaign calendar around it. The same three weeks delivered the peak, every year, with no exceptions.
+
+If your business runs seasonal marketing, your budget may be sitting in the wrong weeks. Check when your customers are actually engaged — not when you assume they are.
+
+Your peak window might be shorter than you think. And the weeks before it might be worth more than you are spending on them.
+
+#SeasonalMarketing #RetailMarketing #MalaysianSME #DataAnalytics #MarketingBudget

@@ -1,0 +1,31 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: expert-chatbot / tuition centre
+Demo: https://lyven81.github.io/pau-ai/expert-chatbot.html
+Published: 18 May 2026
+
+---
+
+Siti runs a tuition centre in Subang Jaya with 80 students across six subjects.
+
+Every week, parents message to ask the same questions: which subjects do you offer, what are the fees, when are the classes, can we try a trial lesson?
+
+During enrolment season — January and June — her admin staff spend most of their day answering these messages. Some parents wait two to four hours for a reply. A few do not wait at all.
+
+Siti set up Pau AI's expert chatbot with her centre's information. Now when a parent asks about fees for Form 3 Mathematics, the chatbot replies in seconds:
+
+- Monthly fee: RM120 per subject
+- Classes: Tuesdays and Thursdays, 4pm–6pm
+- Trial class: available in the first week of each month
+- Maximum class size: 10 students
+
+If a parent asks about a subject the centre does not offer, the chatbot says clearly: "We do not cover that subject currently. Please call us at 012-345 6789 and our team will help you."
+
+No confusion. No wrong information. No promising things that are not available.
+
+During June enrolment this year, average response time dropped from four hours to under one minute. Her admin staff now spend their time on lesson planning, parent follow-up calls, and the students sitting in front of them.
+
+The chatbot handles the intake questions. The people handle the rest.
+
+See how it works: https://lyven81.github.io/pau-ai/expert-chatbot.html
+
+#AI #MalaysianSME #TuitionCentre #Education #CustomerService

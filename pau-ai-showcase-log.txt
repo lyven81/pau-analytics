@@ -2,3 +2,5 @@
 2026-05-04 | booking-system/salon | usecase-spotlight
 2026-05-11 | whatsapp-agent | solution-showcase
 2026-05-11 | whatsapp-agent/cafe | usecase-spotlight
+2026-05-18 | expert-chatbot | solution-showcase
+2026-05-18 | expert-chatbot/tuition | usecase-spotlight

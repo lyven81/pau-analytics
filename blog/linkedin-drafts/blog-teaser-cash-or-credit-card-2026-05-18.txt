@@ -1,0 +1,29 @@
+MONDAY — Pau Analytics Blog Teaser
+Published: 18 May 2026
+Blog: Cash or Card: What 3,400 Transactions Reveal About Your Customers
+URL: https://www.pauanalytics.com/blog/cash-or-credit-card.html
+
+---
+
+Elena's store managers argued about this for months.
+
+Some pushed credit cards. Others kept it cash. Everyone was sure their method brought in more revenue.
+
+The data settled it — but not the way anyone expected.
+
+We analysed 3,400 transactions from a fashion boutique chain. Credit card customers did spend more on average: $77.62 versus $72.21. The difference was statistically significant. p-value of 0.035.
+
+Then we looked at how significant it actually was.
+
+The effect size — a measure of practical importance — was 0.018. Anything below 0.2 is considered small. In real terms, the difference between a cash sale and a card sale was $7.67. Not enough to change your training. Not enough to redesign your checkout. Not enough to build a strategy on.
+
+The monthly data made it even clearer. In November, cash customers outspent card customers by over $40. In December, card customers outspent cash by over $75. The gap flipped completely within 30 days. What drove spending was the season and the promotion — not the payment method.
+
+When the analyst built a model to find Elena's highest-value customers, payment method did not appear in the top predictors. Total spend and visit frequency did.
+
+She rebuilt her loyalty programme around behavior, not wallets.
+
+Read the full post:
+https://www.pauanalytics.com/blog/cash-or-credit-card.html
+
+#RetailData #SpendingBehaviour #MalaysianSME #DataAnalytics #SmallBusiness
