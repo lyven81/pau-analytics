@@ -1,76 +1,86 @@
-# Next Week Plan — Week 21 (18–24 May 2026)
+# Next Week Plan — Week 22 (25–31 May 2026)
 
-Generated: 15 May 2026 (from Week 19 coordinator report)
+Generated: 22 May 2026 (from Week 21 coordinator report)
 
 ---
 
 ## Recommended Blog Post
 
-**Case study:** cash-or-credit-card
-**Slug:** cash-or-credit-card
+**Case study:** predicting-holiday-peaks
+**Slug:** predicting-holiday-peaks
 **Language:** English (EN)
-**Source:** First in publish-queue.md priority list
+**Source:** Next in publish-queue.md priority order after cash-or-credit-card (published 18 May)
 
 **Why this topic:**
-- Next in the priority queue after predicting-gym-member-dropout (published 11 May)
-- Payment behaviour is a relatable, high-search topic for retail and F&B SME owners
-- A LinkedIn insight draft (insight-cash-or-credit-card-2026-05-11.txt) is already ready
-  to amplify this post once it goes live
-- Continues the weekly cadence: from-ratings-to-revenue (4 May) → predicting-gym-member-dropout
-  (11 May) → cash-or-credit-card (target: 18 May)
+- Direct next step in the publish queue — cash-or-credit-card is now published
+- Inventory and peak-demand planning is a relatable topic for retail and F&B SME owners
+- Timely: mid-year retail events (Hari Raya Haji, school holidays, Malaysia Day prep)
+  give this topic real search relevance in Q2–Q3
+- A LinkedIn insight draft (insight-predicting-holiday-peaks-2026-05-18.txt) is already
+  ready to amplify the post once it goes live
+- Continues the weekly cadence: from-ratings-to-revenue (4 May) ->
+  predicting-gym-member-dropout (11 May) -> cash-or-credit-card (18 May) ->
+  predicting-holiday-peaks (target: 25 May)
 
 **What to do:**
-1. Run the `pau-analytics-blog-write` skill, specify slug `cash-or-credit-card`
+1. Run the pau-analytics-blog-write skill, specify slug: predicting-holiday-peaks
 2. After publishing, update publish-log.txt and publish-queue.md
 
 ---
 
 ## LinkedIn Queue
 
-8 drafts ready, 0 posts published. Queue has been inactive for 6+ weeks.
+12 drafts ready, 0 posts published. Queue has been inactive for 7+ weeks.
 
 **Priority this week:**
-- Wednesday 21 May: blog-teaser-from-ratings-to-revenue-2026-05-04.txt
-  (6+ weeks overdue — schedule in Buffer immediately)
+- Wednesday 28 May: blog-teaser-from-ratings-to-revenue-2026-05-04.txt
+  (7+ weeks overdue — schedule in Buffer immediately)
 
 Upcoming LinkedIn schedule at 1 post per week:
-- Wed 21 May: blog-teaser-from-ratings-to-revenue
-- Wed 28 May: insight-predicting-gym-member-dropout
-- Wed 4 Jun: pau-ai-solution-booking-system
-- Wed 11 Jun: pau-ai-usecase-booking-system-salon
-- Wed 18 Jun: blog-teaser-predicting-gym-member-dropout
-- Wed 25 Jun: insight-cash-or-credit-card
-- Wed 2 Jul: pau-ai-solution-whatsapp-agent
-- Wed 9 Jul: pau-ai-usecase-whatsapp-agent-cafe
+- Wed 28 May: blog-teaser-from-ratings-to-revenue
+- Wed 4 Jun:  insight-predicting-gym-member-dropout
+- Wed 11 Jun: pau-ai-solution-booking-system
+- Wed 18 Jun: pau-ai-usecase-booking-system-salon
+- Wed 25 Jun: blog-teaser-predicting-gym-member-dropout
+- Wed 2 Jul:  insight-cash-or-credit-card
+- Wed 9 Jul:  pau-ai-solution-whatsapp-agent
+- Wed 16 Jul: pau-ai-usecase-whatsapp-agent-cafe
+- Wed 23 Jul: blog-teaser-cash-or-credit-card
+- Wed 30 Jul: insight-predicting-holiday-peaks
+- Wed 6 Aug:  pau-ai-solution-expert-chatbot
+- Wed 13 Aug: pau-ai-usecase-expert-chatbot-tuition
 
 ---
 
 ## Content Pipeline Status
 
-| Week | Blog | LinkedIn |
-|------|------|----------|
-| Week 19 (4–10 May) | from-ratings-to-revenue DONE | 0 posts live |
-| Week 20 (11–17 May) | predicting-gym-member-dropout DONE | 0 posts live |
-| Week 21 (18–24 May) | cash-or-credit-card (planned) | blog-teaser-from-ratings-to-revenue (overdue) |
-| Week 22 (25–31 May) | — | insight-predicting-gym-member-dropout |
+| Week | Blog Slug | Status |
+|------|-----------|--------|
+| Week 19 (4 May)  | from-ratings-to-revenue      | Published |
+| Week 20 (11 May) | predicting-gym-member-dropout | Published |
+| Week 21 (18 May) | cash-or-credit-card           | Published |
+| Week 22 (25 May) | predicting-holiday-peaks      | To write  |
+| Week 23          | understanding-customer-value  | Queued    |
+| Week 24          | from-clicks-to-check-ins      | Queued    |
+| Week 25          | what-causes-product-returns   | Queued    |
+| Week 26          | do-dollars-drive-decisions    | Queued    |
 
 - Blog posts live: 13
-- LinkedIn queue: 8 drafts ready, 0 published
-- Case studies without blog posts: 6 remaining
-  (cash-or-credit-card, predicting-holiday-peaks, understanding-customer-value,
-  from-clicks-to-check-ins, what-causes-product-returns, do-dollars-drive-decisions)
-- At 1 post per week: 6 weeks of blog content remaining
+- LinkedIn queue: 12 drafts ready, 0 published
+- At 1 blog post per week: 5 weeks of topics remaining (after Week 22)
+- At 1 LinkedIn post per week: 12 weeks of content buffered
 
 ---
 
-## Priority Actions for Week 21
+## Priority Actions for Week 22
 
 | Priority | Action | How |
 |---|---|---|
-| 1 (overdue) | Post LinkedIn: blog-teaser-from-ratings-to-revenue on Wed 21 May | Buffer (manual) |
+| 1 (overdue) | Post LinkedIn: blog-teaser-from-ratings-to-revenue on Wed 28 May | Buffer (manual) |
 | 2 (critical) | Fix lead API access — run from local Claude Code session | /check-leads |
-| 3 | Write blog post: cash-or-credit-card | pau-analytics-blog-write |
+| 3 | Write blog post: predicting-holiday-peaks | pau-analytics-blog-write |
+| 4 | Update publish-queue.md — mark cash-or-credit-card as published | Manual edit |
 
 ---
 
-*Generated by the coordinator skill — Week 19 2026 report (15 May 2026)*
+*Generated by the coordinator skill — Week 21 2026 report (22 May 2026)*
