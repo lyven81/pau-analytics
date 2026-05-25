@@ -1,0 +1,23 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: analytics-agent / retail mini-market
+Published: 25 May 2026
+
+---
+
+Mei Lin runs a mini-market in Cheras with 3 staff and about 200 products on her shelves.
+
+Every month, she restocked by feel. The fast movers were obvious. The slow ones — sitting for 45 days, tying up cash — were harder to catch until it was too late.
+
+Last quarter, she over-ordered cooking oil after a supplier promotion. It sat in her storeroom for six weeks. Meanwhile, she ran out of her best-selling instant noodles twice in the same month.
+
+She started using Pau AI's analytics agent, connected to her POS records. The first week, she asked three questions:
+
+- "Which products have sold less than 5 units in the past 30 days?" — 23 slow-moving SKUs flagged immediately
+- "What were my 10 best-selling items last month vs two months ago?" — she spotted the noodle trend she had missed
+- "Which supplier promotions led to overstocking in the past 6 months?" — two suppliers identified
+
+Mei Lin now reviews those three questions every Monday morning before placing orders. Her storeroom cash flow improved within two months. She did not hire anyone. She just started asking the right questions.
+
+See how it works: https://lyven81.github.io/pau-ai/analytics-agent.html
+
+#AI #MalaysianSME #RetailAnalytics #SmallBusiness #InventoryManagement

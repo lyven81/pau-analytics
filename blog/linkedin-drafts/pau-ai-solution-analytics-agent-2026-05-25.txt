@@ -1,0 +1,23 @@
+TUESDAY — Pau AI Solution Showcase
+Category: analytics-agent
+Published: 25 May 2026
+
+---
+
+Your sales data has answers. Most business owners never get to ask the questions.
+
+Your POS system knows which products are quietly draining your margin. It knows which customers are about to stop coming back. Which day of the week drives your best orders. Which promotion actually worked last quarter.
+
+The problem is not the data. It is access.
+
+Pau AI's analytics agent connects to your business data and lets you ask questions in plain language. No formulas. No dashboards to build. No waiting for a report.
+
+Ask: "Which products have the lowest margin this month?" — you get an answer in seconds.
+Ask: "Which customers haven't ordered in 60 days?" — it shows you the list.
+Ask: "How does this week's revenue compare to the same week last year?" — done.
+
+It is built for F&B operators, retail owners, and e-commerce sellers who have data sitting in their systems but no easy way to get answers from it. You do not need to hire a data analyst for every question. You just need to ask.
+
+See the demo: https://lyven81.github.io/pau-ai/analytics-agent.html
+
+#AI #MalaysianSME #DataAnalytics #BusinessIntelligence #RetailTech

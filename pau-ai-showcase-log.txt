@@ -4,3 +4,5 @@
 2026-05-11 | whatsapp-agent/cafe | usecase-spotlight
 2026-05-18 | expert-chatbot | solution-showcase
 2026-05-18 | expert-chatbot/tuition | usecase-spotlight
+2026-05-25 | analytics-agent | solution-showcase
+2026-05-25 | analytics-agent/retail | usecase-spotlight
