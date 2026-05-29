@@ -1,54 +1,52 @@
-# Next Week Plan — Week 22 (25–31 May 2026)
+# Next Week Plan — Week 23, 2026 (1–7 June 2026)
 
-Generated: 22 May 2026 (from Week 21 coordinator report)
+Generated: 29 May 2026 (from Week 22 coordinator report)
 
 ---
 
 ## Recommended Blog Post
 
-**Case study:** predicting-holiday-peaks
-**Slug:** predicting-holiday-peaks
-**Language:** English (EN)
-**Source:** Next in publish-queue.md priority order after cash-or-credit-card (published 18 May)
+**Case study:** understanding-customer-value
+**Slug:** understanding-customer-value
+**Language:** TBD — run content-scheduler to confirm EN or Mandarin
+**Target publish date:** Monday 2 June 2026
+**Action:** Run pau-analytics-blog-write skill to produce the post
 
 **Why this topic:**
-- Direct next step in the publish queue — cash-or-credit-card is now published
-- Inventory and peak-demand planning is a relatable topic for retail and F&B SME owners
-- Timely: mid-year retail events (Hari Raya Haji, school holidays, Malaysia Day prep)
-  give this topic real search relevance in Q2–Q3
-- A LinkedIn insight draft (insight-predicting-holiday-peaks-2026-05-18.txt) is already
-  ready to amplify the post once it goes live
-- Continues the weekly cadence: from-ratings-to-revenue (4 May) ->
-  predicting-gym-member-dropout (11 May) -> cash-or-credit-card (18 May) ->
-  predicting-holiday-peaks (target: 25 May)
+- Next in publish-queue.md priority order after predicting-holiday-peaks (published 25 May)
+- Customer segmentation is broadly relevant to any small-to-medium business owner
+- Complements the analytical arc already established: payment patterns (cash-or-credit-card),
+  membership retention (predicting-gym-member-dropout), seasonal timing (predicting-holiday-peaks)
+- "Who are my most valuable customers?" is the most common first question from SME owners
+  considering analytics — high organic search potential
 
 **What to do:**
-1. Run the pau-analytics-blog-write skill, specify slug: predicting-holiday-peaks
+1. Run the pau-analytics-blog-write skill, specify slug: understanding-customer-value
 2. After publishing, update publish-log.txt and publish-queue.md
 
 ---
 
 ## LinkedIn Queue
 
-12 drafts ready, 0 posts published. Queue has been inactive for 7+ weeks.
+16 drafts ready, 0 posts published. Queue has been inactive for 8+ weeks.
 
-**Priority this week:**
-- Wednesday 28 May: blog-teaser-from-ratings-to-revenue-2026-05-04.txt
-  (7+ weeks overdue — schedule in Buffer immediately)
+**Priority this week — catch-up at 2 posts per week:**
+- Monday 2 June: blog-teaser-from-ratings-to-revenue-2026-05-04.txt
+  (8+ weeks overdue — schedule in Buffer immediately)
+- Thursday 5 June: insight-predicting-gym-member-dropout-2026-05-04.txt
 
-Upcoming LinkedIn schedule at 1 post per week:
-- Wed 28 May: blog-teaser-from-ratings-to-revenue
-- Wed 4 Jun:  insight-predicting-gym-member-dropout
-- Wed 11 Jun: pau-ai-solution-booking-system
-- Wed 18 Jun: pau-ai-usecase-booking-system-salon
-- Wed 25 Jun: blog-teaser-predicting-gym-member-dropout
-- Wed 2 Jul:  insight-cash-or-credit-card
-- Wed 9 Jul:  pau-ai-solution-whatsapp-agent
-- Wed 16 Jul: pau-ai-usecase-whatsapp-agent-cafe
-- Wed 23 Jul: blog-teaser-cash-or-credit-card
-- Wed 30 Jul: insight-predicting-holiday-peaks
-- Wed 6 Aug:  pau-ai-solution-expert-chatbot
-- Wed 13 Aug: pau-ai-usecase-expert-chatbot-tuition
+Recommended catch-up schedule at 2 posts per week:
+
+| Date        | Draft |
+|-------------|-------|
+| Mon 2 Jun   | blog-teaser-from-ratings-to-revenue |
+| Thu 5 Jun   | insight-predicting-gym-member-dropout |
+| Mon 9 Jun   | pau-ai-solution-booking-system |
+| Thu 12 Jun  | pau-ai-usecase-booking-system-salon |
+| Mon 16 Jun  | blog-teaser-predicting-gym-member-dropout |
+| Thu 19 Jun  | insight-cash-or-credit-card |
+| Mon 23 Jun  | pau-ai-solution-whatsapp-agent |
+| Thu 26 Jun  | pau-ai-usecase-whatsapp-agent-cafe |
 
 ---
 
@@ -56,31 +54,47 @@ Upcoming LinkedIn schedule at 1 post per week:
 
 | Week | Blog Slug | Status |
 |------|-----------|--------|
-| Week 19 (4 May)  | from-ratings-to-revenue      | Published |
-| Week 20 (11 May) | predicting-gym-member-dropout | Published |
-| Week 21 (18 May) | cash-or-credit-card           | Published |
-| Week 22 (25 May) | predicting-holiday-peaks      | To write  |
-| Week 23          | understanding-customer-value  | Queued    |
-| Week 24          | from-clicks-to-check-ins      | Queued    |
-| Week 25          | what-causes-product-returns   | Queued    |
-| Week 26          | do-dollars-drive-decisions    | Queued    |
+| Week 19 (4 May)   | from-ratings-to-revenue      | Published |
+| Week 20 (11 May)  | predicting-gym-member-dropout | Published |
+| Week 21 (18 May)  | cash-or-credit-card           | Published |
+| Week 22 (25 May)  | predicting-holiday-peaks      | Published |
+| Week 23 (2 Jun)   | understanding-customer-value  | To write  |
+| Week 24           | from-clicks-to-check-ins      | Queued    |
+| Week 25           | what-causes-product-returns   | Queued    |
+| Week 26           | do-dollars-drive-decisions    | Queued    |
 
-- Blog posts live: 13
-- LinkedIn queue: 12 drafts ready, 0 published
-- At 1 blog post per week: 5 weeks of topics remaining (after Week 22)
-- At 1 LinkedIn post per week: 12 weeks of content buffered
+- Blog posts live: 14
+- LinkedIn queue: 16 drafts ready, 0 published
+- At 1 blog post per week: 4 weeks of topics remaining (run content-scheduler to refresh)
+- At 2 LinkedIn posts per week: 8 weeks to clear backlog
 
 ---
 
-## Priority Actions for Week 22
+## Priority Actions for Week 23
 
 | Priority | Action | How |
 |---|---|---|
-| 1 (overdue) | Post LinkedIn: blog-teaser-from-ratings-to-revenue on Wed 28 May | Buffer (manual) |
-| 2 (critical) | Fix lead API access — run from local Claude Code session | /check-leads |
-| 3 | Write blog post: predicting-holiday-peaks | pau-analytics-blog-write |
-| 4 | Update publish-queue.md — mark cash-or-credit-card as published | Manual edit |
+| 1 (overdue) | Post LinkedIn: blog-teaser-from-ratings-to-revenue on Mon 2 Jun | Buffer (manual) |
+| 2 (overdue) | Post LinkedIn: insight-predicting-gym-member-dropout on Thu 5 Jun | Buffer (manual) |
+| 3 (critical) | Fix lead API access — run from local Claude Code session | /check-leads |
+| 4 | Write blog post: understanding-customer-value | pau-analytics-blog-write |
+| 5 | Run content-scheduler to refresh topic queue beyond Week 26 | /content-scheduler |
 
 ---
 
-*Generated by the coordinator skill — Week 21 2026 report (22 May 2026)*
+## Risks
+
+1. **LinkedIn backlog** — 16 drafts unposted. Every week without LinkedIn distribution
+   is a missed amplification opportunity for content already live on the site.
+   This is the highest-impact gap to close.
+
+2. **Blog topic depth** — Only 4 topics remain in publish-queue.md. Run content-scheduler
+   after understanding-customer-value publishes to maintain a 4-week forward buffer.
+
+3. **No lead data** — Without knowing which posts generate leads, content strategy
+   cannot be optimised. Resolving API access should be treated as a priority business
+   task, not a technical issue.
+
+---
+
+*Generated by the coordinator skill — Week 22 2026 report (29 May 2026)*
