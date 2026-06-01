@@ -6,3 +6,5 @@
 2026-05-18 | expert-chatbot/tuition | usecase-spotlight
 2026-05-25 | analytics-agent | solution-showcase
 2026-05-25 | analytics-agent/retail | usecase-spotlight
+2026-06-03 | research-system | solution-showcase
+2026-06-06 | research-system/cafe | usecase-spotlight

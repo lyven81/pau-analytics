@@ -1,0 +1,27 @@
+MONDAY — Pau Analytics Blog Teaser
+Published: 2 June 2026
+Blog: Who Are Your Most Valuable Customers? What Data from 18,400 Buyers Reveals
+URL: https://www.pauanalytics.com/blog/understanding-customer-value.html
+
+---
+
+Fewer than 2% of customers were generating almost all the profit.
+
+The bicycle shop had 18,400 customers and more than 60,000 transactions. Business looked healthy. But profit was not growing to match the activity.
+
+When we analysed the full customer base by profit contribution, the imbalance was stark:
+
+- High-value customers: $10.6 million in total profit
+- Medium-value customers: $1.4 million
+- Low-value customers: $0.12 million
+
+The high-value tier — people who bought complete bicycles and premium upgrades — generated 87 times more profit than the frequent accessory buyers at the bottom. And nobody in the business had known who they were.
+
+The shop had been running promotions, campaigns, and loyalty rewards aimed at volume. None of it was targeted at the customers who actually mattered.
+
+Most businesses track how often customers visit. Very few track how much profit each customer contributes over time. Those are very different numbers — and they point to very different decisions.
+
+Read the full post to see the three-tier breakdown and what it means for how you manage your own customer base:
+https://www.pauanalytics.com/blog/understanding-customer-value.html
+
+#CustomerRetention #DataAnalytics #MalaysianSME #SmallBusiness #BusinessGrowth

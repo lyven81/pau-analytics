@@ -1,0 +1,25 @@
+TUESDAY — Pau AI Solution Showcase
+Category: research-system
+Published: 3 June 2026
+
+---
+
+Your competitor just changed their prices. You have no idea by how much — or why.
+
+Most SME owners do their market research the slow way. Browsing competitor websites. Asking around. Making mental notes. By the time you have a clear picture, the market has already moved again.
+
+Pau AI's research system does the legwork for you.
+
+It scans competitor pricing, product listings, and market signals on demand. You ask a question in plain language, it pulls the answer. No spreadsheets. No hours spent tabbing between websites.
+
+Ask: "What are competitors charging for a similar service in my area?" — you get a comparison in minutes.
+Ask: "What are customers complaining about in my product category?" — it surfaces patterns from reviews.
+Ask: "Which product trends are picking up in my market right now?" — it shows you what is moving before it hits mainstream.
+
+It is built for business owners in retail, F&B, and services who need to make decisions about pricing, products, and positioning — without spending a full day on research every time something changes.
+
+You do not need a market research firm. You just need to ask the right questions.
+
+See the demo: https://lyven81.github.io/pau-ai/research-system.html
+
+#AI #MalaysianSME #MarketResearch #BusinessStrategy #RetailTech

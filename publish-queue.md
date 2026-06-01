@@ -1,6 +1,17 @@
 # Publish Queue
 
-## Last Published — 25 May 2026
+## Last Published — 2 June 2026
+
+**Slug:** understanding-customer-value
+**Title:** Who Are Your Most Valuable Customers? What Data from 18,400 Buyers Reveals
+**Language:** English (EN)
+**Case Study:** understanding-customer-value
+**Blog URL:** https://www.pauanalytics.com/blog/understanding-customer-value.html
+**Status:** Published
+
+---
+
+## Previously Published — 25 May 2026
 
 **Slug:** predicting-holiday-peaks
 **Title:** How to Time Your Christmas Campaign: What 8 Years of Streaming Data Reveals
@@ -33,9 +44,8 @@
 
 ## Upcoming Topics (in priority order)
 
-1. **understanding-customer-value** — Customer segmentation / General
-2. **from-clicks-to-check-ins** — E-commerce / F&B
-3. **what-causes-product-returns** — E-commerce / Retail
-4. **do-dollars-drive-decisions** — Pricing / General
+1. **from-clicks-to-check-ins** — E-commerce / F&B
+2. **what-causes-product-returns** — E-commerce / Retail
+3. **do-dollars-drive-decisions** — Pricing / General
 
 *Run content-scheduler to refresh this list and select the next topic.*

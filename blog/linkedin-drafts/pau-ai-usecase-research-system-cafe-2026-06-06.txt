@@ -1,0 +1,25 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: research-system / café
+Published: 6 June 2026
+
+---
+
+Anita runs a café in Bangsar. Good coffee, solid regulars — and a growing feeling that three new cafés down the road are pulling her lunch crowd.
+
+She had been thinking about adding a set lunch menu. But she did not know what her competitors were charging, which items were drawing crowds, or whether her pricing was already too high.
+
+Before, she would have spent a Sunday afternoon walking the street, photographing menus, and piecing together a picture from Instagram posts.
+
+She tried Pau AI's research system instead. In one session, she asked three questions:
+
+- "What are cafés in Bangsar charging for set lunches right now?" — she got a price range with specific examples
+- "What are the most common customer complaints about café lunch menus in KL?" — long wait times and limited vegetarian options came up repeatedly
+- "Which lunch items are performing well in competitor cafés based on recent reviews?" — pasta and rice bowls were trending; sandwiches were declining
+
+Within 30 minutes, Anita had enough to make a decision. She launched a three-item set lunch at RM19.90, included one vegetarian option, and added a 15-minute preparation guarantee.
+
+Two weeks in, her lunch covers increased by 40%. She did not guess. She checked.
+
+See how it works: https://lyven81.github.io/pau-ai/research-system.html
+
+#AI #MalaysianSME #CaféBusiness #MarketResearch #SmallBusiness

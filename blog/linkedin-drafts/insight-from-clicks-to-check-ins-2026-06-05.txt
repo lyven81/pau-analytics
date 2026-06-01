@@ -1,0 +1,25 @@
+THURSDAY — Pau Analytics Standalone Insight
+Published: 5 June 2026
+Case Study: From Clicks to Check-Ins
+
+---
+
+Your bundle offers might be hurting your sales.
+
+Most businesses add packages assuming customers see more value and are more likely to buy. The data from a hotel booking analysis tells a different story.
+
+When we studied 100,000 room searches across desktop and mobile, standalone room bookings converted at 9.3%. Package deals — the ones bundling breakfast, spa treatments, and transfers — converted at just 4.1%.
+
+Packages converted at less than half the rate of simple, standalone bookings.
+
+The finding held across every customer segment. Solo travellers, couples, corporate guests — all of them were more likely to complete a booking when the offer was simple: one room, one price, one decision.
+
+Packages sound like better value. But they add decision complexity. The customer now has to evaluate whether they want breakfast, whether the spa is worth it, whether the price still makes sense with or without the add-ons. Somewhere in that calculation, they stop and leave.
+
+The same pattern appears in retail and e-commerce. Bundle two products together and you feel like you are adding value. Sometimes you are just adding friction.
+
+Before you build your next bundle, set meal, or promotional package, pull your own data. Which offers have the highest completion rate — the simple ones or the complex ones?
+
+The answer might change how you price.
+
+#RetailStrategy #ECommerce #MalaysianSME #DataAnalytics #SalesConversion
