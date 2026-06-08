@@ -1,0 +1,29 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: operations-tracker / restaurant
+Published: 13 June 2026
+
+---
+
+Raj runs a kopitiam in Petaling Jaya. Four staff, lunch and dinner service, around 60 covers on a good day.
+
+He used to spend his evenings at the shop — not because he wanted to, but because that was the only way he knew what was actually happening. Which shift sold well. Which items were running low. Whether the evening crew was keeping up.
+
+He started using Pau AI's operations tracker.
+
+Every hour, it logs:
+- Sales by shift, broken down by lunch and dinner
+- Items sold and items that did not move
+- Cost of goods versus revenue, with a flag if the ratio drifts above 35%
+- Table turnover compared to staff on duty
+
+At 8pm, Raj gets a WhatsApp summary. Tonight it tells him dinner service is tracking 18% below last Thursday. The slow item is the nasi lemak special — four sold versus the usual twelve. Beverage sales are strong.
+
+He calls the evening supervisor. Finds out the special ran out of sambal at 6pm and nobody restocked it. He arranges a restock for tomorrow's lunch.
+
+Without the tracker, he would have found out next week when the numbers were already a pattern.
+
+Now Raj goes home by 7pm. His business keeps running. He keeps watching.
+
+See how it works: https://lyven81.github.io/pau-ai/operations-tracker.html
+
+#AI #MalaysianSME #FnB #KopitiamLife #SmallBusiness

@@ -1,0 +1,23 @@
+TUESDAY — Pau AI Solution Showcase
+Category: operations-tracker
+Published: 10 June 2026
+
+---
+
+You left the shop at 6pm. By 9pm, you still have no idea whether today was a good day or a slow one.
+
+Most small business owners find out how their day went the next morning — when they reconcile the till, check the stock, and talk to the evening crew. By then, there is nothing left to act on.
+
+Pau AI's operations tracker gives you a live view of your business without you being there.
+
+It logs sales by hour and by staff. It flags when cost of goods sold creeps above your usual threshold. It tracks which items moved and which sat on the shelf all day. It sends a daily summary to your phone before you go to bed, so you go into the next morning knowing what actually happened.
+
+You ask a question in plain language — "How did today compare to last Tuesday?" — and it tells you in numbers, not a spreadsheet you have to decode yourself.
+
+It is built for restaurant owners, kedai operators, and retail shops running on thin margins — where one slow shift noticed early is worth more than three slow shifts noticed too late.
+
+You do not need to be in the shop to know what is happening in the shop.
+
+See the demo: https://lyven81.github.io/pau-ai/operations-tracker.html
+
+#AI #MalaysianSME #BusinessOperations #FnB #RetailTech

@@ -1,6 +1,17 @@
 # Publish Queue
 
-## Last Published — 2 June 2026
+## Last Published — 9 June 2026
+
+**Slug:** from-clicks-to-check-ins
+**Title:** From Clicks to Check-Ins: Why More Traffic Doesn't Mean More Bookings
+**Language:** English (EN)
+**Case Study:** from-clicks-to-check-ins
+**Blog URL:** https://www.pauanalytics.com/blog/from-clicks-to-check-ins.html
+**Status:** Published
+
+---
+
+## Previously Published — 2 June 2026
 
 **Slug:** understanding-customer-value
 **Title:** Who Are Your Most Valuable Customers? What Data from 18,400 Buyers Reveals
@@ -44,8 +55,7 @@
 
 ## Upcoming Topics (in priority order)
 
-1. **from-clicks-to-check-ins** — E-commerce / F&B
-2. **what-causes-product-returns** — E-commerce / Retail
-3. **do-dollars-drive-decisions** — Pricing / General
+1. **what-causes-product-returns** — E-commerce / Retail
+2. **do-dollars-drive-decisions** — Pricing / General
 
 *Run content-scheduler to refresh this list and select the next topic.*
