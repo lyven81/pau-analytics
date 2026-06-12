@@ -1,53 +1,49 @@
-# Next Week Plan — Week 24, 2026 (8–14 June 2026)
+# Next Week Plan — Week 25 (15–21 June 2026)
 
-Generated: 5 June 2026 (from Week 23 coordinator report)
+Generated: 12 June 2026 (from Week 24 coordinator report)
 
 ---
 
 ## Recommended Blog Post
 
-**Case study:** from-clicks-to-check-ins
-**Slug:** from-clicks-to-check-ins
+**Case study:** what-causes-product-returns
+**Slug:** what-causes-product-returns
 **Language:** English (EN)
-**Target publish date:** Monday 9 June 2026
+**Target publish date:** Monday 16 June 2026
 **Action:** Run pau-analytics-blog-write skill to produce the post
 
 **Why this topic:**
-- #1 priority in publish-queue.md, next in queue after understanding-customer-value (published 2 June)
-- E-commerce and F&B are strong verticals for Pau Analytics' target audience —
-  business owners who want to understand customer behaviour from transactional data
-- A Thursday insight LinkedIn draft already exists for this topic
-  (insight-from-clicks-to-check-ins-2026-06-05.txt) — post it this week to build
-  anticipation before the blog goes live
-- Continues the analytical arc: ratings → gym retention → payments → seasonal timing →
-  customer value → conversion tracking (logical content progression)
+- #1 priority in upcoming topics in publish-queue.md, next in queue after
+  from-clicks-to-check-ins (published 9 June)
+- E-commerce / Retail is a proven vertical — from-ratings-to-revenue and
+  from-clicks-to-check-ins both target online retail audiences
+- Product returns is a high-cost operational problem that business owners
+  actively search for solutions to — strong SEO and lead potential
+- Continues the analytical arc: ratings → gym retention → payments → seasonal
+  timing → customer value → conversion → returns (logical progression)
 
 **What to do:**
-1. Run the pau-analytics-blog-write skill, specify slug: from-clicks-to-check-ins
+1. Run the pau-analytics-blog-write skill, specify slug: what-causes-product-returns
 2. After publishing, update publish-log.txt and publish-queue.md
 
 ---
 
 ## LinkedIn Queue
 
-20 drafts ready, 0 posts published. Queue has been inactive for 9+ weeks.
+24 drafts ready, 0 posts published. Queue has been inactive for 10+ weeks.
 
 **Priority this week — start posting immediately:**
-- blog-teaser-from-ratings-to-revenue-2026-05-04.txt (9+ weeks overdue — post now)
-- insight-from-clicks-to-check-ins-2026-06-05.txt (Thursday insight for next week's blog)
+- blog-teaser-from-ratings-to-revenue-2026-05-04.txt (10+ weeks overdue — post now)
+- blog-teaser-from-clicks-to-check-ins-2026-06-09.txt (Week 24 blog teaser — post Monday 16 Jun)
 
 Recommended catch-up schedule at 2 posts per week:
 
 | Date        | Draft |
 |-------------|-------|
-| Mon 9 Jun   | blog-teaser-from-ratings-to-revenue |
-| Thu 12 Jun  | insight-from-clicks-to-check-ins |
-| Mon 16 Jun  | pau-ai-solution-booking-system |
-| Thu 19 Jun  | pau-ai-usecase-booking-system-salon |
-| Mon 23 Jun  | blog-teaser-predicting-gym-member-dropout |
-| Thu 26 Jun  | insight-predicting-gym-member-dropout |
-| Mon 30 Jun  | pau-ai-solution-whatsapp-agent |
-| Thu 3 Jul   | pau-ai-usecase-whatsapp-agent-cafe |
+| Mon 15 Jun  | blog-teaser-from-ratings-to-revenue |
+| Thu 19 Jun  | insight-predicting-gym-member-dropout |
+| Mon 22 Jun  | blog-teaser-predicting-gym-member-dropout |
+| Thu 26 Jun  | pau-ai-solution-booking-system |
 
 ---
 
@@ -55,47 +51,45 @@ Recommended catch-up schedule at 2 posts per week:
 
 | Week | Blog Slug | Status |
 |------|-----------|--------|
-| Week 19 (4 May)   | from-ratings-to-revenue      | Published |
-| Week 20 (11 May)  | predicting-gym-member-dropout | Published |
-| Week 21 (18 May)  | cash-or-credit-card           | Published |
-| Week 22 (25 May)  | predicting-holiday-peaks      | Published |
-| Week 23 (2 Jun)   | understanding-customer-value  | Published |
-| Week 24 (9 Jun)   | from-clicks-to-check-ins      | Queued    |
-| Week 25           | what-causes-product-returns   | Queued    |
-| Week 26           | do-dollars-drive-decisions    | Queued    |
+| Week 19 (4 May)   | from-ratings-to-revenue       | Published |
+| Week 20 (11 May)  | predicting-gym-member-dropout  | Published |
+| Week 21 (18 May)  | cash-or-credit-card            | Published |
+| Week 22 (25 May)  | predicting-holiday-peaks       | Published |
+| Week 23 (2 Jun)   | understanding-customer-value   | Published |
+| Week 24 (9 Jun)   | from-clicks-to-check-ins       | Published |
+| Week 25 (16 Jun)  | what-causes-product-returns    | Queued    |
+| Week 26           | do-dollars-drive-decisions     | Queued    |
 
-- Blog posts live: 15
-- LinkedIn queue: 20 drafts ready, 0 published
-- At 1 blog post per week: 3 weeks of topics remaining (run content-scheduler to refresh)
-- At 2 LinkedIn posts per week: 10 weeks to clear backlog
+- Blog posts live: 16
+- LinkedIn queue: 24 drafts ready, 0 published
+- At 1 blog post per week: 2 weeks of topics remaining (run content-scheduler to refresh)
+- At 2 LinkedIn posts per week: 12 weeks to clear backlog
 
 ---
 
-## Priority Actions for Week 24
+## Priority Actions for Week 25
 
 | Priority | Action | How |
 |---|---|---|
 | 1 (overdue) | Post LinkedIn: blog-teaser-from-ratings-to-revenue | Buffer (manual) |
-| 2 | Post LinkedIn: insight-from-clicks-to-check-ins | Buffer (manual) |
-| 3 (critical) | Fix lead API access — run from local Claude Code session | /check-leads |
-| 4 | Write blog post: from-clicks-to-check-ins | pau-analytics-blog-write |
-| 5 | Run content-scheduler to refresh topic queue beyond Week 26 | /content-scheduler |
+| 2 (critical) | Fix lead API access — run from local Claude Code session | /check-leads |
+| 3 | Write blog post: what-causes-product-returns | pau-analytics-blog-write |
+| 4 | Run content-scheduler to refresh topic queue beyond Week 26 | /content-scheduler |
 
 ---
 
 ## Risks
 
-1. **LinkedIn backlog** — 20 drafts unposted. The oldest draft is 9+ weeks old.
-   Every week without LinkedIn distribution is a missed amplification opportunity
-   for content already live on the site. This is the highest-impact gap to close.
+1. **LinkedIn backlog** — 24 drafts unposted. The oldest draft is 10+ weeks old.
+   Content is being produced consistently but not distributed. LinkedIn
+   amplification is the highest-impact gap to close right now.
 
-2. **Blog topic depth** — Only 3 topics remain in publish-queue.md. Run content-scheduler
-   after from-clicks-to-check-ins publishes to maintain a 4-week forward buffer.
+2. **Blog topic queue running low** — Only 2 topics remain. Run content-scheduler
+   during Week 25 to maintain a 4-week forward buffer.
 
 3. **No lead data** — Without knowing which posts generate leads, content strategy
-   cannot be optimised. Resolving API access should be treated as a priority business
-   task, not a technical issue.
+   cannot be optimised. Run /check-leads from a local Claude Code session.
 
 ---
 
-*Generated by the coordinator skill — Week 23 2026 report (5 June 2026)*
+*Generated by the coordinator skill — Week 24 2026 report (12 June 2026)*
