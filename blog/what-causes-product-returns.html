@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Why Products Get Returned: What Data From a Malaysian E-Commerce Retailer Reveals | Pau Analytics Blog</title>
+  <link rel="canonical" href="https://www.pauanalytics.com/blog/what-causes-product-returns.html" />
+  <meta name="description" content="A Malaysian e-commerce retailer suspected ratings and discounts were driving returns. Data cleared three suspects and revealed a blind spot that listing fixes alone couldn't fix." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .post-body { font-size: 1.05rem; color: var(--text); line-height: 1.85; }
+    .post-body h2 { font-size: 1.5rem; color: var(--brown); margin: 2rem 0 0.75rem; }
+    .post-body h3 { font-size: 1.15rem; color: var(--brown); margin: 1.5rem 0 0.6rem; }
+    .post-body p { margin-bottom: 1.25rem; }
+    .post-body ul, .post-body ol { margin: 0 0 1.25rem 1.5rem; }
+    .post-body li { margin-bottom: 0.5rem; line-height: 1.75; }
+    .post-body strong { color: var(--brown); }
+    .post-body blockquote {
+      border-left: 3px solid var(--gold);
+      padding: 0.75rem 1.5rem;
+      margin: 1.5rem 0;
+      background: var(--alt);
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: var(--brown-mid);
+    }
+    .post-body img { max-width: 100%; border-radius: 8px; margin: 1.5rem 0; }
+    .post-cta {
+      margin-top: 2.5rem;
+      padding: 2rem;
+      background: var(--alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-align: center;
+    }
+    .post-cta p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+    .cta-form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+    .cta-form input {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: var(--text);
+      background: var(--white);
+      transition: border-color 0.25s ease;
+    }
+    .cta-form input:focus {
+      outline: none;
+      border-color: var(--gold);
+    }
+    .cta-form input::placeholder {
+      color: #aaa;
+    }
+    .cta-link {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: var(--gold);
+      color: var(--white);
+      border: none;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.25s ease, transform 0.25s ease;
+    }
+    .cta-link:hover {
+      background: var(--gold-hover);
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+
+<div class="sticky-header">
+  <div class="navbar">
+    <div class="nav-brand">Pau <span>Analytics</span></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../data-analytics.html">Case Studies</a>
+      <a href="index.html" class="active">Blog</a>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero-medium">
+  <div class="container">
+    <span class="section-tag">E-Commerce &amp; Returns</span>
+    <h1 style="margin-top:0.75rem;">Why Products Get Returned: What Data From a Malaysian E-Commerce Retailer Reveals</h1>
+    <p style="margin-top:0.5rem; font-size:0.9rem; color:rgba(255,255,255,0.55);">Published 16 June 2026</p>
+  </div>
+</section>
+
+<!-- POST BODY -->
+<section class="section section-cream">
+  <div class="container">
+    <article class="post-body">
+
+      <div class="post-meta">
+        <span class="post-date">16 June 2026</span>
+        <span class="lang-badge">EN</span>
+      </div>
+
+      <p>A warehouse manager at a Malaysian e-commerce home appliance retailer was watching his return rate climb. Returned products were piling up on the dock every week, eating into margins and slowing down warehouse operations. His team had no shortage of theories: deep discounts were attracting buyers who regretted the purchase, quality issues were showing up in ratings and triggering returns, stockout disruptions were leaving buyers with items that didn't meet expectations.</p>
+
+      <p>Before changing any policy, he wanted evidence. Pau Analytics pulled together the shop's product, pricing, rating, and stock data and ran the question: which factors were actually linked to product returns, and which were not?</p>
+
+      <p>What the data found changed where the manager focused his attention. Three of his five suspects were cleared. One blind spot emerged that no amount of listing optimisation would have caught. This post walks through what the analysis found and what any e-commerce business owner can check in their own numbers.</p>
+
+      <h2>Five Suspects Tested</h2>
+
+      <p>The analysis tested five factors that the team believed might be driving returns:</p>
+
+      <ul>
+        <li><strong>Discount depth</strong> &#8212; were heavily discounted items returned more often?</li>
+        <li><strong>Product price</strong> &#8212; did higher-priced items come back at a higher rate?</li>
+        <li><strong>Customer ratings</strong> &#8212; were poorly rated products returned more?</li>
+        <li><strong>Review count</strong> &#8212; did products with more reviews return less, because buyers had better information before buying?</li>
+        <li><strong>Stock availability</strong> &#8212; were items that had been out of stock returned differently from items that were always available?</li>
+      </ul>
+
+      <p>Each factor was tested against the shop's actual return data. The results split cleanly into two groups: factors that showed no meaningful link, and factors that held up as weak but real signals.</p>
+
+      <h2>Three Suspects Cleared</h2>
+
+      <p>Customer ratings had no relationship with return rate. Products rated two stars were returned at roughly the same rate as products rated four stars. The manager had assumed that low-rated items would come back more &#8212; unhappy buyers writing bad reviews and sending products back. The data said otherwise.</p>
+
+      <p>Review count was equally inconclusive. A buyer who had read 500 reviews before purchasing was no less likely to return the product than a buyer who had seen five. Better information before the purchase did not reduce post-purchase regret.</p>
+
+      <p>Stock availability produced the most counterintuitive result. Items that had been out of stock at some point were returned at the same rate as items that stayed continuously available. The manager had suspected that stockout disruptions affected buyer expectations &#8212; maybe buyers waiting for a restocked item had higher standards. The return data showed no pattern at all.</p>
+
+      <blockquote>
+        <p>An appliance importer in Penang spent six months reworking her product listings after her ratings dropped during a slow season. Better photos, revised descriptions, responses to every review. Returns stayed exactly where they were. When she finally looked at the refund reason codes that her courier had been collecting, she found most returns came from buyers who received the wrong model variant &#8212; a fulfilment error, not a perception problem. The listing work had no effect because the problem was not the listing.</p>
+      </blockquote>
+
+      <h2>Two Signals That Held</h2>
+
+      <p>Two factors showed weak but real relationships with return rate.</p>
+
+      <p>Products sold with bigger discounts came back slightly more often. Higher-priced items also had a slightly higher return rate. Both links were small &#8212; not strong enough to act on in isolation &#8212; but they pointed at the same area: pricing and promotion decisions.</p>
+
+      <p>A kedai online owner in Subang who sells household goods ran a similar check after noticing return spikes following her 11.11 sale. She compared return rates on full-price items against promotional items across around 800 transactions. Items sold at 30% off or more came back nearly twice as often as full-price items. The discount was reaching buyers who were on the fence about the purchase, and those buyers were more likely to change their mind when the product arrived.</p>
+
+      <p>This doesn't mean discounts cause returns directly. It means buyers who buy at a steep discount may have lower purchase certainty. Knowing that, a seller can consider tightening promotion depth on high-ticket items, or adding more detail to listings to reduce buyer uncertainty before checkout &#8212; rather than assuming the product itself is the problem.</p>
+
+      <h2>Why the Model Could Not Predict Returns</h2>
+
+      <p>The most important finding was not about any individual factor. It was about what the combined data could not do.</p>
+
+      <p>A simple prediction model built from ratings, discount depth, and review count could identify easy cases but missed the risky ones. It caught roughly half the high-return products, which is not reliable enough for warehouse planning decisions.</p>
+
+      <p>The reason was straightforward: the real causes were not in the data. There was no field capturing whether a buyer returned an item because it was "damaged on arrival", "wrong size", "not as described", or "changed my mind". Delivery records had not been joined to the product data. Customer complaint tickets existed in a separate system that nobody had linked back. Without those inputs, the model was trying to explain return outcomes with incomplete information.</p>
+
+      <blockquote>
+        <p>A furniture e-commerce seller in Johor had faced the same problem for years. Their data showed which products were returned but never why. They tested fixes for six months &#8212; better listing photos, revised descriptions, different packaging. Returns stayed flat. When they added a mandatory reason field to their return portal, they found that 60% of furniture returns were coded as "colour different from photo." A monitor calibration issue in their product photography was causing buyers to expect a different shade than what arrived. One adjustment to the photos fixed in one week what six months of guesswork had not touched.</p>
+      </blockquote>
+
+      <h2>What Changed in the Warehouse</h2>
+
+      <p>The manager did not make policy changes immediately. He treated the analysis as a diagnostic &#8212; the data had narrowed the suspect list and revealed a gap he needed to close before he could act with confidence.</p>
+
+      <p>Two things changed. First, every returned item now gets a reason logged at intake. Staff choose from a set list: "changed my mind", "wrong size", "damaged on arrival", "not as described", "received wrong item". This takes under 30 seconds per return and produces exactly the data that was missing from the first analysis.</p>
+
+      <p>Second, delivery records and customer complaint tickets are now linked to the product data. When a product is returned, the team can see whether the same buyer contacted support, whether the delivery was flagged late, and whether returns cluster around a specific product variant or supplier batch. For the first time, every returned item leaves a trail explaining why it came back.</p>
+
+      <h2>What This Means for Your Business</h2>
+
+      <p>If returns are eating into your margins, three things are worth checking before you change anything.</p>
+
+      <p><strong>Don&#x27;t assume it&#x27;s quality.</strong> Ratings and reviews are the most visible numbers in e-commerce. But in this analysis, they had no relationship with returns. If you&#x27;re spending time responding to reviews to reduce returns, check whether your return data actually supports that assumption first.</p>
+
+      <p><strong>Look at your discounts on high-ticket items.</strong> If your promotion strategy relies on deep discounts on expensive products, check whether return rates spike after those campaigns. Not all discounted buyers have the same purchase certainty &#8212; and the pattern may point at which campaigns need tightening, not which products need fixing.</p>
+
+      <p><strong>Start logging return reasons.</strong> This is the most practical step, and it costs almost nothing to implement. A required reason field on your return form takes a few minutes to add and immediately starts building the data you need. Without it, any change you make to reduce returns is a guess. With it, you will know within weeks whether the problem is the product, the listing, the delivery, or the promotion.</p>
+
+      <p>You can explore the full analysis, including the dataset, the suspect testing, and the prediction model results, in the full case study: <a href="../case-study/what-causes-product-returns.html">see the full case study here</a>.</p>
+
+      <!-- CTA to WhatsApp (Channel B lead capture) -->
+      <div class="post-cta">
+        <p>Want to find out what your own data is saying? Share a bit about your business and we&#x27;ll look at it together.</p>
+        <div class="cta-form">
+          <input type="text" id="cta-name" placeholder="Your name (optional)" />
+          <input type="text" id="cta-challenge" placeholder="Your biggest business challenge *" />
+          <button class="cta-link" onclick="submitBlogCTA('what-causes-product-returns', 'en')">Chat with Us on WhatsApp &#x2192;</button>
+        </div>
+      </div>
+
+    </article>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="section-gold cta-strip">
+  <div class="container">
+    <h2>Found This Useful?</h2>
+    <p>Browse the case studies to see this kind of analysis applied to real business problems.</p>
+    <a href="../data-analytics.html" class="btn btn-dark">See Our Case Studies</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="brand-name">Pau <span>Analytics</span></div>
+      <p class="tagline">"Every decision deserves better data."</p>
+      <p>Data analytics consulting for Malaysian SMEs &#8212; reports, dashboards, and AI assistants.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Work</h5>
+      <ul>
+        <li><a href="../data-analytics.html">Case Studies</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="../pricing.html">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="https://lyven81.github.io/pau-ai/" target="_blank">Pau AI &#x2197;</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&#169; 2025 Pau Analytics</span>
+    <span><a href="../privacy-policy.html">Privacy Policy</a></span>
+  </div>
+</footer>
+
+<script>
+async function submitBlogCTA(slug, lang) {
+  var nameEl = document.getElementById('cta-name');
+  var challengeEl = document.getElementById('cta-challenge');
+  var name = (nameEl ? nameEl.value.trim() : '') || 'Visitor';
+  var challenge = (challengeEl ? challengeEl.value.trim() : '');
+  if (!challenge) { if (challengeEl) challengeEl.focus(); return; }
+
+  var btn = document.querySelector('.post-cta .cta-link');
+  if (btn) { btn.disabled = true; btn.textContent = lang === 'zh' ? '提交中...' : 'Sending...'; }
+
+  var msg;
+  if (lang === 'zh') {
+    msg = '[CH-B: ' + slug + ']\n姓名：' + name + '\n我最大的困扰：' + challenge;
+  } else {
+    msg = '[CH-B: ' + slug + ']\nName: ' + name + '\nMy biggest challenge: ' + challenge;
+  }
+  window.open('https://wa.me/60149207099?text=' + encodeURIComponent(msg), '_blank');
+  if (btn) {
+    btn.disabled = false;
+    btn.textContent = lang === 'zh' ? 'WhatsApp 联系我们 →' : 'Chat with Us on WhatsApp →';
+  }
+}
+</script>
+
+</body>
+</html>

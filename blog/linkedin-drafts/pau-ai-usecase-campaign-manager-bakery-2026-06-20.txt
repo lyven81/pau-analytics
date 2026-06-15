@@ -1,0 +1,27 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: campaign-manager / bakery
+Published: 20 June 2026
+
+---
+
+Mei runs a bakery in Petaling Jaya. Custom cakes, daily pastries, weekend walk-ins. She sends out WhatsApp promotions every few weeks — a birthday cake offer here, a buy-two-get-one deal there — but she had never known which ones actually brought people through the door.
+
+She started using Pau AI's campaign manager.
+
+Before her next promotion, she selected which customers to target: people who had bought birthday cakes in the past six months but hadn't ordered in 60 days. She sent a simple offer — a 15% discount on custom cakes for the coming weekend.
+
+The AI tracked:
+- Which customers received the message and when
+- Who responded within 24 hours versus who came in later
+- What each responding customer ordered and how much they spent
+- How the total campaign revenue compared to the discount cost
+
+By Sunday evening, Mei could see the result clearly. Fourteen customers responded. Eleven came in. The average order was RM88. The campaign cost her RM210 in discounts and generated RM968 in sales — a return she had never been able to measure before.
+
+The next campaign, she tested a freebie offer against a discount offer, split across two segments. The AI showed her which performed better within 48 hours.
+
+She is still running WhatsApp campaigns. Now she knows which ones to run again.
+
+See how it works: https://lyven81.github.io/pau-ai/campaign-manager.html
+
+#AI #MalaysianSME #FnB #MarketingROI #SmallBusinessGrowth

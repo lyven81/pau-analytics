@@ -10,3 +10,5 @@
 2026-06-06 | research-system/cafe | usecase-spotlight
 2026-06-10 | operations-tracker | solution-showcase
 2026-06-13 | operations-tracker/restaurant | usecase-spotlight
+2026-06-17 | campaign-manager | solution-showcase
+2026-06-20 | campaign-manager/bakery | usecase-spotlight

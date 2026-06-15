@@ -1,0 +1,21 @@
+TUESDAY — Pau AI Solution Showcase
+Category: campaign-manager
+Published: 17 June 2026
+
+---
+
+You ran a promotion last week. 300 WhatsApp messages sent. How many customers actually came in?
+
+Most small business owners cannot answer that question with a number. They have a feeling — it was busy, or it was quiet — but no clear link between the campaign and the result. So the next campaign gets planned the same way, with the same guess about what works.
+
+Pau AI's campaign manager gives you a direct line between what you send and what happens next.
+
+It logs which customers received which offer and tracks who responds, when they respond, and what they buy. It shows you which campaign type — discount, freebie, early access, limited offer — gets the best response from which customer segment. It flags when a campaign is underperforming midway through, so you can adjust before it ends.
+
+You can ask it in plain language: "Which of my last three promotions brought the most repeat buyers back?" It gives you the number, not a spreadsheet.
+
+It is built for retail shops, F&B outlets, and service businesses that run regular promotions but have never known which ones actually work. If you are going to spend on a campaign, you should know whether it paid off.
+
+See the demo: https://lyven81.github.io/pau-ai/campaign-manager.html
+
+#AI #MalaysianSME #MarketingROI #SmallBusiness #CampaignManagement

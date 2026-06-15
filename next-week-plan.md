@@ -57,12 +57,12 @@ Recommended catch-up schedule at 2 posts per week:
 | Week 22 (25 May)  | predicting-holiday-peaks       | Published |
 | Week 23 (2 Jun)   | understanding-customer-value   | Published |
 | Week 24 (9 Jun)   | from-clicks-to-check-ins       | Published |
-| Week 25 (16 Jun)  | what-causes-product-returns    | Queued    |
+| Week 25 (16 Jun)  | what-causes-product-returns    | Published |
 | Week 26           | do-dollars-drive-decisions     | Queued    |
 
-- Blog posts live: 16
+- Blog posts live: 17
 - LinkedIn queue: 24 drafts ready, 0 published
-- At 1 blog post per week: 2 weeks of topics remaining (run content-scheduler to refresh)
+- At 1 blog post per week: 1 week of topics remaining (run content-scheduler to refresh)
 - At 2 LinkedIn posts per week: 12 weeks to clear backlog
 
 ---
@@ -84,7 +84,7 @@ Recommended catch-up schedule at 2 posts per week:
    Content is being produced consistently but not distributed. LinkedIn
    amplification is the highest-impact gap to close right now.
 
-2. **Blog topic queue running low** — Only 2 topics remain. Run content-scheduler
+2. **Blog topic queue running low** — Only 1 topic remains. Run content-scheduler
    during Week 25 to maintain a 4-week forward buffer.
 
 3. **No lead data** — Without knowing which posts generate leads, content strategy

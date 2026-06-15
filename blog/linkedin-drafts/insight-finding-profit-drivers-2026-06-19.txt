@@ -1,0 +1,21 @@
+THURSDAY — Pau Analytics Standalone Insight
+Case study: finding-profit-drivers
+Published: 19 June 2026
+
+---
+
+Your highest-margin product may not be your most profitable one.
+
+That sounds wrong. Most retail owners track gross margin percentage as the key number — if something sells at 60% margin, it must be contributing well. But margin percentage and absolute profit are two different things, and confusing them is one of the most common profit mistakes in retail.
+
+We analysed over 60,000 transactions for a bicycle retailer. Accessories — helmets, gloves, cycling gear — were carrying margins above 60%. On paper, they looked like the stars of the range.
+
+But because their unit prices were low, the actual ringgit profit per sale was small. A RM30 item at 60% margin delivers RM18. A single premium mountain bike at 20% margin on a RM4,000 sale delivers RM800. The accessories looked healthy. They were quietly diluting overall profit.
+
+A small group of high-value bike models was responsible for the bulk of the shop's profitability. The manager had been spreading budget, shelf space, and promotion effort across the full range without knowing this.
+
+The fix was not to stop selling accessories. It was to stop treating them as if they drove profit — and to focus pricing discipline and promotion effort on the products that actually moved the needle.
+
+Check your own numbers. Rank your products not by margin percentage, but by the actual profit each one delivers per sale. The ranking might surprise you.
+
+#Retail #ProfitMargins #MalaysianSME #DataAnalytics #BusinessGrowth

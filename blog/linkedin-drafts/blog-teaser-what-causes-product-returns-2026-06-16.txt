@@ -1,0 +1,23 @@
+MONDAY — Pau Analytics Blog Teaser
+Blog: what-causes-product-returns
+Published: 16 June 2026
+
+---
+
+Your return rate is climbing. Your product ratings look fine. Your reviews are mostly positive.
+
+So why are customers sending products back?
+
+A warehouse manager at a Malaysian e-commerce home appliance retailer asked exactly that question. His team had the usual suspects: too many promotions, quality issues, stockout disruptions. Before making changes, he wanted data — not guesses.
+
+The analysis tested five factors against actual return records. Three were cleared completely. Customer ratings had no relationship with returns. Review count had no relationship either. Stock availability made no difference at all — items that had been out of stock were returned at the same rate as items that were always on the shelf.
+
+Two signals held: bigger discounts and higher product prices were both weakly linked to more returns. Not strong enough to act on alone — but pointing at the same area.
+
+The biggest finding wasn't about any individual factor. It was about what the data couldn't do. A prediction model built from all five factors still missed roughly half the high-return products. The reason: the real causes were never being recorded. Nobody was capturing why items came back.
+
+If your return rate isn't improving despite fixing your listings, the answer may not be in your listings at all.
+
+Read the full breakdown here: https://www.pauanalytics.com/blog/what-causes-product-returns.html
+
+#ECommerce #ProductReturns #MalaysianSME #DataAnalytics #RetailOps

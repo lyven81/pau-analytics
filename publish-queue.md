@@ -1,6 +1,17 @@
 # Publish Queue
 
-## Last Published — 9 June 2026
+## Last Published — 16 June 2026
+
+**Slug:** what-causes-product-returns
+**Title:** Why Products Get Returned: What Data From a Malaysian E-Commerce Retailer Reveals
+**Language:** English (EN)
+**Case Study:** what-causes-product-returns
+**Blog URL:** https://www.pauanalytics.com/blog/what-causes-product-returns.html
+**Status:** Published
+
+---
+
+## Previously Published — 9 June 2026
 
 **Slug:** from-clicks-to-check-ins
 **Title:** From Clicks to Check-Ins: Why More Traffic Doesn't Mean More Bookings
@@ -55,7 +66,6 @@
 
 ## Upcoming Topics (in priority order)
 
-1. **what-causes-product-returns** — E-commerce / Retail
-2. **do-dollars-drive-decisions** — Pricing / General
+1. **do-dollars-drive-decisions** — Pricing / General
 
 *Run content-scheduler to refresh this list and select the next topic.*
