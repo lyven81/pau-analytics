@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Do Dollars Drive Decisions? What Loan Data Reveals About Pricing | Pau Analytics Blog</title>
+  <link rel="canonical" href="https://www.pauanalytics.com/blog/do-dollars-drive-decisions.html" />
+  <meta name="description" content="A bank manager found high-income borrowers pay 10.90% vs 11.99%. Was the gap bias or risk? What four years of data revealed — and what it means for your business." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .post-body { font-size: 1.05rem; color: var(--text); line-height: 1.85; }
+    .post-body h2 { font-size: 1.5rem; color: var(--brown); margin: 2rem 0 0.75rem; }
+    .post-body h3 { font-size: 1.15rem; color: var(--brown); margin: 1.5rem 0 0.6rem; }
+    .post-body p { margin-bottom: 1.25rem; }
+    .post-body ul, .post-body ol { margin: 0 0 1.25rem 1.5rem; }
+    .post-body li { margin-bottom: 0.5rem; line-height: 1.75; }
+    .post-body strong { color: var(--brown); }
+    .post-body blockquote {
+      border-left: 3px solid var(--gold);
+      padding: 0.75rem 1.5rem;
+      margin: 1.5rem 0;
+      background: var(--alt);
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: var(--brown-mid);
+    }
+
+    .post-cta {
+      margin-top: 2.5rem;
+      padding: 2rem;
+      background: var(--alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-align: center;
+    }
+    .post-cta p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+    .cta-form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+    .cta-form input {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: var(--text);
+      background: var(--white);
+      transition: border-color 0.25s ease;
+    }
+    .cta-form input:focus {
+      outline: none;
+      border-color: var(--gold);
+    }
+    .cta-form input::placeholder {
+      color: #aaa;
+    }
+    .cta-link {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: var(--gold);
+      color: var(--white);
+      border: none;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.25s ease, transform 0.25s ease;
+    }
+    .cta-link:hover {
+      background: var(--gold-hover);
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+
+<div class="sticky-header">
+  <div class="navbar">
+    <div class="nav-brand">Pau <span>Analytics</span></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../data-analytics.html">Case Studies</a>
+      <a href="index.html" class="active">Blog</a>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero-medium">
+  <div class="container">
+    <span class="section-tag">Spending &amp; Behaviour</span>
+    <h1 style="margin-top:0.75rem;">Do Dollars Drive Decisions? What Loan Data Reveals About Pricing and Bias</h1>
+    <p style="margin-top:0.5rem; font-size:0.9rem; color:rgba(255,255,255,0.55);">Published 23 June 2026</p>
+  </div>
+</section>
+
+<!-- POST BODY -->
+<section class="section section-cream">
+  <div class="container">
+    <article class="post-body">
+
+      <p>A retail shop owner in Petaling Jaya gives his loyal customers 30-day credit terms. New customers pay upfront. He would tell you it is based on trust built over time — and he would probably be right. But if you asked him to prove it with data, could he?</p>
+
+      <p>That is the question Michael, who managed the loan department at a regional bank, had to answer when lower-income applicants complained they were receiving worse loan terms than wealthier borrowers with similar credit profiles. He had a gut feeling the gap was justified. The data told a more complicated story.</p>
+
+      <p>In this post, we look at what four years of loan data revealed about income-based pricing — where the gap was defensible, where unconscious bias was quietly distorting decisions, and what any business owner can learn from it.</p>
+
+      <h2>The Income Gap That Started the Investigation</h2>
+
+      <p>The data was clear from the first query. High-income applicants received an average interest rate of <strong>10.90%</strong>. Low-income applicants received <strong>11.99%</strong> — a gap of 1.09 percentage points. Over the life of a RM 200,000 loan, that difference runs into tens of thousands of ringgit.</p>
+
+      <p>The first question was obvious: was this fair?</p>
+
+      <p>The second question was harder: how would you even know?</p>
+
+      <p>Michael had a problem that every business owner who makes customer-tier decisions faces. The outcome — different prices for different customers — looks like bias from the outside. But it might be completely justified by the data. The only way to know is to check.</p>
+
+      <h2>When Wealth Does Not Predict the Outcome</h2>
+
+      <p>One finding stopped Michael's team early. Income and loan size had only a <strong>weak correlation of 0.37</strong>. High-income applicants did not automatically receive bigger loans. Credit scores, existing debt, collateral, and payment history mattered more than salary.</p>
+
+      <p>This challenged a common assumption: that wealthier customers are automatically better customers.</p>
+
+      <p>Think about how this plays out in a retail business. If you offer credit terms to customers who look successful — based on how they present themselves, what car they drive, what company they claim to represent — you are making a decision based on perceived wealth, not proven reliability. Those two things are not the same. Income alone was a poor predictor of actual financial behaviour.</p>
+
+      <h2>The Hidden Bias in Credit Grades</h2>
+
+      <p>The loan files included credit grades from A (lowest risk) to E (highest risk). High-income applicants clustered in A and B grades. Low-income applicants clustered in C, D, and E.</p>
+
+      <p>This looked like a justified risk segmentation — until Michael examined how those grades were being assigned.</p>
+
+      <p>Loan officers could see applicant income during the grading process. Officers consistently gave higher grades to wealthier applicants, even when the underlying financial ratios were similar. A large salary triggered unconscious positive bias. A modest salary triggered unconscious skepticism — even when the debt ratios and payment histories were solid.</p>
+
+      <blockquote>Two applicants with identical debt-to-income ratios were receiving different grades. The only difference was income. That is not risk assessment. That is assumption dressed up as risk assessment.</blockquote>
+
+      <h2>What Actually Justified the Gap</h2>
+
+      <p>Not everything in the data pointed to bias. This is important: the interest rate gap was real — and it was largely defensible.</p>
+
+      <p>High-income borrowers genuinely had lower debt-to-income ratios. They used less of their available credit. These are hard, objective measures of financial risk. Lower-risk borrowers do deserve lower rates. That is not bias — it is data.</p>
+
+      <p>There is a distinction that matters for any business owner who sets tiered prices or credit terms:</p>
+
+      <ul>
+        <li><strong>Justified differentiation:</strong> Different prices because the data shows different risk levels or different value delivered</li>
+        <li><strong>Unjustified assumption:</strong> Different prices because the customer looks a certain way</li>
+      </ul>
+
+      <p>Both can produce the same outcome. Only data can tell you which one is driving your decisions. The interest rate gap survived scrutiny. The credit grade distribution did not.</p>
+
+      <h2>How Removing Income From the Process Changed Things</h2>
+
+      <p>Michael made one structural change. During the initial grading phase, loan officers could no longer see applicant income. They assessed debt-to-income ratio, credit score, payment history, and employment stability — not salary figures.</p>
+
+      <p>He also replaced subjective grading with standardised thresholds. If two applicants had the same debt-to-income ratio and credit score, they received the same grade. Human judgment remained for edge cases, but the starting point became objective.</p>
+
+      <p>Six months later, the interest rate gap persisted at 10.9% versus 12.0%, because the underlying risk difference was real. But the credit grade distribution shifted. More low-income applicants with strong financials received A and B grades. Fewer high-income applicants with mediocre debt ratios received automatic As. The grades now reflected risk — not income levels.</p>
+
+      <p>The fix was not to eliminate income as a factor. It was to put it in the right place in the process.</p>
+
+      <h2>What This Means for Your Business</h2>
+
+      <p>You may not run a loan department. But if you offer different prices, payment terms, discounts, or service levels to different customers, the same principle applies.</p>
+
+      <p>Ask these questions:</p>
+
+      <ul>
+        <li>Do you extend credit terms to certain customers? Is that based on their actual payment history — or on how long you have known them?</li>
+        <li>Do some customers receive better pricing? Is there a clear, data-backed rule for who qualifies — or does it depend on who asks?</li>
+        <li>Do your most trusted customers continue to receive preferential treatment even after their order patterns have changed?</li>
+      </ul>
+
+      <p>Pricing decisions feel intuitive. Intuition is built from experience — and experience can carry biases that data will surface.</p>
+
+      <p>Michael's bank lends on data now, not demographics. Complaints dropped. Regulatory reviews found no bias. The lending process became transparent and defensible. The question for your business is simpler: if you had to explain every pricing decision with data, could you?</p>
+
+      <p>If not, the gap between what you think is driving your decisions and what is actually driving them may be worth finding out. You can <a href="../case-study/do-dollars-drive-decisions.html">read the full case study here</a> to see the complete data breakdown.</p>
+
+      <!-- CTA to WhatsApp (Channel B lead capture) -->
+      <div class="post-cta">
+        <p>Want to find out what your own data is saying? Share a bit about your business and we&#8217;ll look at it together.</p>
+        <div class="cta-form">
+          <input type="text" id="cta-name" placeholder="Your name (optional)" />
+          <input type="text" id="cta-challenge" placeholder="What&#8217;s your biggest business challenge?" />
+          <button class="cta-link" onclick="submitBlogCTA('do-dollars-drive-decisions', 'en')">Chat with Us on WhatsApp &#x2192;</button>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="section-gold cta-strip">
+  <div class="container">
+    <h2>Found This Useful?</h2>
+    <p>Browse the case studies to see this kind of analysis applied to real business problems.</p>
+    <a href="../data-analytics.html" class="btn btn-dark">See Our Case Studies</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="brand-name">Pau <span>Analytics</span></div>
+      <p class="tagline">"Every decision deserves better data."</p>
+      <p>Data analytics consulting for Malaysian SMEs — reports, dashboards, and AI assistants.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Work</h5>
+      <ul>
+        <li><a href="../data-analytics.html">Case Studies</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="../pricing.html">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="https://lyven81.github.io/pau-ai/" target="_blank">Pau AI &#x2197;</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&#169; 2025 Pau Analytics</span>
+    <span><a href="../privacy-policy.html">Privacy Policy</a></span>
+  </div>
+</footer>
+
+
+<script>
+async function submitBlogCTA(slug, lang) {
+  const nameEl = document.getElementById('cta-name');
+  const challengeEl = document.getElementById('cta-challenge');
+  const name = (nameEl ? nameEl.value.trim() : '') || 'Visitor';
+  const challenge = (challengeEl ? challengeEl.value.trim() : '');
+  if (!challenge) {
+    challengeEl && challengeEl.focus();
+    return;
+  }
+
+  const btn = document.querySelector('.post-cta .cta-link');
+  if (btn) { btn.disabled = true; btn.textContent = lang === 'zh' ? '提交中...' : 'Sending...'; }
+
+  var msg;
+  if (lang === 'zh') {
+    msg = '[CH-B: ' + slug + ']\n姓名：' + name + '\n我最大的困扰：' + challenge;
+  } else {
+    msg = '[CH-B: ' + slug + ']\nName: ' + name + '\nMy biggest challenge: ' + challenge;
+  }
+  window.open('https://wa.me/60149207099?text=' + encodeURIComponent(msg), '_blank');
+  if (btn) {
+    btn.disabled = false;
+    btn.textContent = lang === 'zh' ? 'WhatsApp 联系我们 →' : 'Chat with Us on WhatsApp →';
+  }
+}
+</script>
+
+</body>
+</html>

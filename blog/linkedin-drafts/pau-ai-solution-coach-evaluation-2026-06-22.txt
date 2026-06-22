@@ -1,0 +1,21 @@
+Your best staff member just told you she's leaving.
+
+You had no idea she was unhappy. Neither did her manager. The students liked her. She just found somewhere that valued her more — and you found out when she handed in her notice.
+
+For service businesses — tuition centers, gyms, salons, clinics — staff performance is everything. But most owners evaluate performance the same way: gut feeling and retention numbers that tell you what happened, not why.
+
+The Pau AI Coach Evaluation System changes that.
+
+It analyses client or student feedback, session attendance trends, and progress indicators to give each coach a performance score — updated continuously, not just at annual reviews.
+
+What it handles:
+
+Flags coaches whose clients are quietly disengaging before they actually leave. Tracks session completion rates and follow-up consistency across your whole team. Identifies which coaching style delivers the strongest outcomes for which client type.
+
+No more waiting for a resignation or a complaint to discover there's a problem. You see it three months earlier, when you can still do something about it.
+
+Tuition centers, fitness studios, and professional coaching businesses across Malaysia are using this to develop better staff and retain more clients.
+
+See the demo: https://lyven81.github.io/pau-ai/coach-evaluation.html
+
+#AI #MalaysianSME #StaffPerformance #ServiceBusiness #PauAI

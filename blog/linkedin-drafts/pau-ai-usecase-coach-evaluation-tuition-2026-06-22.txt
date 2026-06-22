@@ -1,0 +1,21 @@
+Mei Ling runs a tuition center in Subang Jaya. She has 6 tutors. Three of them are exceptional. She is not entirely sure which three.
+
+Every month she looks at the attendance sheet and tries to figure out whether students are leaving because of the tutor, the timing, the subject, or just because exams are over. Most of the time she is guessing.
+
+The Pau AI Coach Evaluation System gave her a clearer picture.
+
+Here is what it now does for her center every week:
+
+• Tracks each tutor's session completion rate and student retention month by month
+• Scores student engagement based on attendance trends and parent response time
+• Flags when a tutor's class starts losing students — before the parents ask for a refund
+
+Last month, it flagged one tutor's Tuesday evening class dropping from 12 students to 7 over six weeks. Mei Ling moved two students to a different tutor and had a coaching conversation with the first. Both students stayed. The tutor improved.
+
+Without the system, she would have found out when the refund requests came in.
+
+She now knows which tutors to develop, which ones to promote, and which classes need restructuring — before the problem becomes a loss.
+
+See how it works: https://lyven81.github.io/pau-ai/coach-evaluation.html
+
+#AI #MalaysianSME #TuitionCenter #EducationBusiness #PauAI

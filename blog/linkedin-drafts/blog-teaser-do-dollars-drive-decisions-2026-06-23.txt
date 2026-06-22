@@ -1,0 +1,21 @@
+Your best customers might be getting better deals.
+
+Not because you decided to give them better deals. But because you assumed they deserved them.
+
+That is what a bank loan manager discovered after analysing four years of applications. High-income borrowers received interest rates of 10.90%. Low-income borrowers got 11.99%. A 1.09 percentage point gap.
+
+The first question was obvious: is this bias?
+
+The second question was harder: how would you even know?
+
+The data showed the interest rate gap was largely justified. High-income borrowers had lower debt ratios and used less of their available credit. They were genuinely lower risk — and lower-risk borrowers do deserve lower rates.
+
+But the credit grades told a different story. Loan officers were giving higher grades to wealthier applicants even when the underlying numbers didn't support it. Once income was removed from the grading process, the distribution shifted. More low-income applicants with strong financials got the grades they deserved.
+
+The rates didn't change. The risk was real. But the bias was also real — hiding in a different part of the process.
+
+If you've ever given a loyal customer a better deal, extended credit on instinct, or set pricing tiers without a clear rule — this case study is worth 5 minutes of your time.
+
+Full post on the Pau Analytics blog. Link in comments.
+
+#DataAnalytics #MalaysianSME #PricingStrategy #BusinessDecisions #DataDriven

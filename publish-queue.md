@@ -1,6 +1,17 @@
 # Publish Queue
 
-## Last Published — 16 June 2026
+## Last Published — 23 June 2026
+
+**Slug:** do-dollars-drive-decisions
+**Title:** Do Dollars Drive Decisions? What Loan Data Reveals About Pricing and Bias
+**Language:** English (EN)
+**Case Study:** do-dollars-drive-decisions
+**Blog URL:** https://www.pauanalytics.com/blog/do-dollars-drive-decisions.html
+**Status:** Published
+
+---
+
+## Previously Published — 16 June 2026
 
 **Slug:** what-causes-product-returns
 **Title:** Why Products Get Returned: What Data From a Malaysian E-Commerce Retailer Reveals
@@ -66,6 +77,4 @@
 
 ## Upcoming Topics (in priority order)
 
-1. **do-dollars-drive-decisions** — Pricing / General
-
-*Run content-scheduler to refresh this list and select the next topic.*
+*Pipeline is empty — run content-scheduler to queue the next 3–5 topics.*
