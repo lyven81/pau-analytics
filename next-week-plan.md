@@ -1,52 +1,61 @@
-# Next Week Plan — Week 26 (22–28 June 2026)
+# Next Week Plan — Week 27 (29 June – 5 July 2026)
 
-Generated: 19 June 2026 (from Week 25 coordinator report)
+Generated: 26 June 2026 (from Week 26 coordinator report)
 
 ---
 
 ## Recommended Blog Post
 
-**Case study:** do-dollars-drive-decisions
-**Slug:** do-dollars-drive-decisions
-**Language:** English (EN)
-**Target publish date:** Monday 23 June 2026
-**Action:** Run pau-analytics-blog-write skill to produce the post
+**Status: No topic queued — pipeline is empty.**
 
-**Why this topic:**
-- Only remaining topic in publish-queue.md upcoming list — pipeline is at critical low
-- Pricing decisions is a universal business pain point with strong SEO potential
-- Continues the analytical arc across verticals: ratings → churn → payments →
-  seasonal timing → customer value → conversion → returns → pricing (8-week arc)
-- Publishing maintains 8 consecutive weekly blog posts, building compounding SEO authority
+The publish-queue.md upcoming section is empty. Run the content-scheduler skill
+immediately to select the next case study before Monday 29 June.
+
+**Why urgency is high:**
+- The blog has published 8 consecutive weeks (4 May – 23 June 2026)
+- If no post publishes in Week 27, the streak breaks
+- Consistent weekly output is the primary driver of organic search visibility
+
+**Vertical coverage so far (8 posts):**
+- Retail / e-commerce: 3 posts
+- Hospitality: 1 post
+- Fitness: 1 post
+- Seasonal / entertainment: 1 post
+- Consumer behaviour / payments: 1 post
+- Customer value / CLV: 1 post
+- Financial services: 1 post (do-dollars-drive-decisions — Week 26)
+
+**Suggested next verticals:** F&B, education, logistics, or a Mandarin-language
+post to begin serving the Chinese-speaking market. No Mandarin content has been
+published yet despite the business serving a multilingual audience.
 
 **What to do:**
-1. Run pau-analytics-blog-write skill, specify slug: do-dollars-drive-decisions
-2. Run pau-analytics-blog-publish skill to push it live
-3. Update publish-log.txt and publish-queue.md
-4. IMMEDIATELY run content-scheduler to queue the next 3–5 topics — the pipeline
-   will be empty after this post publishes
+1. Run content-scheduler skill to select and queue the next topic
+2. Run pau-analytics-blog-write skill for the selected slug
+3. Run pau-analytics-blog-publish skill to push it live
+4. Update publish-log.txt and publish-queue.md
 
 ---
 
 ## LinkedIn Queue
 
-28 drafts ready, 0 posts published. Queue has been inactive for 11+ weeks.
+32 drafts ready, 0 posts published. Queue has been inactive for 12+ weeks.
 
 **Priority this week — start posting immediately:**
-- blog-teaser-from-ratings-to-revenue-2026-05-04.txt (11+ weeks overdue — post now)
-- blog-teaser-predicting-gym-member-dropout-2026-05-11.txt (next oldest — post Thursday)
+- blog-teaser-from-ratings-to-revenue-2026-05-04.txt (12+ weeks overdue — post now)
+- blog-teaser-predicting-gym-member-dropout-2026-05-11.txt (next oldest)
 
 Recommended catch-up schedule at 2 posts per week:
 
 | Date        | Draft |
 |-------------|-------|
-| Mon 22 Jun  | blog-teaser-from-ratings-to-revenue |
-| Thu 26 Jun  | blog-teaser-predicting-gym-member-dropout |
-| Mon 29 Jun  | insight-predicting-gym-member-dropout |
-| Thu 3 Jul   | pau-ai-solution-booking-system |
+| Mon 29 Jun  | blog-teaser-from-ratings-to-revenue |
+| Thu 3 Jul   | blog-teaser-predicting-gym-member-dropout |
+| Mon 6 Jul   | insight-predicting-gym-member-dropout |
+| Thu 10 Jul  | pau-ai-solution-booking-system |
 
 After each post goes live: rename file to `.posted.txt` and add entry to `posted-log.txt`.
-Create `posted-log.txt` if it does not yet exist (it currently doesn't).
+Create `posted-log.txt` if it does not yet exist (it currently does not).
 
 ---
 
@@ -61,42 +70,43 @@ Create `posted-log.txt` if it does not yet exist (it currently doesn't).
 | Week 23 (2 Jun)   | understanding-customer-value   | Published |
 | Week 24 (9 Jun)   | from-clicks-to-check-ins       | Published |
 | Week 25 (16 Jun)  | what-causes-product-returns    | Published |
-| Week 26           | do-dollars-drive-decisions     | Queued    |
+| Week 26 (23 Jun)  | do-dollars-drive-decisions     | Published |
 | Week 27+          | (empty — run content-scheduler) | Not queued |
 
-- Blog posts live: 17 (7 pipeline + 10 pre-pipeline)
-- LinkedIn queue: 28 drafts ready, 0 published
-- Blog topics remaining after Week 26: 0 — run content-scheduler this week
-- At 2 LinkedIn posts per week: 14 weeks to clear backlog
+- Blog posts live: 18 (8 pipeline + 10 pre-pipeline)
+- LinkedIn queue: 32 drafts ready, 0 published
+- Blog topics remaining: 0 — run content-scheduler this week
+- At 2 LinkedIn posts per week: 16 weeks to clear backlog
 
 ---
 
-## Priority Actions for Week 26
+## Priority Actions for Week 27
 
 | Priority | Action | How |
 |---|---|---|
-| 1 (critical) | Run content-scheduler — 0 topics after Week 26 | /content-scheduler |
+| 1 (critical) | Run content-scheduler — 0 topics queued for Week 27 | /content-scheduler |
 | 2 (overdue) | Post LinkedIn: blog-teaser-from-ratings-to-revenue | Buffer (manual) |
-| 3 | Write blog post: do-dollars-drive-decisions | pau-analytics-blog-write |
-| 4 | Fix lead API access — run from local Claude Code session | /check-leads |
+| 3 | Fix lead API access — 13+ weeks unreachable | Run /check-leads locally |
+| 4 | Add egress allowlist entry for Railway API | Code on Web settings |
 
 ---
 
 ## Risks
 
-1. **Blog pipeline empty** — After do-dollars-drive-decisions, there are no topics
-   queued. If content-scheduler is not run this week, the blog will stall in Week 27.
-   This is the highest-priority action for Week 26.
+1. **Blog pipeline empty** — No topic queued for Week 27. The 8-week consecutive
+   streak will break if content-scheduler is not run before 29 June. This is
+   the highest-priority action for the week.
 
-2. **LinkedIn backlog at 28 drafts** — Still 0 posts published after 11+ weeks.
-   Content is being produced but not distributed. No distribution = no amplification.
-   Posting must start this week. Even 1 post per week is better than 0.
+2. **LinkedIn backlog at 32 drafts** — Still 0 posts published after 12+ weeks.
+   Content is being produced but not distributed. The oldest draft is from
+   4 May 2026. Posting must start this week.
 
-3. **No lead data (10+ consecutive weeks)** — The Railway API is unreachable from
-   the cloud environment. Without lead data, there is no way to know if any of
-   the 7 published blog posts are generating business enquiries.
-   Run /check-leads from the Claude Code desktop app or terminal.
+3. **No lead data (13+ consecutive weeks)** — The Railway API remains unreachable
+   from the cloud environment. Without lead data, there is no way to know if
+   the 8 published blog posts are generating business enquiries.
+   Run /check-leads from the Claude Code desktop app or terminal, or check
+   the Railway dashboard directly at railway.app.
 
 ---
 
-*Generated by the coordinator skill — Week 25 2026 report (19 June 2026)*
+*Generated by the coordinator skill — Week 26 2026 report (26 June 2026)*
