@@ -103,8 +103,9 @@
 <!-- HERO -->
 <section class="hero-medium">
   <div class="container">
-    <span class="section-tag">Blog</span>
+    <span class="section-tag">Customer Experience</span>
     <h1 style="margin-top:0.75rem;">A Step-by-Step Plan to Improve Customer Experience by Store</h1>
+    <p style="margin-top:0.5rem; font-size:0.9rem; color:rgba(255,255,255,0.55);">Published 29 June 2026</p>
   </div>
 </section>
 
@@ -116,7 +117,7 @@
         <!-- Title -->
                                 <!-- Meta: date + language -->
                 <div class="post-meta">
-                    <span class="post-date">5 March 2026</span>
+                    <span class="post-date">29 June 2026</span>
                     <span class="lang-badge">EN</span>
                 </div>
 
@@ -213,7 +214,7 @@
                     <li>Check whether greeting and engagement is consistently weak — if it is, treat it as a company-wide programme, not a store-level fix</li>
                 </ul>
 
-                <p>The stores that need urgent attention are a small minority. The path to improvement is clearer than it looks.</p>
+                <p>The stores that need urgent attention are a small minority. The path to improvement is clearer than it looks. You can <a href="../case-study/evaluating-customer-experience.html">read the full case study here</a> to see the data behind these findings.</p>
                 <!-- CTA to WhatsApp -->
                 <div class="post-cta">
                     <p>Want to find out what your own data is saying? Share a bit about your business and we&#x27;ll look at it together.</p>
@@ -278,18 +279,18 @@ async function submitBlogCTA(slug, lang) {
   }
 
   var btn = document.querySelector('.post-cta .cta-link');
-  if (btn) { btn.disabled = true; btn.textContent = lang === 'zh' ? '\u63d0\u4ea4\u4e2d...' : 'Sending...'; }
+  if (btn) { btn.disabled = true; btn.textContent = lang === 'zh' ? '提交中...' : 'Sending...'; }
 
   var msg;
   if (lang === 'zh') {
-    msg = '[CH-B: ' + slug + ']\n\u59d3\u540d\uff1a' + name + '\n\u6211\u6700\u5927\u7684\u56f0\u6270\uff1a' + challenge;
+    msg = '[CH-B: ' + slug + ']\n姓名：' + name + '\n我最大的困扰：' + challenge;
   } else {
     msg = '[CH-B: ' + slug + ']\nName: ' + name + '\nMy biggest challenge: ' + challenge;
   }
   window.open('https://wa.me/60149207099?text=' + encodeURIComponent(msg), '_blank');
   if (btn) {
     btn.disabled = false;
-    btn.textContent = lang === 'zh' ? 'WhatsApp \u8054\u7cfb\u6211\u4eec \u2192' : 'Chat with Us on WhatsApp \u2192';
+    btn.textContent = lang === 'zh' ? 'WhatsApp 联系我们 →' : 'Chat with Us on WhatsApp →';
   }
 }
 </script>

@@ -1,8 +1,9 @@
+2026-06-29 | evaluating-customer-experiences | EN | A Step-by-Step Plan to Improve Customer Experience by Store
 2026-06-23 | do-dollars-drive-decisions | EN | Do Dollars Drive Decisions? What Loan Data Reveals About Pricing and Bias
 2026-06-16 | what-causes-product-returns | EN | Why Products Get Returned: What Data From a Malaysian E-Commerce Retailer Reveals
+2026-06-09 | from-clicks-to-check-ins | EN | From Clicks to Check-Ins: Why More Traffic Doesn't Mean More Bookings
 2026-05-04 | from-ratings-to-revenue | EN | How 30 Customer Reviews Can Predict Which Shopee Products Will Take Off
 2026-05-11 | predicting-gym-member-dropout | EN | How to Know Which Gym Members Are About to Quit — Before They Do
 2026-05-18 | cash-or-credit-card | EN | Cash or Card: What 3,400 Transactions Reveal About Your Customers
 2026-05-25 | predicting-holiday-peaks | EN | How to Time Your Christmas Campaign: What 8 Years of Streaming Data Reveals
 2026-06-02 | understanding-customer-value | EN | Who Are Your Most Valuable Customers? What Data from 18,400 Buyers Reveals
-2026-06-09 | from-clicks-to-check-ins | EN | From Clicks to Check-Ins: Why More Traffic Doesn't Mean More Bookings

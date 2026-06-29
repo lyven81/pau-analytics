@@ -1,0 +1,21 @@
+THURSDAY — Pau Analytics Standalone Insight
+Case study: fixing-the-sales-leaks
+Published: 29 June 2026
+
+---
+
+Your mobile customers convert better than your desktop ones.
+
+That surprises most online retailers. The assumption is that mobile is for browsing. Desktop is where people actually buy. But an analysis of 500,000 shopping sessions from a Malaysian online fashion retailer told a different story.
+
+Mobile shoppers were more likely to add items to cart — and more likely to complete checkout — than desktop users. The retailer had been investing in her desktop experience, assuming that was where serious buyers spent their time. She was focused on the wrong channel.
+
+The more striking finding was this: email subscribers converted far better than social media visitors, organic search traffic, or anyone who typed the URL directly. Her Instagram followers browsed. Her email list bought.
+
+She was spending time and budget growing her social presence, hoping those followers would eventually convert. Meanwhile, the one channel actually delivering buyers was getting the least attention.
+
+Two quick things to check in your own business: which traffic source is actually converting to sales (not clicks, not sessions — actual sales), and whether your mobile checkout experience is as smooth as your desktop one.
+
+If you have not looked at either in the past six months, the answer is probably not what you think.
+
+#Ecommerce #MalaysianSME #DataAnalytics #ConversionRate #DigitalMarketing

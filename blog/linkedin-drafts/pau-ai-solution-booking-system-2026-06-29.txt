@@ -1,0 +1,25 @@
+TUESDAY — Pau AI Solution Showcase
+Solution: booking-system
+Published: 29 June 2026
+
+---
+
+Your front desk missed 3 booking calls today.
+
+Each caller waited. Nobody answered. They moved on to the next result they found on Google. Each one was worth at least RM100.
+
+For service businesses — salons, clinics, tuition centers, repair shops — every missed call is a missed booking. And most service owners already know this is happening. What they do not have is a way to fix it without hiring more front-desk staff.
+
+The Pau AI Booking System handles the conversation your front desk cannot.
+
+When a customer messages to book an appointment, the system checks availability, confirms the time slot, applies your pricing rules, and sends a reminder the day before — all in one WhatsApp exchange, without anyone on your team doing anything.
+
+What it handles:
+
+Checks your calendar in real time and avoids double-bookings. Applies peak-hour or weekend pricing automatically. Sends booking confirmations and day-before reminders via WhatsApp. Flags reschedules and cancellations back to your team instantly.
+
+Clinics, hair salons, tuition centers, and service workshops across Malaysia use this to capture bookings that would otherwise go unanswered — especially after business hours.
+
+See the demo: https://lyven81.github.io/pau-ai/booking-system.html
+
+#AI #MalaysianSME #BookingSystem #ServiceBusiness #PauAI

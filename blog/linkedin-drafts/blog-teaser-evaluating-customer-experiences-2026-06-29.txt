@@ -1,0 +1,23 @@
+MONDAY — Pau Analytics Blog Teaser
+Blog: evaluating-customer-experiences
+Published: 29 June 2026
+
+---
+
+Most retail managers think customer experience is a staffing problem.
+
+The data says it is a management problem.
+
+Specifically, a problem of knowing which stores actually need urgent attention — and which ones are fine.
+
+A regional manager overseeing 43 stores across Malaysia had a sense that performance was uneven. But without data, it was impossible to know where to focus. When the numbers came back, the picture was stark: only 4 stores out of 43 were genuine statistical outliers. The worst location had a customer experience score of 32% — sitting nearly 38 points below the regional benchmark. It had been sitting there, quietly, while the manager was spreading attention across all 43 stores equally.
+
+The analysis also showed that 75% of the worst underperformance came down to behaviour — how staff greeted customers, explained promotions, and handled consultations. Not broken systems. Behaviour. Which means it is fixable, within 6 to 8 weeks, with the right coaching.
+
+But first you have to know which stores to focus on. And you have to know what kind of problem you are dealing with before you can solve it.
+
+If you manage more than one location, or lead a team where performance varies between outlets, this breakdown is worth 5 minutes of your time.
+
+Full post on the Pau Analytics blog. Link in comments.
+
+#CustomerExperience #RetailManagement #MalaysianSME #DataAnalytics #ServiceExcellence

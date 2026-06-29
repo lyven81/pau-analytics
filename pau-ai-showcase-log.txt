@@ -14,3 +14,5 @@
 2026-06-20 | campaign-manager/bakery | usecase-spotlight
 2026-06-22 | coach-evaluation | solution-showcase
 2026-06-22 | coach-evaluation/tuition | usecase-spotlight
+2026-06-29 | booking-system | solution-showcase
+2026-06-29 | booking-system/barbershop | usecase-spotlight

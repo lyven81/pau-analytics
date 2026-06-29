@@ -1,0 +1,25 @@
+FRIDAY — Pau AI Use Case Spotlight
+Solution: booking-system / barbershop
+Published: 29 June 2026
+
+---
+
+Razif runs a barbershop in Petaling Jaya. He has 3 barbers and 8 chairs. Every Saturday, the shop is packed. Every Tuesday afternoon, two chairs are empty.
+
+He knows this. But he cannot shift demand from Saturday to Tuesday — because his booking system is a WhatsApp group and a physical notebook, and it tells him nothing.
+
+The Pau AI Booking System changed how his shop runs.
+
+Here is what it does for Razif every day:
+
+• Checks barber availability in real time when a customer messages to book — no back-and-forth with the notebook
+• Applies his pricing automatically: RM25 weekdays, RM35 Saturdays — so off-peak slots become more attractive without him having to explain it each time
+• Sends a WhatsApp reminder the evening before, which cut his no-shows by around 30%
+
+Two months after going live, his Tuesday bookings had doubled. His Saturday waitlist shrank to a manageable size. And he stopped losing customers who messaged after 9pm and never got a reply.
+
+The shop runs exactly the same as before. The bookings just do not fall through the cracks anymore.
+
+See how it works: https://lyven81.github.io/pau-ai/booking-system.html
+
+#AI #MalaysianSME #Barbershop #ServiceBusiness #PauAI
