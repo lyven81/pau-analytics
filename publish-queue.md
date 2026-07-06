@@ -1,6 +1,28 @@
 # Publish Queue
 
-## Last Published — 23 June 2026
+## Last Published — 6 July 2026
+
+**Slug:** know-your-reseller
+**Title:** Your Top Resellers May Not Be Your Best
+**Language:** English (EN)
+**Case Study:** know-your-reseller
+**Blog URL:** https://www.pauanalytics.com/blog/know-your-reseller.html
+**Status:** Published (pre-pipeline post — LinkedIn teaser added Week 28)
+
+---
+
+## Previously Published — 29 June 2026
+
+**Slug:** evaluating-customer-experiences
+**Title:** A Step-by-Step Plan to Improve Customer Experience by Store
+**Language:** English (EN)
+**Case Study:** evaluating-customer-experience
+**Blog URL:** https://www.pauanalytics.com/blog/evaluating-customer-experiences.html
+**Status:** Published
+
+---
+
+## Previously Published — 23 June 2026
 
 **Slug:** do-dollars-drive-decisions
 **Title:** Do Dollars Drive Decisions? What Loan Data Reveals About Pricing and Bias
@@ -77,4 +99,4 @@
 
 ## Upcoming Topics (in priority order)
 
-*Pipeline is empty — run content-scheduler to queue the next 3–5 topics.*
+*All current case studies in case-study/ have corresponding blog posts. New case studies needed to continue the pipeline.*

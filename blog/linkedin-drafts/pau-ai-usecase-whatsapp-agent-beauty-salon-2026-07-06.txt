@@ -1,0 +1,26 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: whatsapp-agent / beauty-salon
+Published: 11 July 2026
+
+---
+
+Aishah runs a beauty salon in Petaling Jaya. Three treatment rooms. Two therapists. One phone she cannot look at for 90 minutes at a time.
+
+On a typical Wednesday afternoon, she has a customer under a hydrafacial, another waiting for threading, and 14 WhatsApp messages sitting unread since morning.
+
+Six are asking about package pricing. Three want to book for the weekend. Two are asking if she does bridal services. One customer booked the wrong date and is panicking. Two messages never get a reply — by the time Aishah checks her phone, those customers have already booked elsewhere.
+
+She was losing 3 or 4 bookings every day. Not because she was bad at her job. Because her hands were occupied doing it.
+
+Now the WhatsApp agent handles the queue while she works:
+
+- Shares the full service menu the moment a customer asks (RM180 hydrafacial, RM120 basic facial, RM80 full body massage, RM35 eyebrow threading)
+- Books weekend slots, confirms availability, and sends a reminder 24 hours before the appointment
+- Answers bridal enquiries with a full breakdown of what the package includes
+- Flags the wrong-date booking to Aishah immediately so she can sort it before the customer arrives upset
+
+Aishah still does every treatment herself. But she no longer loses business to an unanswered message.
+
+See how it works: https://lyven81.github.io/pau-ai/whatsapp-agent.html
+
+#AI #MalaysianSME #BeautySalon #WhatsApp #CustomerExperience

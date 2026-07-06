@@ -1,0 +1,21 @@
+THURSDAY — Pau Analytics Standalone Insight Post
+Source case study: predicting-sales-cycles
+Published: 10 July 2026
+
+---
+
+Your slow weeks are not random. They are on a schedule.
+
+Most e-commerce owners plan their stock and promotions based on memory — last year's peak, last month's dip. They know the pattern exists. They just cannot pin it down.
+
+We analysed 34,500 orders from a Malaysian e-commerce seller over two years. The model explained 78% of weekly revenue variation — and the driver was not marketing spend, product range, or trend. It was season.
+
+Peak Season weeks add an average of RM8,430 in revenue compared to a moderate week. Slow Season weeks cut it by RM7,914. That is a RM16,344 swing between a peak and a slow week — and it repeats on the same schedule, every cycle.
+
+The seller was stocking up at the wrong time and running promotions when sales were already strong. Flipping both decisions — stock before peaks, promote during slow weeks — changed the outcome without spending more.
+
+Check your own sales data for the last 12 months. Mark the weeks your revenue dropped below average. Then mark the ones that climbed. If you see a pattern, you probably have a predictable cycle — and you can plan for it.
+
+Check your own numbers. The pattern is probably already there.
+
+#SME #ecommerce #MalaysianBusiness #salesgrowth #data

@@ -16,3 +16,5 @@
 2026-06-22 | coach-evaluation/tuition | usecase-spotlight
 2026-06-29 | booking-system | solution-showcase
 2026-06-29 | booking-system/barbershop | usecase-spotlight
+2026-07-07 | whatsapp-agent | solution-showcase
+2026-07-11 | whatsapp-agent/beauty-salon | usecase-spotlight
