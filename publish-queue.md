@@ -1,6 +1,17 @@
 # Publish Queue
 
-## Last Published — 6 July 2026
+## Last Published — 13 July 2026
+
+**Slug:** predicting-sales-cycles
+**Title:** 你以为卖东西靠运气？
+**Language:** Mandarin (ZH)
+**Case Study:** predicting-sales-cycles
+**Blog URL:** https://www.pauanalytics.com/blog/predicting-sales-cycles.html
+**Status:** Published (pre-pipeline post formalised Week 29 — LinkedIn teaser, insight, Pau AI solution and use case added)
+
+---
+
+## Previously Published — 6 July 2026
 
 **Slug:** know-your-reseller
 **Title:** Your Top Resellers May Not Be Your Best

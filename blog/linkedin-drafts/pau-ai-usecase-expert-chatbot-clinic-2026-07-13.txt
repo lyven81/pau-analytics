@@ -1,0 +1,31 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: expert-chatbot / dental clinic
+Demo: https://lyven81.github.io/pau-ai/expert-chatbot.html
+Published: 13 July 2026
+
+---
+
+Dr. Lim runs a dental clinic in Petaling Jaya with two chairs and a part-time receptionist.
+
+Her receptionist handles four things at once: booking appointments, managing paperwork, answering phone calls, and replying to WhatsApp enquiries from new patients.
+
+The questions are always the same. How much is a cleaning? Do you do braces? What are your hours? Can I book online?
+
+Each question takes two to three minutes. During a busy morning, new patient enquiries wait an hour or more. Some of those patients book with the clinic down the road instead.
+
+Dr. Lim set up Pau AI's expert chatbot with her clinic's information. Now when a patient asks about pricing at 11pm on a Sunday, they get an immediate answer:
+
+- Scaling and polishing: RM120–RM180
+- Composite filling: RM150–RM300 per tooth
+- Simple extraction: RM100–RM200
+- Hours: Monday to Friday 9am–6pm, Saturday 9am–1pm
+
+If a patient asks about braces — a service the clinic does not offer — the chatbot replies clearly: "We do not provide orthodontic treatment at this clinic. Please call us at 03-XXXX XXXX and we can refer you to a specialist."
+
+No confusion. No wrong expectations. No missed enquiries while the receptionist was in with a patient.
+
+Her staff now focus on the patients already in the chair. The chatbot handles the intake.
+
+See how it works: https://lyven81.github.io/pau-ai/expert-chatbot.html
+
+#AI #MalaysianSME #DentalClinic #Healthcare #CustomerService

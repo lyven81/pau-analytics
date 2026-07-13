@@ -1,0 +1,26 @@
+TUESDAY — Pau AI Solution Showcase
+Category: expert-chatbot
+Demo: https://lyven81.github.io/pau-ai/expert-chatbot.html
+Published: 13 July 2026
+
+---
+
+Your staff gave a different price for the same service three times this week.
+
+Not because they were dishonest. Because pricing is complicated — peak-hour rates, package deals, add-on charges, member discounts. One wrong answer and a customer shows up expecting RM80 and owes RM140.
+
+Pau AI's expert chatbot handles pricing questions by pulling from one source of truth — your exact rates, your exact conditions, your exact policies. Every customer gets the same correct answer, every time. At 10am or 11pm.
+
+It does not guess. It does not average the numbers in its head. It reads what you set up and delivers it back exactly.
+
+This matters most for businesses where the answer depends on details: a dental clinic that charges differently for a first visit versus a follow-up, a gym where monthly rates differ by branch, a property agent quoting based on unit type and floor level.
+
+The chatbot handles "how much does it cost?" in all its variations — including the follow-up questions. "Does that include GST?" "What about for a senior?" "Is Saturday the same price?" All answered. All consistent.
+
+No more customers quoted the wrong rate. No more staff apologising for yesterday's information.
+
+Businesses using it: dental clinics, gyms, property agencies, service providers with tiered pricing.
+
+See the demo: https://lyven81.github.io/pau-ai/expert-chatbot.html
+
+#AI #MalaysianSME #ExpertChatbot #CustomerService #Pricing
