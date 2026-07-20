@@ -1,0 +1,29 @@
+TUESDAY — Pau AI Solution Showcase
+Category: analytics-agent
+Published: 20 July 2026
+
+---
+
+Most business owners check their sales numbers once a week. Usually on a Monday, usually for 10 minutes, usually just looking at the total.
+
+That is not analysis. That is checking the meter.
+
+The margin problem, the customer who quietly stopped ordering, the product category draining your cash — none of those show up in a weekly total. They only surface when you ask the right questions of the right data.
+
+Pau AI's analytics agent is built for exactly this. Connect it to your POS, your sales records, your inventory data — then ask in plain English:
+
+- "Which customer segment had the biggest drop in repeat orders this month?"
+- "What's my gross margin on the top 10 products vs the bottom 10?"
+- "Which days of the week consistently underperform the monthly average?"
+
+No dashboard to build. No analyst to brief. No report to wait for.
+
+One F&B operator discovered a 15% ingredient cost spike in her second week of using it — something she had been absorbing for three months without realising.
+
+The data was always there. She just never had a way to ask.
+
+Built for retail owners, F&B operators, and e-commerce sellers who have data sitting in their systems but no easy way to get answers from it.
+
+See the demo: https://lyven81.github.io/pau-ai/analytics-agent.html
+
+#AI #MalaysianSME #BusinessIntelligence #DataAnalytics #SMETools

@@ -1,0 +1,23 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: analytics-agent / F&B restaurant
+Published: 20 July 2026
+
+---
+
+Faridah runs a nasi campur restaurant in Subang Jaya. Eight tables. Lunch and dinner service. Two cooks and a counter helper.
+
+Every month, she looked at total revenue. Some months it was up, some months down. She had a feeling dinner was the weak point — fewer tables filled, shorter stays, smaller orders. But she did not know which part to fix first.
+
+She started using Pau AI's analytics agent, connected to her daily sales records. The first week, she asked three questions:
+
+- "What's my average revenue per table for lunch vs dinner?" — dinner was 34% lower, consistently across all 7 days
+- "Which dishes had the lowest profit margin last month?" — char kuey teow and ayam goreng came up immediately; high ingredient cost, moderate sales volume
+- "Which days had the lowest total orders in the past 60 days?" — Sunday dinner was the weakest slot by a wide margin, every week
+
+Faridah restructured her Sunday dinner into a shorter, limited menu focused on her highest-margin dishes. She did not change her lunch service at all.
+
+Within two months, her Sunday dinner revenue was up 22%. She made the decision in one afternoon, based on three questions.
+
+See how it works: https://lyven81.github.io/pau-ai/analytics-agent.html
+
+#AI #MalaysianSME #FoodAndBeverage #RestaurantBusiness #AnalyticsAgent
