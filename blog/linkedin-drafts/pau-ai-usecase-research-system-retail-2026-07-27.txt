@@ -1,0 +1,27 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: research-system / retail
+Published: 27 July 2026
+
+---
+
+David runs a specialty imported snacks shop in Subang Jaya. Three times a year, he places orders from suppliers in Japan, Korea, and Taiwan. Each order ties up RM30,000 to RM50,000 in stock.
+
+The problem: he never really knew what would sell.
+
+He ordered what his supplier pushed. He went by last year's bestsellers. Half the time, slow-moving products ended up on the discount rack for months, eroding the margin on everything else.
+
+He tried Pau AI's research system before his most recent order. Three questions changed how he bought.
+
+- "Which Korean snack brands are picking up traction in Malaysian online communities right now?" — two specific brands kept appearing; neither had been in his previous order
+- "What are Lazada and Shopee sellers charging for this product in West Malaysia?" — he discovered he was pricing RM3 above the market average on one of his staples
+- "What do Malaysian buyers say about matcha snack products after purchase?" — freshness complaints and requests for resealable packaging came up repeatedly
+
+He adjusted his order: two new products added, one price corrected, and a note sent to his supplier about packaging specs.
+
+His next quarter? The lowest unsold stock he had seen in two years.
+
+He did not guess. He checked.
+
+See how it works: https://lyven81.github.io/pau-ai/research-system.html
+
+#AI #MalaysianSME #RetailBusiness #ProductResearch #SmartBuying

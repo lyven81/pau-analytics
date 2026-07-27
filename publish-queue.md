@@ -1,6 +1,28 @@
 # Publish Queue
 
-## Last Published — 13 July 2026
+## Last Published — 27 July 2026
+
+**Slug:** where-revenue-comes-from
+**Title:** 你的营业额真的从哪里来？
+**Language:** Mandarin (ZH)
+**Case Study:** where-revenue-comes-from
+**Blog URL:** https://www.pauanalytics.com/blog/where-revenue-comes-from.html
+**Status:** Published (pre-pipeline post formalised Week 31 — LinkedIn teaser, insight, Pau AI solution and use case added)
+
+---
+
+## Previously Published — 20 July 2026
+
+**Slug:** selling-the-right-products
+**Title:** 卖得多，不等于赚得多
+**Language:** Mandarin (ZH)
+**Case Study:** selling-the-right-products
+**Blog URL:** https://www.pauanalytics.com/blog/selling-the-right-products.html
+**Status:** Published
+
+---
+
+## Previously Published — 13 July 2026
 
 **Slug:** predicting-sales-cycles
 **Title:** 你以为卖东西靠运气？
@@ -110,4 +132,10 @@
 
 ## Upcoming Topics (in priority order)
 
-*All current case studies in case-study/ have corresponding blog posts. New case studies needed to continue the pipeline.*
+Remaining pre-pipeline posts available to formalise:
+- high-value-customers (EN) — Where to Find Loyal Customers Who Spend More
+- finding-profit-drivers (EN) — Why Your Best-Selling Products May Not Be Your Most Profitable
+- finding-which-campaigns-work (EN) — How to Get the Most from Your Marketing Budget
+- fixing-the-sales-leaks (ZH) — 为什么顾客看了不买？
+
+New case studies needed to continue beyond these.

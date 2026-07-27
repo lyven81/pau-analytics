@@ -1,0 +1,31 @@
+THURSDAY — Pau Analytics Standalone Insight
+Case Study: How a Manufacturer Found Its Best Resellers
+Published: 27 July 2026
+
+---
+
+You reward your best-selling resellers with bigger discounts and more support.
+
+But what if your top-selling resellers are the ones losing you money?
+
+A Malaysian biscuits manufacturer analysed 60,855 orders placed by 635 resellers over 26 months. What they found stopped them cold.
+
+The reseller receiving the highest discount in the entire network? Gross margin: negative $1,250.
+
+More than half of the top 15 discount recipients generated negative returns. The company was spending the most on the partners costing them the most.
+
+Meanwhile, just 65 resellers — 10% of the network — were quietly carrying the majority of gross margin. One partner alone contributed $182,884 in gross margin at an 18% margin rate.
+
+The remaining 460 resellers (72%) contributed almost nothing to profit, while still consuming attention, logistics, and support resources.
+
+The problem was not the resellers. The problem was the metric.
+
+Revenue looks impressive in a spreadsheet. Margin tells you who is actually worth investing in.
+
+If you manage a reseller or distributor network, ask yourself one question today: which of your top-revenue partners actually has the strongest margin contribution?
+
+The answer might completely change where your discounts and support go next.
+
+Check your margins, not just your totals.
+
+#MalaysianSME #DataAnalytics #BusinessGrowth #DistributorManagement #RetailStrategy

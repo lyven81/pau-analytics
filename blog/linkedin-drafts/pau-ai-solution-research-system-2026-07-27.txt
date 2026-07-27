@@ -1,0 +1,29 @@
+TUESDAY — Pau AI Solution Showcase
+Category: research-system
+Published: 27 July 2026
+
+---
+
+You have RM50,000 to spend on new stock this quarter.
+
+How do you decide what to bring in?
+
+Most SME owners go by gut feel. What sold well last season. What a supplier recommended. What looked popular on TikTok. It is not market research — it is educated guessing with a large budget.
+
+Pau AI's research system gives you a way to actually check before you commit.
+
+Ask it the questions that matter:
+
+- "What products in this category are picking up traction in Malaysia right now?" — see what customers are responding to before you place the order
+- "What are buyers saying about this product after purchase?" — surface complaints and praise from real reviews before it sits on your shelf
+- "What are competitors charging for this in my area?" — make sure your pricing is in range before the first unit arrives
+
+It works for retail buyers deciding what to stock, F&B operators planning a menu update, and service businesses evaluating whether to add a new offering.
+
+You do not need a research firm. You do not need weeks of legwork. You ask a question — in plain language — and you get an answer in minutes.
+
+The decision is still yours. The research no longer has to be.
+
+See the demo: https://lyven81.github.io/pau-ai/research-system.html
+
+#AI #MalaysianSME #BusinessResearch #RetailStrategy #SmartSourcing
