@@ -1,125 +1,97 @@
-# Next Week Plan — Week 31 (27 Jul – 2 Aug 2026)
+# Next Week Plan — Week 32 (3–9 August 2026)
 
-Generated: 24 July 2026 (from Week 30 coordinator report)
-
----
-
-## Blog Post Status: PIPELINE STALLED — ACTION REQUIRED
-
-The publish-queue.md has no upcoming topics. All existing case studies now have
-corresponding blog posts published on pauanalytics.com.
-
-Week 30 published selling-the-right-products (ZH) — the second consecutive Mandarin post.
-
-**To publish in Week 31, choose one of the following options:**
+Generated: 31 July 2026 (from Week 31 coordinator report)
 
 ---
 
-### Option A — Formalise a pre-pipeline post (fastest, no new data needed)
+## Blog Post to Formalise
 
-6 posts are live on the site but not formally in the pipeline (no publish-log entry,
-LinkedIn drafts may be missing). Any of these can be formalised this week:
+**Slug:** high-value-customers
+**Title:** Where to Find Loyal Customers Who Spend More
+**Language:** English (EN)
+**Blog URL:** https://www.pauanalytics.com/blog/high-value-customers.html
+**Status:** Live on site — needs LinkedIn drafts and pipeline formalisation
 
-| Slug | Topic | Vertical | LinkedIn drafts ready? |
-|------|-------|----------|------------------------|
-| where-revenue-comes-from | Revenue attribution | Multi-vertical | Yes (insight-where-revenue-comes-from-2026-07-20.txt exists) |
-| finding-profit-drivers | Profit margin analysis | Finance / retail | Yes (insight-finding-profit-drivers exists) |
-| high-value-customers | Customer segmentation | Retail / e-commerce | Yes (insight-high-value-customers exists) |
-| fixing-the-sales-leaks | Revenue leakage | Retail / ops | Yes (insight-fixing-the-sales-leaks exists) |
-| finding-which-campaigns-work | Campaign ROI | Marketing | Yes (insight-finding-which-campaign-work exists) |
-| beyond-the-price-tag | Non-price purchase factors | Consumer behaviour | Unknown |
+### Why This Topic
 
-**Top recommendation: where-revenue-comes-from**
+1. **First in priority queue** — high-value-customers is the top item in the
+   "Upcoming Topics" section of publish-queue.md.
 
-Why:
-- LinkedIn insight draft already exists (created 20 July — freshest draft)
-- Topic is broad (revenue attribution applies across all verticals)
-- Aligns with Mandarin momentum — a ZH version of this topic would be highly relevant
-  for Chinese-speaking SME owners managing multi-channel revenue
-- Formalising it keeps blog cadence alive without requiring new case study work
+2. **English post after three Mandarin posts** — Weeks 29, 30, and 31 were all
+   Mandarin (predicting-sales-cycles, selling-the-right-products,
+   where-revenue-comes-from). Publishing English next widens the audience and
+   prevents the blog from looking Mandarin-only to new visitors.
 
-What to do:
-1. Add remaining LinkedIn drafts if missing (blog-teaser, pau-ai-solution, pau-ai-usecase)
-2. Add to publish-log.txt: 2026-07-27 | where-revenue-comes-from | EN
-3. Update publish-queue.md
+3. **High commercial intent** — SME owners searching "high-value customers" or
+   "loyal customers analytics" are already thinking about retention and lifetime
+   value. This buyer mindset aligns directly with Pau Analytics services.
 
----
+4. **Extends the pipeline by 4 more weeks** — Formalising this post adds 4 LinkedIn
+   drafts (blog teaser, insight, Pau AI solution, Pau AI use case), bringing the
+   total draft queue from 52 to 56.
 
-### Option B — Formalise as Mandarin version
+### What to Do
 
-Two consecutive Mandarin posts (Weeks 29 and 30) have built momentum.
-A third ZH post would establish a clear Mandarin content track.
-
-Candidate: where-revenue-comes-from or finding-profit-drivers as a Mandarin post.
-This requires writing a Mandarin version using the pau-analytics-blog-write skill.
+1. Run `/linkedit-post-writer` on high-value-customers to generate 4 LinkedIn drafts
+2. Commit new LinkedIn drafts to blog/linkedin-drafts/
+3. Add entry to publish-log.txt: `2026-08-03 | high-value-customers | EN | ...`
+4. Update publish-queue.md: move high-value-customers to "Published" section
 
 ---
 
-### Option C — Commission a new case study
+## LinkedIn Priority (CRITICAL — NOW 13 WEEKS OVERDUE)
 
-Prepare a new dataset or business scenario for a fully original post.
-Suitable for Week 32 publication (allows one week of preparation time).
-Formalise a pre-pipeline post in Week 31 to bridge the gap.
+52 drafts ready, 0 posts published. Queue has been inactive since May 2026.
 
----
-
-## LinkedIn Priority (OVERDUE)
-
-48 drafts ready, 0 posts published. Queue inactive for 12+ weeks.
-
-**Immediate priority — start posting now:**
+**Post this immediately (no later than Wednesday 5 August 2026):**
 
 | Priority | File | Type | Note |
 |---|---|---|---|
-| 1 | blog-teaser-from-ratings-to-revenue-2026-05-04.txt | Blog teaser | 12+ weeks overdue |
-| 2 | pau-ai-solution-booking-system-2026-05-04.txt | Pau AI solution | |
-| 3 | insight-predicting-gym-member-dropout-2026-05-04.txt | Insight | |
-| 4 | pau-ai-usecase-booking-system-salon-2026-05-04.txt | Use case | |
+| 1 | blog-teaser-from-ratings-to-revenue-2026-05-04.txt | Blog teaser | 13 weeks overdue |
+| 2 | pau-ai-solution-booking-system-2026-05-04.txt | Pau AI solution | Week of 4 May |
+| 3 | insight-predicting-gym-member-dropout-2026-05-04.txt | Insight | Week of 4 May |
+| 4 | pau-ai-usecase-booking-system-salon-2026-05-04.txt | Use case | Week of 4 May |
 
 After each post goes live: rename file to .posted.txt and add entry to posted-log.txt.
 Create posted-log.txt if it does not yet exist (it currently does not).
 
 ---
 
-## Content Pipeline Status
+## Content Pipeline Runway
 
-| Week | Blog Slug | Language | Status |
-|------|-----------|----------|--------|
-| Week 19 (4 May)   | from-ratings-to-revenue           | EN | Published |
-| Week 20 (11 May)  | predicting-gym-member-dropout     | EN | Published |
-| Week 21 (18 May)  | cash-or-credit-card               | EN | Published |
-| Week 22 (25 May)  | predicting-holiday-peaks          | EN | Published |
-| Week 23 (2 Jun)   | understanding-customer-value      | EN | Published |
-| Week 24 (9 Jun)   | from-clicks-to-check-ins          | EN | Published |
-| Week 25 (16 Jun)  | what-causes-product-returns       | EN | Published |
-| Week 26 (23 Jun)  | do-dollars-drive-decisions        | EN | Published |
-| Week 27 (29 Jun)  | evaluating-customer-experiences   | EN | Published |
-| Week 28 (6 Jul)   | know-your-reseller                | EN | Published |
-| Week 29 (13 Jul)  | predicting-sales-cycles           | ZH | Published — First Mandarin post |
-| Week 30 (20 Jul)  | selling-the-right-products        | ZH | Published — Second Mandarin post |
-| Week 31 (27 Jul)  | TBD — see options above           | EN or ZH | NOT QUEUED — action needed |
+| Week | Slug | Language | Status |
+|---|---|---|---|
+| 31 (27 Jul) | where-revenue-comes-from | ZH | Published — Third Mandarin post |
+| 32 (3 Aug)  | high-value-customers | EN | RECOMMENDED — formalise now |
+| 33 (10 Aug) | finding-profit-drivers | EN | Queued (pre-pipeline) |
+| 34 (17 Aug) | finding-which-campaigns-work | EN | Queued (pre-pipeline) |
+| 35 (24 Aug) | fixing-the-sales-leaks | ZH | Queued (pre-pipeline) |
+| 36+ | New case study needed | — | SOURCE BEFORE WEEK 35 |
 
-- Blog posts live: 18 (12 pipeline + 6 pre-pipeline)
-- LinkedIn queue: 48 drafts ready, 0 published
-- Pre-pipeline posts available to formalise: 6
+- Blog posts live on site: 18
+- Pipeline posts logged: 13
+- Pre-pipeline posts remaining to formalise: 4 (starting with high-value-customers)
+- LinkedIn queue: 52 drafts ready, 0 published
 
 ---
 
 ## Risks
 
-1. **CRITICAL — Pipeline gap**: No blog post is queued for Week 31. Without action
-   this week, the 12-week publishing streak will break. Run the content-scheduler
-   skill or formalise where-revenue-comes-from to prevent a gap.
+1. **CRITICAL — LinkedIn backlog at 52 drafts**: Still 0 posts published after
+   13+ weeks. The first draft (blog-teaser-from-ratings-to-revenue) is from
+   4 May 2026. Every week of inaction reduces the commercial return on
+   published content. Start posting immediately.
 
-2. **LinkedIn backlog at 48 drafts** — Still 0 posts published after 12+ weeks.
-   Each week of inaction reduces the amplification value of already-published content.
-   The oldest draft is from 4 May 2026.
+2. **NEW CASE STUDIES needed by Week 35**: The pre-pipeline runway ends at
+   fixing-the-sales-leaks (Week 35). Begin sourcing new datasets or client
+   scenarios now to avoid a content gap starting Week 36.
 
-3. **No lead data (17+ consecutive weeks)** — The Railway API remains unreachable
-   from the cloud environment. Without lead data, there is no way to measure
-   whether 12 weeks of consistent publishing is generating business enquiries.
-   Log in to railway.app or run /check-leads from the Claude Code desktop app.
+3. **No lead data (18+ consecutive weeks)**: The Railway API remains unreachable
+   from the cloud environment. Without lead data there is no way to measure
+   whether the blog is generating business enquiries.
+   Fix: add web-chat-lead-manager-production.up.railway.app to the egress allowlist,
+   or run /check-leads from the Claude Code desktop app.
 
 ---
 
-*Generated by the coordinator skill — Week 30 2026 report (24 July 2026)*
+*Generated by the coordinator skill — Week 31 2026 report (31 July 2026)*
