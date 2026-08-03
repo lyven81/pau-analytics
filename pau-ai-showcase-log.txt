@@ -24,3 +24,5 @@
 2026-07-27 | research-system/retail | usecase-spotlight
 2026-07-27 | research-system | solution-showcase
 2026-07-20 | analytics-agent/fnb | usecase-spotlight
+2026-08-03 | operations-tracker | solution-showcase
+2026-08-03 | operations-tracker/minimarket | usecase-spotlight

@@ -1,0 +1,26 @@
+MONDAY — Pau Analytics Blog Teaser
+Blog: Where to Find Loyal Customers Who Spend More
+Published: 3 August 2026
+
+---
+
+You might assume your best customers are defined by who they are — their age, income, or location.
+
+The data says otherwise.
+
+We analysed 100,000 customer records from a Malaysian online retailer. Age, gender, and location had almost no effect on loyalty. What mattered was one thing: which channel brought them in.
+
+Paid search customers had the highest loyalty score at 1.582. Referral customers followed at 1.579. Social media customers scored the lowest at 1.566.
+
+That gap looks small. Across thousands of customers, it compounds into a real difference in retention, repeat spend, and lifetime value.
+
+Paid search works because customers arrive with intent — they searched for something specific and found you. Referral works because trust is already built before the first purchase. Social media brings browsers, not buyers. They arrive because a post caught their eye. When the moment passes, so does the engagement.
+
+The organic and email segment was the largest in the entire base at 45,103 customers — cost-efficient to maintain and more loyal than social media.
+
+If your marketing budget is still allocated the way it was two years ago, it might be worth asking: which channel actually keeps the customers you acquire?
+
+Read the full analysis:
+https://www.pauanalytics.com/blog/high-value-customers.html
+
+#MalaysianSME #Marketing #CustomerLoyalty #DataAnalytics #SmallBusiness

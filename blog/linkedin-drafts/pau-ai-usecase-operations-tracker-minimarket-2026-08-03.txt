@@ -1,0 +1,29 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: operations-tracker / minimarket
+Published: 3 August 2026
+
+---
+
+Wei Ling runs a mini-market in Puchong. Three staff, two shifts, around 400 different items on the shelves.
+
+She used to manage stock by memory. When a shelf looked thin, someone would reorder — eventually. When a fast-moving item ran out, she found out when a regular customer told her. Last month, she missed two full days of chilled drink sales because the refrigerator section ran dry on a Thursday and the supplier only came Friday.
+
+She started using Pau AI's operations tracker.
+
+Now every morning, she checks a summary of what moved the day before. It tells her:
+
+- The 10 items closest to their reorder level, flagged before they run out
+- Items that have not moved in more than four days, so she can rotate or promote them
+- Yesterday's gross margin by category, with a flag if any category dips below 22%
+
+Last Saturday, the system flagged that chilled drinks had hit their low threshold by 2pm. Wei Ling was at home. She WhatsApped her afternoon staff to pull backup stock from the storeroom.
+
+No stockout. No lost sales.
+
+She now spends 10 minutes a day on stock decisions instead of two hours on the shop floor checking shelves.
+
+The business is still hers to run. She just runs it with better information.
+
+See how it works: https://lyven81.github.io/pau-ai/operations-tracker.html
+
+#AI #MalaysianSME #RetailOperations #SmallBusiness #StockManagement

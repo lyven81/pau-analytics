@@ -1,0 +1,30 @@
+TUESDAY — Pau AI Solution Showcase
+Category: operations-tracker
+Published: 3 August 2026
+
+---
+
+Your best-selling item ran out at 2pm on Saturday.
+
+Your staff noticed at 4pm. You found out Sunday morning.
+
+This is how most small business operations work — on delayed feedback. You check the till at closing. You count stock when something runs out. You look at the numbers on Monday. By then, the opportunity to act has already passed.
+
+Pau AI's operations tracker changes the gap from days to hours.
+
+It monitors what is moving — by product, by hour, by outlet — and alerts you before small gaps become expensive ones. When a fast-moving item drops below its reorder level, you get a flag. When a shift is tracking 20% below its usual pace, you know at 3pm, not 9pm.
+
+Ask it questions in plain language:
+- "Which items have not moved in the last three days?"
+- "How is this week's cost-of-goods ratio comparing to last week?"
+- "Which outlet is behind target today?"
+
+You get numbers, not a spreadsheet to decode yourself.
+
+It is built for retail owners, kedai operators, and F&B businesses where one slow shift caught early is worth more than three slow shifts noticed too late.
+
+You do not need to be on-site all day to know what is happening.
+
+See the demo: https://lyven81.github.io/pau-ai/operations-tracker.html
+
+#AI #MalaysianSME #BusinessOperations #RetailTech #SmartBusiness
