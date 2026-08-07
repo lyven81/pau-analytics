@@ -1,97 +1,42 @@
-# Next Week Plan — Week 32 (3–9 August 2026)
+# Next Week Plan — Week 33, 2026 (10–16 August 2026)
 
-Generated: 31 July 2026 (from Week 31 coordinator report)
+## Recommended Blog Topic
 
----
-
-## Blog Post to Formalise
-
-**Slug:** high-value-customers
-**Title:** Where to Find Loyal Customers Who Spend More
+**Slug:** finding-profit-drivers
+**Title:** Why Your Best-Selling Products May Not Be Your Most Profitable
 **Language:** English (EN)
-**Blog URL:** https://www.pauanalytics.com/blog/high-value-customers.html
-**Status:** Live on site — needs LinkedIn drafts and pipeline formalisation
+**Status:** Draft exists at blog/finding-profit-drivers.html
 
 ### Why This Topic
 
-1. **First in priority queue** — high-value-customers is the top item in the
-   "Upcoming Topics" section of publish-queue.md.
+This is the next topic in the publish queue (see publish-queue.md). It follows naturally from the Week 32 post on high-value customers — both address the disconnect between surface metrics (revenue, volume) and actual profitability. This is a strong recurring theme that resonates with the SME and retail audience Pau Analytics targets.
 
-2. **English post after three Mandarin posts** — Weeks 29, 30, and 31 were all
-   Mandarin (predicting-sales-cycles, selling-the-right-products,
-   where-revenue-comes-from). Publishing English next widens the audience and
-   prevents the blog from looking Mandarin-only to new visitors.
+The English version ensures English-language SEO reach, balancing the recent run of Mandarin posts (selling-the-right-products, where-revenue-comes-from, predicting-sales-cycles).
 
-3. **High commercial intent** — SME owners searching "high-value customers" or
-   "loyal customers analytics" are already thinking about retention and lifetime
-   value. This buyer mindset aligns directly with Pau Analytics services.
+## LinkedIn Posts for Next Week
 
-4. **Extends the pipeline by 4 more weeks** — Formalising this post adds 4 LinkedIn
-   drafts (blog teaser, insight, Pau AI solution, Pau AI use case), bringing the
-   total draft queue from 52 to 56.
+Four LinkedIn post types are already in the queue. Select one per weekday slot:
 
-### What to Do
+- **Monday blog teaser** — pick any unposted blog-teaser-*.txt from the drafts folder
+- **Tuesday Pau AI solution** — pau-ai-solution-*.txt (oldest unposted)
+- **Thursday insight** — insight-*.txt (oldest unposted)
+- **Friday Pau AI use case** — pau-ai-usecase-*.txt (oldest unposted)
 
-1. Run `/linkedit-post-writer` on high-value-customers to generate 4 LinkedIn drafts
-2. Commit new LinkedIn drafts to blog/linkedin-drafts/
-3. Add entry to publish-log.txt: `2026-08-03 | high-value-customers | EN | ...`
-4. Update publish-queue.md: move high-value-customers to "Published" section
+Oldest available by creation date: pau-ai-usecase-booking-system-salon-2026-05-04.txt
 
----
+56 LinkedIn posts are ready. None have been published yet. This week is the time to start.
 
-## LinkedIn Priority (CRITICAL — NOW 13 WEEKS OVERDUE)
+## Upcoming Pipeline (Weeks 34+)
 
-52 drafts ready, 0 posts published. Queue has been inactive since May 2026.
-
-**Post this immediately (no later than Wednesday 5 August 2026):**
-
-| Priority | File | Type | Note |
+| Priority | Slug | Language | Notes |
 |---|---|---|---|
-| 1 | blog-teaser-from-ratings-to-revenue-2026-05-04.txt | Blog teaser | 13 weeks overdue |
-| 2 | pau-ai-solution-booking-system-2026-05-04.txt | Pau AI solution | Week of 4 May |
-| 3 | insight-predicting-gym-member-dropout-2026-05-04.txt | Insight | Week of 4 May |
-| 4 | pau-ai-usecase-booking-system-salon-2026-05-04.txt | Use case | Week of 4 May |
+| 1 | finding-profit-drivers | EN | This week |
+| 2 | finding-which-campaigns-work | EN | Week 34 |
+| 3 | fixing-the-sales-leaks | ZH | Week 35 |
+| 4+ | New case studies needed | — | No drafts beyond these three |
 
-After each post goes live: rename file to .posted.txt and add entry to posted-log.txt.
-Create posted-log.txt if it does not yet exist (it currently does not).
+## Content Gaps and Risks
 
----
-
-## Content Pipeline Runway
-
-| Week | Slug | Language | Status |
-|---|---|---|---|
-| 31 (27 Jul) | where-revenue-comes-from | ZH | Published — Third Mandarin post |
-| 32 (3 Aug)  | high-value-customers | EN | RECOMMENDED — formalise now |
-| 33 (10 Aug) | finding-profit-drivers | EN | Queued (pre-pipeline) |
-| 34 (17 Aug) | finding-which-campaigns-work | EN | Queued (pre-pipeline) |
-| 35 (24 Aug) | fixing-the-sales-leaks | ZH | Queued (pre-pipeline) |
-| 36+ | New case study needed | — | SOURCE BEFORE WEEK 35 |
-
-- Blog posts live on site: 18
-- Pipeline posts logged: 13
-- Pre-pipeline posts remaining to formalise: 4 (starting with high-value-customers)
-- LinkedIn queue: 52 drafts ready, 0 published
-
----
-
-## Risks
-
-1. **CRITICAL — LinkedIn backlog at 52 drafts**: Still 0 posts published after
-   13+ weeks. The first draft (blog-teaser-from-ratings-to-revenue) is from
-   4 May 2026. Every week of inaction reduces the commercial return on
-   published content. Start posting immediately.
-
-2. **NEW CASE STUDIES needed by Week 35**: The pre-pipeline runway ends at
-   fixing-the-sales-leaks (Week 35). Begin sourcing new datasets or client
-   scenarios now to avoid a content gap starting Week 36.
-
-3. **No lead data (18+ consecutive weeks)**: The Railway API remains unreachable
-   from the cloud environment. Without lead data there is no way to measure
-   whether the blog is generating business enquiries.
-   Fix: add web-chat-lead-manager-production.up.railway.app to the egress allowlist,
-   or run /check-leads from the Claude Code desktop app.
-
----
-
-*Generated by the coordinator skill — Week 31 2026 report (31 July 2026)*
+- **LinkedIn posting has not started.** 56 posts are ready. Starting this week is strongly recommended.
+- **Pipeline runs out in 3 weeks** (after fixing-the-sales-leaks). New case studies must be sourced or created to continue weekly publishing beyond Week 35.
+- **Lead data is inaccessible** via the web environment. Until this is resolved, the coordinator cannot report on which topics are driving leads. Access Railway directly or run the check-leads skill from a local machine.
