@@ -1,0 +1,25 @@
+THURSDAY — Pau Analytics Standalone Insight Post
+Source case study: what-causes-product-returns
+Published: 10 August 2026
+
+---
+
+We spent a week investigating why a Malaysian e-commerce retailer's products were being returned. Three of our four main suspects came back clean.
+
+The warehouse manager suspected star ratings. Low-rated items, he assumed, must come back more often. They didn't. Products with a 5-star average were returned at the same rate as products with a 3-star average.
+
+He suspected review volume. Heavily-reviewed items, surely, were better understood by buyers. No link.
+
+He suspected stockouts. Items that had been unavailable might have pushed customers to poor substitutes. Also cleared.
+
+Two weak signals did turn up. Products sold at steeper discounts came back slightly more often. Higher-priced items had a marginally higher return rate. Both were real but not strong enough to build a fix around.
+
+The most important finding: none of the data the warehouse was already collecting could reliably predict returns. The reason was simple — return reasons weren't being recorded. "Changed my mind", "damaged on arrival", "not as described" — all invisible.
+
+The recommendation wasn't a policy change. It was a data collection change: log the return reason every time an item comes back. That single field, combined with delivery records and complaint history, is where the real answer will eventually come from.
+
+Sometimes the right outcome of an analysis is knowing which questions you haven't been asking.
+
+Check whether your returns data captures the reason — or just the event.
+
+#DataAnalytics #EcommerceMalaysia #MalaysianSME #ProductReturns #SmallBusiness

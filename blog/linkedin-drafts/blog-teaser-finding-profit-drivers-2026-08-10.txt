@@ -1,0 +1,28 @@
+MONDAY — Pau Analytics Blog Teaser
+Blog: Why Your Best-Selling Products May Not Be Your Most Profitable
+Published: 10 August 2026
+
+---
+
+Your accessories category has 60% margins. Your main product line runs at 30%.
+
+Which one is making you more money?
+
+Most retail owners would say accessories. The numbers look better. Every sale is more efficient on paper.
+
+We analysed 60,000 transactions at a bicycle retail chain. The accessories category had margins consistently above 60%. It also contributed a fraction of the total profit.
+
+The bikes, with lower percentage margins, were doing almost all of the real work. Not because they sold in higher volume — but because their price points were high enough for the margin to matter. A 30% margin on a RM3,000 item delivers far more money than a 60% margin on a RM15 water bottle.
+
+The team had been allocating shelf space, promotions, and buying effort toward the wrong products. They were optimising for margin percentage when they should have been managing absolute profit contribution.
+
+There was one more finding worth knowing: of all the levers tested — volume, delivery speed, stock levels — price was the single variable most strongly linked to profit. Not operationally complex changes. Just pricing discipline on the right products.
+
+A targeted 3% increase on selected models delivered more profit improvement in one month than six months of inventory work had produced.
+
+If you haven't looked at your product range this way, it might be worth it.
+
+Read the full analysis:
+https://www.pauanalytics.com/blog/finding-profit-drivers.html
+
+#MalaysianSME #RetailBusiness #DataAnalytics #Profitability #ProductStrategy

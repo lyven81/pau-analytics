@@ -26,3 +26,5 @@
 2026-07-20 | analytics-agent/fnb | usecase-spotlight
 2026-08-03 | operations-tracker | solution-showcase
 2026-08-03 | operations-tracker/minimarket | usecase-spotlight
+2026-08-10 | campaign-manager | solution-showcase
+2026-08-10 | campaign-manager/restaurant | usecase-spotlight

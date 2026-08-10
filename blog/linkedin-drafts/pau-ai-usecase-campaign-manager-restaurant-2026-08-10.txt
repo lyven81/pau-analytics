@@ -1,0 +1,30 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: campaign-manager / restaurant
+Published: 10 August 2026
+
+---
+
+Danny runs a Cantonese restaurant in Subang Jaya. Lunch is steady. Friday evenings fill up on their own. Tuesday and Wednesday nights are another story.
+
+He had been sending WhatsApp promotions to his full contact list — 650 people — every few weeks. The response was inconsistent. Some nights it helped; most nights it didn't. He had no idea whether the right customers were even seeing the offers.
+
+He started using Pau AI's campaign manager.
+
+For his next Tuesday promotion, the AI sorted his contacts by visit history: lapsed customers who hadn't come in for 30 or more days, previous weeknight dinner visitors, and first-time lunch customers who hadn't tried the dinner menu.
+
+He sent a simple offer — a complimentary soup for tables of four, Tuesday only — to 180 targeted contacts.
+
+The AI tracked:
+- Which segment responded and within what timeframe
+- What each table ordered and their average spend
+- How campaign revenue compared to the cost of the offer
+
+Nine tables came in that Tuesday. Six were lapsed customers. The complimentary soup cost RM126. Total food orders: RM1,240.
+
+More useful than the revenue figure was what Danny learned: his lapsed customers responded better than any other segment when offered something specific to that evening. His Tuesday campaigns are now built around that group every time.
+
+Slow nights are no longer a guess. They are a campaign away.
+
+See how it works: https://lyven81.github.io/pau-ai/campaign-manager.html
+
+#AI #MalaysianSME #FnB #RestaurantMarketing #SmallBusinessGrowth

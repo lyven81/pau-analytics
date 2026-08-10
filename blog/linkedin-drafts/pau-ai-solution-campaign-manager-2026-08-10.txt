@@ -1,0 +1,25 @@
+TUESDAY — Pau AI Solution Showcase
+Category: campaign-manager
+Published: 10 August 2026
+
+---
+
+You sent a Buy-One-Get-One offer to all 800 contacts last month. The response was mediocre. Here is why.
+
+A third of your contacts buy from you every week. They didn't need a promotion — they were already coming. Another third haven't bought in six months. A discount isn't what's stopping them. Only the middle group — your occasional customers — actually needed the nudge.
+
+You sent the same message to all three. You paid for the campaign three times over and converted one group.
+
+Pau AI's campaign manager separates your customers before you send anything.
+
+It looks at visit history, last purchase date, and buying frequency. It splits your list into segments — active regulars, occasional visitors, lapsed customers — so each group gets a message matched to where they actually are in their relationship with your business.
+
+You choose the offer. The AI shows you which segment responded, when they came in, and what they spent. Run two versions on two segments and you'll know within 48 hours which approach works better for your audience.
+
+No spreadsheets. No manual sorting of contacts. Just a clearer picture of who needed the campaign and who didn't.
+
+It is built for F&B outlets, retail shops, and service businesses that run regular promotions but treat their whole customer list the same. The right audience matters more than the right offer.
+
+See the demo: https://lyven81.github.io/pau-ai/campaign-manager.html
+
+#AI #MalaysianSME #MarketingROI #SmallBusiness #CustomerSegmentation
