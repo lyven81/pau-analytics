@@ -1,0 +1,29 @@
+TUESDAY — Pau AI Solution Showcase
+Solution: Coach Evaluation System
+Date: 17 August 2026
+
+---
+
+You have three staff members whose clients keep coming back.
+
+You have two whose clients quietly stop showing up.
+
+You probably have a feeling about which is which. But feelings are not a retention strategy.
+
+Service businesses — fitness studios, coaching centres, clinics, salons — live or die by individual staff performance. When one person on your team is quietly losing clients, you typically find out two things too late: after the clients are gone, and after the reviews reflect it.
+
+The Pau AI Coach Evaluation System tracks performance continuously, not just at annual reviews.
+
+Here is what it monitors across your team:
+
+Client retention rate per coach or therapist, updated monthly. Session engagement patterns — who is booking consistently and who is drifting. Progress indicators linked to the service you deliver, whether that is fitness milestones, learning outcomes, or satisfaction scores.
+
+When a coach's numbers start slipping, the system flags it early — not when the client cancels, but three to four months before, when the pattern first appears in the data.
+
+You can still have the conversation that changes the outcome.
+
+Fitness studios, professional coaching businesses, and service centres across Malaysia use this to develop their teams before problems compound into losses.
+
+See the demo: https://lyven81.github.io/pau-ai/coach-evaluation.html
+
+#AI #MalaysianSME #ServiceBusiness #StaffPerformance #PauAI

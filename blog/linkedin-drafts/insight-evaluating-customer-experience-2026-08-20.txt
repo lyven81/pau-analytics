@@ -1,0 +1,23 @@
+THURSDAY — Pau Analytics Standalone Insight Post
+Source case study: evaluating-customer-experience
+Published: 20 August 2026
+
+---
+
+Most retail managers think their underperforming stores have a process problem. The data says 75% of the time, it is a behaviour problem.
+
+We analysed mystery shopping data across 43 retail stores in Malaysia. The network average sat at 72.9%. Four stores had scores as low as 32% — nearly 40 points below the regional benchmark.
+
+The instinct when stores score that badly is to look at systems: the queue management software, the booking process, the SOPs. Fix the system and the score improves.
+
+Except the data showed something different. For the worst-performing stores, 75% of the underperformance came from staff behaviour — how they greeted customers, whether they explained promotions clearly, how they handled queries. Only 25% came from process gaps.
+
+This matters because the fix is completely different. Process problems can be resolved in one to two weeks. Behavioural problems typically need structured coaching over six to eight weeks. You cannot SOP your way to a better greeting.
+
+There was a network-wide pattern too: 34.9% of all stores across 15 locations had the same greeting and engagement weakness. This was not a branch problem. It was a training gap that had never been measured because nobody had looked at the data this way before.
+
+The top two regions scored 88.7%. The gap between the best and worst stores was not about location or foot traffic. It was about what staff did in the first 30 seconds with a customer.
+
+Check where your team scores on the behaviours that customers actually notice.
+
+#DataAnalytics #RetailMalaysia #CustomerExperience #MalaysianSME #ServiceExcellence

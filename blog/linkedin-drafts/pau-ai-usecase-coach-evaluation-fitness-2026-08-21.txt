@@ -1,0 +1,28 @@
+FRIDAY — Pau AI Use Case Spotlight
+Solution: Coach Evaluation System
+Use Case: Fitness Studio
+Date: 21 August 2026
+
+---
+
+Farid runs a fitness studio in Petaling Jaya with 8 personal trainers.
+
+Every month, 3 or 4 members cancel their packages. He knows some trainers are better than others. He does not know which ones are losing him members — until the member is already gone.
+
+The Pau AI Coach Evaluation System now runs in the background of his studio every week.
+
+Here is what it tracks for each trainer:
+
+• Package renewal rate per trainer — which coaches are retaining clients month to month, and which are quietly losing them
+• Session completion patterns — which clients are missing sessions early in their package, a signal that they are disengaging before they cancel
+• Trainer response time on WhatsApp — clients who get slow responses book fewer follow-up sessions
+
+Last month, the system flagged one trainer whose clients had dropped from 11 active packages to 6 over eight weeks. Farid had not noticed. He scheduled a coaching conversation, helped the trainer restructure how he ran the first few sessions, and offered those clients a free session add-on.
+
+Seven of the six stayed. Two of the four who had already cancelled came back for a trial month.
+
+Without the system, Farid would have noticed the empty slots and assumed members had hit their goals or moved on. He would have been half right. The other half was fixable — if he had known in time.
+
+See how it works: https://lyven81.github.io/pau-ai/coach-evaluation.html
+
+#AI #MalaysianSME #FitnessStudio #PersonalTrainer #PauAI

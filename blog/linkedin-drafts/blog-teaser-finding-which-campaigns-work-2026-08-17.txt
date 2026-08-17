@@ -1,0 +1,25 @@
+MONDAY — Pau Analytics Blog Teaser
+Blog: How to Get the Most from Your Marketing Budget
+Published: 17 August 2026
+
+---
+
+The channel you are probably investing in most is the one delivering the least.
+
+We analysed 50 marketing campaigns across Email, Social, Display, and Paid Search. Email had the most campaigns — 14 out of 50. It also had the worst performance, at 0.07491 average uplift. Display came in at 0.09435. Paid Search was close behind at 0.09355.
+
+That is a 26% gap between the channel most teams default to and the channels that actually work.
+
+But channel is only part of the picture. The data shows that combination matters more than any single factor.
+
+Social paired with a Cross-sell objective targeting New Customers delivered 0.144 uplift — nearly double the Email average. Even Email, which underperforms overall, hit 0.140 when focused specifically on Retention campaigns for New Customers. The channel is not the problem. It is how it is being used.
+
+Timing matters too. November campaigns averaged 0.11350 uplift. September averaged 0.062. The same creative will produce very different results depending on when it runs.
+
+The full post breaks down which channel-segment-objective combinations perform best, when to run your highest-stakes campaigns, and what you can stop worrying about entirely (campaign duration has no effect on results).
+
+If you are spending on marketing without this data, the post is worth reading.
+
+https://www.pauanalytics.com/blog/finding-which-campaigns-work.html
+
+#MalaysianSME #MarketingStrategy #DataAnalytics #DigitalMarketing #BusinessGrowth

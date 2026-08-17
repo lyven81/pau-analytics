@@ -28,3 +28,5 @@
 2026-08-03 | operations-tracker/minimarket | usecase-spotlight
 2026-08-10 | campaign-manager | solution-showcase
 2026-08-10 | campaign-manager/restaurant | usecase-spotlight
+2026-08-17 | coach-evaluation | solution-showcase
+2026-08-21 | coach-evaluation/fitness | usecase-spotlight
