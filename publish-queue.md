@@ -1,6 +1,39 @@
 # Publish Queue
 
-## Last Published — 3 August 2026
+## Last Published — 24 August 2026
+
+**Slug:** fixing-the-sales-leaks
+**Title:** 为什么顾客看了不买？
+**Language:** Mandarin (ZH)
+**Case Study:** fixing-the-sales-leaks
+**Blog URL:** https://www.pauanalytics.com/blog/fixing-the-sales-leaks.html
+**Status:** Published (pre-pipeline post formalised Week 35 — LinkedIn teaser, insight, Pau AI solution and use case added)
+
+---
+
+## Previously Published — 17 August 2026
+
+**Slug:** finding-which-campaigns-work
+**Title:** How to Get the Most from Your Marketing Budget
+**Language:** English (EN)
+**Case Study:** finding-which-campaigns-work
+**Blog URL:** https://www.pauanalytics.com/blog/finding-which-campaigns-work.html
+**Status:** Published (pre-pipeline post formalised Week 34 — LinkedIn teaser added)
+
+---
+
+## Previously Published — 10 August 2026
+
+**Slug:** finding-profit-drivers
+**Title:** Why Your Best-Selling Products May Not Be Your Most Profitable
+**Language:** English (EN)
+**Case Study:** finding-profit-drivers
+**Blog URL:** https://www.pauanalytics.com/blog/finding-profit-drivers.html
+**Status:** Published (pre-pipeline post formalised Week 33 — LinkedIn teaser added)
+
+---
+
+## Previously Published — 3 August 2026
 
 **Slug:** high-value-customers
 **Title:** Where to Find Loyal Customers Who Spend More
@@ -143,9 +176,6 @@
 
 ## Upcoming Topics (in priority order)
 
-Remaining pre-pipeline posts available to formalise:
-- finding-profit-drivers (EN) — Why Your Best-Selling Products May Not Be Your Most Profitable
-- finding-which-campaigns-work (EN) — How to Get the Most from Your Marketing Budget
-- fixing-the-sales-leaks (ZH) — 为什么顾客看了不买？
+No further pre-pipeline posts remain. New case studies are needed to continue the weekly cadence beyond Week 35.
 
-New case studies needed to continue beyond these.
+**Content Runway Warning:** Commission or write new case studies now. The next known post beyond-the-price-tag (ZH) exists in the blog index but has not been confirmed as a full pre-pipeline post yet.

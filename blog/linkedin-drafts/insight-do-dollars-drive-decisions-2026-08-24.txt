@@ -1,0 +1,19 @@
+THURSDAY — Pau Analytics Standalone Insight Post
+Source case study: do-dollars-drive-decisions
+Published: 24 August 2026
+
+---
+
+High-income borrowers pay 10.90% on their loans. Low-income borrowers pay 11.99%. That is a 1.09 percentage point gap. And it is not discrimination.
+
+Most people assume that when two groups pay different prices for the same product, one of them is being favoured. A bank that charges wealthy customers less must be giving them a deal, right?
+
+We analysed four years of loan approval data to find out. The gap was real. But when we looked at why, the data was clear. High-income borrowers carried lower debt-to-income ratios and used less of their available credit. They were objectively lower financial risk. The rate difference reflected risk, not income.
+
+The more interesting finding: income and loan size had only a 0.37 correlation. Wealthier applicants did not automatically receive bigger loans. Risk profile — debt obligations, credit history, payment behaviour — mattered far more than how much they earned.
+
+For a business owner, this raises a useful question. If you charge different prices to different customers — volume discounts, loyalty rates, custom quotes for regulars — can you explain the gap with data? A pricing difference you cannot defend is a liability. One you can defend, with numbers, is a sound business decision.
+
+Check whether your pricing differences have a data trail behind them.
+
+#DataAnalytics #BusinessDecisions #MalaysianSME #Pricing #SmallBusiness

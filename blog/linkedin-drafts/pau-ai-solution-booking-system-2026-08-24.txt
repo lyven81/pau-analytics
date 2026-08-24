@@ -1,0 +1,25 @@
+TUESDAY — Pau AI Solution Showcase
+Solution: booking-system
+Published: 24 August 2026
+
+---
+
+Your best customers are trying to book at 10pm. Nobody answers.
+
+Service business owners know this pattern. Evenings and weekends are when customers finally have time to sort out appointments — hair treatments, spa bookings, tuition slots, workshop repairs. They message your WhatsApp, they check your Instagram, they look you up on Google. All after hours.
+
+But most service businesses stop responding the moment the owner goes home.
+
+The Pau AI Booking System is built to handle this gap.
+
+A customer messages at 10.30pm asking for a slot next Saturday. The system checks your live calendar, confirms what is available, applies your pricing rules, and sends a booking confirmation via WhatsApp — while you are asleep. No missed message. No back-and-forth to sort out in the morning. Just a confirmed booking waiting when you wake up.
+
+What it handles automatically:
+
+Real-time availability checks so no slot gets double-booked. Pricing rules for peak hours, off-peak slots, and public holidays applied without any manual input. Booking confirmations sent instantly via WhatsApp. Day-before reminders to reduce no-shows.
+
+Salons, spas, clinics, tuition centres, and repair workshops across Malaysia use this to stop losing customers who contact after hours and never hear back.
+
+See the demo: https://lyven81.github.io/pau-ai/booking-system.html
+
+#AI #MalaysianSME #BookingSystem #ServiceBusiness #PauAI

@@ -1,0 +1,23 @@
+FRIDAY — Pau AI Use Case Spotlight
+Solution: booking-system / spa
+Published: 24 August 2026
+
+---
+
+Nurul runs a wellness spa in Shah Alam. Four treatment rooms, six therapists, and a WhatsApp inbox that never stops.
+
+Every week, the same problem. A customer asks about availability for a 90-minute aromatherapy session on Saturday afternoon. Her staff has to check the physical schedule, confirm with the right therapist, reply to the customer, then hope the slot is still open when the customer replies. Half the time, it is gone. And the customer has already booked somewhere else.
+
+The Pau AI Booking System now handles all of this the moment a customer messages.
+
+Here is what it does for Nurul every day:
+
+• Checks real-time availability across all four rooms and six therapists — no double-bookings, no calls between staff
+• Quotes the right price instantly: RM180 for standard sessions, RM220 on weekends and public holidays — no negotiation, no inconsistency
+• Confirms the booking and sends a reminder two days before the appointment — no-shows have dropped by nearly a third
+
+Nurul's team still manages walk-ins and upsells at the counter. What they no longer do is spend half the day replying to booking messages, checking schedules, and following up on enquiries that went cold.
+
+See how it works: https://lyven81.github.io/pau-ai/booking-system.html
+
+#AI #MalaysianSME #Spa #WellnessBusiness #PauAI
