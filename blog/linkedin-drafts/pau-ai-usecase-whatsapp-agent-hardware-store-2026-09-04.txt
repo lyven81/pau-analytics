@@ -1,0 +1,24 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: whatsapp-agent / hardware-store
+Published: 4 September 2026
+
+---
+
+Ah Keong runs a hardware store in Ipoh. Open Monday to Saturday, 8am to 6pm. Three staff on the floor and a phone that rings and pings all day long.
+
+Most of the calls are the same three questions: "Ada stok tak?" (Got stock?). "Berapa harga?" (How much?). "Boleh potong tak?" (Can you cut it?). His staff spend 40 minutes every morning just answering WhatsApp before the first customer walks in. On Saturday afternoons, messages pile up because everyone is too busy with walk-ins to reply.
+
+Ah Keong kept losing enquiries to the shop down the road — not because his prices were higher, but because the other shop replied first.
+
+Now the WhatsApp agent handles the routine questions while his team handles the floor:
+
+- Quotes pipe fittings, plywood sheets, cement mix, and wiring by size and quantity (e.g., "RM4.50 per metre for 2.5mm twin wire, minimum 10m")
+- Confirms whether custom cuts are available and the surcharge (RM5 per cut for timber)
+- Shares operating hours and whether delivery is available for bulk orders above RM200
+- Passes complex or unusual requests to Ah Keong directly, flagged so he sees them first
+
+His staff now spend those 40 morning minutes on the floor. Enquiries that used to go cold by lunchtime now convert by noon.
+
+See how it works: https://lyven81.github.io/pau-ai/whatsapp-agent.html
+
+#AI #MalaysianSME #HardwareStore #WhatsApp #SmallBusiness

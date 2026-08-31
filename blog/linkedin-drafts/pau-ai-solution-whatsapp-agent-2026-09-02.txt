@@ -1,0 +1,22 @@
+TUESDAY — Pau AI Solution Showcase
+Category: whatsapp-agent
+Demo: https://lyven81.github.io/pau-ai/whatsapp-agent.html
+Published: 2 September 2026
+
+---
+
+Every hour you do not reply to a WhatsApp enquiry, you lose 30% of the chance that customer will still be there when you do.
+
+Malaysian customers do not call. They do not email. They WhatsApp — and they expect a reply within minutes, not hours. If you are a one or two-person operation, your response time depends entirely on whether your hands are free. Most of the time, they are not.
+
+Pau AI's WhatsApp agent handles enquiries in your absence — not with a generic auto-reply that says "we will get back to you soon," but with actual answers. It knows your services, your prices, your availability, and your operating hours. A customer who asks "do you have a slot this Saturday at 3pm?" gets a real answer, not a holding message.
+
+Where it makes the biggest difference: after-hours enquiries. Most small businesses in Malaysia go dark after 6pm and on Sundays. That is also when customers have time to browse and ask. An agent that replies at 10pm — accurately, in the same tone you use — keeps the conversation alive until morning instead of losing it to a competitor who happened to answer first.
+
+It runs over WhatsApp. No new app. No separate platform. Customers message the same number they already have saved.
+
+Works well for: restaurants, clinics, hardware stores, home service providers, and any business where customers routinely ask price and availability questions before committing.
+
+See the demo: https://lyven81.github.io/pau-ai/whatsapp-agent.html
+
+#AI #MalaysianSME #WhatsApp #CustomerService #SmallBusiness

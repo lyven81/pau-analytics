@@ -32,3 +32,5 @@
 2026-08-21 | coach-evaluation/fitness | usecase-spotlight
 2026-08-24 | booking-system | solution-showcase
 2026-08-24 | booking-system/spa | usecase-spotlight
+2026-09-02 | whatsapp-agent | solution-showcase
+2026-09-04 | whatsapp-agent/hardware-store | usecase-spotlight
