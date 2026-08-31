@@ -1,7 +1,7 @@
-# Lead Check — 2026-08-30
+# Lead Check — 2026-08-31
 
-**Run time:** 2026-08-30 01:07 UTC  
-**Status:** ⚠️ API UNREACHABLE — Network policy blocked the connection
+**Run time:** 2026-08-31 01:11 UTC  
+**Status:** ⚠️ API UNREACHABLE — Network policy blocked the connection (5th consecutive failure)
 
 ---
 
@@ -19,21 +19,24 @@ web-chat-lead-manager-production.up.railway.app:443
 
 ---
 
-## Action Required
+## Recurring Issue — Action Required
 
-This is a network policy restriction in the Claude Code remote (web) environment, not a server issue. The Railway API may be running fine, but this environment cannot reach it.
+This same failure has occurred every day since **2026-08-27**. This is the **5th consecutive day** the lead check has not run. Any leads submitted during this period have not been reviewed or followed up.
 
-**To fix this:**
+**To fix this permanently:**
 
-Option A — Run the lead check manually from your local machine or terminal:
+**Option A (Recommended) — Run the lead check from your local machine:**
 ```bash
 curl https://web-chat-lead-manager-production.up.railway.app/api/leads
 curl https://web-chat-lead-manager-production.up.railway.app/api/stats
 ```
+Or simply run the check from your local Claude Code session (desktop/terminal), which does not have the egress proxy restriction.
 
-Option B — Allow the Railway domain in the Claude Code remote environment network policy. Go to: https://code.claude.com/docs/en/claude-code-on-the-web to review network policy settings.
+**Option B — Update the network policy:**
+Go to https://code.claude.com/docs/en/claude-code-on-the-web to allow `web-chat-lead-manager-production.up.railway.app` in your remote environment's egress policy.
 
-Option C — Run this scheduled task from a local Claude Code session (your desktop or terminal), which does not have the egress proxy restriction.
+**Option C — Move this schedule to a local Claude Code session:**
+The scheduled task works fine locally. The remote (web) environment is what restricts outbound HTTPS to Railway.
 
 ---
 
@@ -41,6 +44,8 @@ Option C — Run this scheduled task from a local Claude Code session (your desk
 
 Because the API was unreachable, no leads could be fetched, filtered, or prioritized. No WhatsApp follow-up messages were drafted.
 
+**Leads submitted between 2026-08-27 and 2026-08-31 have not been reviewed.**
+
 ---
 
-*Next scheduled check: tomorrow. If the network policy is not updated, this will recur.*
+*This check will keep failing until the network policy is updated or the schedule is moved to a local session.*
