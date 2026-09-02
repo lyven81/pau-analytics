@@ -1,7 +1,7 @@
-# Lead Check — 2026-09-01
+# Lead Check — 2026-09-02
 
-**Run time:** 2026-09-01 01:11 UTC  
-**Status:** ⚠️ API UNREACHABLE — Network policy blocked the connection (6th consecutive failure)
+**Run time:** 2026-09-02 01:09 UTC  
+**Status:** ⚠️ API UNREACHABLE — Network policy blocked the connection (7th consecutive failure)
 
 ---
 
@@ -21,7 +21,7 @@ web-chat-lead-manager-production.up.railway.app:443
 
 ## Recurring Issue — Action Required
 
-This same failure has occurred every day since **2026-08-27**. This is the **6th consecutive day** the lead check has not run. Any leads submitted during this period have not been reviewed or followed up.
+This same failure has occurred every day since **2026-08-27**. This is the **7th consecutive day** the lead check has not run. Any leads submitted during this period have not been reviewed or followed up.
 
 **To fix this permanently:**
 
@@ -44,7 +44,7 @@ The scheduled task works fine locally. The remote (web) environment is what rest
 
 Because the API was unreachable, no leads could be fetched, filtered, or prioritized. No WhatsApp follow-up messages were drafted.
 
-**Leads submitted between 2026-08-27 and 2026-09-01 have not been reviewed.**
+**Leads submitted between 2026-08-27 and 2026-09-02 have not been reviewed.**
 
 ---
 
