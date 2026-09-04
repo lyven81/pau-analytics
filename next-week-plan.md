@@ -1,37 +1,56 @@
-# Next Week Plan — Week 36 (31 Aug – 6 Sep 2026)
+# Next Week Plan — Week 37 (7–13 Sep 2026)
 
-## Recommended Blog Post
-
-**Slug:** beyond-the-price-tag
-**Language:** Mandarin (ZH)
-**Status:** HTML exists at blog/beyond-the-price-tag.html — not yet in publish-log.txt
-**URL:** https://www.pauanalytics.com/blog/beyond-the-price-tag.html
-
-## Why This Topic
-
-beyond-the-price-tag is the only remaining confirmed pre-pipeline post in the blog folder. No writing effort is required. The task for Week 36 is to write and commit the four LinkedIn drafts:
-1. blog-teaser-beyond-the-price-tag (Monday)
-2. pau-ai-solution (Tuesday)
-3. insight-beyond-the-price-tag (Thursday)
-4. pau-ai-usecase (Friday)
-
-Language: Mandarin (ZH). This continues the rotation — Week 35 was ZH (fixing-the-sales-leaks), so this may feel like back-to-back ZH, but the prior three weeks were all EN. ZH proportion is 35% (6 of 17); a second consecutive ZH post moves it to 37%, still balanced.
-
-## Content Runway Warning
-
-beyond-the-price-tag is the last known pre-pipeline post. After Week 36, there is no ready content. New case studies must be written now to avoid a break in the weekly publishing cadence.
-
-**Recommended action:** Identify 4–6 new case study topics and begin writing immediately. Target: have at least 2 new case studies ready before Week 37 (7 Sep 2026).
-
-## LinkedIn Queue
-
-Next LinkedIn post in queue: blog-teaser-cash-or-credit-card-2026-05-18 (oldest unposted draft).
-Total drafts queued: 68 — no posts have been formally marked as published.
-Action needed: Confirm whether LinkedIn posting is active before the end of Week 35.
-
-## Lead Visibility
-
-The Railway lead API has been inaccessible from the cloud environment for 7+ consecutive weeks (blocked egress proxy). Lead data must be retrieved from local Claude Code or the Railway dashboard directly. Without lead data, content-to-lead performance cannot be tracked.
+Generated: 4 Sep 2026
 
 ---
-Generated: 2026-08-28 (Week 35 coordinator run)
+
+## Blog Post Recommendation
+
+**Recommended topic:** Pricing strategy — how to know if your prices are right
+
+**Slug (suggested):** `is-your-pricing-right`
+
+**Language:** English (EN)
+
+**Rationale:**
+The last two posts were Mandarin (fixing-the-sales-leaks, beyond-the-price-tag). The alternating
+EN/ZH pattern calls for an English post next. Pricing is a universal pain point for small and
+mid-size businesses and directly complements the beyond-the-price-tag post (ZH, Aug 31) —
+which explored what factors customers actually care about when deciding to buy. An EN post on
+pricing analytics would:
+- Appeal to the EN-reading segment of the audience
+- Create a natural content pair with beyond-the-price-tag (cross-language topic pair)
+- Target the same decision-maker audience: SME owners worried about whether to discount
+
+**Content runway status:** The blog series currently has NO topics queued beyond beyond-the-price-tag.
+This recommendation must be actioned immediately to avoid breaking the 18-week publishing cadence.
+
+---
+
+## LinkedIn Post to Schedule
+
+**Post to schedule in Buffer:** blog-teaser-from-ratings-to-revenue-2026-05-04
+
+This is the oldest unposted draft in the LinkedIn queue (72 drafts waiting, 0 published).
+- Schedule for: Wednesday, 9 Sep 2026
+- After posting, rename file to: blog-teaser-from-ratings-to-revenue-2026-05-04.posted.txt
+- Log in posted-log.txt with format: `2026-09-09 | from-ratings-to-revenue | blog-teaser`
+
+---
+
+## Risks to Address This Week
+
+1. **Lead API outage (8+ days)** — Railway dashboard unreachable. Manual check required.
+2. **Zero content queued for Week 37** — Commission new case study by end of day Monday 7 Sep.
+3. **LinkedIn not started** — 72 posts built, none published. First post must go out this week.
+
+---
+
+## Suggested Content Calendar for Week 37
+
+| Day       | Action                                                               |
+|-----------|----------------------------------------------------------------------|
+| Mon 7 Sep | Commission or draft new EN case study: is-your-pricing-right        |
+| Wed 9 Sep | Post blog-teaser-from-ratings-to-revenue on LinkedIn via Buffer     |
+| Fri 11 Sep| Review lead dashboard manually; note results in lead-check-today.md |
+| Sun 13 Sep| Run weekly coordinator to generate Week 37 report                   |
