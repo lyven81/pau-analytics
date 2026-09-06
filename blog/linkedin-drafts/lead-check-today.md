@@ -1,51 +1,34 @@
-# Lead Check — 2026-09-03
+# Lead Check — 2026-09-06
 
-**Run time:** 2026-09-03 01:09 UTC  
-**Status:** ⚠️ API UNREACHABLE — Network policy blocked the connection (8th consecutive failure)
+**Status: API UNREACHABLE**
 
----
+The scheduled lead check could not complete today.
 
 ## What Happened
 
-The scheduled lead check could not retrieve lead data today.
+The Web Chat Lead Manager API at `https://web-chat-lead-manager-production.up.railway.app/api/leads` is blocked by the remote execution environment's egress proxy (organization policy — 403 on CONNECT).
 
-The remote execution environment's egress proxy denied the outbound HTTPS connection to:
+This is a network restriction in the Claude Code cloud environment, not an issue with the Railway deployment itself.
 
-```
-web-chat-lead-manager-production.up.railway.app:443
-```
+## What You Need to Do
 
-**Error:** `connect_rejected` — The organization network policy blocked the CONNECT tunnel to Railway.
+The lead check cannot run automatically from the remote environment with the current network policy.
 
----
+**Option 1 — Run locally instead:**
+- Open your local terminal
+- Run the check-leads skill from Claude Code on your machine (where the proxy doesn't restrict Railway)
 
-## Recurring Issue — Action Required
+**Option 2 — Update the network policy:**
+- Ask your org admin to allow `web-chat-lead-manager-production.up.railway.app` in the egress policy for this environment
 
-This same failure has occurred every day since **2026-08-27**. This is the **8th consecutive day** the lead check has not run. Any leads submitted during this period have not been reviewed or followed up.
+**Option 3 — Use the Railway dashboard directly:**
+- Visit https://web-chat-lead-manager-production.up.railway.app directly in your browser
+- Check for new/qualifying leads manually
 
-**To fix this permanently:**
+## Attempted API Calls
 
-**Option A (Recommended) — Run the lead check from your local machine:**
-```bash
-curl https://web-chat-lead-manager-production.up.railway.app/api/leads
-curl https://web-chat-lead-manager-production.up.railway.app/api/stats
-```
-Or simply run the check from your local Claude Code session (desktop/terminal), which does not have the egress proxy restriction.
-
-**Option B — Update the network policy:**
-Go to https://code.claude.com/docs/en/claude-code-on-the-web to allow `web-chat-lead-manager-production.up.railway.app` in your remote environment's egress policy.
-
-**Option C — Move this schedule to a local Claude Code session:**
-The scheduled task works fine locally. The remote (web) environment is what restricts outbound HTTPS to Railway.
+- `GET https://web-chat-lead-manager-production.up.railway.app/api/leads` → 403 (proxy policy denial)
+- `GET https://web-chat-lead-manager-production.up.railway.app/api/stats` → 403 (proxy policy denial)
 
 ---
-
-## No Lead Data Available
-
-Because the API was unreachable, no leads could be fetched, filtered, or prioritized. No WhatsApp follow-up messages were drafted.
-
-**Leads submitted between 2026-08-27 and 2026-09-03 have not been reviewed.**
-
----
-
-*This check will keep failing until the network policy is updated or the schedule is moved to a local session.*
+*Scheduled task ran at 2026-09-06 01:08 UTC. Next run will retry.*
