@@ -1,0 +1,24 @@
+TUESDAY — Pau AI Solution Showcase
+Category: expert-chatbot
+Demo: https://lyven81.github.io/pau-ai/expert-chatbot.html
+Published: 9 September 2026
+
+---
+
+Your customers have questions before they book. Most of them never get answered — so they do not book.
+
+A Malaysian tuition centre, clinic, or professional service business gets variations of the same 10 questions every week. What are your fees? What qualifications do your staff have? Do you handle my specific problem? What are your hours? How do I get started?
+
+These are not complicated questions. But if the answer requires a human to respond — and that human is teaching, treating a patient, or in a meeting — the customer moves on.
+
+Pau AI's expert chatbot answers the questions that keep potential customers from committing. It is trained on your actual services, your fees, your staff qualifications, and your process. A customer who asks "does your centre have a tutor for SPM Add Maths?" gets a real, specific answer — not a "please contact us to find out."
+
+The difference between a chatbot and an expert chatbot: a regular chatbot routes enquiries. An expert chatbot resolves them. The customer does not need to wait for a human because the system already knows the answer.
+
+Where it makes the biggest impact: service businesses where the purchase decision depends on trust and specific information. Healthcare, education, legal, financial advisory, beauty, fitness — anywhere the customer needs to know you are qualified before they commit.
+
+It runs on your website or WhatsApp. No app for your customers to download. No new platform to manage.
+
+See the demo: https://lyven81.github.io/pau-ai/expert-chatbot.html
+
+#AI #MalaysianSME #CustomerService #Education #Healthcare

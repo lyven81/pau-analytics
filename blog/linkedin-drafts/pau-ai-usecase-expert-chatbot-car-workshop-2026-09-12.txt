@@ -1,0 +1,24 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: expert-chatbot / car-workshop
+Published: 12 September 2026
+
+---
+
+Uncle Danny runs a car workshop in Subang. Twenty years of experience. Three mechanics. One phone that rings all day with the same questions.
+
+"My car is making a noise when I brake — what is that?" "How much does it cost to change brake pads?" "Can you service a 2019 Perodua Bezza?" "How long will it take?" His mechanics know every answer. But they are under a car when the calls come in, and by the time someone picks up the phone, the caller has already moved on to the next workshop on the list.
+
+Uncle Danny was losing customers not because his prices were wrong or his work was bad. He was losing them because he could not answer fast enough.
+
+Now the expert chatbot handles the common questions while his team handles the cars:
+
+- Tells customers whether their symptoms sound like brake wear, suspension, or transmission issues — and what the typical repair involves
+- Quotes standard service prices: RM180 for a full engine service on a Myvi, RM95 for brake pads per axle, RM45 for tyre rotation
+- Confirms whether a car model is within their service scope and what parts need to be ordered in advance
+- Lets customers know realistic turnaround times: same-day for basic services, next-day for parts that need ordering
+
+Uncle Danny's phone still rings. But the calls that come through now are from customers ready to make an appointment — not from people asking if he services their car.
+
+See how it works: https://lyven81.github.io/pau-ai/expert-chatbot.html
+
+#AI #MalaysianSME #CarWorkshop #CustomerService #SmallBusiness

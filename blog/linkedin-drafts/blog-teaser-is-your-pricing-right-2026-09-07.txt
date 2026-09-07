@@ -1,0 +1,25 @@
+MONDAY — Pau Analytics Blog Teaser
+Blog: Is Your Pricing Right? What Data From a Malaysian Café Chain Reveals
+Published: 7 September 2026
+
+---
+
+A café owner in KL had steady sales and thinner-than-expected margins.
+
+She assumed her prices were correct because customers were paying them without complaint.
+
+They were not correct. Customers were paying them — and leaving more on the table than she knew.
+
+Pau Analytics looked at 14,800 transactions across her three outlets over 12 months. The data revealed two things happening at once on the same menu.
+
+Thirty-eight percent of her items had barely any price sensitivity. Her white coffee and teh tarik were selling at the same rate regardless of price. She had been undercharging for them for years.
+
+At the same time, her signature dessert platter had been priced past the point where customers said no. Orders had dropped 31% after a RM2 increase. She was holding a price that was quietly costing her volume.
+
+Three specific changes came out of the data. No new menu items. No promotions. No extra staff. Average transaction value across her three outlets went up 9.4% within two months.
+
+The full breakdown — including which item categories are most likely to be underpriced and how to spot price resistance in your own data — is in this week's blog post.
+
+Link in comments.
+
+#Pricing #MalaysianSME #DataAnalytics #FnB #SmallBusiness

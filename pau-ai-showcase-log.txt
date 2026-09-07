@@ -34,3 +34,5 @@
 2026-08-24 | booking-system/spa | usecase-spotlight
 2026-09-02 | whatsapp-agent | solution-showcase
 2026-09-04 | whatsapp-agent/hardware-store | usecase-spotlight
+2026-09-09 | expert-chatbot | solution-showcase
+2026-09-12 | expert-chatbot/car-workshop | usecase-spotlight

@@ -1,0 +1,23 @@
+THURSDAY — Pau Analytics Standalone Insight
+Case Study: is-your-pricing-right
+Published: 11 September 2026
+
+---
+
+Most business owners think they are overcharging. The data usually says otherwise.
+
+We analysed 14,800 transactions from a three-outlet café chain in Kuala Lumpur. The goal was simple: find out whether their prices were set at the right level.
+
+What we found: 38% of the menu had almost no price sensitivity. Customers were ordering the same items at the same rate regardless of price movement. A modelled 15% increase on the two best-performing drinks would have had minimal impact on units sold.
+
+They had been underpricing those items for years without knowing it.
+
+The owner had assumed the prices were right because no customer had complained. But customers who accept a price are not the same as customers who would resist a higher one. The only way to tell the difference is to look at how orders actually respond to price changes over time.
+
+One item — a RM16.90 dessert platter — was priced past the resistance point. Orders had dropped 31% when the price moved up from RM14.90. Dropping it back recovered the volume.
+
+The result of three small pricing adjustments: average transaction value up 9.4% across all three outlets. No promotion. No new products. Just prices that reflected what the data was showing.
+
+Check your own numbers. Pick your three best-selling items. Have you ever tested whether demand changes when the price moves? If you have not, you probably do not know which side of the resistance line you are on.
+
+#MalaysianSME #DataAnalytics #PricingStrategy #FnB #BusinessGrowth
