@@ -1,4 +1,4 @@
-# Lead Check — 2026-09-08
+# Lead Check — 2026-09-09
 
 **Status: API Unreachable**
 
@@ -19,7 +19,8 @@ The remote Claude Code execution environment blocks outbound HTTPS to Railway.ap
 |------------|---------------------|
 | 2026-09-06 | API unreachable (proxy policy) |
 | 2026-09-07 | API unreachable (proxy block)  |
-| **2026-09-08** | **API unreachable (proxy block) — 3rd consecutive day** |
+| 2026-09-08 | API unreachable (proxy block)  |
+| **2026-09-09** | **API unreachable (proxy block) — 4th consecutive day** |
 
 ## Action Required
 
