@@ -1,4 +1,4 @@
-# Lead Check — 2026-09-09
+# Lead Check — 2026-09-10
 
 **Status: API Unreachable**
 
@@ -6,7 +6,7 @@ The automated lead check could not connect to the Web Chat Lead Manager API.
 
 ```
 Endpoint:  https://web-chat-lead-manager-production.up.railway.app/api/leads
-Error:     CONNECT tunnel failed — 403 (egress proxy policy denial)
+Error:     EGRESS_BLOCKED — network policy denies outbound access to railway.app
 ```
 
 ## What This Means
@@ -20,7 +20,8 @@ The remote Claude Code execution environment blocks outbound HTTPS to Railway.ap
 | 2026-09-06 | API unreachable (proxy policy) |
 | 2026-09-07 | API unreachable (proxy block)  |
 | 2026-09-08 | API unreachable (proxy block)  |
-| **2026-09-09** | **API unreachable (proxy block) — 4th consecutive day** |
+| 2026-09-09 | API unreachable (proxy block)  |
+| **2026-09-10** | **API unreachable (proxy block) — 5th consecutive day** |
 
 ## Action Required
 
@@ -28,7 +29,7 @@ This scheduled task cannot reach the Railway API from the remote execution envir
 
 1. **Run the check locally** — open Claude Code on your laptop and trigger the check from there (local sessions can reach Railway.app).
 2. **Add Railway to the allowlist** — contact the workspace admin to add `web-chat-lead-manager-production.up.railway.app` to the egress policy at https://claude.ai/admin-settings.
-3. **Relocate the API** — expose the lead data via a URL that is already permitted (e.g., a Supabase endpoint or GitHub-hosted JSON).
+3. **Relocate the API** — expose the lead data via a URL that is already permitted (e.g., a Supabase endpoint or a GitHub-hosted JSON file synced from Railway).
 
 ## Manually Check Leads
 
