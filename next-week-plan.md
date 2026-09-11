@@ -1,56 +1,65 @@
-# Next Week Plan — Week 37 (7–13 Sep 2026)
+# Next Week Plan — Week 38 (14 Sep 2026)
 
-Generated: 4 Sep 2026
+## Recommended Topic
 
----
-
-## Blog Post Recommendation
-
-**Recommended topic:** Pricing strategy — how to know if your prices are right
-
-**Slug (suggested):** `is-your-pricing-right`
-
-**Language:** English (EN)
-
-**Rationale:**
-The last two posts were Mandarin (fixing-the-sales-leaks, beyond-the-price-tag). The alternating
-EN/ZH pattern calls for an English post next. Pricing is a universal pain point for small and
-mid-size businesses and directly complements the beyond-the-price-tag post (ZH, Aug 31) —
-which explored what factors customers actually care about when deciding to buy. An EN post on
-pricing analytics would:
-- Appeal to the EN-reading segment of the audience
-- Create a natural content pair with beyond-the-price-tag (cross-language topic pair)
-- Target the same decision-maker audience: SME owners worried about whether to discount
-
-**Content runway status:** The blog series currently has NO topics queued beyond beyond-the-price-tag.
-This recommendation must be actioned immediately to avoid breaking the 18-week publishing cadence.
+**Slug:** `staff-turnover-analytics`
+**Title (ZH):** 为什么好员工会走？
+**Subtitle (EN):** What Staff Turnover Data Reveals About Retention — and How to Fix It
+**Language:** Mandarin (ZH)
+**Format:** Blog post + case study page
 
 ---
 
-## LinkedIn Post to Schedule
+## Why This Topic
 
-**Post to schedule in Buffer:** blog-teaser-from-ratings-to-revenue-2026-05-04
+**1. New vertical — no HR/workforce content published yet.**
+All 19 posts to date cover retail, e-commerce, hospitality, F&B, and B2B sales. HR and workforce analytics is a natural extension with zero overlap. It opens a new audience segment: business owners who manage teams (restaurants, retail stores, SME manufacturers).
 
-This is the oldest unposted draft in the LinkedIn queue (72 drafts waiting, 0 published).
-- Schedule for: Wednesday, 9 Sep 2026
-- After posting, rename file to: blog-teaser-from-ratings-to-revenue-2026-05-04.posted.txt
-- Log in posted-log.txt with format: `2026-09-09 | from-ratings-to-revenue | blog-teaser`
+**2. High relevance to ZH-speaking SME owners in Malaysia.**
+Staff retention is a persistent pain point for Malaysian SME operators, particularly in F&B and retail — two sectors already covered in the blog series. A ZH post on this topic speaks directly to the same readers who engaged with the café pricing content (is-your-pricing-right).
+
+**3. Fits the alternating EN/ZH cadence.**
+The last two posts were:
+- beyond-the-price-tag (ZH) — 31 Aug
+- is-your-pricing-right (EN) — 7 Sep
+
+Week 38 requires a ZH post to maintain the alternating pattern.
+
+**4. Strong Pau AI use case.**
+Staff turnover data (exit surveys, tenure, shift patterns, performance scores) is a natural fit for a Pau AI chatbot that flags at-risk staff before they resign. The LinkedIn drafts for this post can include a compelling chatbot use case for a restaurant or retail context.
 
 ---
 
-## Risks to Address This Week
+## Suggested Case Study Angle
 
-1. **Lead API outage (8+ days)** — Railway dashboard unreachable. Manual check required.
-2. **Zero content queued for Week 37** — Commission new case study by end of day Monday 7 Sep.
-3. **LinkedIn not started** — 72 posts built, none published. First post must go out this week.
+Dataset: An anonymised HR dataset from a Malaysian SME — e.g. a retail chain or restaurant group — showing employee tenure, department, shift type, and whether the employee left within 12 months.
+
+Analysis: Which factors predict early turnover? (Department, shift type, manager, entry wage, age group)
+
+Finding: "Employees hired on split shifts were 2.4× more likely to leave within 6 months than those on fixed shifts" — actionable finding a business owner can act on immediately.
+
+Recommendation: Use data to redesign shift allocation for at-risk employee profiles.
 
 ---
 
-## Suggested Content Calendar for Week 37
+## LinkedIn Drafts to Produce
 
-| Day       | Action                                                               |
-|-----------|----------------------------------------------------------------------|
-| Mon 7 Sep | Commission or draft new EN case study: is-your-pricing-right        |
-| Wed 9 Sep | Post blog-teaser-from-ratings-to-revenue on LinkedIn via Buffer     |
-| Fri 11 Sep| Review lead dashboard manually; note results in lead-check-today.md |
-| Sun 13 Sep| Run weekly coordinator to generate Week 37 report                   |
+1. `blog-teaser-staff-turnover-analytics-[date].txt` — Monday teaser
+2. `pau-ai-solution-[chatbot-type]-[date].txt` — Pau AI solution post (Tue/Wed)
+3. `insight-staff-turnover-analytics-[date].txt` — Insight post (Thu)
+4. `pau-ai-usecase-[chatbot-type]-[industry]-[date].txt` — Use case spotlight (Fri)
+
+---
+
+## Action Required
+
+To publish this topic on time:
+
+- [ ] Confirm or override this topic recommendation
+- [ ] Provide or commission a staff turnover dataset for the case study
+- [ ] Run the `pau-analytics-blog-write` skill with this brief to draft the blog post
+- [ ] Target publish date: **Monday 14 Sep 2026**
+
+---
+
+*Generated by the coordinator scheduled task — Week 37 run (11 Sep 2026)*
