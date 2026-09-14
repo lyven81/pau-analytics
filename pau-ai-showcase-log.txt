@@ -36,3 +36,5 @@
 2026-09-04 | whatsapp-agent/hardware-store | usecase-spotlight
 2026-09-09 | expert-chatbot | solution-showcase
 2026-09-12 | expert-chatbot/car-workshop | usecase-spotlight
+2026-09-14 | analytics-agent | solution-showcase
+2026-09-19 | analytics-agent/retail-chain | usecase-spotlight

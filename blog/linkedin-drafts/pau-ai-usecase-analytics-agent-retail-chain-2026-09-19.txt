@@ -1,0 +1,25 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: analytics-agent / retail chain
+Published: 19 September 2026
+
+---
+
+Wei Jian runs a clothing retail chain with four outlets across the Klang Valley. Each outlet has its own manager, its own stock, and its own weekly sales rhythm.
+
+Every Monday morning, he called each manager for a verbal update. By the time he had spoken to all four, two hours were gone and he still had no clear picture of which outlet needed attention and why.
+
+He started using Pau AI's analytics agent, connected to his weekly sales exports from all four outlets. The first week, he asked three questions before his morning coffee:
+
+- "Which outlet had the lowest revenue per square foot this week?" — Outlet 3 in Kepong, consistently for the past six weeks
+- "What are the top 5 products by sell-through rate across all outlets this month?" — Three were the same at every outlet; two were outlet-specific bestsellers that no one had noticed
+- "Which outlet has the widest gap between weekend and weekday sales?" — Outlet 2 in Subang, where weekday traffic was less than a third of weekend volume
+
+Based on that third answer, Wei Jian shifted one staff member from a weekday shift at Outlet 2 to a weekend shift at Outlet 4, where weekend demand was outrunning capacity. No new hires. Just reallocation.
+
+Within a month, Outlet 4's weekend conversion rate improved and Outlet 2's staffing cost per transaction dropped.
+
+What changed was not the business. What changed was how fast he could ask the right question.
+
+See how it works: https://lyven81.github.io/pau-ai/analytics-agent.html
+
+#AI #MalaysianSME #RetailBusiness #AnalyticsAgent #SmallBusiness

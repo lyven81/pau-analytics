@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>为什么好员工会走？ | Pau Analytics Blog</title>
+  <link rel="canonical" href="https://www.pauanalytics.com/blog/staff-turnover-analytics.html" />
+  <meta name="description" content="分析两年人力资源数据后发现：员工流失的主因不是薪资，而是排班方式。弹性班制员工在六个月内离职的概率，是固定班员工的2.4倍。了解如何用数据找出留人的真正关键。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .post-body { font-size: 1.05rem; color: var(--text); line-height: 1.85; }
+    .post-body h2 { font-size: 1.5rem; color: var(--brown); margin: 2rem 0 0.75rem; }
+    .post-body h3 { font-size: 1.15rem; color: var(--brown); margin: 1.5rem 0 0.6rem; }
+    .post-body p { margin-bottom: 1.25rem; }
+    .post-body ul, .post-body ol { margin: 0 0 1.25rem 1.5rem; }
+    .post-body li { margin-bottom: 0.5rem; line-height: 1.75; }
+    .post-body strong { color: var(--brown); }
+    .post-body blockquote {
+      border-left: 3px solid var(--gold);
+      padding: 0.75rem 1.5rem;
+      margin: 1.5rem 0;
+      background: var(--alt);
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: var(--brown-mid);
+    }
+    .post-cta {
+      margin-top: 2.5rem;
+      padding: 2rem;
+      background: var(--alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-align: center;
+    }
+    .post-cta p { font-size: 0.95rem; color: var(--muted); margin-bottom: 1rem; }
+    .cta-form { display: flex; flex-direction: column; gap: 0.75rem; max-width: 420px; margin: 0 auto; }
+    .cta-form input {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: var(--text);
+      background: var(--white);
+      transition: border-color 0.25s ease;
+    }
+    .cta-form input:focus { outline: none; border-color: var(--gold); }
+    .cta-form input::placeholder { color: #aaa; }
+    .cta-link {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: var(--gold);
+      color: var(--white);
+      border: none;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.25s ease, transform 0.25s ease;
+    }
+    .cta-link:hover { background: var(--gold-hover); transform: translateY(-1px); }
+  </style>
+</head>
+<body>
+
+<div class="sticky-header">
+  <div class="navbar">
+    <div class="nav-brand">Pau <span>Analytics</span></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../data-analytics.html">Case Studies</a>
+      <a href="index.html" class="active">Blog</a>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero-medium">
+  <div class="container">
+    <span class="section-tag">员工分析</span>
+    <h1 style="margin-top:0.75rem;">为什么好员工会走？</h1>
+    <p style="margin-top:0.5rem; font-size:0.9rem; color:rgba(255,255,255,0.55);">2026年9月14日发布</p>
+  </div>
+</section>
+
+<!-- POST BODY -->
+<section class="section section-cream">
+  <div class="container">
+    <article class="post-body">
+
+      <p>您有没有算过，每次有员工离职，要花多少钱？</p>
+
+      <p>不只是找人的广告费。还有面试时间、培训新人的开销、旧员工离开那段时间其他同事要额外分担的工作，以及服务水准在这段期间的波动。把这些加起来，一个员工离职的真实成本，往往远比大多数老板意识到的要高。</p>
+
+      <p>我们分析了一家位于八打灵再也的餐厅集团，三间分店，85名员工，两年的人事记录。老板美玲一直知道人员流动率偏高——餐饮业都这样——但她从来没有认真追踪过原因。直到她把数字摆出来，才发现自己每年在招募和培训上花掉了超过七万令吉，而这只是其中一家的数字。</p>
+
+      <p>数据告诉了她一些她没有预料到的事。</p>
+
+      <h2>谁最先走：部门的差异</h2>
+
+      <p>分析的第一步，是看哪个部门的早期离职率最高。"早期离职"定义为入职三个月内离职。</p>
+
+      <p>数据显示，<strong>厨房员工占了所有早期离职的67%</strong>。外场员工占24%，送餐部门占其余的部分。厨房的高流动率不让人意外，但早期离职比例之高，是美玲没有预想到的。这些人大多在还没进入真正工作状态之前就离开了，培训的钱也跟着白花。</p>
+
+      <p>这告诉她：问题不只是整体员工流失，而是集中在一个群体、一个时间段。</p>
+
+      <h2>最出乎意料的发现：排班方式比薪资更关键</h2>
+
+      <p>当我们把数据切割成不同维度来分析，最清晰的一个变量出现了——<strong>排班方式</strong>。</p>
+
+      <p>美玲的三间分店有三种排班：</p>
+      <ul>
+        <li>早班（固定）：早上6点至下午2点</li>
+        <li>晚班（固定）：下午2点至晚上10点</li>
+        <li>弹性班：上午11点至下午3点，晚上6点至10点</li>
+      </ul>
+
+      <p>弹性班的设计初衷是为了覆盖午餐和晚餐两个高峰时段，同时节省中间的人力成本。从排班的角度看，这是合理的。</p>
+
+      <p>但数据却显示：<strong>弹性班员工在入职六个月内离职的概率，是固定班员工的2.4倍。</strong></p>
+
+      <p>这个差异在所有部门、所有分店都一致出现，不受年龄、薪资或个人背景影响。弹性班，是预测早期离职最强的变量。</p>
+
+      <blockquote>
+        <p>一个在下午三点就被送回家、晚上六点再回来工作的员工，中间那段时间既不能好好休息，也没有办法安排其他事情。这种工作节奏很难维持，尤其是对有家庭责任或需要搭乘公共交通的员工来说。</p>
+      </blockquote>
+
+      <h2>薪资门槛：RM200的差距</h2>
+
+      <p>薪资当然也是因素，但数据显示的不是"薪资越高留人越多"这么简单的关系，而是一个具体的门槛。</p>
+
+      <p>入职薪资低于RM1,600的员工，流动率是入职薪资高于RM1,800员工的三倍。这RM200的差距，就是留人与否的临界点。在那条线以下的人，绝大多数在一年内就离开了。在那条线以上的人，大多撑过了一年以上。</p>
+
+      <p>对美玲来说，这是一个很具体的数字，而不是"应该给员工更好的待遇"这种模糊的建议。</p>
+
+      <h2>改动之后</h2>
+
+      <p>美玲做了两个具体的改变。</p>
+
+      <p>第一，她把厨房的弹性班从每周18个减少到6个，改用错开的固定班来覆盖两个高峰时段。对于无法避免的弹性班，她加发每班RM12的津贴作为补偿。</p>
+
+      <p>第二，她把厨房入职薪资的下限从RM1,500调高到RM1,750，外场入职薪资调高到RM1,650。增加的薪资支出，比她原本每半年花在招募和培训上的钱要少。</p>
+
+      <p>六个月后，六个月内离职率下降了31%。厨房的早期离职从平均每半年11人降到不到8人。同期的招募成本减少了RM22,000。</p>
+
+      <h2>您的员工数据在说什么？</h2>
+
+      <p>员工流动率高，不一定是行业特性，也不一定是运气问题。很多时候，背后有具体的、可以改变的原因——而这些原因藏在您已经有的数据里。</p>
+
+      <p>您不需要一套复杂的人力资源软件来开始。您需要的是：<strong>记录谁离开了、什么时候离开、在哪个部门、当时的排班和薪资是什么。</strong></p>
+
+      <p>有了这些，您就可以开始找规律。找到规律，才能真正改变结果。</p>
+
+      <p>如果您想知道如何分析您自己的员工数据，欢迎告诉我们您面临的问题。</p>
+
+      <div class="post-cta">
+        <p>想知道您的员工数据里藏着什么规律？告诉我们您面临的挑战，我们来帮您找答案。</p>
+        <div class="cta-form">
+          <input type="text" id="cta-name" placeholder="您的姓名" />
+          <input type="text" id="cta-challenge" placeholder="您目前面临的最大挑战是什么？" />
+          <button class="cta-link" onclick="submitBlogCTA('staff-turnover-analytics', 'zh')">WhatsApp 联系我们 &#x2192;</button>
+        </div>
+      </div>
+
+      <p style="margin-top:1.5rem; font-size:0.9rem; color:var(--muted);">
+        延伸阅读：<a href="../case-study/staff-turnover-analytics.html">查看完整案例分析 &#x2192;</a>
+      </p>
+
+    </article>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="section-gold cta-strip">
+  <div class="container">
+    <h2>Found This Useful?</h2>
+    <p>Browse the case studies to see this kind of analysis applied to real business problems.</p>
+    <a href="../data-analytics.html" class="btn btn-dark">See Our Case Studies</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="brand-name">Pau <span>Analytics</span></div>
+      <p class="tagline">"Every decision deserves better data."</p>
+      <p>Data analytics consulting for Malaysian SMEs — reports, dashboards, and AI assistants.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Work</h5>
+      <ul>
+        <li><a href="../data-analytics.html">Case Studies</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="../pricing.html">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="https://lyven81.github.io/pau-ai/" target="_blank">Pau AI &#x2197;</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&#169; 2025 Pau Analytics</span>
+    <span><a href="../privacy-policy.html">Privacy Policy</a></span>
+  </div>
+</footer>
+
+<script>
+async function submitBlogCTA(slug, lang) {
+  const nameEl = document.getElementById('cta-name');
+  const challengeEl = document.getElementById('cta-challenge');
+  const name = (nameEl ? nameEl.value.trim() : '') || 'Visitor';
+  const challenge = (challengeEl ? challengeEl.value.trim() : '');
+  if (!challenge) {
+    challengeEl && challengeEl.focus();
+    return;
+  }
+
+  const btn = document.querySelector('.post-cta .cta-link');
+  if (btn) { btn.disabled = true; btn.textContent = lang === 'zh' ? '提交中...' : 'Sending...'; }
+
+  var msg;
+  if (lang === 'zh') {
+    msg = '[CH-B: ' + slug + ']\n姓名：' + name + '\n我最大的困扰：' + challenge;
+  } else {
+    msg = '[CH-B: ' + slug + ']\nName: ' + name + '\nMy biggest challenge: ' + challenge;
+  }
+  window.open('https://wa.me/60149207099?text=' + encodeURIComponent(msg), '_blank');
+  if (btn) {
+    btn.disabled = false;
+    btn.textContent = lang === 'zh' ? 'WhatsApp 联系我们 →' : 'Chat with Us on WhatsApp →';
+  }
+}
+</script>
+
+</body>
+</html>

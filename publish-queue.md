@@ -1,6 +1,39 @@
 # Publish Queue
 
-## Last Published — 24 August 2026
+## Last Published — 14 September 2026
+
+**Slug:** staff-turnover-analytics
+**Title:** 为什么好员工会走？
+**Language:** Mandarin (ZH)
+**Case Study:** staff-turnover-analytics
+**Blog URL:** https://www.pauanalytics.com/blog/staff-turnover-analytics.html
+**Status:** Published (Week 38 — new case study created, blog published, LinkedIn teaser, insight, Pau AI analytics-agent solution and retail-chain use case added)
+
+---
+
+## Previously Published — 7 September 2026
+
+**Slug:** is-your-pricing-right
+**Title:** Is Your Pricing Right? What Data From a Malaysian Café Chain Reveals
+**Language:** English (EN)
+**Case Study:** is-your-pricing-right
+**Blog URL:** https://www.pauanalytics.com/blog/is-your-pricing-right.html
+**Status:** Published (Week 37 — LinkedIn teaser and insight added)
+
+---
+
+## Previously Published — 31 August 2026
+
+**Slug:** beyond-the-price-tag
+**Title:** 顾客最在乎什么
+**Language:** Mandarin (ZH)
+**Case Study:** beyond-the-price-tag
+**Blog URL:** https://www.pauanalytics.com/blog/beyond-the-price-tag.html
+**Status:** Published (Week 36 — LinkedIn teaser and insight added)
+
+---
+
+## Previously Published — 24 August 2026
 
 **Slug:** fixing-the-sales-leaks
 **Title:** 为什么顾客看了不买？

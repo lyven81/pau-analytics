@@ -1,0 +1,31 @@
+TUESDAY — Pau AI Solution Showcase
+Category: analytics-agent
+Published: 14 September 2026
+
+---
+
+Your business generates data every day. Sales by outlet. Staff hours. Inventory movement. Customer transactions.
+
+Most of it sits there, unread.
+
+Not because you don't care about it. Because getting an answer from it usually means waiting for a report, briefing someone, or trying to figure out a dashboard built for someone else's problem.
+
+Pau AI's analytics agent changes that. You connect it to your data — POS records, sales logs, HR data, inventory files — and ask questions in plain English. Or Mandarin.
+
+- "Which outlet had the biggest drop in revenue last month?"
+- "What's my average transaction value on weekday evenings vs weekends?"
+- "Which staff member has the highest sales-per-hour this quarter?"
+
+No formulas. No pivot tables. No waiting.
+
+One retail operator asked it why one of his outlets consistently underperformed. The answer came back in 40 seconds: Tuesday and Wednesday lunch were dragging the weekly average down, and the pattern had been consistent for five months. He had been looking at monthly totals. The problem was hiding inside the week.
+
+He shifted his promotion budget to Tuesday midday. Revenue for that outlet was up 18% in six weeks.
+
+The data was always there. He just never had a fast way to ask.
+
+Built for F&B operators, retailers, and service businesses with data sitting in their systems and no easy way to get answers from it.
+
+See the demo: https://lyven81.github.io/pau-ai/analytics-agent.html
+
+#AI #MalaysianSME #BusinessIntelligence #DataAnalytics #SMETools
