@@ -1,7 +1,7 @@
-# Lead Check — 2026-09-16
+# Lead Check — 2026-09-18
 
-**Run time:** 2026-09-16 01:08 UTC  
-**Status:** ❌ API unreachable
+**Run time:** 2026-09-18 01:08 UTC  
+**Status:** ❌ API unreachable (recurring failure — also failed 2026-09-16)
 
 ## What happened
 
@@ -14,13 +14,18 @@ Both `/api/leads` and `/api/stats` failed with the same error.
 
 ## Root cause
 
-The remote execution environment's outbound network policy is blocking connections to `web-chat-lead-manager-production.up.railway.app`. This is an allowlist-based policy — the Railway domain is not permitted.
+The remote execution environment's outbound network policy is blocking connections to `web-chat-lead-manager-production.up.railway.app`. This is an allowlist-based policy — the Railway domain is not permitted. **This is the second consecutive day this check has failed.**
 
-## What to do
+## What to do (pick one)
 
-1. **Option A — Add the domain to the environment allowlist:** Go to the Claude Code environment settings and add `web-chat-lead-manager-production.up.railway.app` to the outbound network allowlist, then re-run the check.
-2. **Option B — Run the lead check locally:** From your own machine, run the check-leads skill manually (it can reach the API from there).
-3. **Option C — Use an internal/proxy URL:** If the API can be exposed via an already-allowed domain or through a reverse proxy, update the skill's API URL.
+1. **Option A — Add the domain to the environment allowlist (recommended):**  
+   Go to your Claude Code remote environment settings at https://code.claude.com/docs/en/claude-code-on-the-web and add `web-chat-lead-manager-production.up.railway.app` to the outbound network allowlist, then the next scheduled run will work automatically.
+
+2. **Option B — Run the lead check locally:**  
+   From your own machine, open Claude Code and type "check leads" — it can reach the Railway API from there.
+
+3. **Option C — Use an already-allowed domain:**  
+   If the API can be exposed via a different domain that is already on the allowlist, update the API URL in `.claude/skills/check-leads/references/step1-read-leads.md`.
 
 ## No leads were read or fabricated
 
