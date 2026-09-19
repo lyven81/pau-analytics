@@ -1,7 +1,7 @@
-# Lead Check — 2026-09-18
+# Lead Check — 2026-09-19
 
-**Run time:** 2026-09-18 01:08 UTC  
-**Status:** ❌ API unreachable (recurring failure — also failed 2026-09-16)
+**Run time:** 2026-09-19 01:08 UTC  
+**Status:** ❌ API unreachable (3rd consecutive failure — also failed 2026-09-18 and 2026-09-16)
 
 ## What happened
 
@@ -14,14 +14,16 @@ Both `/api/leads` and `/api/stats` failed with the same error.
 
 ## Root cause
 
-The remote execution environment's outbound network policy is blocking connections to `web-chat-lead-manager-production.up.railway.app`. This is an allowlist-based policy — the Railway domain is not permitted. **This is the second consecutive day this check has failed.**
+The remote execution environment's outbound network policy is blocking connections to `web-chat-lead-manager-production.up.railway.app`. This is an allowlist-based policy — the Railway domain is not permitted.
+
+**This is the third consecutive day this check has failed. New leads may be going uncontacted.**
 
 ## What to do (pick one)
 
 1. **Option A — Add the domain to the environment allowlist (recommended):**  
    Go to your Claude Code remote environment settings at https://code.claude.com/docs/en/claude-code-on-the-web and add `web-chat-lead-manager-production.up.railway.app` to the outbound network allowlist, then the next scheduled run will work automatically.
 
-2. **Option B — Run the lead check locally:**  
+2. **Option B — Run the lead check locally (fastest fix for today):**  
    From your own machine, open Claude Code and type "check leads" — it can reach the Railway API from there.
 
 3. **Option C — Use an already-allowed domain:**  
