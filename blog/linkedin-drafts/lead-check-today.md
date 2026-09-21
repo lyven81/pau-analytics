@@ -1,7 +1,7 @@
-# Lead Check — 2026-09-19
+# Lead Check — 2026-09-21
 
-**Run time:** 2026-09-19 01:08 UTC  
-**Status:** ❌ API unreachable (3rd consecutive failure — also failed 2026-09-18 and 2026-09-16)
+**Run time:** 2026-09-21 01:08 UTC  
+**Status:** ❌ API unreachable (4th consecutive failure — also failed 2026-09-19, 2026-09-18, and 2026-09-16)
 
 ## What happened
 
@@ -16,7 +16,7 @@ Both `/api/leads` and `/api/stats` failed with the same error.
 
 The remote execution environment's outbound network policy is blocking connections to `web-chat-lead-manager-production.up.railway.app`. This is an allowlist-based policy — the Railway domain is not permitted.
 
-**This is the third consecutive day this check has failed. New leads may be going uncontacted.**
+**This is the 4th consecutive day this check has failed. New leads may be going uncontacted.**
 
 ## What to do (pick one)
 
