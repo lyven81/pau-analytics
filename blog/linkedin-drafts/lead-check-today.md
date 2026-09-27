@@ -1,34 +1,37 @@
-# Lead Check — 2026-09-25
+# Lead Check — 2026-09-27
 
-**Run time:** 2026-09-25 01:09 UTC  
-**Status:** ❌ API unreachable (8th consecutive failure — also failed 2026-09-24, 2026-09-23, 2026-09-22, 2026-09-21, 2026-09-19, 2026-09-18, and 2026-09-16)
+**Run time:** 2026-09-27 01:07 UTC  
+**Status:** ❌ API UNREACHABLE
 
-## What happened
+---
 
-The scheduled lead check could not connect to the Web Chat Lead Manager API:
+## Error
 
-- **Endpoint:** `https://web-chat-lead-manager-production.up.railway.app/api/leads`
-- **Error:** Network policy denied the outbound connection (HTTP 403 to CONNECT proxy)
+The Web Chat Lead Manager API at:
 
-Both `/api/leads` and `/api/stats` failed with the same error.
+```
+https://web-chat-lead-manager-production.up.railway.app/api/leads
+https://web-chat-lead-manager-production.up.railway.app/api/stats
+```
 
-## Root cause
+…could not be reached from this cloud session. The remote execution environment's egress proxy rejected the CONNECT request (HTTP 403 — organization policy denial).
 
-The remote execution environment's outbound network policy is blocking connections to `web-chat-lead-manager-production.up.railway.app`. This is an allowlist-based policy — the Railway domain is not permitted.
+This is a **network policy restriction** in the Claude Code cloud environment — outbound HTTPS to Railway is not permitted from this session's environment.
 
-**This is the 8th consecutive day this check has failed. New leads may be going uncontacted.**
+---
 
-## What to do (pick one)
+## What To Do
 
-1. **Option A — Add the domain to the environment allowlist (recommended):**  
-   Go to your Claude Code remote environment settings at https://code.claude.com/docs/en/claude-code-on-the-web and add `web-chat-lead-manager-production.up.railway.app` to the outbound network allowlist, then the next scheduled run will work automatically.
+Lead check must be run from a local session where the Railway API is accessible, or the environment's network policy needs to be updated to allow outbound access to `web-chat-lead-manager-production.up.railway.app`.
 
-2. **Option B — Run the lead check locally (fastest fix for today):**  
-   From your own machine, open Claude Code and type "check leads" — it can reach the Railway API from there.
+To run manually:
+```
+/check-leads
+```
 
-3. **Option C — Use an already-allowed domain:**  
-   If the API can be exposed via a different domain that is already on the allowlist, update the API URL in `.claude/skills/check-leads/references/step1-read-leads.md`.
+Or update the environment network policy at:  
+https://code.claude.com/docs/en/claude-code-on-the-web
 
-## No leads were read or fabricated
+---
 
-Per skill rules: all follow-up messages must be based on real API data. None drafted this run.
+*No leads data was fetched. No follow-up messages were drafted.*
