@@ -1,7 +1,7 @@
-# Lead Check — 2026-09-27
+# Lead Check — 2026-09-28
 
-**Run time:** 2026-09-27 01:07 UTC  
-**Status:** ❌ API UNREACHABLE
+**Run time:** 2026-09-28 01:09 UTC  
+**Status:** ❌ API UNREACHABLE (persistent issue — also failed 2026-09-27)
 
 ---
 
@@ -22,14 +22,14 @@ This is a **network policy restriction** in the Claude Code cloud environment �
 
 ## What To Do
 
-Lead check must be run from a local session where the Railway API is accessible, or the environment's network policy needs to be updated to allow outbound access to `web-chat-lead-manager-production.up.railway.app`.
-
-To run manually:
+**Option A — Run lead check locally:**
+Open Claude Code on your local machine and type:
 ```
 /check-leads
 ```
 
-Or update the environment network policy at:  
+**Option B — Update the environment network policy:**
+Allow outbound access to `web-chat-lead-manager-production.up.railway.app` in your Claude Code cloud environment settings:
 https://code.claude.com/docs/en/claude-code-on-the-web
 
 ---
