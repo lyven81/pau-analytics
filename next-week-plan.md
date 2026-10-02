@@ -1,27 +1,31 @@
-# Next Week Plan — Week 40, 2026 (28 Sep – 4 Oct)
+# Next Week Plan — Week 41, 2026 (5 Oct – 11 Oct)
 
 ## Recommended Blog Topic
 
-**Status:** No topic queued. publish-queue.md has no upcoming entry.
+**Status:** No topic queued. publish-queue.md has no upcoming entry. Pre-pipeline content bank is fully exhausted.
 
-**Action required:** Run the `content-scheduler` skill to select and queue the next case study.
-
-**Recommended language:** English (EN)
-
-**Reason:** The last three published posts were all Mandarin (ZH):
-- Week 38: staff-turnover-analytics (ZH)
-- Week 36: beyond-the-price-tag (ZH)
-- Week 35: fixing-the-sales-leaks (ZH)
-
-The current ratio is 14 EN to 6 ZH across 20 total posts. Returning to English re-balances the content mix and broadens the audience for lead capture. English posts also tend to have broader reach on LinkedIn.
-
-**Note:** Week 39 had no post published — the weekly cadence broke for the first time. Week 40 should resume with a new English post.
-
-**Publish deadline:** Monday 28 September 2026 (or as early as possible in the week to recover the missed week).
+**Action required:** Commission or write a new case study on the recommended topic below, then run the `content-scheduler` skill to queue it.
 
 ---
 
-## LinkedIn — Start Posting Now (20 Weeks Overdue)
+**Recommended topic:** Predicting Stock-Outs Before They Happen — What Inventory Data From a Malaysian Retailer Reveals
+
+**Slug (suggested):** predicting-stock-outs
+
+**Language:** English (EN)
+
+**Reason for this topic:**
+1. **Content gap** — no inventory analytics post exists in the library. The existing posts cover customer behaviour, pricing, staff, and revenue mix, but not supply-side operations.
+2. **High SME relevance** — stock-outs and over-stocking are a daily pain point for Malaysian retailers, minimarkets, F&B chains, and pharmacies. This topic has broad lead potential.
+3. **Strong data story** — inventory datasets produce clear, visual patterns: slow-movers vs. fast-movers, seasonal peaks, lead-time variance, reorder-point calculations. The case study writes itself.
+4. **Language fit** — the last two posts were Mandarin (ZH). An EN post restores balance (current ratio: 14 EN, 6 ZH across 20 posts). EN posts also tend to reach a broader professional audience on LinkedIn.
+5. **Natural follow-on** — the existing library includes predicting-holiday-peaks (demand forecasting) and predicting-sales-cycles (sales timing). A stock-out prediction post continues the "predictive analytics for operations" theme and can cross-link.
+
+**Suggested angle:** Use real (or anonymised) data from a Malaysian retailer — e.g., a minimarket, pharmacy, or hardware store — to show: which SKUs run out most often, when stock-outs tend to happen (day of week, time of month), and how simple analytics can flag at-risk items before they go out of stock.
+
+---
+
+## LinkedIn — Start Posting Now (22 Weeks Overdue)
 
 80 LinkedIn posts have been drafted since May 2026. Zero have been published.
 
@@ -30,9 +34,9 @@ The current ratio is 14 EN to 6 ZH across 20 total posts. Returning to English r
 - Topic: How 30 Customer Reviews Can Predict Which Shopee Products Will Take Off
 - Slug: from-ratings-to-revenue
 
-**Schedule:** Wednesday 30 September 2026 via Buffer.
+**Schedule:** Wednesday 7 October 2026 via Buffer.
 
-**Why this matters:** Every week without a LinkedIn post is a missed CH-B lead. With 80 posts queued and the blog live since May, this is the single highest-leverage action to take this week.
+**Why this matters:** Every week without a LinkedIn post is a missed CH-B lead. With 80 posts queued and the blog live since May, this is the single highest-leverage action available this week — no writing required, just scheduling.
 
 ---
 
@@ -40,18 +44,28 @@ The current ratio is 14 EN to 6 ZH across 20 total posts. Returning to English r
 
 The pre-pipeline content bank is exhausted. No case studies are available beyond what has already been published.
 
-**Action required:** Commission or write new case studies now to maintain the weekly publishing cadence. At the current pace (1 post/week), new content is needed immediately to prevent further weeks without a post.
+Two consecutive weeks have passed without a blog post (Week 39 and Week 40). At one post per week, the cadence is 2 weeks behind.
+
+**Action required:** Commission or write new case studies now. The recommended topic above (predicting-stock-outs) is ready to brief.
 
 ---
 
-## Priority Order for Week 40
+## Lead Data — Blocked
 
-1. Fix API access (lead dashboard unreachable for 15+ days — all lead reporting is blocked)
-2. Run content-scheduler to queue the Week 40 blog topic
-3. Schedule the first LinkedIn post in Buffer (blog-teaser-from-ratings-to-revenue, Wed Sep 30)
-4. Commission or write new case studies to refill the content pipeline
-5. Publish the Week 40 blog post
+The Railway lead dashboard API has been unreachable for 17+ consecutive days (Sep 16 – Oct 2). All lead data, pipeline status, and follow-up decisions are blind.
+
+**Fix required:** Add `web-chat-lead-manager-production.up.railway.app` to the Claude Code remote environment allowlist, or run `/check-leads` from a local Claude Code session (desktop app or terminal).
 
 ---
 
-*Generated by the Pau Analytics weekly coordinator — Week 39, 25 Sep 2026.*
+## Priority Order for Week 41
+
+1. Fix API access — lead dashboard has been unreachable for 17+ days
+2. Commission the new case study (predicting-stock-outs, EN)
+3. Schedule the first LinkedIn post in Buffer (blog-teaser-from-ratings-to-revenue, Wed Oct 7)
+4. Run content-scheduler once the case study is ready to queue the blog post
+5. Publish the Week 41 blog post by Sunday 11 October
+
+---
+
+*Generated by the Pau Analytics weekly coordinator — Week 40, 2 Oct 2026.*
