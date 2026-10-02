@@ -1,40 +1,37 @@
-# Lead Check — 2026-09-30
+# Lead Check — 2026-10-02
 
-**Run time:** 2026-09-30 01:08 UTC  
-**Status:** ❌ API UNREACHABLE (persistent — also failed 2026-09-28, 2026-09-27)
-
----
-
-## Error
-
-The Web Chat Lead Manager API at:
-
-```
-https://web-chat-lead-manager-production.up.railway.app/api/leads
-https://web-chat-lead-manager-production.up.railway.app/api/stats
-```
-
-…could not be reached from this cloud session. The remote execution environment's egress proxy rejected the CONNECT request (HTTP 403 — organization policy denial).
-
-This is a **network policy restriction** in the Claude Code cloud environment — outbound HTTPS to Railway is not permitted from this session's environment. This has now failed on 3 consecutive days.
+**Status: API UNREACHABLE**
 
 ---
 
-## What To Do
+## What Happened
 
-**Option A — Run lead check locally (recommended):**
-Open Claude Code on your local machine and type:
+The scheduled lead check ran at approximately 01:08 UTC on 2026-10-02, but could not reach the Railway API.
+
+**Error:** Network policy in the remote Claude Code environment blocks outbound connections to `railway.app` domains.
+
 ```
-/check-leads
+GET https://web-chat-lead-manager-production.up.railway.app/api/leads → 403 Forbidden (proxy policy denial)
+GET https://web-chat-lead-manager-production.up.railway.app/api/stats → 403 Forbidden (proxy policy denial)
 ```
-
-**Option B — Update the environment network policy:**
-Allow outbound access to `web-chat-lead-manager-production.up.railway.app` in your Claude Code cloud environment settings:
-https://code.claude.com/docs/en/claude-code-on-the-web
-
-**Option C — Disable the scheduled lead check:**
-If you always run this locally, cancel this scheduled task to stop daily failure notifications.
 
 ---
 
-*No leads data was fetched. No follow-up messages were drafted.*
+## Action Required
+
+The lead check could not run. To fix this, you have two options:
+
+### Option A — Run the check manually
+Open Claude Code on your local machine and run:
+> "check leads"
+
+The local environment has direct network access to Railway and the check will work normally.
+
+### Option B — Allow Railway in the remote environment
+Add `railway.app` to the allowed outbound domains in your Claude Code remote environment network policy at https://code.claude.com/settings.
+
+---
+
+## No Lead Data Available
+
+No lead data, follow-up drafts, or urgency rankings are available for today. Please run the check from your local machine.
