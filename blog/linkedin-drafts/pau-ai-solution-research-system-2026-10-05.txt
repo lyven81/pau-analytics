@@ -1,0 +1,27 @@
+TUESDAY — Pau AI Solution Showcase
+Category: research-system
+Published: 5 October 2026
+
+---
+
+You know your product range. You do not always know what is happening around it.
+
+Supplier price lists change without warning. A competitor runs a promotion you hear about three days later. A new product from China floods the market and undercuts your bestseller before you have had time to respond.
+
+Most business owners find out about these things from customers, from other traders, or by accident. By then, the margin damage is already done.
+
+Pau AI's research system changes how you track the market. Connect it to the data sources that matter — supplier catalogues, competitor websites, industry news, wholesale price feeds — and it monitors them on your behalf.
+
+- Ask it: "Has my palm oil supplier changed their bulk pricing this month?"
+- Ask it: "What promotions are the two minimarkets near my outlets running right now?"
+- Ask it: "Are there new instant noodle brands entering the market at a lower price point?"
+
+It does not just retrieve information. It compares it to what you already know — flags the changes, surfaces the gaps, and tells you what is worth paying attention to.
+
+One hardware retailer in Shah Alam used it to track competitor pricing on PVC pipes and wiring. He had been losing quotes to a rival on three product lines without knowing the competitor had dropped prices six weeks earlier. Once he could see pricing movements in near-real time, he adjusted and recovered the contracts.
+
+Built for retailers, importers, and F&B operators who make decisions based on market conditions — and need to know when those conditions change.
+
+See the demo: https://lyven81.github.io/pau-ai/research-system.html
+
+#AI #MalaysianSME #MarketIntelligence #Retail #SmallBusiness

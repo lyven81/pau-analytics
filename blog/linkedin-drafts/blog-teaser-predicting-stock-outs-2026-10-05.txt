@@ -1,0 +1,25 @@
+MONDAY — Pau Analytics Blog Teaser
+Blog: Predicting Stock-Outs Before They Happen: What Inventory Data From a Malaysian Minimarket Reveals
+Published: 5 October 2026
+
+---
+
+A minimarket owner in Selangor kept running out of stock on the same shelves, month after month.
+
+His total inventory count looked fine. His reorder threshold was set. He had already raised it once. The shelves still went empty.
+
+Pau Analytics looked at 18 months of inventory records across his three outlets — 450-plus SKUs. The problem was not how much stock he had. It was when it arrived.
+
+73% of his stock-outs were hitting the same 12 products. And those 12 products were running out on the same three days every month — the three days before payday, when demand was running 2.8 times the weekly average.
+
+He had a timing problem. He had been trying to solve it with a quantity fix.
+
+Two adjustments came out of the data. Weekly restocking on the 12 high-velocity SKUs instead of fortnightly. A standing month-end buffer at the one outlet closest to the workers' hostels, where 58% of the stock-outs were happening.
+
+Total stock across the chain barely changed. The distribution changed. Stock-outs on those 12 items fell 64% in three months.
+
+The full breakdown — including how to identify your own high-risk SKUs and why your weekly stock report may be hiding the problem — is in this week's blog post.
+
+Link in comments.
+
+#Inventory #MalaysianSME #DataAnalytics #Retail #SmallBusiness

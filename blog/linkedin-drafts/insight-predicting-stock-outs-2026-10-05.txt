@@ -1,0 +1,23 @@
+THURSDAY — Pau Analytics Standalone Insight
+Case Study: predicting-stock-outs
+Published: 5 October 2026
+
+---
+
+Most stock-out problems are not random. They have a schedule.
+
+We analysed 18 months of inventory records from a three-outlet minimarket chain in the Klang Valley — 450-plus SKUs, daily stock movement data. The goal was simple: find out why certain shelves kept going empty despite the owner having what looked like enough stock.
+
+What we found: 73% of all stock-out incidents across the chain were concentrated in just 12 SKUs. And those 12 SKUs were running out in the same three-day window every single month — the three days immediately before payday.
+
+Demand on those days was 2.8 times the weekly average. The reorder system had been calibrated for steady weekly demand. Nobody had ever adjusted it for the month-end surge.
+
+The owner had been treating this as a quantity problem. He had raised his reorder threshold once already. It did not help, because more total stock does not fix the wrong timing.
+
+The fix was a schedule change — weekly restocking on those 12 items instead of fortnightly, plus a month-end buffer at the highest-demand outlet. Stock-outs on those 12 items fell 64% in three months. No increase in total inventory spend.
+
+If you have stock-outs that keep recurring on the same products, pull the incident dates. If they cluster around the same days of the week or month, you do not have a stock problem. You have a timing problem.
+
+The pattern is usually findable in data you already have.
+
+#MalaysianSME #Inventory #DataAnalytics #Retail #Operations

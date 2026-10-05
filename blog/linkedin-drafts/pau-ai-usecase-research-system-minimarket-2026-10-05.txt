@@ -1,0 +1,25 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: research-system / minimarket
+Published: 5 October 2026
+
+---
+
+Encik Hafiz runs a three-outlet minimarket chain in Shah Alam. Open 7 days a week, 8am to 10pm. Four main suppliers, about 450 SKUs, and a pricing decision to make every time a supplier changes their price list.
+
+Every Monday morning, he used to spend two to three hours checking supplier quotes manually — calling or WhatsApp-ing four different sales contacts, comparing the numbers against what he paid last time, updating his own spreadsheet. If a supplier raised their cooking oil price mid-month, he might not find out until the next restock call.
+
+Twice in the past year, he dropped his retail price on a fast-mover before realising his supplier cost had gone up. He only caught it when the monthly profit margin came out lower than expected.
+
+Now the research system does the monitoring:
+
+- Tracks price movements across his four suppliers and flags any change above 5% within 24 hours
+- Checks the two nearest competitor minimarkets weekly and surfaces any promotional pricing on overlapping SKUs
+- Alerts him when a product he carries appears in trade news (new regulations, import restrictions, supply disruptions)
+
+Hafiz no longer spends Monday mornings on the phone. He reviews a one-page brief from the system, makes his decisions, and moves on.
+
+Last month it flagged that a competitor had dropped instant noodle prices on a popular brand by RM0.30. He matched it the same day — instead of finding out about it two weeks later from a customer comment.
+
+See how it works: https://lyven81.github.io/pau-ai/research-system.html
+
+#AI #MalaysianSME #Minimarket #MarketIntelligence #SmallBusiness

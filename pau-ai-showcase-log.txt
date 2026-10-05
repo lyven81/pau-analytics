@@ -38,3 +38,5 @@
 2026-09-12 | expert-chatbot/car-workshop | usecase-spotlight
 2026-09-14 | analytics-agent | solution-showcase
 2026-09-19 | analytics-agent/retail-chain | usecase-spotlight
+2026-10-05 | research-system | solution-showcase
+2026-10-05 | research-system/minimarket | usecase-spotlight

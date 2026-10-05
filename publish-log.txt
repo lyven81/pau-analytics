@@ -1,3 +1,4 @@
+2026-10-05 | predicting-stock-outs | EN | Predicting Stock-Outs Before They Happen: What Inventory Data From a Malaysian Minimarket Reveals
 2026-09-14 | staff-turnover-analytics | ZH | 为什么好员工会走？
 2026-09-07 | is-your-pricing-right | EN | Is Your Pricing Right? What Data From a Malaysian Café Chain Reveals
 2026-08-31 | beyond-the-price-tag | ZH | 顾客最在乎什么

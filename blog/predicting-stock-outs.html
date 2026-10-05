@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Predicting Stock-Outs Before They Happen: What Inventory Data From a Malaysian Minimarket Reveals | Pau Analytics Blog</title>
+  <link rel="canonical" href="https://www.pauanalytics.com/blog/predicting-stock-outs.html" />
+  <meta name="description" content="A minimarket chain found 73% of stock-outs hit the same 12 SKUs in the same 3 days every month. Total stock looked fine. The timing pattern made it preventable." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .post-body { font-size: 1.05rem; color: var(--text); line-height: 1.85; }
+    .post-body h2 { font-size: 1.5rem; color: var(--brown); margin: 2rem 0 0.75rem; }
+    .post-body h3 { font-size: 1.15rem; color: var(--brown); margin: 1.5rem 0 0.6rem; }
+    .post-body p { margin-bottom: 1.25rem; }
+    .post-body ul, .post-body ol { margin: 0 0 1.25rem 1.5rem; }
+    .post-body li { margin-bottom: 0.5rem; line-height: 1.75; }
+    .post-body strong { color: var(--brown); }
+    .post-body blockquote {
+      border-left: 3px solid var(--gold);
+      padding: 0.75rem 1.5rem;
+      margin: 1.5rem 0;
+      background: var(--alt);
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: var(--brown-mid);
+    }
+    .post-cta {
+      margin-top: 2.5rem;
+      padding: 2rem;
+      background: var(--alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-align: center;
+    }
+    .post-cta p { font-size: 0.95rem; color: var(--muted); margin-bottom: 1rem; }
+    .cta-form { display: flex; flex-direction: column; gap: 0.75rem; max-width: 420px; margin: 0 auto; }
+    .cta-form input {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: var(--text);
+      background: var(--white);
+      transition: border-color 0.25s ease;
+    }
+    .cta-form input:focus { outline: none; border-color: var(--gold); }
+    .cta-form input::placeholder { color: #aaa; }
+    .cta-link {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: var(--gold);
+      color: var(--white);
+      border: none;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.25s ease, transform 0.25s ease;
+    }
+    .cta-link:hover { background: var(--gold-hover); transform: translateY(-1px); }
+  </style>
+</head>
+<body>
+
+<div class="sticky-header">
+  <div class="navbar">
+    <div class="nav-brand">Pau <span>Analytics</span></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../data-analytics.html">Case Studies</a>
+      <a href="index.html" class="active">Blog</a>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero-medium">
+  <div class="container">
+    <span class="section-tag">Inventory &amp; Operations</span>
+    <h1 style="margin-top:0.75rem;">Predicting Stock-Outs Before They Happen: What Inventory Data From a Malaysian Minimarket Reveals</h1>
+    <p style="margin-top:0.5rem; font-size:0.9rem; color:rgba(255,255,255,0.55);">Published 5 October 2026</p>
+  </div>
+</section>
+
+<!-- POST BODY -->
+<section class="section section-cream">
+  <div class="container">
+    <article class="post-body">
+
+      <p>Your total stock count looks fine. Your shelves still run empty.</p>
+
+      <p>A minimarket chain owner in Selangor had this exact problem. Three outlets, 450-plus SKUs, a reorder system he had been running for years — and a handful of shelves that kept going bare at the worst possible moments. Customers came in for cooking oil or instant noodles and left without them. He assumed he needed more stock. The data said he needed better timing.</p>
+
+      <p>If you run a retail or F&amp;B business and you have ever wondered why stock-outs keep happening even when your overall inventory looks healthy, this post is for you. We will walk through what the data revealed, why the obvious fix was the wrong one, and how a two-part adjustment cut stock-outs by 64% without increasing total stock levels.</p>
+
+      <h2>The Problem That Was Not the Problem</h2>
+
+      <p>The owner's instinct was straightforward: if the shelves are running empty, you need more stock. He had already raised his reorder threshold once. The stock-outs kept happening.</p>
+
+      <p>When Pau Analytics reviewed 18 months of inventory movement records across his three outlets, the first finding was not about quantity. It was about timing.</p>
+
+      <p>Seventy-three percent of all stock-out incidents were concentrated in the same 12 SKUs. Not the full range of 450 products — just 12. Instant noodles, cooking oil, 5kg and 10kg rice packs, canned sardines, sugar, a few household cleaning items. Every retailer's staples.</p>
+
+      <p>And they were running out almost exclusively in the three days before month-end.</p>
+
+      <p>This was not a coincidence. His three outlets were located near residential areas with a high concentration of factory and construction workers — people who received salaries at the end of the month and stocked up immediately. <strong>Demand on those three days was running 2.8 times the weekly average.</strong> The reorder system had been set for steady, average demand. It had never been adjusted for the surge.</p>
+
+      <h2>Why the Total Stock Count Misled Him</h2>
+
+      <p>Here is the trap that catches a lot of retailers: you look at your total stock level and it looks fine. You have 200 units of instant noodles across three outlets. The problem is that 140 of them are split between two outlets that see moderate demand, and the third outlet near the workers' housing has 60 units going into the last week of the month.</p>
+
+      <p>Total count: 200. Shelf at outlet three: empty by Tuesday.</p>
+
+      <p>A minimarket owner in Subang had a similar pattern. She was tracking weekly stock-on-hand totals for her top 30 items and felt confident her ordering was under control. It took a customer complaint on a Saturday afternoon — the third week running her rice had sold out by midday — before she realised the daily picture looked completely different from the weekly one. The weekly totals were smoothing out the daily spikes. By the time the report showed a problem, the shelf had already been empty for two days.</p>
+
+      <blockquote>The issue was aggregation. Weekly totals smoothed out the daily demand spikes. By the time the report showed a problem, the shelf had already been empty for two days.</blockquote>
+
+      <h2>The 12 SKUs That Accounted for 73% of the Problem</h2>
+
+      <p>Not all products behave the same way. In this analysis, the 12 problem SKUs shared three characteristics:</p>
+
+      <ul>
+        <li><strong>High baseline velocity</strong> — they were fast-movers every week of the month, not just at month-end</li>
+        <li><strong>Demand amplification at month-end</strong> — their sales rate on payday days was at least 2x their normal daily average</li>
+        <li><strong>Low substitutability</strong> — customers who wanted 5kg rice did not buy 10kg rice. They left without buying anything.</li>
+      </ul>
+
+      <p>The remaining 438 SKUs showed either flat demand patterns or stock levels large enough to absorb the month-end surge without issue. The problem was isolated. But because the owner's monitoring focused on total stock across all products, the 12 problem items were buried in the average.</p>
+
+      <h2>How the Analysis Separated the Outlets</h2>
+
+      <p>The second finding was about location, not just products.</p>
+
+      <p>One of the three outlets — the one closest to a cluster of workers' hostels — accounted for 58% of all stock-out incidents on those 12 SKUs. The same products, the same timing, but three times more concentrated at one location.</p>
+
+      <p>A uniform reorder policy applied across all three outlets was spreading buffer stock too evenly. The outlet that needed the most protection was getting the same allocation as the others.</p>
+
+      <p>This matters because the fix is different depending on your outlet mix. For a single-location retailer, the solution is simpler: adjust the reorder schedule for your 10 to 15 fastest-moving items. For a multi-outlet operator, you also need to look at whether location-specific demand patterns are hidden behind a chain-wide average.</p>
+
+      <h2>What Changed — and What Did Not</h2>
+
+      <p>Pau Analytics recommended two adjustments. Neither required buying more total stock.</p>
+
+      <p><strong>First: weekly restocking on the 12 high-velocity SKUs.</strong> The original fortnightly reorder cycle was leaving too large a gap between deliveries. Moving those 12 items to weekly meant more frequent top-ups — smaller quantities per order, but arriving more often. The month-end demand spike now had a fresher stock cushion to land on.</p>
+
+      <p><strong>Second: outlet-specific buffer allocation for the final week of each month.</strong> The outlet near the hostel cluster received a standing order of 1.4 times its normal buffer quantity on the 12 critical SKUs for the last seven days of every month. The other two outlets maintained their standard levels.</p>
+
+      <p>The total stock across the chain did not increase significantly. The distribution changed.</p>
+
+      <h2>What This Means for Your Business</h2>
+
+      <p>Over the following three months, stock-out incidents on the 12 affected SKUs fell 64%. The outlet that had been the main source of complaints had zero stock-outs on those items in month three.</p>
+
+      <p>If you run a retail or F&amp;B business, the stock-out risk is probably not spread evenly across your range. It is concentrated in a small number of items that move fast, react to predictable demand events, and sit in locations where the demand is highest.</p>
+
+      <p>Three questions worth checking in your own data:</p>
+
+      <ol>
+        <li>Which 10 to 15 SKUs account for the majority of your stock-out incidents?</li>
+        <li>Do those stock-outs cluster around the same days of the week or month?</li>
+        <li>If you have multiple locations, is one outlet responsible for most of the problem?</li>
+      </ol>
+
+      <p>Answering those three questions will tell you whether you have a quantity problem or a timing problem. Most of the time, it is timing.</p>
+
+      <p>The full data breakdown — including how to identify your own high-risk SKUs and the specific reorder schedule adjustments that worked — is in the <a href="../case-study/predicting-stock-outs.html">related case study</a>.</p>
+
+      <!-- CTA to WhatsApp (Channel B lead capture) -->
+      <div class="post-cta">
+        <p>Want to find out what your own data is saying? Share a bit about your business and we'll look at it together.</p>
+        <div class="cta-form">
+          <input type="text" id="cta-name" placeholder="Your name (optional)" />
+          <input type="text" id="cta-challenge" placeholder="Your biggest business challenge *" />
+          <button class="cta-link" onclick="submitBlogCTA('predicting-stock-outs', 'en')">Chat with Us on WhatsApp &#x2192;</button>
+        </div>
+      </div>
+
+    </article>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="section-gold cta-strip">
+  <div class="container">
+    <h2>Found This Useful?</h2>
+    <p>Browse the case studies to see this kind of analysis applied to real business problems.</p>
+    <a href="../data-analytics.html" class="btn btn-dark">See Our Case Studies</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="brand-name">Pau <span>Analytics</span></div>
+      <p class="tagline">"Every decision deserves better data."</p>
+      <p>Data analytics consulting for Malaysian SMEs — reports, dashboards, and AI assistants.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Work</h5>
+      <ul>
+        <li><a href="../data-analytics.html">Case Studies</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="../pricing.html">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="https://lyven81.github.io/pau-ai/" target="_blank">Pau AI &#x2197;</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Pau Analytics</span>
+    <span><a href="../privacy-policy.html">Privacy Policy</a></span>
+  </div>
+</footer>
+
+<script>
+async function submitBlogCTA(slug, lang) {
+  var nameEl = document.getElementById('cta-name');
+  var challengeEl = document.getElementById('cta-challenge');
+  var name = (nameEl ? nameEl.value.trim() : '') || 'Visitor';
+  var challenge = (challengeEl ? challengeEl.value.trim() : '');
+  if (!challenge) { if (challengeEl) challengeEl.focus(); return; }
+
+  var btn = document.querySelector('.post-cta .cta-link');
+  if (btn) { btn.disabled = true; btn.textContent = lang === 'zh' ? '提交中...' : 'Sending...'; }
+
+  var msg;
+  if (lang === 'zh') {
+    msg = '[CH-B: ' + slug + ']\n姓名：' + name + '\n我最大的困扰：' + challenge;
+  } else {
+    msg = '[CH-B: ' + slug + ']\nName: ' + name + '\nMy biggest challenge: ' + challenge;
+  }
+  window.open('https://wa.me/60149207099?text=' + encodeURIComponent(msg), '_blank');
+  if (btn) {
+    btn.disabled = false;
+    btn.textContent = lang === 'zh' ? 'WhatsApp 联系我们 →' : 'Chat with Us on WhatsApp →';
+  }
+}
+</script>
+
+</body>
+</html>
