@@ -1,4 +1,4 @@
-# Lead Check — 2026-10-03
+# Lead Check — 2026-10-05
 
 **Status: API Unreachable**
 
@@ -6,11 +6,13 @@
 
 ## What Happened
 
-The automated lead check ran at 01:08 UTC on 2026-10-03, but was unable to fetch data from the Web Chat Lead Manager API.
+The automated lead check ran at 01:09 UTC on 2026-10-05, but was unable to fetch data from the Web Chat Lead Manager API.
 
 **API URL:** `https://web-chat-lead-manager-production.up.railway.app/api/leads`
 
 **Error:** The remote execution environment's outbound network policy (proxy) blocked the connection to `web-chat-lead-manager-production.up.railway.app:443` with a 403 (policy denial).
+
+This issue has been recurring since at least 2026-10-03.
 
 ---
 
