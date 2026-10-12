@@ -1,0 +1,27 @@
+TUESDAY — Pau AI Solution Showcase
+Date: 12 October 2026 (publish Tuesday 13 October)
+Post type: Pau AI solution showcase
+Category: operations-tracker
+Demo URL: https://lyven81.github.io/pau-ai/operations-tracker.html
+
+---
+
+You close the shop at night, open the books, and spend 40 minutes reconciling cash and stock — every single day.
+
+For most Malaysian SME owners running a café, minimarket, or retail outlet, daily operations tracking is the job they do after the real job. By the time the numbers are ready, it's midnight.
+
+The Pau AI Operations Tracker changes that.
+
+It gives you a single place where your daily numbers come together — cash takings, stock movements, staff attendance, and daily sales target progress — without you having to pull them from three different apps or a WhatsApp group.
+
+Here's what it handles:
+
+✅ Daily sales vs target: tracks progress in real time so you know by 3pm whether you're on pace or falling short
+✅ Stock movement alerts: flags items that have dropped below reorder level during the day, not at the end of the week
+✅ Cash reconciliation: logs cash, card, and e-wallet takings against POS records so discrepancies surface immediately
+
+It's built for F&B operators, minimarket owners, and service businesses who need a daily pulse on their numbers — without hiring a finance person to deliver it.
+
+See how it works: https://lyven81.github.io/pau-ai/operations-tracker.html
+
+#AI #MalaysianSME #OperationsManagement #F&B #RetailMalaysia #PauAI

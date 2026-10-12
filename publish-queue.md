@@ -1,6 +1,28 @@
 # Publish Queue
 
-## Last Published — 14 September 2026
+## Last Published — 12 October 2026
+
+**Slug:** customer-return-rate
+**Title:** 为什么有顾客只来一次就不回头？
+**Language:** Mandarin (ZH)
+**Case Study:** customer-return-rate (new — created this week)
+**Blog URL:** https://www.pauanalytics.com/blog/customer-return-rate.html
+**Status:** Published (Week 42 — new case study created, blog published, LinkedIn teaser, insight post from know-your-reseller, Pau AI operations-tracker solution and laundry use case added)
+
+---
+
+## Previously Published — 5 October 2026
+
+**Slug:** predicting-stock-outs
+**Title:** Predicting Stock-Outs Before They Happen: What Inventory Data From a Malaysian Minimarket Reveals
+**Language:** English (EN)
+**Case Study:** predicting-stock-outs
+**Blog URL:** https://www.pauanalytics.com/blog/predicting-stock-outs.html
+**Status:** Published (Week 41 — LinkedIn teaser, insight, Pau AI research-system solution and minimarket use case added)
+
+---
+
+## Previously Published — 14 September 2026
 
 **Slug:** staff-turnover-analytics
 **Title:** 为什么好员工会走？

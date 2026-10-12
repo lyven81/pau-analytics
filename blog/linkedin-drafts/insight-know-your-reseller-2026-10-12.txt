@@ -1,0 +1,24 @@
+THURSDAY — Standalone Insight Post
+Date: 12 October 2026 (publish Thursday 15 October)
+Post type: Pau Analytics standalone insight
+Source case study: know-your-reseller
+
+---
+
+10% of your resellers are carrying 65% of your profit. The other 90% probably don't know that.
+
+A Malaysian biscuits manufacturer was handing out discounts based on sales volume. The more a reseller sold, the better the discount they got. Sounds fair. The data said otherwise.
+
+When we analysed 60,000+ orders across 635 resellers, the picture was uncomfortable. The top 10% of partners — 65 resellers — were generating 65% of gross margin. Meanwhile, over half the network had negative margins. The company was literally losing money on every order those resellers placed.
+
+The highest-discount partner in the entire network returned a gross margin of negative RM1,250. Not a rounding error. A real, consistent loss — on their most-rewarded partner.
+
+The problem was the metric. Revenue is visible. Margin is not. When you reward volume, you attract partners who take the discounts and return little. When you reward margin, you know who is actually growing the business.
+
+The manufacturer refocused their support and discount structure on the 175 top-performing resellers. The rest got minimum thresholds before support kicked in.
+
+If you have multiple resellers, agents, or channel partners: do you know their margin contribution? The answer might surprise you.
+
+Check your own numbers. The data is probably already there.
+
+#DataAnalytics #MalaysianSME #DistributionManagement #BusinessGrowth #PauAnalytics

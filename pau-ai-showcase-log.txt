@@ -40,3 +40,5 @@
 2026-09-19 | analytics-agent/retail-chain | usecase-spotlight
 2026-10-05 | research-system | solution-showcase
 2026-10-05 | research-system/minimarket | usecase-spotlight
+2026-10-12 | operations-tracker | solution-showcase
+2026-10-12 | operations-tracker/laundry | usecase-spotlight

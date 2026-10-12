@@ -1,0 +1,28 @@
+FRIDAY — Pau AI Use Case Spotlight
+Date: 12 October 2026 (publish Friday 16 October)
+Post type: Pau AI use case spotlight
+Category: operations-tracker
+Use case: laundry-shop (Faridah's Dobi)
+Demo URL: https://lyven81.github.io/pau-ai/operations-tracker.html
+
+---
+
+Faridah runs a self-service laundry in Klang. 12 machines, 6 days a week, open 8am to 10pm.
+
+Every evening, she manually checks which machines ran how many cycles, tallies the coin drops against expected revenue, and tries to figure out if any machine is underperforming before she calls the technician. It takes her 45 minutes — and she still misses things.
+
+Last month, machine 7 ran low-cycle counts for 11 days straight before she noticed. By the time the technician arrived, she had lost an estimated RM340 in downtime revenue.
+
+With the Pau AI Operations Tracker, Faridah's daily numbers are tracked automatically:
+
+• Machine cycle counts logged by end of day — she sees which machines are below average before she closes
+• Daily revenue reconciled against coin machine totals — discrepancies flagged within the hour
+• Monthly maintenance schedule tracked per machine — reminders sent 5 days before service is due
+
+She still does the work. The tracker makes sure nothing slips through.
+
+The outcome: Faridah spots underperforming machines 3–4 days earlier than before. In a business where each machine earns RM30–50 per day, catching it early matters.
+
+See how it works: https://lyven81.github.io/pau-ai/operations-tracker.html
+
+#AI #MalaysianSME #LaundryBusiness #OperationsTracking #SmallBusiness #PauAI
