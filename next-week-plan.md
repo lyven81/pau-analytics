@@ -1,71 +1,49 @@
-# Next Week Plan — Week 42, 2026 (12 Oct – 18 Oct)
+# Next Week Plan — Week 43 (19–25 Oct 2026)
 
-## Recommended Blog Topic
-
-**Status:** No topic queued. publish-queue.md has no upcoming entry. Pre-pipeline content bank is fully exhausted.
-
-**Action required:** Commission or write a new case study on the recommended topic below, then run the `content-scheduler` skill to queue it.
+Generated: 16 October 2026
 
 ---
 
-**Recommended topic:** 为什么有顾客只来一次就不回头？ — Customer Return Rate Analytics for Malaysian SMEs
+## Blog Post
 
-**Slug (suggested):** customer-return-rate
+**Recommended topic:** What Your Repeat Customers Have in Common
+**Slug:** loyal-customer-patterns
+**Language:** English (EN)
+**Target publish date:** 19 October 2026 (Monday)
 
-**Language:** Mandarin (ZH)
+### Why this topic
 
-**Reason for this topic:**
-1. **Language balance** — current library is 15 EN : 6 ZH across 21 posts. The last EN post (predicting-stock-outs) widens the gap further. A ZH post restores balance and reaches the Mandarin-speaking SME segment.
-2. **Content gap** — two EN posts cover customer value (high-value-customers, understanding-customer-value), but there is no ZH post on customer retention or repeat-purchase behaviour. This is a complementary angle, not a repeat.
-3. **High SME relevance** — F&B, retail, beauty, and services business owners in Malaysia regularly ask: "why do customers not come back?" Transaction data can answer this directly: first-time vs. returning buyer ratio, average gap between visits, churn signals.
-4. **Strong data story** — repeat-purchase datasets produce clear visuals: cohort retention curves, frequency histograms, days-since-last-visit distributions. The data angle writes naturally.
-5. **Natural follow-on** — connects to the existing ZH cluster on operations and revenue (selling-the-right-products, where-revenue-comes-from, fixing-the-sales-leaks) and extends the customer analytics thread started in EN.
+The Week 42 post (customer-return-rate, ZH) addressed why customers don't return. This EN companion asks the reverse: what do the customers who *do* return have in common? Together they form a two-part retention analytics series — one in each language.
 
-**Suggested angle:** Use anonymised data from a Malaysian F&B or retail business to show: what percentage of customers return within 30 days, 60 days, 90 days; which customer segments have the highest churn; and what a business owner can do with this information (targeted follow-up offers, loyalty mechanics, reactivation campaigns).
+The topic:
+- Fills the only major content gap in the library (no EN post on loyalty or repeat-purchase behaviour)
+- Continues the alternating EN/ZH cadence (ZH published Week 42, EN due Week 43)
+- Is directly relevant to the target audience — Malaysian SME owners in F&B, retail, and services all need to understand what drives repeat visits
+- Has strong LinkedIn potential: a clear, data-backed answer to a question every business owner asks
 
----
+### Suggested case study angle
 
-## LinkedIn — Activate Immediately (23 Weeks Overdue)
+Use transactional data from a retail or F&B SME. Segment customers by number of visits. Identify what separates buyers who visited 3+ times from one-time buyers: purchase value at first visit, time-of-day patterns, product category, payment method. Output: a repeatable customer scoring model the owner can act on.
 
-84 LinkedIn posts have been drafted since May 2026. Zero have been published.
+### Content note
 
-**First post to publish:** `blog-teaser-from-ratings-to-revenue-2026-05-04.txt`
-- Drafted: 4 May 2026
-- Topic: How 30 Customer Reviews Can Predict Which Shopee Products Will Take Off
-- Slug: from-ratings-to-revenue
-
-**Schedule:** Wednesday 14 October 2026 via Buffer.
-
-**Why this matters:** Every week without a LinkedIn post is a missed CH-B lead. With 84 posts queued and the blog live since May, activating the LinkedIn channel is the single highest-leverage action available — no writing required, just scheduling.
+All 22 pre-pipeline blog posts have now been published. This will be the first fully original case study in the new phase of the programme. Treat it as a template for future net-new posts.
 
 ---
 
-## Content Bank — Urgent Action Needed
+## LinkedIn
 
-The pre-pipeline content bank is exhausted. No case studies are available beyond what has already been published (21 posts total).
+**First post to publish:** blog-teaser-from-ratings-to-revenue-2026-05-04.txt
+**Schedule for:** Wednesday 21 October 2026 via Buffer
 
-The publishing cadence resumed in Week 41 after a two-week gap, but the pipeline is empty again. Without a new case study commissioned this week, Week 42 will go dark.
-
-**Action required:** Commission or write the customer-return-rate case study (ZH) immediately so it can be processed through the full pipeline (blog post, LinkedIn teaser, insight post, Pau AI solution, Pau AI use case) for Week 42.
-
----
-
-## Lead Data — Blocked
-
-The Railway lead dashboard API has been unreachable for 7 consecutive days (Oct 3–9). All lead data, pipeline status, and follow-up decisions are blind.
-
-**Fix required:** Add `web-chat-lead-manager-production.up.railway.app` to the Claude Code remote environment allowlist, or run `/check-leads` from a local Claude Code session (desktop app or terminal).
+88 LinkedIn posts are drafted and waiting. None have been published. This must start immediately — 24 weeks of CH-B lead generation has been lost.
 
 ---
 
-## Priority Order for Week 42
+## Standing Risks
 
-1. Fix API access — lead dashboard unreachable for 7 consecutive days
-2. Commission the new ZH case study (customer-return-rate)
-3. Schedule the first LinkedIn post in Buffer (blog-teaser-from-ratings-to-revenue, Wed 14 Oct)
-4. Run content-scheduler once the case study is ready to queue the blog post
-5. Publish the Week 42 blog post by Sunday 18 October
-
----
-
-*Generated by the Pau Analytics weekly coordinator — Week 41, 9 Oct 2026.*
+| Risk | Status | Owner |
+|---|---|---|
+| Lead API unreachable | 13+ days | Fix environment allowlist |
+| No blog topic queued for Week 43 | Open | Commission case study now |
+| LinkedIn queue never activated | 24 weeks overdue | Schedule first post this week |
