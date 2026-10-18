@@ -1,43 +1,37 @@
-# Lead Check — 2026-10-17
+# Lead Check — 2026-10-18
 
-**Run time:** 2026-10-17 (automated daily check)
-**Status:** ❌ API UNREACHABLE
-
----
-
-## Error
-
-The Web Chat Lead Manager API at `https://web-chat-lead-manager-production.up.railway.app/api/leads` could not be reached from this cloud session.
-
-**Reason:** The cloud execution environment's network policy (egress proxy) is blocking outbound connections to `web-chat-lead-manager-production.up.railway.app`. This is not a problem with the API itself — it is a sandbox restriction on this session.
+**Run time:** 2026-10-18 01:08 UTC  
+**Status:** ❌ API Unreachable
 
 ---
 
-## What This Means
+## What Happened
 
-- No lead data was fetched today.
-- No WhatsApp follow-up messages were drafted.
-- The lead pipeline status is **unknown** as of this check.
+The scheduled lead check could not reach the Web Chat Lead Manager API.
 
----
-
-## Recommended Fix
-
-To run lead checks from a cloud session, one of the following is needed:
-
-1. **Add the Railway domain to the allowed egress list** for this Claude Code cloud environment (at claude.ai/code project settings → Network policy → Allowed hosts: `web-chat-lead-manager-production.up.railway.app`).
-
-2. **Run this skill locally** instead — open Claude Code on your laptop and trigger "check leads" from there, where the API is accessible.
-
-3. **Expose the API via a different endpoint** (e.g. a public webhook relay or a proxy URL that is already on the allowlist).
+**API endpoint:** `https://web-chat-lead-manager-production.up.railway.app/api/leads`  
+**Error:** The outbound proxy in this remote cloud environment blocks connections to Railway-hosted apps. This is a network policy restriction, not a Railway outage.
 
 ---
 
-## Next Steps for Yih Ven
+## Action Required
 
-- Check leads manually at: https://web-chat-lead-manager-production.up.railway.app
-- Or run `/check-leads` from your local Claude Code session
+The lead check must be run from a local machine or an environment with unrestricted outbound access to Railway.
+
+**Option 1 — Run locally:**
+1. Open Claude Code on your local machine
+2. Type: `check leads`
+3. The skill will fetch from the Railway API and draft WhatsApp follow-ups
+
+**Option 2 — Add an allowed host (if you control the environment policy):**
+- Allow `web-chat-lead-manager-production.up.railway.app` in the network policy for this remote session
 
 ---
 
-*This file is overwritten daily by the automated lead check routine.*
+## Next Scheduled Check
+
+This task runs on its configured schedule. Until the network policy is updated, each run from this remote environment will fail the same way.
+
+---
+
+*No lead data was fetched. No follow-up messages were drafted.*
