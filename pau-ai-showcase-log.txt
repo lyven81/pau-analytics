@@ -42,3 +42,5 @@
 2026-10-05 | research-system/minimarket | usecase-spotlight
 2026-10-12 | operations-tracker | solution-showcase
 2026-10-12 | operations-tracker/laundry | usecase-spotlight
+2026-10-19 | campaign-manager | solution-showcase
+2026-10-19 | campaign-manager/grocery | usecase-spotlight

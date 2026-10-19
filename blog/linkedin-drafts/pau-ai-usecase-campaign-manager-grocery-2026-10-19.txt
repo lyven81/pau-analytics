@@ -1,0 +1,32 @@
+FRIDAY — Pau AI Use Case Spotlight
+Date: 19 October 2026 (publish Friday 23 October)
+Post type: Pau AI use case spotlight
+Category: campaign-manager
+Use case: grocery (Ah Keong's Minimart)
+Demo URL: https://lyven81.github.io/pau-ai/campaign-manager.html
+
+---
+
+Ah Keong runs a minimart in Subang Jaya. Three outlets, a regular customer base, and a WhatsApp broadcast list he has been sending every month for two years.
+
+The message is always the same: "This week's promotion — buy RM50 and above, get a free pack of biscuits."
+
+He sends it to 600 numbers. About 40 people respond. He has no idea if those 40 would have come in anyway.
+
+Last month, Ah Keong's Campaign Manager did something different.
+
+It split his 600 customers into three groups based on purchase history:
+
+• Regular weekday shoppers (180 customers) — they buy essentials 3–4 times a week. They do not need a discount. They need a reminder on Tuesday morning: "Fresh stock arrived — Milo, Mamee, and your usual." Response rate from this group: 34%.
+
+• Monthly bulk buyers (95 customers) — they come once a month and spend RM120+. The system sent them early access to a bulk-buy bundle before the weekend. 22 of 95 took it up. Average basket on those visits: RM148.
+
+• Lapsed customers (130 customers who had not visited in 6 weeks) — they received a simple "we miss you" message with a RM5 voucher. 19 came back within the week.
+
+Three messages. Three audiences. One afternoon of setup.
+
+Ah Keong now runs targeted campaigns instead of broadcasts. His response rate went from 7% to 24%. His monthly WhatsApp promotion cost stayed the same.
+
+See how it works: https://lyven81.github.io/pau-ai/campaign-manager.html
+
+#AI #MalaysianSME #Minimart #CustomerMarketing #SmallBusiness #PauAI

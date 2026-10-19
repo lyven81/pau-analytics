@@ -1,0 +1,23 @@
+THURSDAY — Pau Analytics Standalone Insight
+Case Study: evaluating-customer-experience
+Published: 19 October 2026
+
+---
+
+The worst stores in a retail chain scored 32%. The best scored 88.7%.
+
+Same brand. Same products. Same training manual. 57 points apart.
+
+We analysed mystery shopping data across 43 stores in 7 regions for a Malaysian retail chain. The regional manager already knew performance was uneven. What he did not know was why — and which of his 43 stores to fix first.
+
+Here is what the data showed: 4 stores were flagged as critical. But the more surprising finding was about a problem that was not confined to those 4.
+
+Greeting and engagement failures — staff not initiating contact with customers at entry — were present in 34.9% of stores across 15 locations. That is not a problem with 4 underperforming branches. That is a network-wide habit gap that no amount of branch-level coaching alone was going to fix.
+
+The other finding worth noting: 75% of the underperformance in critical stores was behavioural. Fixable through structured coaching in 6 to 8 weeks. The rest was process-related, which typically resolves in 1 to 2 weeks.
+
+Most retail managers look at a low score and assume the problem is with that location. The data often says the problem is everywhere — it is just most visible in the lowest-scoring stores.
+
+If you have customer satisfaction data across multiple outlets, look at which failures cluster across the network before deciding which branch to fix first. The answer is almost never just the worst one.
+
+#CustomerExperience #Retail #DataAnalytics #MalaysianSME #Operations #PauAnalytics

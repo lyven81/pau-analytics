@@ -1,0 +1,25 @@
+TUESDAY — Pau AI Solution Showcase
+Date: 19 October 2026 (publish Tuesday 20 October)
+Post type: Pau AI solution showcase
+Category: campaign-manager
+Demo URL: https://lyven81.github.io/pau-ai/campaign-manager.html
+
+---
+
+You sent the same promo to 800 customers. 60 responded. You call it a quiet week.
+
+The real problem: the other 740 did not respond because the offer was wrong for them — not because they were not interested.
+
+Most small business owners run campaigns the same way to every customer on their list. The regular Tuesday morning customer gets the same weekend promotion as someone who has not visited in three months. The bulk buyer gets the same "buy one get one" as a first-time customer. When response rates are low, the instinct is to change the offer. The actual fix is to change who sees it.
+
+Pau AI's Campaign Manager is built around this problem.
+
+It segments your customer list automatically — by visit frequency, last purchase date, average spend, and product preference — and matches each segment to the campaign type most likely to move them. A lapsed customer gets a reactivation offer. A regular gets early access to a new product. A high-value buyer gets a thank-you, not a discount.
+
+It also closes the loop: for every campaign sent, it tracks who responded, what they bought, and what the revenue return was. You see which offer type works on which segment — so the next campaign is better than the last one.
+
+Built for retail shops, F&B outlets, and service businesses that run regular promotions and want to know where their marketing money is actually going.
+
+See the demo: https://lyven81.github.io/pau-ai/campaign-manager.html
+
+#AI #MalaysianSME #MarketingROI #CustomerSegmentation #SmallBusiness #PauAI

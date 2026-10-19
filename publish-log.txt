@@ -1,3 +1,4 @@
+2026-10-19 | loyal-customer-patterns | EN | What Your Repeat Customers Have in Common
 2026-10-12 | customer-return-rate | ZH | 为什么有顾客只来一次就不回头？
 2026-10-05 | predicting-stock-outs | EN | Predicting Stock-Outs Before They Happen: What Inventory Data From a Malaysian Minimarket Reveals
 2026-09-14 | staff-turnover-analytics | ZH | 为什么好员工会走？

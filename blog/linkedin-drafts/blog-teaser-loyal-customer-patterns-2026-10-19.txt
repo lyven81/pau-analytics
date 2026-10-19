@@ -1,0 +1,25 @@
+MONDAY — Pau Analytics Blog Teaser
+Blog: loyal-customer-patterns
+Published: 19 October 2026
+
+---
+
+14% of customers. 51% of revenue.
+
+We ran the numbers for a Klang Valley bakery chain — 5,200 customers, 16 months of transactions. The loyal regulars were a small group. But they were not random.
+
+They all showed the same pattern on their very first visit.
+
+It was not how much they spent. It was what they bought. Customers who picked up two items on their first visit — a pastry plus a drink, or a cake slice plus a coffee — came back within 45 days at more than twice the rate of single-item first-time buyers.
+
+One item says: I came for a reason. Two items says: I might come back.
+
+There was a timing pattern too. First-time weekday visitors had a 41% return rate at 30 days. First-time weekend visitors had 24%. Same products, same outlets. Different kind of customer intent.
+
+Once the owner understood which signals to look for, she made one small change: a "today's pairing" display near the register suggesting a drink to go with the day's featured slice. No discount. No promotion. Just a cue. First-visit conversion improved from 31% to 38% in three months.
+
+The full breakdown — what the data showed, how she used it, and what to look for in your own numbers — is in this week's post.
+
+Read it here: https://www.pauanalytics.com/blog/loyal-customer-patterns.html
+
+#CustomerRetention #DataAnalytics #MalaysianSME #F&B #RetailMalaysia #PauAnalytics
