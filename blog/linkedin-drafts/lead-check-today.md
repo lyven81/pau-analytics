@@ -1,6 +1,6 @@
-# Lead Check — 2026-10-19
+# Lead Check — 2026-10-21
 
-**Run time:** 2026-10-19 01:08 UTC  
+**Run time:** 2026-10-21 01:08 UTC  
 **Status:** ❌ API Unreachable
 
 ---
@@ -30,7 +30,7 @@ The lead check must be run from a local machine or an environment with unrestric
 
 ## Recurring Issue
 
-This has now failed on consecutive days (2026-10-18 and 2026-10-19). The scheduled task cannot reach the Railway API from this remote cloud environment due to the egress proxy network policy.
+This has now failed on multiple consecutive days (2026-10-18, 2026-10-19, and 2026-10-21). The scheduled task cannot reach the Railway API from this remote cloud environment due to the egress proxy network policy.
 
 **Recommended fix:** Run the lead check locally, or update the remote session's network policy to allow the Railway host.
 
