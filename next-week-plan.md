@@ -1,49 +1,31 @@
-# Next Week Plan — Week 43 (19–25 Oct 2026)
+# Next Week Plan — Week 44 2026 (26 Oct – 1 Nov 2026)
 
-Generated: 16 October 2026
+## Recommended Blog Topic
 
----
+**Language:** Mandarin (ZH)
+**Rationale:** The last two posts were loyal-customer-patterns (EN, Oct 19) and customer-return-rate (ZH, Oct 12). The current language split is 16 EN : 7 ZH (70/30). Publishing ZH this week moves it toward the 60/40 target.
 
-## Blog Post
+A new Mandarin case study is needed — no topic is pre-queued. Choose from business themes that resonate with Malaysian SME owners in the ZH market, such as:
+- Staff productivity or scheduling (service businesses)
+- Inventory and wastage (F&B or retail)
+- Customer churn in subscription or membership businesses
 
-**Recommended topic:** What Your Repeat Customers Have in Common
-**Slug:** loyal-customer-patterns
-**Language:** English (EN)
-**Target publish date:** 19 October 2026 (Monday)
-
-### Why this topic
-
-The Week 42 post (customer-return-rate, ZH) addressed why customers don't return. This EN companion asks the reverse: what do the customers who *do* return have in common? Together they form a two-part retention analytics series — one in each language.
-
-The topic:
-- Fills the only major content gap in the library (no EN post on loyalty or repeat-purchase behaviour)
-- Continues the alternating EN/ZH cadence (ZH published Week 42, EN due Week 43)
-- Is directly relevant to the target audience — Malaysian SME owners in F&B, retail, and services all need to understand what drives repeat visits
-- Has strong LinkedIn potential: a clear, data-backed answer to a question every business owner asks
-
-### Suggested case study angle
-
-Use transactional data from a retail or F&B SME. Segment customers by number of visits. Identify what separates buyers who visited 3+ times from one-time buyers: purchase value at first visit, time-of-day patterns, product category, payment method. Output: a repeatable customer scoring model the owner can act on.
-
-### Content note
-
-All 22 pre-pipeline blog posts have now been published. This will be the first fully original case study in the new phase of the programme. Treat it as a template for future net-new posts.
+**Action required:** Decide the ZH topic and create the case study by Wednesday 29 Oct 2026 so the blog post can be published by Sunday 1 Nov 2026.
 
 ---
 
-## LinkedIn
+## LinkedIn This Week
 
-**First post to publish:** blog-teaser-from-ratings-to-revenue-2026-05-04.txt
-**Schedule for:** Wednesday 21 October 2026 via Buffer
+Post one draft from the queue. Start with the oldest:
 
-88 LinkedIn posts are drafted and waiting. None have been published. This must start immediately — 24 weeks of CH-B lead generation has been lost.
+  blog-teaser-from-ratings-to-revenue-2026-05-04.txt
+
+Schedule via Buffer for any day this week (Wednesday is standard). This has been ready since 4 May 2026 — 25 weeks overdue.
 
 ---
 
-## Standing Risks
+## Priority Actions This Week
 
-| Risk | Status | Owner |
-|---|---|---|
-| Lead API unreachable | 13+ days | Fix environment allowlist |
-| No blog topic queued for Week 43 | Open | Commission case study now |
-| LinkedIn queue never activated | 24 weeks overdue | Schedule first post this week |
+1. Decide and queue next ZH blog topic (due Wednesday 29 Oct)
+2. Post blog-teaser-from-ratings-to-revenue in Buffer
+3. Run /check-leads locally to clear the 4-week blind spot on lead data
