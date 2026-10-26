@@ -1,0 +1,29 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: coach-evaluation / badminton-academy
+Published: 26 October 2026
+
+---
+
+Tommy runs Wong's Badminton Academy in Shah Alam. Three coaches. Sixty-two junior students. Every Saturday morning, his court is full.
+
+But in March, he noticed something. Renewals for the competitive squad were dropping — not dramatically, just quietly, term by term. Parents were polite. They said their kids were busy. He suspected something else.
+
+He connected Pau AI's coach evaluation system to his enrollment and session records. Within a week, the pattern was clear.
+
+Coach Lim's junior competitive group had a renewal rate of 87%. Coach Farid's same-level group: 61%. The gap had been growing for three consecutive terms. Parent satisfaction scores for Farid's group averaged 3.2 out of 5, versus 4.6 for Lim's.
+
+The issue was not skill level. Farid was technically strong. It was session structure. His drills ran long, students waited, the pace dragged. Parents felt their kids were not progressing fast enough.
+
+Pau AI flagged it by tracking:
+- Student renewal rate by coach and program tier
+- Session completion scores logged after each class
+- Parent feedback ratings, weekly rather than at term-end
+- Drop-out timing: when in the term students were most likely to leave
+
+Tommy had a direct conversation with Farid, shared the data, and arranged for him to observe Lim's Saturday session. Two terms later, Farid's renewal rate was at 78% and still climbing.
+
+Tommy did not lose a good coach. He gave him what he needed to improve.
+
+See how it works: https://lyven81.github.io/pau-ai/coach-evaluation.html
+
+#AI #MalaysianSME #BadmintonMalaysia #CoachingBusiness #SportsAcademy #PauAI

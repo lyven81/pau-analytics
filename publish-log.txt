@@ -1,3 +1,4 @@
+2026-10-26 | reducing-food-wastage | ZH | 食材浪费，每个月吃掉你多少利润？
 2026-10-19 | loyal-customer-patterns | EN | What Your Repeat Customers Have in Common
 2026-10-12 | customer-return-rate | ZH | 为什么有顾客只来一次就不回头？
 2026-10-05 | predicting-stock-outs | EN | Predicting Stock-Outs Before They Happen: What Inventory Data From a Malaysian Minimarket Reveals

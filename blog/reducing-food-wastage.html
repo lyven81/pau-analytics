@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>食材浪费，每个月吃掉你多少利润？ | Pau Analytics Blog</title>
+  <link rel="canonical" href="https://www.pauanalytics.com/blog/reducing-food-wastage.html" />
+  <meta name="description" content="八打灵再也一家中餐馆发现食材浪费占食材成本的22%，集中在4样食材。三个调整，三个月内浪费减半，每月节省RM2,400。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .post-body { font-size: 1.05rem; color: var(--text); line-height: 1.85; }
+    .post-body h2 { font-size: 1.5rem; color: var(--brown); margin: 2rem 0 0.75rem; }
+    .post-body h3 { font-size: 1.15rem; color: var(--brown); margin: 1.5rem 0 0.6rem; }
+    .post-body p { margin-bottom: 1.25rem; }
+    .post-body ul, .post-body ol { margin: 0 0 1.25rem 1.5rem; }
+    .post-body li { margin-bottom: 0.5rem; line-height: 1.75; }
+    .post-body strong { color: var(--brown); }
+    .post-body blockquote {
+      border-left: 3px solid var(--gold);
+      padding: 0.75rem 1.5rem;
+      margin: 1.5rem 0;
+      background: var(--alt);
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: var(--brown-mid);
+    }
+    .post-cta {
+      margin-top: 2.5rem;
+      padding: 2rem;
+      background: var(--alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-align: center;
+    }
+    .post-cta p { font-size: 0.95rem; color: var(--muted); margin-bottom: 1rem; }
+    .cta-form { display: flex; flex-direction: column; gap: 0.75rem; max-width: 420px; margin: 0 auto; }
+    .cta-form input {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: var(--text);
+      background: var(--white);
+      transition: border-color 0.25s ease;
+    }
+    .cta-form input:focus { outline: none; border-color: var(--gold); }
+    .cta-form input::placeholder { color: #aaa; }
+    .cta-link {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: var(--gold);
+      color: var(--white);
+      border: none;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.25s ease, transform 0.25s ease;
+    }
+    .cta-link:hover { background: var(--gold-hover); transform: translateY(-1px); }
+  </style>
+</head>
+<body>
+
+<div class="sticky-header">
+  <div class="navbar">
+    <div class="nav-brand">Pau <span>Analytics</span></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../data-analytics.html">Case Studies</a>
+      <a href="index.html" class="active">Blog</a>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero-medium">
+  <div class="container">
+    <span class="section-tag">餐饮数据分析</span>
+    <h1 style="margin-top:0.75rem;">食材浪费，每个月吃掉你多少利润？</h1>
+    <p style="margin-top:0.5rem; font-size:0.9rem; color:rgba(255,255,255,0.55);">2026年10月26日发布</p>
+  </div>
+</section>
+
+<!-- POST BODY -->
+<section class="section section-cream">
+  <div class="container">
+    <article class="post-body">
+
+      <p>大多数餐馆老板都觉得自己不浪费。食材用完了才叫人补货，厨师也尽量用光，剩下的拿去做员工餐。感觉已经很节省了。</p>
+
+      <p>但数据往往说的是另一回事。</p>
+
+      <p>八打灵再也一家中餐馆，四十个座位，午餐晚餐两场，一星期六天营业。老板 Wei Keong 做了九年，回头客多，口碑不错。但他注意到一件事：食材成本每个月都在涨，他明明没有多买，钱到底去哪里了？</p>
+
+      <h2>22%的食材成本，变成了垃圾</h2>
+
+      <p>我们调取了他六个月的采购记录，加上一个月的厨房废弃记录——每天下班前，什么东西被丢掉，大概多少量。把两份数据对照着看，答案非常清楚。</p>
+
+      <p>第一个发现让他沉默了好一会儿：<strong>食材浪费占到了总食材成本的 22%。</strong></p>
+
+      <p>他每个月的食材开销大约是 RM19,800。也就是说，每个月有将近 RM4,356 的食材被扔掉了。他的食材成本占营业额的 38%——同类型的马来西亚中餐馆，行业平均水平是 30% 到 34%。</p>
+
+      <p>第二个发现是：浪费非常集中。<strong>4 样食材，占了总浪费额的 77%：</strong></p>
+
+      <ul>
+        <li><strong>整条鱼：31%。</strong>每个星期一按照周末的销量来订货，但工作日的鱼类消耗量比周末低了 35%，订货量却没有跟着调整。每到周二、周三，多余的鱼用不完，只好丢掉。</li>
+        <li><strong>豆芽：18%。</strong>每天固定量进货。摘掉根和外层老叶之后，实际能用的只有进货量的 72%。剩下 28% 是处理损耗，但从来没有被算成成本。</li>
+        <li><strong>烧肉：16%。</strong>晚市每场都剩下 600 到 800 克用不完，第二天没法再上桌，直接丢掉——每周五到六个晚上都是这样。</li>
+        <li><strong>叶菜类：12%。</strong>保鲜期只有两天。每周进两次货，但周二、周三的销量明显比周四到周日低 30%，进货节奏和用量不匹配，菜烂了就丢。</li>
+      </ul>
+
+      <p>第三个发现是时间规律。周二和周三的浪费率，是周六的 2.1 倍。原因很简单：周一按全周预期量订货，但前两天销量一直偏低，货多用少，就变成垃圾了。</p>
+
+      <blockquote>浪费不是因为不小心。是因为订货的节奏，和实际用量的规律，从来没有对上过。</blockquote>
+
+      <h2>三个调整，三个月后结果出来了</h2>
+
+      <p>Pau Analytics 提出了三个建议。</p>
+
+      <p><strong>第一，鱼分两次订。</strong>不再周一一次订整周的量。改为周日先订周一到周三的用量，周三看完实际消耗，再订周四到周六的量。多一次送货，但消除了结构性的周一过量。鱼的浪费在六周内下降了 62%。</p>
+
+      <p><strong>第二，豆芽改为三天送一次。</strong>从每天进货改为周一、三、五各送一次，每次按两天用量来订。供应商本来就在那几天经过附近，不需要加收费用。处理损耗从进货量的 28% 降到了 19%。</p>
+
+      <p><strong>第三，做一张每日备料表。</strong>每天早上贴在厨房，按当天的预订人数和历史规律，列出每样食材应该准备多少。不需要任何系统，一张 Excel 表格，每周日晚上更新，七分钟搞定。厨师照着备料，不用猜，也不用多备。</p>
+
+      <p>Wei Keong 自己加了第四个调整：烧肉晚市从原来的 1.2 公斤减到 900 克，如果卖完了再追加。第一个月追加了三次，剩余的情况从每周六个晚上降到只有一个晚上。</p>
+
+      <h2>你的钱，从什么地方漏掉的？</h2>
+
+      <p>三个月后，食材浪费从食材成本的 22% 降到了 11%。每月食材开销从 RM19,800 降到 RM17,400，节省了 RM2,400。食材成本占营业额的比例从 38% 降到 33%，回到了行业正常水平。</p>
+
+      <p>Wei Keong 的原话是：「我以为自己没有浪费。我以为我已经很注意了。但数据告诉我，不是这样的。」</p>
+
+      <p>这些调整不需要买新设备，不需要用新系统，也没有增加任何人手。节省下来的钱，完全来自于把已有的采购数据，认真看了一遍。</p>
+
+      <p>你知道你的食材浪费率是多少吗？如果你手上有六个月的采购记录，答案已经在里面了。完整的分析过程，可以参考<a href="../case-study/reducing-food-wastage.html">相关案例研究</a>。</p>
+
+      <!-- CTA to WhatsApp (Channel B lead capture) -->
+      <div class="post-cta">
+        <p>想知道你的食材成本到底去哪里了？告诉我们你的情况，我们一起来看看数据能说什么。</p>
+        <div class="cta-form">
+          <input type="text" id="cta-name" placeholder="您的姓名（可选）" />
+          <input type="text" id="cta-challenge" placeholder="您目前最大的业务困扰 *" />
+          <button class="cta-link" onclick="submitBlogCTA('reducing-food-wastage', 'zh')">WhatsApp 联系我们 &#x2192;</button>
+        </div>
+      </div>
+
+    </article>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="section-gold cta-strip">
+  <div class="container">
+    <h2>这篇文章对您有帮助吗？</h2>
+    <p>浏览案例研究，了解如何将数据分析应用于真实的业务问题。</p>
+    <a href="../data-analytics.html" class="btn btn-dark">查看我们的案例研究</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="brand-name">Pau <span>Analytics</span></div>
+      <p class="tagline">&#8220;Every decision deserves better data.&#8221;</p>
+      <p>Data analytics consulting for Malaysian SMEs &#8212; reports, dashboards, and AI assistants.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Work</h5>
+      <ul>
+        <li><a href="../data-analytics.html">Case Studies</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="../pricing.html">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="https://lyven81.github.io/pau-ai/" target="_blank">Pau AI &#x2197;</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&#169; 2025 Pau Analytics</span>
+    <span><a href="../privacy-policy.html">Privacy Policy</a></span>
+  </div>
+</footer>
+
+<script>
+async function submitBlogCTA(slug, lang) {
+  var nameEl = document.getElementById('cta-name');
+  var challengeEl = document.getElementById('cta-challenge');
+  var name = (nameEl ? nameEl.value.trim() : '') || 'Visitor';
+  var challenge = (challengeEl ? challengeEl.value.trim() : '');
+  if (!challenge) { if (challengeEl) challengeEl.focus(); return; }
+
+  var btn = document.querySelector('.post-cta .cta-link');
+  if (btn) { btn.disabled = true; btn.textContent = lang === 'zh' ? '提交中...' : 'Sending...'; }
+
+  var msg;
+  if (lang === 'zh') {
+    msg = '[CH-B: ' + slug + ']\n姓名：' + name + '\n我最大的困扰：' + challenge;
+  } else {
+    msg = '[CH-B: ' + slug + ']\nName: ' + name + '\nMy biggest challenge: ' + challenge;
+  }
+  window.open('https://wa.me/60149207099?text=' + encodeURIComponent(msg), '_blank');
+  if (btn) {
+    btn.disabled = false;
+    btn.textContent = lang === 'zh' ? 'WhatsApp 联系我们 →' : 'Chat with Us on WhatsApp →';
+  }
+}
+</script>
+
+</body>
+</html>

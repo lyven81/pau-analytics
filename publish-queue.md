@@ -1,6 +1,17 @@
 # Publish Queue
 
-## Last Published — 12 October 2026
+## Last Published — 26 October 2026
+
+**Slug:** reducing-food-wastage
+**Title:** 食材浪费，每个月吃掉你多少利润？
+**Language:** Mandarin (ZH)
+**Case Study:** reducing-food-wastage (new — created this week)
+**Blog URL:** https://www.pauanalytics.com/blog/reducing-food-wastage.html
+**Status:** Published (Week 44 — new case study created, blog published, LinkedIn teaser, insight post from loyal-customer-patterns, Pau AI coach-evaluation solution and badminton-academy use case added)
+
+---
+
+## Previously Published — 12 October 2026
 
 **Slug:** customer-return-rate
 **Title:** 为什么有顾客只来一次就不回头？

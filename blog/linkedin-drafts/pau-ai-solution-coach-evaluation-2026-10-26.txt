@@ -1,0 +1,28 @@
+TUESDAY — Pau AI Solution Showcase
+Category: coach-evaluation
+Published: 26 October 2026
+
+---
+
+You hired four coaches. One of them is quietly losing you students every month.
+
+You cannot see it in the revenue line. Monthly income looks the same. But look at renewals, dropout rates, and progression scores by coach — and a pattern emerges that no one talks about.
+
+Pau AI's coach evaluation system tracks what matters for coaching businesses: not just session counts, but outcomes.
+
+For every coach in your program, it monitors:
+
+- Student renewal rate: what percentage re-enroll at the end of each term
+- Dropout timing: when students leave and whether the timing clusters around a specific coach
+- Progression scores: are students hitting milestones at the expected pace
+- Parent or student satisfaction ratings: week-by-week, not just end-of-year surveys
+
+One tuition centre used it to spot that one coach had a 94% renewal rate while another was at 58% — with the gap widening each term. The centre's overall renewal rate looked fine at 79%. The problem was invisible in the aggregate.
+
+Once the pattern was visible, the response was simple: peer observation, shared lesson planning, and one-to-one coaching support. The underperforming coach's renewal rate rose to 74% in six months.
+
+Built for tuition centres, fitness studios, sports academies, and any business where the quality of individual coaches directly drives retention.
+
+See the demo: https://lyven81.github.io/pau-ai/coach-evaluation.html
+
+#AI #MalaysianSME #CoachingBusiness #EdTech #FitnessStudio #PauAI

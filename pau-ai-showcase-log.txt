@@ -44,3 +44,5 @@
 2026-10-12 | operations-tracker/laundry | usecase-spotlight
 2026-10-19 | campaign-manager | solution-showcase
 2026-10-19 | campaign-manager/grocery | usecase-spotlight
+2026-10-26 | coach-evaluation | solution-showcase
+2026-10-26 | coach-evaluation/badminton-academy | usecase-spotlight
