@@ -1,6 +1,6 @@
-# Lead Check — 2026-10-29
+# Lead Check — 2026-10-30
 
-**Status: FAILED — API unreachable**
+**Status: FAILED — API unreachable (3rd consecutive day)**
 
 The scheduled lead check could not be completed today.
 
@@ -18,10 +18,10 @@ The Web Chat Lead Manager API at `https://web-chat-lead-manager-production.up.ra
 
 To fix this for future scheduled runs, you have two options:
 
-1. **Recreate the cloud session** with a network policy that allows outbound access to `railway.app` domains (custom domain list in session settings).
+1. **Recreate the cloud session** with a network policy that allows outbound access to `railway.app` domains (custom domain list in session settings). See: https://code.claude.com/docs/en/claude-code-on-the-web
 2. **Run the lead check manually** in a Claude Code session on your local machine, where the Railway API is reachable.
 
 To run manually: open Claude Code locally and type `/check-leads`
 
 ---
-_Last attempted: 2026-10-29 01:09 UTC_
+_Last attempted: 2026-10-30 01:08 UTC_
