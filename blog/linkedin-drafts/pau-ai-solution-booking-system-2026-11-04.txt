@@ -1,0 +1,25 @@
+TUESDAY — Pau AI Solution Showcase
+Category: booking-system
+Published: 4 November 2026
+
+---
+
+You missed three booking calls today. Each one was a customer who gave up and called someone else.
+
+Service businesses — salons, clinics, tuition centres, workshops — lose bookings every day not because they are bad at what they do, but because their booking process requires a human to respond. Customers message at 9pm. They WhatsApp during lunch. They look you up on a Sunday afternoon. If nobody answers, they move on.
+
+The Pau AI Booking System handles the full booking flow automatically.
+
+A customer messages your WhatsApp at 10pm asking for a slot next Friday afternoon. The system checks your live calendar, finds what is available, applies your pricing rules for peak hours and public holidays, and sends a confirmed booking via WhatsApp — in under a minute. No missed message. No morning catch-up. Just a confirmed booking when you open your phone.
+
+What it manages without you:
+
+Real-time calendar checks so double-bookings do not happen. Peak-hour and off-peak pricing applied automatically. Instant booking confirmations sent via WhatsApp. Day-before reminders to reduce no-shows. Waitlist management when your preferred slots are full.
+
+The system works for any appointment-based service business: dental clinics, physiotherapy centres, tutoring, beauty treatments, car workshops, and more.
+
+Most businesses using it recover between 3 and 7 lost bookings per week — bookings that came in outside of business hours and previously went unanswered.
+
+See the demo: https://lyven81.github.io/pau-ai/booking-system.html
+
+#AI #MalaysianSME #BookingSystem #ServiceBusiness #Clinic #PauAI

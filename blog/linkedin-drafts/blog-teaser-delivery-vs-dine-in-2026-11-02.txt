@@ -1,0 +1,28 @@
+MONDAY — Pau Analytics Blog Teaser
+Blog: delivery-vs-dine-in
+Published: 2 November 2026
+
+---
+
+Your GrabFood orders are worth RM43. Your dine-in orders are worth RM31.
+
+Which channel is actually making you more money?
+
+We analysed 12 months of orders for a nasi lemak restaurant in Petaling Jaya — 18,400 transactions across dine-in, GrabFood, and WhatsApp bulk orders. The delivery AOV looked great on paper.
+
+Then we subtracted the 30% platform commission. And the RM4.80 average packaging cost per order.
+
+GrabFood net revenue per transaction: RM25.30.
+Dine-in net revenue per transaction: RM31.
+
+For every RM100 of GrabFood revenue showing on the books, the owner was keeping RM59.
+
+There was a menu problem too. He had 34 items listed on GrabFood. Six of them drove 72% of all delivery orders. The other 28 items contributed 28% of orders — and 67% of all the 1-star and 2-star reviews.
+
+Four changes. Three months. Delivery net margin up 14%. Dine-in weekend revenue up 11%.
+
+The full breakdown — how to calculate what your delivery channel is actually earning, and what to look for in your own data — is in this week's post.
+
+Read it here: https://www.pauanalytics.com/blog/delivery-vs-dine-in.html
+
+#FoodDelivery #FnBMalaysia #DataAnalytics #MalaysianSME #GrabFood #PauAnalytics

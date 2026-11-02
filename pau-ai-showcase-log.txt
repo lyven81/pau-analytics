@@ -46,3 +46,5 @@
 2026-10-19 | campaign-manager/grocery | usecase-spotlight
 2026-10-26 | coach-evaluation | solution-showcase
 2026-10-26 | coach-evaluation/badminton-academy | usecase-spotlight
+2026-11-04 | booking-system | solution-showcase
+2026-11-07 | booking-system/dental-clinic | usecase-spotlight

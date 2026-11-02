@@ -1,0 +1,30 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: booking-system / dental-clinic
+Published: 7 November 2026
+
+---
+
+Dr Lim runs a two-chair dental clinic in Ampang. Two dentists. One receptionist. Around 30 appointments a week.
+
+The problem was not the dentistry. It was the phone.
+
+Patients called during lunch, after 6pm, and on Sundays — the exact times the receptionist was not there. WhatsApp messages sat unanswered until the next morning. By then, some patients had already booked elsewhere. Others simply gave up.
+
+Dr Lim estimated she was missing 4 to 5 confirmed bookings per week. At an average appointment value of RM180, that was up to RM900 in lost revenue every week — not from bad reviews, just from an inbox that nobody monitored after hours.
+
+She connected the Pau AI Booking System to her WhatsApp number.
+
+Now when a patient messages at 9pm asking for a scaling appointment, the system:
+
+- Checks her live calendar for available slots in the next 7 days
+- Confirms which dentist is available for that appointment type
+- Sends a confirmed booking via WhatsApp with the date, time, and payment reminder
+- Sends a day-before reminder automatically to reduce no-shows
+
+Within the first month, Dr Lim's after-hours booking rate — appointments confirmed outside of 9am to 6pm — went from near zero to 22% of her weekly total. Her no-show rate dropped from 18% to 9% after the reminder messages went live.
+
+Her receptionist now spends the first 30 minutes of each day reviewing confirmed bookings rather than chasing missed calls.
+
+See how it works: https://lyven81.github.io/pau-ai/booking-system.html
+
+#AI #MalaysianSME #DentalClinic #BookingSystem #HealthcareMalaysia #PauAI

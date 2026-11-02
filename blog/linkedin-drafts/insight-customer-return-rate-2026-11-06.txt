@@ -1,0 +1,27 @@
+THURSDAY — Pau Analytics Standalone Insight Post
+Source: customer-return-rate
+Published: 6 November 2026
+
+---
+
+67% of your customers will never come back. And you have 28 days to change that.
+
+We analysed 14 months of transaction records for a bubble tea chain in Selangor — 8,240 unique customers, 31,600 transactions across three outlets. The numbers were clear, and uncomfortable.
+
+Two-thirds of first-time customers made exactly one purchase and disappeared. No bad reviews. No complaints. Just silence.
+
+But here is what the data showed about the customers who did return: timing was everything.
+
+Customers who made their second visit within 28 days of the first had a 74% chance of becoming regulars — defined as visiting at least four times in the following six months. Customers who waited 29 to 60 days: 31% chance. Customers who waited longer than 60 days: 9%.
+
+After 28 days, the probability of a customer returning collapsed.
+
+The owner had no follow-up process. No way of knowing which customers had visited once and gone quiet. No trigger to reach back before the window closed.
+
+One change made the difference: a WhatsApp message sent on day 25 to any first-time buyer who had not returned — a personal note with a small discount, arriving just before the window shut. Not after.
+
+Second-visit conversion improved from 33% to 49% in three months.
+
+Check your own records. How many customers visited once in the last 90 days? That is how many people you have 28 days to win back.
+
+#CustomerRetention #DataAnalytics #MalaysianSME #F&B #RetailMalaysia
