@@ -1,6 +1,6 @@
-# Lead Check — 2026-11-01
+# Lead Check — 2026-11-02
 
-**Status: FAILED — API unreachable (5th consecutive day)**
+**Status: FAILED — API unreachable (6th consecutive day)**
 
 The scheduled lead check could not be completed today.
 
@@ -16,7 +16,7 @@ The Web Chat Lead Manager API at `https://web-chat-lead-manager-production.up.ra
 
 ## Urgency
 
-This has now failed **5 days in a row** (since 2026-10-28). Any new leads coming in are not being reviewed or followed up on. If leads have been arriving via your website chat, Google Ads, or blog, they have not received a follow-up message during this period.
+This has now failed **6 days in a row** (since 2026-10-28). Any new leads coming in are not being reviewed or followed up on. If leads have been arriving via your website chat, Google Ads, or blog, they have not received a follow-up message during this period.
 
 ## How to fix this
 
@@ -33,4 +33,4 @@ This will reach the Railway API directly without any proxy restrictions.
 Open https://web-chat-lead-manager-production.up.railway.app in your browser to review leads manually.
 
 ---
-_Last attempted: 2026-11-01 01:08 UTC_
+_Last attempted: 2026-11-02 01:09 UTC_
