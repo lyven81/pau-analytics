@@ -1,46 +1,58 @@
-# Next Week Plan — Week 45 (2–8 November 2026)
+# Next Week Plan — Week 46 (9–15 November 2026)
 
 ## Recommended Blog Post
 
-**Topic:** Delivery vs Dine-In: What Revenue Data From a Malaysian F&B Business Reveals
-**Slug:** delivery-vs-dine-in
-**Language:** English (EN)
-**Scheduled date:** 2 November 2026 (Monday)
+**Topic:** Are Discounts and Promotions Actually Worth It?
+**Working Slug:** promotions-worth-it
+**Language:** Mandarin (ZH)
+**Target publish date:** 9 November 2026 (Monday)
 
 ## Why This Topic
 
-1. **Fills a content gap.** GrabFood, foodpanda, and self-delivery are decisions every Malaysian F&B SME faces. No post on this topic exists in the current library of 24 posts.
+1. **ZH is next in pattern.** The last post (delivery-vs-dine-in, Week 45) was English.
+   The alternating EN/ZH pattern calls for a Mandarin post next. Current language balance
+   is 17 EN / 8 ZH (68:32). The target is 60:40. The next 3–4 posts should be ZH.
 
-2. **Extends the F&B thread.** Three existing posts already address F&B pain points:
-   - reducing-food-wastage (ZH) — cost control
-   - selling-the-right-products (ZH) — menu mix
-   - fixing-the-sales-leaks (ZH) — conversion
-   An English delivery vs dine-in post broadens reach to English-speaking F&B owners and diversifies the thread.
+2. **Universal SME pain point.** Discounts and promotions are used by nearly every
+   Malaysian F&B and retail SME, yet most owners cannot quantify whether they increase
+   net profit or only inflate revenue. This is a decision-making blind spot with high
+   resonance in the Chinese-speaking SME community.
 
-3. **High CH-B lead potential.** Delivery revenue questions are actively searched. A well-titled English blog post targeting this keyword cluster is likely to attract organic traffic from business owners making this decision right now.
+3. **No equivalent post exists.** The current library has 25 posts covering topics such
+   as customer value, churn, staff turnover, and product mix. No post yet addresses
+   whether promotional spend is justified by the resulting sales uplift.
 
-4. **Maintains cadence balance.** The last post (Week 44) was ZH. Week 45 should be EN to continue the alternating pattern. Current language balance is 16 EN / 8 ZH (67:33). Target is 60:40. The next few weeks should lean EN.
+4. **High CH-B search potential.** Chinese-speaking business owners actively search for
+   guidance on pricing and promotions. A ZH post on this topic is likely to attract
+   organic traffic from Malaysian F&B, retail, and service SMEs.
+
+5. **Extends the profitability thread.** Existing ZH posts (reducing-food-wastage,
+   fixing-the-sales-leaks, selling-the-right-products) have established a thread on
+   profit and cost control. Promotions analysis is a natural next chapter.
 
 ## Content to Produce
 
-A new case study is required. No existing case study covers delivery channel analysis.
+A new case study is required. No existing case study covers discount or promotion effectiveness.
 
 Brief for the analyst:
-- Dataset: a Malaysian F&B business with both dine-in and delivery (GrabFood or foodpanda) revenue over 6–12 months
-- Key questions: which channel has higher average order value? Which is more profitable after fees? Is there a day-of-week or time-of-day pattern that differs by channel?
-- Output: a blog post (800–1,200 words) with 2–3 charts and a clear data-backed recommendation
+- Dataset: a Malaysian F&B or retail business with transaction data before, during,
+  and after promotional periods (3–12 months)
+- Key questions: Does revenue rise during promotions? Does net profit rise? What is
+  the incremental margin after discounts? Do promotional customers return at the same
+  rate as full-price customers?
+- Output: a blog post (800–1,200 words) in Mandarin, with 2–3 charts and a clear
+  data-backed answer to "are my promotions worth it?"
 
 ## LinkedIn Drafts to Prepare Alongside
 
 Once the blog post is written, prepare:
-1. blog-teaser-delivery-vs-dine-in.txt — LinkedIn teaser
-2. insight-delivery-vs-dine-in.txt — data insight post
-3. pau-ai-solution-[relevant solution].txt — Pau AI angle
-4. pau-ai-usecase-[industry]-[tool].txt — use case post
+1. blog-teaser-promotions-worth-it.txt — LinkedIn teaser
+2. insight-promotions-worth-it.txt — data insight post
+3. pau-ai-solution-[relevant solution].txt — Pau AI angle (campaign manager fits here)
+4. pau-ai-usecase-campaign-manager-[industry].txt — use case post
 
-## Reminder: LinkedIn Queue Is Blocked
+## Reminder: LinkedIn Queue
 
-96 drafts are ready to post. The oldest is blog-teaser-from-ratings-to-revenue (drafted May 2026). Before adding 4 more, start posting the existing drafts in Buffer. Schedule at minimum 1 post per week starting this week.
-
----
-*Generated: 30 October 2026 | Week 44 coordinator run*
+100 drafts are waiting. The oldest (blog-teaser-from-ratings-to-revenue, drafted 4 May 2026)
+has been queued for 27 weeks. Start posting immediately — one post per Wednesday is the
+minimum viable cadence to begin generating CH-B leads.
