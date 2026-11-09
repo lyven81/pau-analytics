@@ -1,6 +1,28 @@
 # Publish Queue
 
-## Last Published — 26 October 2026
+## Last Published — 9 November 2026
+
+**Slug:** promotions-worth-it
+**Title:** 促销值得做吗？
+**Language:** Mandarin (ZH)
+**Case Study:** promotions-worth-it (new — created this week)
+**Blog URL:** https://www.pauanalytics.com/blog/promotions-worth-it.html
+**Status:** Published (Week 46 — new case study created, blog published, LinkedIn teaser, insight post from delivery-vs-dine-in, Pau AI whatsapp-agent solution and food-stall use case added)
+
+---
+
+## Previously Published — 2 November 2026
+
+**Slug:** delivery-vs-dine-in
+**Title:** Delivery vs Dine-In: What Revenue Data From a Malaysian F&B Business Reveals
+**Language:** English (EN)
+**Case Study:** delivery-vs-dine-in
+**Blog URL:** https://www.pauanalytics.com/blog/delivery-vs-dine-in.html
+**Status:** Published (Week 45 — blog published, LinkedIn teaser, insight queued)
+
+---
+
+## Previously Published — 26 October 2026
 
 **Slug:** reducing-food-wastage
 **Title:** 食材浪费，每个月吃掉你多少利润？

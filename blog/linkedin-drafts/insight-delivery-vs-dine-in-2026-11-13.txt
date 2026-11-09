@@ -1,0 +1,25 @@
+THURSDAY — Pau Analytics Standalone Insight Post
+Case study: delivery-vs-dine-in
+Published: 13 November 2026
+
+---
+
+Your GrabFood revenue looks great. But how much of it are you actually keeping?
+
+We analysed 12 months of orders for a nasi lemak restaurant in Petaling Jaya. GrabFood average order value was RM43 — 39% higher than the RM31 counter average. The owner thought delivery was his best channel.
+
+After subtracting platform commission (30%) and packaging costs (averaging RM4.80 per order), GrabFood net revenue per transaction fell to RM25.30.
+
+For every RM100 of GrabFood revenue showing on his books, he was keeping RM59.
+
+Dine-in, with its RM31 average, was actually delivering more money per transaction after costs.
+
+Here is what made it worse: 28 of his 34 GrabFood menu items were adding packaging cost and kitchen complexity — while generating 67% of all 1-star and 2-star reviews. The same dishes that looked fine at the counter fell apart in a delivery bag.
+
+He had been managing two businesses at once — dine-in and delivery — without realising that one was subsidising the other in the wrong direction.
+
+Before you assume delivery is growing your revenue, check what it is costing you to run. The gross number on your platform dashboard is not the same as the money that reaches your pocket.
+
+Check your own channel numbers. The answer might change how you think about growth.
+
+#FnB #DataAnalytics #MalaysianSME #GrabFood #SmallBusiness

@@ -1,0 +1,26 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: whatsapp-agent / food-stall
+Published: 14 November 2026
+
+---
+
+Puan Rohani runs a nasi campur stall in Shah Alam. Open Tuesday to Sunday, 10am to 3pm. She cooks, her daughter serves, and her phone rings every morning before they even open.
+
+The calls are always the same. "Ada lauk apa hari ni?" "Boleh tapau tak?" "Pukul berapa habis?" Sometimes people WhatsApp. Sometimes they just show up and find the lauk they wanted is gone.
+
+Puan Rohani was spending 20 minutes every morning replying to messages before service even started. On busy days, messages sat unanswered until after 2pm. Some customers stopped asking and started ordering from somewhere else.
+
+Now the WhatsApp agent handles the morning rush while she handles the stove:
+
+- Tells customers which lauk is available today (updated each morning in under 2 minutes)
+- Confirms tapau orders and estimated pickup time
+- States the daily closing time and whether takeaway is still available
+- Answers "dah habis?" for specific dishes automatically, based on her daily menu update
+
+Her daughter no longer has to stop serving tables to answer the phone. Customers who used to show up hoping for a specific dish now know in advance. Tapau enquiries that used to go unanswered before 11am now get a reply within a minute.
+
+Puan Rohani's comment: "Dulu orang tanya pukul 8 pagi, kita tengah masak. Sekarang dia dapat jawapan terus."
+
+See how it works: https://lyven81.github.io/pau-ai/whatsapp-agent.html
+
+#AI #MalaysianSME #FnB #WhatsApp #SmallBusiness

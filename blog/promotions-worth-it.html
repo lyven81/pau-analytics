@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>促销值得做吗？ | Pau Analytics Blog</title>
+  <link rel="canonical" href="https://www.pauanalytics.com/blog/promotions-worth-it.html" />
+  <meta name="description" content="一家零售商的促销期间营业额涨了31%，净利润却跌了8%。九个月的数据揭示了促销活动的三个漏洞，以及如何重新设计让利润也跟着涨的促销方案。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .post-body { font-size: 1.05rem; color: var(--text); line-height: 1.85; }
+    .post-body h2 { font-size: 1.5rem; color: var(--brown); margin: 2rem 0 0.75rem; }
+    .post-body h3 { font-size: 1.15rem; color: var(--brown); margin: 1.5rem 0 0.6rem; }
+    .post-body p { margin-bottom: 1.25rem; }
+    .post-body ul, .post-body ol { margin: 0 0 1.25rem 1.5rem; }
+    .post-body li { margin-bottom: 0.5rem; line-height: 1.75; }
+    .post-body strong { color: var(--brown); }
+    .post-body blockquote {
+      border-left: 3px solid var(--gold);
+      padding: 0.75rem 1.5rem;
+      margin: 1.5rem 0;
+      background: var(--alt);
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: var(--brown-mid);
+    }
+    .post-cta {
+      margin-top: 2.5rem;
+      padding: 2rem;
+      background: var(--alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-align: center;
+    }
+    .post-cta p { font-size: 0.95rem; color: var(--muted); margin-bottom: 1rem; }
+    .cta-form { display: flex; flex-direction: column; gap: 0.75rem; max-width: 420px; margin: 0 auto; }
+    .cta-form input {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: var(--text);
+      background: var(--white);
+      transition: border-color 0.25s ease;
+    }
+    .cta-form input:focus { outline: none; border-color: var(--gold); }
+    .cta-form input::placeholder { color: #aaa; }
+    .cta-link {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: var(--gold);
+      color: var(--white);
+      border: none;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.25s ease, transform 0.25s ease;
+    }
+    .cta-link:hover { background: var(--gold-hover); transform: translateY(-1px); }
+  </style>
+</head>
+<body>
+
+<div class="sticky-header">
+  <div class="navbar">
+    <div class="nav-brand">Pau <span>Analytics</span></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../data-analytics.html">Case Studies</a>
+      <a href="index.html" class="active">Blog</a>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero-medium">
+  <div class="container">
+    <span class="section-tag">零售数据分析</span>
+    <h1 style="margin-top:0.75rem;">促销值得做吗？</h1>
+    <p style="margin-top:0.5rem; font-size:0.9rem; color:rgba(255,255,255,0.55);">2026年11月9日发布</p>
+  </div>
+</section>
+
+<!-- POST BODY -->
+<section class="section section-cream">
+  <div class="container">
+    <article class="post-body">
+
+      <p>几乎每一家中小企业都做过促销。逢年过节打折，清库存甩货，或者单纯觉得最近生意淡，做个活动拉拉人气。每一次，收银机响得比平时频繁，觉得效果不错。</p>
+
+      <p>但月底一结账，口袋里的钱和平时差不多，有时候甚至更少。</p>
+
+      <p>这不是感觉。数据说的是同一件事。</p>
+
+      <h2>营业额涨了三成，利润跌了一成</h2>
+
+      <p>八打灵再也一家家居用品零售店，员工十二名，主要顾客是刚租房或买房的年轻家庭。老板 Bee Lian 经营了七年，每年做三到四次促销，每次都能看到明显的客流增加。</p>
+
+      <p>她来找 Pau Analytics，问的是一个她自己想了很久的问题：「我的促销到底有没有赚到钱？」</p>
+
+      <p>我们分析了她九个月的交易数据，涵盖三次促销活动。结论分两行：</p>
+
+      <ul>
+        <li>促销期间，营业额平均比非促销周<strong>高出 31%。</strong></li>
+        <li>同一时段，净利润平均比非促销周<strong>低了 8%。</strong></li>
+      </ul>
+
+      <p>营业额涨了三成，利润跌了近一成。两个数字放在一起，说明有什么东西把多赚的钱全部吃掉了，还倒贴了一些。</p>
+
+      <h2>钱从三个地方漏走了</h2>
+
+      <p>我们把促销周和非促销周的毛利结构拆开来看，问题出在三个地方。</p>
+
+      <p><strong>第一，折扣幅度超出了利润空间。</strong>Bee Lian 的惯例是全场八折，部分主打商品七折。但她的家居商品平均毛利率只有 28%。打了八折，毛利就从 28% 压缩到约 10%。主打商品打七折，更是逼近保本边缘。促销越多，每一笔交易留下的钱越薄。</p>
+
+      <p><strong>第二，促销顾客买的东西不一样。</strong>促销期间，低毛利商品（厨具基础款、收纳盒、清洁用具）的销量占比从平时的 34% 上升到 61%。高毛利商品反而比平时少卖。折扣把价格敏感型顾客引进来，他们冲着便宜买实用品，不是升级款。</p>
+
+      <p><strong>第三，新顾客不回头。</strong>三次促销共带来大量新顾客，占当期顾客总数的 38%。但追踪促销后 90 天的购买记录，只有 11% 在促销结束后再次消费。促销引来的，大多是价格顾客，不是品牌顾客。</p>
+
+      <blockquote>每一次促销，都在用利润换流量。但换来的流量，大部分没有留下来。</blockquote>
+
+      <h2>有一次促销是赚钱的</h2>
+
+      <p>有一个发现让 Bee Lian 意外：九个月里，母亲节那次促销的表现和另外两次完全不同。</p>
+
+      <p>母亲节她没有做全场折扣，而是推出了三款礼品套装，折扣幅度约 15%，远低于其他两次的 20%&#8211;30%。结果：营业额上升 24%，净利润上升 6%。</p>
+
+      <p>两个差异造成了不同的结果。礼品套装的毛利率更高，折后仍然有利润空间。来买礼品套装的顾客，90 天回购率达到 29%——是另外两次促销新顾客的 2.6 倍。</p>
+
+      <p>场景驱动的促销，吸引的是有特定需求的顾客，他们更可能留下来。</p>
+
+      <h2>那该怎么做？</h2>
+
+      <p>Pau Analytics 建议三个调整方向。</p>
+
+      <p>一，放弃全场折扣，改为针对毛利率 35% 以上的商品做促销，确保折后仍保留至少 15% 的净毛利。毛利率低于 25% 的商品，不参与折扣。</p>
+
+      <p>二，以场景取代折扣。把促销设计成生活场景——搬新家套装、厨房升级套组、节日送礼礼盒。套装定价留有毛利空间，顾客感受到的是便利，不只是便宜。</p>
+
+      <p>三，区分新顾客和回头客的机制。回头客用积分和专属优先优惠留住；新顾客首次购买后 30 天内，给一次针对他们购买品类的精准回购优惠，把价格顾客转化为品牌顾客。</p>
+
+      <p>Bee Lian 在之后两次促销中用了这套框架。独立日营业额上升 19%，净利润上升 11%。华人新年营业额上升 27%，净利润上升 9%。</p>
+
+      <h2>你的促销，到底在赚什么？</h2>
+
+      <p>做促销之前，有一个问题值得先回答：你的毛利率，能撑住你计划中的折扣幅度吗？</p>
+
+      <p>很多时候，促销亏钱不是因为方向错了，而是因为这个问题从来没有被认真算过。</p>
+
+      <p>如果你手上有最近六个月的交易记录，这个答案已经在里面了。完整的分析过程，可以参考<a href="../case-study/promotions-worth-it.html">相关案例研究</a>。</p>
+
+      <!-- CTA to WhatsApp (Channel B lead capture) -->
+      <div class="post-cta">
+        <p>想知道你的促销是在赚钱还是在亏钱？告诉我们你的情况，我们一起来看看数据能说什么。</p>
+        <div class="cta-form">
+          <input type="text" id="cta-name" placeholder="您的姓名（可选）" />
+          <input type="text" id="cta-challenge" placeholder="您目前最大的业务困扰 *" />
+          <button class="cta-link" onclick="submitBlogCTA('promotions-worth-it', 'zh')">WhatsApp 联系我们 &#x2192;</button>
+        </div>
+      </div>
+
+    </article>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="section-gold cta-strip">
+  <div class="container">
+    <h2>这篇文章对您有帮助吗？</h2>
+    <p>浏览案例研究，了解如何将数据分析应用于真实的业务问题。</p>
+    <a href="../data-analytics.html" class="btn btn-dark">查看我们的案例研究</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="brand-name">Pau <span>Analytics</span></div>
+      <p class="tagline">&#8220;Every decision deserves better data.&#8221;</p>
+      <p>Data analytics consulting for Malaysian SMEs &#8212; reports, dashboards, and AI assistants.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Work</h5>
+      <ul>
+        <li><a href="../data-analytics.html">Case Studies</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="../pricing.html">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="https://lyven81.github.io/pau-ai/" target="_blank">Pau AI &#x2197;</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&#169; 2025 Pau Analytics</span>
+    <span><a href="../privacy-policy.html">Privacy Policy</a></span>
+  </div>
+</footer>
+
+<script>
+async function submitBlogCTA(slug, lang) {
+  var nameEl = document.getElementById('cta-name');
+  var challengeEl = document.getElementById('cta-challenge');
+  var name = (nameEl ? nameEl.value.trim() : '') || 'Visitor';
+  var challenge = (challengeEl ? challengeEl.value.trim() : '');
+  if (!challenge) { if (challengeEl) challengeEl.focus(); return; }
+
+  var btn = document.querySelector('.post-cta .cta-link');
+  if (btn) { btn.disabled = true; btn.textContent = lang === 'zh' ? '提交中...' : 'Sending...'; }
+
+  var msg;
+  if (lang === 'zh') {
+    msg = '[CH-B: ' + slug + ']\n姓名：' + name + '\n我最大的困扰：' + challenge;
+  } else {
+    msg = '[CH-B: ' + slug + ']\nName: ' + name + '\nMy biggest challenge: ' + challenge;
+  }
+  window.open('https://wa.me/60149207099?text=' + encodeURIComponent(msg), '_blank');
+  if (btn) {
+    btn.disabled = false;
+    btn.textContent = lang === 'zh' ? 'WhatsApp 联系我们 →' : 'Chat with Us on WhatsApp →';
+  }
+}
+</script>
+
+</body>
+</html>

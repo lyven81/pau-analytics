@@ -1,0 +1,24 @@
+TUESDAY — Pau AI Solution Showcase
+Category: whatsapp-agent
+Demo: https://lyven81.github.io/pau-ai/whatsapp-agent.html
+Published: 11 November 2026
+
+---
+
+Your customer sent a WhatsApp message at 9pm asking about your price and availability. You saw it at 7am. By then, they had already booked somewhere else.
+
+This happens every single day for small businesses in Malaysia. Not because the owner doesn't care — but because there are only so many hours in a day, and replying to enquiries at night is not how most people want to spend them.
+
+Pau AI's WhatsApp agent replies for you. Not with a holding message that says "we will get back to you" — with an actual answer. It knows your services, your prices, your slots, and your hours. When a customer asks "do you have space this Friday evening?", it checks and responds in seconds.
+
+Where it matters most: evenings and weekends. That is when customers browse, compare, and decide — and when most small businesses go dark. An agent that answers at 10pm, accurately and in your tone, keeps the conversation alive instead of losing it.
+
+One specific thing it handles well: price enquiries. Customers who ask prices via WhatsApp are close to a decision. A fast, accurate answer converts. A three-hour wait does not.
+
+It runs over WhatsApp. No new app for your customers. No separate platform for you to learn.
+
+Works well for: restaurants, clinics, service providers, tutors, fitness studios, and any business where customers ask questions before booking or buying.
+
+See the demo: https://lyven81.github.io/pau-ai/whatsapp-agent.html
+
+#AI #MalaysianSME #WhatsApp #CustomerService #SmallBusiness

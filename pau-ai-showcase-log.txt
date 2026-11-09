@@ -48,3 +48,5 @@
 2026-10-26 | coach-evaluation/badminton-academy | usecase-spotlight
 2026-11-04 | booking-system | solution-showcase
 2026-11-07 | booking-system/dental-clinic | usecase-spotlight
+2026-11-11 | whatsapp-agent | solution-showcase
+2026-11-14 | whatsapp-agent/food-stall | usecase-spotlight
