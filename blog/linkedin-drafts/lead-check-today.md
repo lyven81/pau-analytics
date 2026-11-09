@@ -1,4 +1,4 @@
-# Lead Check — 2026-11-08
+# Lead Check — 2026-11-09
 
 **Status: API UNREACHABLE**
 
@@ -10,9 +10,9 @@ The Web Chat Lead Manager API at `https://web-chat-lead-manager-production.up.ra
 
 ## What This Means
 
-The scheduled lead check could not fetch or process any leads today (2026-11-08).
+The scheduled lead check could not fetch or process any leads today (2026-11-09).
 
-This is a **recurring network policy issue** with the cloud session — the same failure was recorded on 2026-11-06. The Railway hostname is not allowlisted in this session's egress policy.
+This is a **recurring network policy issue** — the same failure has been recorded on 2026-11-06, 2026-11-08, and now 2026-11-09. The Railway hostname is not allowlisted in this session's egress policy.
 
 ## Next Steps
 
@@ -23,7 +23,7 @@ To resolve this permanently, one of the following is needed:
 
 ---
 
-_Scheduled run attempted: 2026-11-08 at approximately 01:08 UTC_
+_Scheduled run attempted: 2026-11-09 at approximately 01:08 UTC_
 _API endpoint checked: https://web-chat-lead-manager-production.up.railway.app/api/leads_
 _Error: connect_rejected — gateway answered 403 to CONNECT (policy denial or upstream failure)_
-_Same failure also occurred on: 2026-11-06_
+_Same failure also recorded on: 2026-11-06, 2026-11-08_
