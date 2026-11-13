@@ -1,58 +1,71 @@
-# Next Week Plan — Week 46 (9–15 November 2026)
+# Next Week Plan — Week 47 (16–22 November 2026)
 
 ## Recommended Blog Post
 
-**Topic:** Are Discounts and Promotions Actually Worth It?
-**Working Slug:** promotions-worth-it
-**Language:** Mandarin (ZH)
-**Target publish date:** 9 November 2026 (Monday)
+**Topic:** New English case study — recommended: staff scheduling, reseller margins,
+or seasonal demand forecasting
+**Working Slug:** TBD (to be determined once case study topic is confirmed)
+**Language:** English (EN)
+**Target publish date:** 16 November 2026 (Monday)
 
 ## Why This Topic
 
-1. **ZH is next in pattern.** The last post (delivery-vs-dine-in, Week 45) was English.
-   The alternating EN/ZH pattern calls for a Mandarin post next. Current language balance
-   is 17 EN / 8 ZH (68:32). The target is 60:40. The next 3–4 posts should be ZH.
+1. **EN is next in pattern.** The last two posts (reducing-food-wastage, Week 44, ZH;
+   promotions-worth-it, Week 46, ZH) were both Mandarin. The alternating EN/ZH
+   pattern calls for English next. Current language balance is 17 EN / 9 ZH (65:35).
+   The 60:40 target is now within reach — 2 more EN posts before the next ZH post
+   would put the balance at 65:35 → 65:38 (close enough once a ZH follows).
 
-2. **Universal SME pain point.** Discounts and promotions are used by nearly every
-   Malaysian F&B and retail SME, yet most owners cannot quantify whether they increase
-   net profit or only inflate revenue. This is a decision-making blind spot with high
-   resonance in the Chinese-speaking SME community.
+2. **Pipeline is empty.** All pre-pipeline case studies have been published. Week 47
+   requires a newly commissioned case study. English topics are faster to draft and
+   edit, making EN the lower-risk choice when time is tight.
 
-3. **No equivalent post exists.** The current library has 25 posts covering topics such
-   as customer value, churn, staff turnover, and product mix. No post yet addresses
-   whether promotional spend is justified by the resulting sales uplift.
+3. **Suggested topic options (in priority order):**
 
-4. **High CH-B search potential.** Chinese-speaking business owners actively search for
-   guidance on pricing and promotions. A ZH post on this topic is likely to attract
-   organic traffic from Malaysian F&B, retail, and service SMEs.
+   a) **Staff scheduling and labour cost** — most Malaysian SMEs in F&B, retail, and
+      services run lean on staff. No existing post covers how data can optimise
+      shift coverage versus labour cost. High relevance, no duplicate.
 
-5. **Extends the profitability thread.** Existing ZH posts (reducing-food-wastage,
-   fixing-the-sales-leaks, selling-the-right-products) have established a thread on
-   profit and cost control. Promotions analysis is a natural next chapter.
+   b) **Reseller margin analysis** — the existing know-your-reseller post (EN, July)
+      covered which resellers perform best. A follow-up on reseller margin versus
+      volume could serve wholesale and distribution businesses.
+
+   c) **Seasonal demand forecasting for retail or F&B** — predicting-holiday-peaks
+      covered streaming data. A retail or F&B-specific version would expand the
+      audience reach for the same theme.
+
+4. **No existing post covers any of these.** The 26-post library covers customer value,
+   churn, pricing, promotions, product mix, staff turnover (ZH), delivery channels,
+   stock-outs, resellers, and campaign effectiveness. Labour cost and scheduling is
+   the clearest remaining gap.
 
 ## Content to Produce
 
-A new case study is required. No existing case study covers discount or promotion effectiveness.
+A new case study is required. No existing case study covers staff scheduling or labour
+cost optimisation.
 
 Brief for the analyst:
-- Dataset: a Malaysian F&B or retail business with transaction data before, during,
-  and after promotional periods (3–12 months)
-- Key questions: Does revenue rise during promotions? Does net profit rise? What is
-  the incremental margin after discounts? Do promotional customers return at the same
-  rate as full-price customers?
-- Output: a blog post (800–1,200 words) in Mandarin, with 2–3 charts and a clear
-  data-backed answer to "are my promotions worth it?"
+- Dataset: a Malaysian F&B or retail business with employee scheduling records,
+  shift costs, and revenue per period (3–12 months)
+- Key questions: Which shifts are overstaffed? What is the cost of overstaffing vs
+  lost revenue from understaffing? Can a simple data model predict optimal shift cover?
+- Output: a blog post (800–1,200 words) in English, with 2–3 charts and a clear
+  data-backed answer to "are we staffing our shifts efficiently?"
 
 ## LinkedIn Drafts to Prepare Alongside
 
 Once the blog post is written, prepare:
-1. blog-teaser-promotions-worth-it.txt — LinkedIn teaser
-2. insight-promotions-worth-it.txt — data insight post
-3. pau-ai-solution-[relevant solution].txt — Pau AI angle (campaign manager fits here)
-4. pau-ai-usecase-campaign-manager-[industry].txt — use case post
+1. blog-teaser-[slug].txt — LinkedIn teaser
+2. insight-promotions-worth-it.txt — data insight from the Week 46 blog post
+   (this was not drafted yet — it should be created this week)
+3. pau-ai-solution-[relevant solution].txt — Pau AI angle (operations tracker fits)
+4. pau-ai-usecase-operations-tracker-[industry].txt — use case post
 
 ## Reminder: LinkedIn Queue
 
-100 drafts are waiting. The oldest (blog-teaser-from-ratings-to-revenue, drafted 4 May 2026)
-has been queued for 27 weeks. Start posting immediately — one post per Wednesday is the
-minimum viable cadence to begin generating CH-B leads.
+104 drafts are waiting. The oldest (blog-teaser-from-ratings-to-revenue, drafted
+4 May 2026) has been queued for 28 weeks. Post immediately — one post per Wednesday
+is the minimum viable cadence to begin generating CH-B leads.
+
+**First post to schedule:** blog-teaser-from-ratings-to-revenue-2026-05-04.txt
+**Target date:** Wednesday 18 November 2026
