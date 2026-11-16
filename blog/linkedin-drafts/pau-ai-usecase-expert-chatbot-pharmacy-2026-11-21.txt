@@ -1,0 +1,25 @@
+Mr. Krishnaswamy runs a neighbourhood pharmacy in Ampang. One pharmacist, two assistants, a WhatsApp number that starts ringing before the shutters go up.
+
+By 10am every morning, his team has already answered the same eight questions thirty-something times.
+
+"Do you have [medication]?" "What time do you close on Sunday?" "Can I buy this without a prescription?" "How much is Panadol Forte?"
+
+By the time the real consultation work starts — advising a patient on drug interactions, checking dosage for an elderly customer, handling a prescription refill — the team is already behind.
+
+Pau AI's Expert Chatbot now takes the first contact.
+
+When a customer messages the pharmacy WhatsApp, the chatbot:
+• Checks availability across 400+ listed products instantly
+• States current pricing for OTC medications
+• Confirms whether a prescription is required before the customer makes a trip
+• Answers opening hours, location, and service questions around the clock
+
+Complex queries — drug interactions, refill discussions, anything that needs professional judgement — route directly to the pharmacist.
+
+Since setup, Mr. Krishnaswamy's team handles 60% fewer repetitive incoming messages during peak hours. The pharmacist spends more time on actual patient care. The WhatsApp line that used to create a queue now clears itself before the team is even aware of it.
+
+The same hour that disappeared into repeated questions is back — and it goes to work that actually needs a person.
+
+See how it works: https://lyven81.github.io/pau-ai/expert-chatbot.html
+
+#AI #MalaysianSME #Pharmacy #ExpertChatbot #PauAI

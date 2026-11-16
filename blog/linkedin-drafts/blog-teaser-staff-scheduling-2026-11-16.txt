@@ -1,0 +1,22 @@
+Ahmad's restaurants were spending 37% of revenue on wages. The industry norm is 26–28%.
+
+He thought the fix was obvious: cut staff or push more revenue. Eight months of scheduling data said something different.
+
+The problem wasn't how many staff he had. It was when they were showing up.
+
+Weekday afternoons from 2–5pm: he had 4–5 staff on the floor, serving 8–9 covers per hour. Friday and Saturday evenings from 6–10pm: he had 5 staff, serving 41 covers per hour.
+
+The first window was costing RM4,200 a month in unnecessary wages.
+The second was costing him revenue, repeat bookings, and 3-star reviews about slow service.
+
+He had been reading the wrong number. Labour cost as a monthly total looked manageable. Labour cost by shift told a completely different story.
+
+The two errors cancelled each other out in every payroll summary — which is exactly why the problem had gone undetected for a year.
+
+The fix wasn't headcount. It was alignment.
+
+If your labour costs feel high but you can't see where, the data already has the answer. You just haven't looked at it this way yet.
+
+Read the full analysis: https://www.pauanalytics.com/blog/staff-scheduling.html
+
+#MalaysianBusiness #FnB #DataAnalytics #LabourCost #PauAnalytics

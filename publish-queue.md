@@ -1,6 +1,17 @@
 # Publish Queue
 
-## Last Published — 9 November 2026
+## Last Published — 16 November 2026
+
+**Slug:** staff-scheduling
+**Title:** Are You Overstaffing the Wrong Shifts? What Labour Cost Data From a Malaysian Restaurant Reveals
+**Language:** English (EN)
+**Case Study:** staff-scheduling (new — created this week)
+**Blog URL:** https://www.pauanalytics.com/blog/staff-scheduling.html
+**Status:** Published (Week 47 — new case study created, blog published, LinkedIn teaser, insight post from promotions-worth-it, Pau AI expert-chatbot solution and pharmacy use case added)
+
+---
+
+## Previously Published — 9 November 2026
 
 **Slug:** promotions-worth-it
 **Title:** 促销值得做吗？

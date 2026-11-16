@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Are You Overstaffing the Wrong Shifts? What Labour Cost Data From a Malaysian Restaurant Reveals | Pau Analytics Blog</title>
+  <link rel="canonical" href="https://www.pauanalytics.com/blog/staff-scheduling.html" />
+  <meta name="description" content="A Malaysian restaurant owner's labour cost was 37% of revenue — nearly 10 points above industry norm. Eight months of shift data revealed a hidden pattern that most payroll reports miss." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .post-body { font-size: 1.05rem; color: var(--text); line-height: 1.85; }
+    .post-body h2 { font-size: 1.5rem; color: var(--brown); margin: 2rem 0 0.75rem; }
+    .post-body h3 { font-size: 1.15rem; color: var(--brown); margin: 1.5rem 0 0.6rem; }
+    .post-body p { margin-bottom: 1.25rem; }
+    .post-body ul, .post-body ol { margin: 0 0 1.25rem 1.5rem; }
+    .post-body li { margin-bottom: 0.5rem; line-height: 1.75; }
+    .post-body strong { color: var(--brown); }
+    .post-body blockquote {
+      border-left: 3px solid var(--gold);
+      padding: 0.75rem 1.5rem;
+      margin: 1.5rem 0;
+      background: var(--alt);
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: var(--brown-mid);
+    }
+
+    .post-cta {
+      margin-top: 2.5rem;
+      padding: 2rem;
+      background: var(--alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-align: center;
+    }
+    .post-cta p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+    .cta-form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+    .cta-form input {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: var(--text);
+      background: var(--white);
+      transition: border-color 0.25s ease;
+    }
+    .cta-form input:focus {
+      outline: none;
+      border-color: var(--gold);
+    }
+    .cta-form input::placeholder {
+      color: #aaa;
+    }
+    .cta-link {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: var(--gold);
+      color: var(--white);
+      border: none;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.25s ease, transform 0.25s ease;
+    }
+    .cta-link:hover {
+      background: var(--gold-hover);
+      transform: translateY(-1px);
+    }
+  </style>
+</head>
+<body>
+
+<div class="sticky-header">
+  <div class="navbar">
+    <div class="nav-brand">Pau <span>Analytics</span></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../data-analytics.html">Case Studies</a>
+      <a href="index.html" class="active">Blog</a>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero-medium">
+  <div class="container">
+    <span class="section-tag">Workforce &amp; Operations</span>
+    <h1 style="margin-top:0.75rem;">Are You Overstaffing the Wrong Shifts? What Labour Cost Data From a Malaysian Restaurant Reveals</h1>
+    <p style="margin-top:0.5rem; font-size:0.9rem; color:rgba(255,255,255,0.55);">Published 16 November 2026</p>
+  </div>
+</section>
+
+<!-- POST BODY -->
+<section class="section section-cream">
+  <div class="container">
+    <article class="post-body">
+
+      <p>Ahmad Fauzi knew his labour costs were too high. At 37% of revenue, he was spending nearly RM1 in every RM3 on wages alone. The industry benchmark for casual dining is 26–28%. The question was not whether there was a problem — the numbers said there was. The question was where.</p>
+
+      <p>He had looked at total headcount. He had compared his wages to market rates. He had reviewed his rosters for the past six months. Nothing stood out. The team did not feel overstaffed. The restaurants did not feel understaffed. The payroll total moved within a narrow range every month. And yet the labour cost ratio stayed stubbornly high.</p>
+
+      <p>Pau Analytics reviewed 8 months of scheduling records, hourly transaction data, and payroll records across both his Subang Jaya outlets — more than 14,000 individual shifts and 180,000 customer transactions. The analysis revealed something the monthly payroll summary had been hiding for over a year.</p>
+
+      <h2>The Numbers That Payroll Summaries Hide</h2>
+
+      <p>When scheduling records were matched against hourly transaction volumes, a consistent pattern appeared. The problem was not how many staff Ahmad had on the books. It was when they were scheduled.</p>
+
+      <p>During weekday afternoons — the 2pm to 5pm window — both outlets were averaging 4.8 scheduled staff. During those same hours, they were serving an average of 8.6 covers per hour. At a reasonable service standard of one staff member per 15 to 20 covers, optimal coverage for that window was fewer than one person on the floor. Ahmad was scheduling nearly five.</p>
+
+      <p>Afternoon overstaffing accounted for approximately RM4,200 per month in wages paid during hours when fewer than a quarter of the scheduled staff were needed. Across both outlets, 38% of total scheduled shift hours were falling in the 2pm–5pm window — while only 11% of daily covers were being served during that period.</p>
+
+      <h2>The Other Side of the Problem</h2>
+
+      <p>Friday and Saturday evenings told the opposite story.</p>
+
+      <p>During the 6pm to 10pm dinner peak, both outlets were serving an average of 41 covers per hour. The average number of scheduled staff during those hours was 5.1. At peak service standards — where table prep, drinks, food delivery, and floor management require closer to one staff per 12–15 covers — the outlets were consistently undercovered by 2 to 3 people.</p>
+
+      <p>Customer wait times during Friday and Saturday evenings were running between 14 and 18 minutes. In the 8-month review window, 11 customer feedback submissions mentioned slow service or long waits. All of them were concentrated at the Friday and Saturday dinner peak.</p>
+
+      <blockquote>Ahmad's Friday and Saturday evenings were his highest-revenue trading window — and they were being undermined by a staffing allocation set by habit, not by data.</blockquote>
+
+      <h2>Why the Problem Stayed Hidden</h2>
+
+      <p>The pattern was invisible in Ahmad's monthly payroll summary because the two errors cancelled each other out. Total headcount looked normal. Total wage cost moved within a familiar range. What the totals could not show was that 38% of his shift hours were covering 11% of his covers — while his peak hours were running short.</p>
+
+      <p>This is a common pattern in F&B businesses. Schedules are built by feel or by precedent: the afternoon shift runs at the same headcount it always has because it always has. The Friday evening crew has never been increased because the restaurant has always managed. What "always managed" can mean, in practice, is longer waits, more errors, and slower table turnover at the moment it matters most.</p>
+
+      <p>The afternoon overstaffing was a direct cost — wages paid for coverage that was not needed. The evening understaffing was a different kind of cost: not a line on the payroll, but a reduction in what the Friday and Saturday shifts could generate, and a slow drip of customers who left dissatisfied and did not return.</p>
+
+      <h2>What Changed</h2>
+
+      <p>Pau Analytics recommended two adjustments. The first was a reduction in weekday afternoon coverage. Both outlets moved to a two-person afternoon skeleton crew — one kitchen, one floor — during the 2pm to 5pm window on Monday through Thursday. Full team coverage resumed from 5pm onwards. No full-time roles were cut. Existing staff whose schedules were affected were shifted to morning or early evening slots, where the transaction data showed moderate coverage was consistently useful.</p>
+
+      <p>The second change was the addition of three part-time evening staff per outlet on Fridays and Saturdays, working the 5pm to 11pm shift. The part-time wage cost was RM840 per month across both outlets. The afternoon reduction saved RM4,640 per month. The net payroll impact was a reduction of RM3,800 per month.</p>
+
+      <p>The changes were simple to explain and straightforward to implement. The complexity had been in seeing the problem in the first place — which the payroll total had made close to impossible.</p>
+
+      <h2>What This Means for Your Business</h2>
+
+      <p>Over the two months following the adjustment, labour cost as a percentage of revenue fell from 37% to 27%. Friday and Saturday revenue at both outlets rose 9%, driven by faster table turnover and a reduction in peak wait times from 14 minutes to 8 minutes. Customer complaints mentioning slow service dropped to zero in the second month. Total monthly improvement across wages and Friday–Saturday revenue was approximately RM6,100.</p>
+
+      <p>Ahmad now tracks staffing versus covers served on a weekly dashboard. When a shift shows more than one staff member per 12 covers for a sustained two-hour block, it flags before the next scheduling cycle. An AI assistant supports him in reviewing shift patterns and identifying when upcoming public holidays or school holidays are likely to shift demand at either outlet.</p>
+
+      <p>If your labour cost feels high but you cannot identify the source in your payroll summary, the answer is usually in the breakdown by shift — not the total. The data is almost certainly already there. It just has not been read that way yet.</p>
+
+      <p>To see the full analysis and the shift model Pau Analytics built, read the <a href="../case-study/staff-scheduling.html">case study</a>.</p>
+
+      <!-- CTA to WhatsApp (Channel B lead capture) -->
+      <div class="post-cta">
+        <p>Not sure where your labour costs are going? Tell us your situation and we'll show you what your shift data can reveal.</p>
+        <div class="cta-form">
+          <input type="text" id="cta-name" placeholder="Your name" />
+          <input type="text" id="cta-challenge" placeholder="Your biggest challenge with staffing or labour costs" />
+          <button class="cta-link" onclick="submitBlogCTA('staff-scheduling', 'en')">Chat with Us on WhatsApp &#x2192;</button>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="section-gold cta-strip">
+  <div class="container">
+    <h2>Found This Useful?</h2>
+    <p>Browse the case studies to see this kind of analysis applied to real business problems.</p>
+    <a href="../data-analytics.html" class="btn btn-dark">See Our Case Studies</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="brand-name">Pau <span>Analytics</span></div>
+      <p class="tagline">"Every decision deserves better data."</p>
+      <p>Data analytics consulting for Malaysian SMEs — reports, dashboards, and AI assistants.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Work</h5>
+      <ul>
+        <li><a href="../data-analytics.html">Case Studies</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="../pricing.html">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="https://lyven81.github.io/pau-ai/" target="_blank">Pau AI &#x2197;</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Pau Analytics</span>
+    <span><a href="../privacy-policy.html">Privacy Policy</a></span>
+  </div>
+</footer>
+
+
+<script>
+async function submitBlogCTA(slug, lang) {
+  const nameEl = document.getElementById('cta-name');
+  const challengeEl = document.getElementById('cta-challenge');
+  const name = (nameEl ? nameEl.value.trim() : '') || 'Visitor';
+  const challenge = (challengeEl ? challengeEl.value.trim() : '');
+  if (!challenge) {
+    challengeEl && challengeEl.focus();
+    return;
+  }
+
+  const btn = document.querySelector('.post-cta .cta-link');
+  if (btn) { btn.disabled = true; btn.textContent = lang === 'zh' ? '提交中...' : 'Sending...'; }
+
+  // Format matches channel_b.py: Name: / My biggest challenge: (EN)
+  // and 姓名：/ 我最大的困扰：(ZH)
+  var msg;
+  if (lang === 'zh') {
+    msg = '[CH-B: ' + slug + ']\n姓名：' + name + '\n我最大的困扰：' + challenge;
+  } else {
+    msg = '[CH-B: ' + slug + ']\nName: ' + name + '\nMy biggest challenge: ' + challenge;
+  }
+  window.open('https://wa.me/60149207099?text=' + encodeURIComponent(msg), '_blank');
+  if (btn) {
+    btn.disabled = false;
+    btn.textContent = lang === 'zh' ? 'WhatsApp 联系我们 →' : 'Chat with Us on WhatsApp →';
+  }
+}
+</script>
+
+</body>
+</html>

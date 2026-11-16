@@ -1,0 +1,19 @@
+Your front counter answers the same 20 questions every day.
+
+"What are your opening hours?" "Do you have vegetarian options?" "How much does it cost?" "Can I book for Saturday?"
+
+At a quiet moment, those questions take seconds. During a lunch rush, a Friday evening peak, or a Saturday morning queue, every one of them pulls a staff member away from something else.
+
+Pau AI's Expert Chatbot handles the questions your team answers on repeat — 24 hours a day, in English and Malay, through WhatsApp or your website.
+
+It knows your menu, your services, your pricing, your policies, and your hours. A customer sends a question at 11pm on Sunday. The chatbot answers immediately. When they're ready to book or buy, it passes them to a staff member or booking flow.
+
+It works for restaurants, clinics, training centres, workshops, pharmacies, and any business where customers ask the same questions before deciding.
+
+Setup takes about a week. You write your product and service details in plain language — we build the chatbot's knowledge base from that. No app download needed. It lives on WhatsApp, where your customers already are.
+
+The goal isn't to replace your team. It's to give them back the time that's currently going to repetitive questions — so it goes to the work only people can do.
+
+See the demo: https://lyven81.github.io/pau-ai/expert-chatbot.html
+
+#AI #MalaysianSME #ExpertChatbot #PauAI #BusinessAutomation
