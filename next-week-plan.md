@@ -1,71 +1,55 @@
-# Next Week Plan — Week 47 (16–22 November 2026)
+# Next Week Plan — Week 48 (23–29 November 2026)
 
-## Recommended Blog Post
+## Blog Post
 
-**Topic:** New English case study — recommended: staff scheduling, reseller margins,
-or seasonal demand forecasting
-**Working Slug:** TBD (to be determined once case study topic is confirmed)
-**Language:** English (EN)
-**Target publish date:** 16 November 2026 (Monday)
+**Language:** Mandarin (ZH)
 
-## Why This Topic
+**Recommended topic:** 外卖平台的佣金吃掉了多少利润？
+(How Much Profit Do Delivery Platform Commissions Eat Into?)
 
-1. **EN is next in pattern.** The last two posts (reducing-food-wastage, Week 44, ZH;
-   promotions-worth-it, Week 46, ZH) were both Mandarin. The alternating EN/ZH
-   pattern calls for English next. Current language balance is 17 EN / 9 ZH (65:35).
-   The 60:40 target is now within reach — 2 more EN posts before the next ZH post
-   would put the balance at 65:35 → 65:38 (close enough once a ZH follows).
+**Why this topic:**
+- Current EN/ZH ratio is 67:33 — 2–3 consecutive ZH posts are needed to move toward the 60:40 target.
+- Malaysian F&B owners on GrabFood, Foodpanda, and Shopeefood are actively asking this question.
+- The existing delivery-vs-dine-in (EN) post already touches on revenue split; a ZH post on commission cost gives a Mandarin-language angle with new data.
+- High relevance to small restaurant and café owners — the core CH-B lead profile.
 
-2. **Pipeline is empty.** All pre-pipeline case studies have been published. Week 47
-   requires a newly commissioned case study. English topics are faster to draft and
-   edit, making EN the lower-risk choice when time is tight.
+**Suggested case study framing:**
+Analyse transaction data from a Malaysian restaurant showing dine-in vs delivery revenue, net of platform commissions. Show the actual profit margin per channel, and when delivery becomes loss-making.
 
-3. **Suggested topic options (in priority order):**
+**Blog URL (once published):**
+https://www.pauanalytics.com/blog/[slug].html
 
-   a) **Staff scheduling and labour cost** — most Malaysian SMEs in F&B, retail, and
-      services run lean on staff. No existing post covers how data can optimise
-      shift coverage versus labour cost. High relevance, no duplicate.
+---
 
-   b) **Reseller margin analysis** — the existing know-your-reseller post (EN, July)
-      covered which resellers perform best. A follow-up on reseller margin versus
-      volume could serve wholesale and distribution businesses.
+## LinkedIn Posts (to be drafted alongside the blog post)
 
-   c) **Seasonal demand forecasting for retail or F&B** — predicting-holiday-peaks
-      covered streaming data. A retail or F&B-specific version would expand the
-      audience reach for the same theme.
+Following the weekly pattern:
+1. **Monday** — Blog teaser for the new ZH post
+2. **Wednesday** — Pau AI solution post (from queue: next is pau-ai-solution-whatsapp-agent or pau-ai-solution-booking-system)
+3. **Thursday** — Insight post (from queue: oldest unposted insight draft)
+4. **Friday** — Pau AI use case post (from queue: oldest unposted use case draft)
 
-4. **No existing post covers any of these.** The 26-post library covers customer value,
-   churn, pricing, promotions, product mix, staff turnover (ZH), delivery channels,
-   stock-outs, resellers, and campaign effectiveness. Labour cost and scheduling is
-   the clearest remaining gap.
+---
 
-## Content to Produce
+## LinkedIn Queue Action (overdue)
 
-A new case study is required. No existing case study covers staff scheduling or labour
-cost optimisation.
+The first LinkedIn post should go out this week (not next week). The queue has been
+waiting since May 2026. Post to schedule in Buffer for Wednesday 26 November 2026:
 
-Brief for the analyst:
-- Dataset: a Malaysian F&B or retail business with employee scheduling records,
-  shift costs, and revenue per period (3–12 months)
-- Key questions: Which shifts are overstaffed? What is the cost of overstaffing vs
-  lost revenue from understaffing? Can a simple data model predict optimal shift cover?
-- Output: a blog post (800–1,200 words) in English, with 2–3 charts and a clear
-  data-backed answer to "are we staffing our shifts efficiently?"
+**blog-teaser-from-ratings-to-revenue-2026-05-04.txt**
 
-## LinkedIn Drafts to Prepare Alongside
+This is the oldest unposted draft. Starting from the oldest ensures the queue is
+worked through in order.
 
-Once the blog post is written, prepare:
-1. blog-teaser-[slug].txt — LinkedIn teaser
-2. insight-promotions-worth-it.txt — data insight from the Week 46 blog post
-   (this was not drafted yet — it should be created this week)
-3. pau-ai-solution-[relevant solution].txt — Pau AI angle (operations tracker fits)
-4. pau-ai-usecase-operations-tracker-[industry].txt — use case post
+---
 
-## Reminder: LinkedIn Queue
+## Lead Data Fix (required)
 
-104 drafts are waiting. The oldest (blog-teaser-from-ratings-to-revenue, drafted
-4 May 2026) has been queued for 28 weeks. Post immediately — one post per Wednesday
-is the minimum viable cadence to begin generating CH-B leads.
+Before Week 48 report can include any lead data, one of these must be resolved:
+- Run /check-leads from a local Claude Code session (desktop or terminal)
+- Update the cloud environment network policy to allow *.railway.app outbound HTTPS
+  (see https://code.claude.com/docs/en/claude-code-on-the-web)
 
-**First post to schedule:** blog-teaser-from-ratings-to-revenue-2026-05-04.txt
-**Target date:** Wednesday 18 November 2026
+---
+
+*Generated by the Pau Analytics weekly coordinator — Week 47 2026*
