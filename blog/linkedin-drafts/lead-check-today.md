@@ -1,6 +1,6 @@
-# Lead Check — 2026-11-21
+# Lead Check — 2026-11-22
 
-**Run time:** 2026-11-21 (automated scheduled run)
+**Run time:** 2026-11-22 (automated scheduled run)
 **Status:** ⚠️ API UNREACHABLE
 
 ---
