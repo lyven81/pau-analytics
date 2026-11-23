@@ -1,6 +1,6 @@
-# Lead Check — 2026-11-22
+# Lead Check — 2026-11-23
 
-**Run time:** 2026-11-22 (automated scheduled run)
+**Run time:** 2026-11-23 (automated scheduled run)
 **Status:** ⚠️ API UNREACHABLE
 
 ---
@@ -32,6 +32,12 @@ This is a network policy restriction in the cloud execution environment, not a p
 **Option B — Allow the host in Claude Code (permanent fix):**
 - Add `web-chat-lead-manager-production.up.railway.app` to the allowed outbound hosts for your Claude Code cloud environment.
 - See: https://code.claude.com/docs/en/claude-code-on-the-web for environment network policy configuration.
+
+---
+
+## Note
+
+This same error also occurred on 2026-11-22. This is a recurring block until the host is allowlisted.
 
 ---
 
