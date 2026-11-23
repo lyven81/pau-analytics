@@ -1,0 +1,23 @@
+FRIDAY — Pau AI Use Case Spotlight
+Category: analytics-agent / kopitiam
+Published: 28 November 2026
+
+---
+
+Ah Fook has run a kopitiam in Pandan Jaya for 11 years. Eight tables. Open from 6am to 3pm, six days a week.
+
+He sells more than 40 items — kopi-o, teh tarik, mee goreng, toast, half-boiled eggs, nasi lemak, mixed rice, and more. Some fly. Some sit. He has never been sure which drinks make him more money in the morning versus the afternoon. He restocks by habit and what feels right at the end of the day.
+
+Last year, he started using Pau AI's analytics agent, connected to his POS records. The first week, he asked three questions:
+
+- "Which 10 items generated the most revenue last month?" — kopi-o and nasi lemak came out on top, together accounting for 42% of total revenue. Items he thought were popular barely made the list.
+- "Which items have sold less than 20 units in the past two weeks?" — 8 items flagged immediately. Most were afternoon specials that never really took off.
+- "What's the difference in my average transaction on weekday mornings vs Saturday mornings?" — RM8.20 on weekdays, RM14.50 on Saturdays. Saturday customers were staying longer and ordering more.
+
+Ah Fook simplified his menu to 25 items. The 8 slow movers came off. Prep time shortened. Weekend promotions moved to items that matched Saturday buying patterns.
+
+He did not change his hours, his prices, or his staff. He just started asking the right questions.
+
+See how it works: https://lyven81.github.io/pau-ai/analytics-agent.html
+
+#AI #MalaysianSME #KopitiamBusiness #FnBData #SmallBusinessTools

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>外卖平台的佣金，每个月吃掉你多少利润？ | Pau Analytics Blog</title>
+  <link rel="canonical" href="https://www.pauanalytics.com/blog/platform-commission-costs.html" />
+  <meta name="description" content="一家茨厂街附近的椰浆饭餐厅，外卖营业额涨了39%，扣除佣金和包装后，每笔外卖单的净收入比堂食低了18%。十二个月的数据揭示外卖平台真正的利润结构。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .post-body { font-size: 1.05rem; color: var(--text); line-height: 1.85; }
+    .post-body h2 { font-size: 1.5rem; color: var(--brown); margin: 2rem 0 0.75rem; }
+    .post-body h3 { font-size: 1.15rem; color: var(--brown); margin: 1.5rem 0 0.6rem; }
+    .post-body p { margin-bottom: 1.25rem; }
+    .post-body ul, .post-body ol { margin: 0 0 1.25rem 1.5rem; }
+    .post-body li { margin-bottom: 0.5rem; line-height: 1.75; }
+    .post-body strong { color: var(--brown); }
+    .post-body blockquote {
+      border-left: 3px solid var(--gold);
+      padding: 0.75rem 1.5rem;
+      margin: 1.5rem 0;
+      background: var(--alt);
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      color: var(--brown-mid);
+    }
+    .post-cta {
+      margin-top: 2.5rem;
+      padding: 2rem;
+      background: var(--alt);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      text-align: center;
+    }
+    .post-cta p { font-size: 0.95rem; color: var(--muted); margin-bottom: 1rem; }
+    .cta-form { display: flex; flex-direction: column; gap: 0.75rem; max-width: 420px; margin: 0 auto; }
+    .cta-form input {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      color: var(--text);
+      background: var(--white);
+      transition: border-color 0.25s ease;
+    }
+    .cta-form input:focus { outline: none; border-color: var(--gold); }
+    .cta-form input::placeholder { color: #aaa; }
+    .cta-link {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: var(--gold);
+      color: var(--white);
+      border: none;
+      border-radius: 8px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.25s ease, transform 0.25s ease;
+    }
+    .cta-link:hover { background: var(--gold-hover); transform: translateY(-1px); }
+  </style>
+</head>
+<body>
+
+<div class="sticky-header">
+  <div class="navbar">
+    <div class="nav-brand">Pau <span>Analytics</span></div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../data-analytics.html">Case Studies</a>
+      <a href="index.html" class="active">Blog</a>
+      <a href="../pricing.html">Pricing</a>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero-medium">
+  <div class="container">
+    <span class="section-tag">餐饮数据分析</span>
+    <h1 style="margin-top:0.75rem;">外卖平台的佣金，每个月吃掉你多少利润？</h1>
+    <p style="margin-top:0.5rem; font-size:0.9rem; color:rgba(255,255,255,0.55);">2026年11月23日发布</p>
+  </div>
+</section>
+
+<!-- POST BODY -->
+<section class="section section-cream">
+  <div class="container">
+    <article class="post-body">
+
+      <p>Rashdan 在八打灵再也经营一家椰浆饭餐厅，四十个座位，开了七年。2023 年加入 GrabFood，同时开放 WhatsApp 大量订购。头半年，外卖营业额增长速度超过堂食。GrabFood 的平均单价 RM43，比柜台堂食的 RM31 高出整整 39%。数字好看，他以为方向对了。</p>
+
+      <p>但每个月底，成本总是涨得比预期快，厨房在午餐时间越来越忙乱，利润却没有跟上。他找了 Pau Analytics，分析十二个月的完整交易数据——共 18,400 笔订单。答案让他意外。</p>
+
+      <h2>扣了佣金，你真正拿到多少？</h2>
+
+      <p>GrabFood 的平台佣金是 30%。RM43 的订单，扣掉佣金之后，净收入是 RM30.10。</p>
+
+      <p>但这还没完。每一笔外卖订单，还有包装成本。容器、袋子、汤类和咖喱用的隔热内衬，平均每单 RM4.80。扣掉包装，每笔 GrabFood 订单的实际净收入只剩 <strong>RM25.30。</strong></p>
+
+      <p>换一个角度来看：<strong>每 RM100 的 GrabFood 营业额，Rashdan 实际收进口袋的只有 RM59。</strong></p>
+
+      <p>堂食的平均单价是 RM31。没有佣金，没有包装费。RM31 几乎全部留下来。</p>
+
+      <p>表面上，外卖单价更高。实际上，每一笔外卖交易的净收入，比堂食低了 18%。</p>
+
+      <h2>菜单越长，评价越差</h2>
+
+      <p>Rashdan 在 GrabFood 上一共挂了 34 个品项。</p>
+
+      <p>数据显示，前六名——椰浆饭标准套餐、香料烤鸡椰浆饭、仁当牛肉椰浆饭、炒粿条、炸鸡饭和杂锦经济饭——占了全部外卖订单的 <strong>72%。</strong></p>
+
+      <p>剩下 28 个品项，贡献了 28% 的订单量，却占了全年 1 星和 2 星评价的 <strong>67%。</strong></p>
+
+      <p>原因很直接。这 28 个品项里，有些备餐时间更长，有些包装复杂，有些是骑手送到客户手里时已经散开或冷掉的菜式。每一次差评，都在拉低餐厅的整体评分，间接影响曝光和新客转化。</p>
+
+      <p>菜单越长，问题点越多。每一个低频品项，都是一个潜在的投诉来源。</p>
+
+      <h2>什么时候外卖最值得做？</h2>
+
+      <p>Rashdan 的 GrabFood 订单，有 <strong>74% 集中在周一至周五的上午 11 点到下午 1 点半，</strong>来自 3 公里范围内的办公楼。</p>
+
+      <p>周末完全不同。周六和周日的 GrabFood 单量，比平日午餐平均低了 <strong>61%。</strong>那时候进店吃饭的人反而更多。</p>
+
+      <p>但他一整周都在跑同样的 GrabFood 促销，包括周末的套餐优惠。这些促销几乎没有带来订单，却占用了他向堂食客户推广的预算和注意力。</p>
+
+      <p>外卖在工作日午餐时段最值得做。周末，重心应该放在堂食。</p>
+
+      <h2>三个调整，净收入涨了 14%</h2>
+
+      <p>Pau Analytics 建议三个方向，全部不需要新系统，也不需要额外投资。</p>
+
+      <p>第一，精简 GrabFood 菜单。从 34 个品项缩减到 12 个：原有的六大主力，加上六个额外品项，标准是运送后品质稳定、包装简单、备餐时间可控。高投诉率和高包装成本的品项全部下架。</p>
+
+      <p>第二，把 GrabFood 促销限定在周一至周五，集中火力打午餐时段。周末的社媒内容全部转向堂食——餐厅实景照片、只有现场才有的特别菜式，以及第八个月推出的周末家庭套餐。</p>
+
+      <p>第三，调整厨房出单顺序。午餐高峰期的外卖订单，改为按取餐时间排序，而不是按下单时间。这让厨房先完成堂食桌子的出菜，再集中打包外卖，消除了原本造成堂食延误的瓶颈。</p>
+
+      <p>调整后三个月：</p>
+      <ul>
+        <li>每单包装成本从 RM4.80 降至 <strong>RM2.90</strong></li>
+        <li>GrabFood 评分从 4.1 升至 <strong>4.6 星</strong></li>
+        <li>外卖厨房出错率（漏菜、错单）下降 <strong>61%</strong></li>
+        <li>月度 GrabFood 净收入（扣除费用和包装后）上涨 <strong>14%</strong>，尽管总单量减少了</li>
+        <li>周末堂食营业额增长 <strong>11%</strong></li>
+      </ul>
+
+      <h2>对你的餐厅来说，这意味着什么？</h2>
+
+      <p>外卖平台的营业额，和你真正拿到的净收入，是两件不同的事。很多餐厅老板只看到外卖营业额在涨，没有把佣金、包装、退单和评分影响全部加进来算。</p>
+
+      <p>如果你正在用 GrabFood、Foodpanda 或 Shopeefood，有几个问题值得现在就回答：你的平均外卖单价，扣完佣金和包装，实际净收入是多少？你的菜单里，哪些品项在拉低你的评分？你的促销预算，是在外卖最活跃的时段发出去的吗？</p>
+
+      <p>答案就在你过去六到十二个月的交易记录里。完整的分析过程，可以参考<a href="../case-study/delivery-vs-dine-in.html">完整案例研究</a>。</p>
+
+      <blockquote>「我以为外卖单价高就是赚钱。数据告诉我，高单价不等于高净收入——平台拿走的那一块，比我想象的大很多。」——Rashdan，椰浆饭餐厅老板，八打灵再也</blockquote>
+
+      <!-- CTA to WhatsApp (Channel B lead capture) -->
+      <div class="post-cta">
+        <p>想知道你的外卖频道到底赚了多少？告诉我们你的情况，我们来帮你算。</p>
+        <div class="cta-form">
+          <input type="text" id="cta-name" placeholder="您的姓名（可选）" />
+          <input type="text" id="cta-challenge" placeholder="您目前最大的业务困扰 *" />
+          <button class="cta-link" onclick="submitBlogCTA('platform-commission-costs', 'zh')">WhatsApp 联系我们 &#x2192;</button>
+        </div>
+      </div>
+
+    </article>
+  </div>
+</section>
+
+<!-- CTA STRIP -->
+<section class="section-gold cta-strip">
+  <div class="container">
+    <h2>这篇文章对您有帮助吗？</h2>
+    <p>浏览案例研究，了解如何将数据分析应用于真实的业务问题。</p>
+    <a href="../data-analytics.html" class="btn btn-dark">查看我们的案例研究</a>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="brand-name">Pau <span>Analytics</span></div>
+      <p class="tagline">&#8220;Every decision deserves better data.&#8221;</p>
+      <p>Data analytics consulting for Malaysian SMEs &#8212; reports, dashboards, and AI assistants.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Work</h5>
+      <ul>
+        <li><a href="../data-analytics.html">Case Studies</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="../pricing.html">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Company</h5>
+      <ul>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="https://lyven81.github.io/pau-ai/" target="_blank">Pau AI &#x2197;</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&#169; 2025 Pau Analytics</span>
+    <span><a href="../privacy-policy.html">Privacy Policy</a></span>
+  </div>
+</footer>
+
+<script>
+async function submitBlogCTA(slug, lang) {
+  var nameEl = document.getElementById('cta-name');
+  var challengeEl = document.getElementById('cta-challenge');
+  var name = (nameEl ? nameEl.value.trim() : '') || 'Visitor';
+  var challenge = (challengeEl ? challengeEl.value.trim() : '');
+  if (!challenge) { if (challengeEl) challengeEl.focus(); return; }
+
+  var btn = document.querySelector('.post-cta .cta-link');
+  if (btn) { btn.disabled = true; btn.textContent = lang === 'zh' ? '提交中...' : 'Sending...'; }
+
+  var msg;
+  if (lang === 'zh') {
+    msg = '[CH-B: ' + slug + ']\n姓名：' + name + '\n我最大的困扰：' + challenge;
+  } else {
+    msg = '[CH-B: ' + slug + ']\nName: ' + name + '\nMy biggest challenge: ' + challenge;
+  }
+  window.open('https://wa.me/60149207099?text=' + encodeURIComponent(msg), '_blank');
+  if (btn) {
+    btn.disabled = false;
+    btn.textContent = lang === 'zh' ? 'WhatsApp 联系我们 →' : 'Chat with Us on WhatsApp →';
+  }
+}
+</script>
+
+</body>
+</html>

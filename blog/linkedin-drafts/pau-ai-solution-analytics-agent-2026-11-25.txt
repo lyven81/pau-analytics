@@ -1,0 +1,25 @@
+TUESDAY — Pau AI Solution Showcase
+Category: analytics-agent
+Published: 25 November 2026
+
+---
+
+Your sales data is sitting there. Your POS has months of records. But getting an actual answer from it still takes you two days, a spreadsheet you half-understand, or a request to someone who comes back with something that answers the wrong question.
+
+That is not a data problem. That is an access problem.
+
+Pau AI's analytics agent connects to your data — POS records, inventory logs, delivery platform exports, HR files — and lets you ask questions in plain English or Mandarin.
+
+No formulas. No dashboards built by someone else. No waiting.
+
+A kopitiam owner asked: "Which items sold the least in the past two weeks?" The agent flagged 8 items in seconds. He pulled them off the menu. Prep time shortened. Wastage dropped.
+
+A restaurant owner asked: "Which day of the week is dragging down my weekly revenue?" The answer came back pointing to Tuesday lunch — consistently underperforming for four months. He shifted his midweek promotion there. Revenue for that slot improved within six weeks.
+
+The questions are always specific. The data is always already there. The gap is just having a fast way to ask.
+
+Built for F&B operators, retailers, and service businesses with data in their systems and no easy way to get answers from it on the spot.
+
+See the demo: https://lyven81.github.io/pau-ai/analytics-agent.html
+
+#AI #MalaysianSME #DataAnalytics #FnBBusiness #RetailSME

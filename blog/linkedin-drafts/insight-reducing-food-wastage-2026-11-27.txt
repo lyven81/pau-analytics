@@ -1,0 +1,25 @@
+THURSDAY — Pau Analytics Insight Post
+Case study: reducing-food-wastage
+Published: 27 November 2026
+
+---
+
+Wei Keong believed he ran a tight kitchen. Nine years in the business. He watched his staff. He ordered carefully.
+
+He was throwing away RM4,356 every single month.
+
+Most F&B owners think food waste is a kitchen discipline problem — staff not following recipes, over-prepping, or careless portioning. But when you actually look at the data, the pattern is almost never random.
+
+Pau Analytics reviewed six months of purchase records and four weeks of kitchen waste logs at Wei Keong's Chinese restaurant in Petaling Jaya. The finding was precise:
+
+22% of his total food cost was going in the bin.
+
+Just 4 ingredients accounted for 77% of that waste — whole fish (31%), bean sprouts (18%), roast pork (16%), and leafy vegetables (12%). Everything else was fine.
+
+And it was not spread evenly across the week. Tuesday and Wednesday generated 2.1 times more waste than Saturday — the busiest day. The cause was structural: Monday orders were sized for projected weekly demand, but the first two days consistently underperformed those projections for the full six months studied.
+
+After three adjustments — a split fish order, a renegotiated bean sprout schedule, and a simple daily prep guide — monthly food spend dropped from RM19,800 to RM17,400. The RM2,400 saving came from no new equipment, no extra staff, and no major process change.
+
+Check your own kitchen. Which 3 or 4 items are generating most of your waste? The answer is probably already in your purchase records.
+
+#FnBAnalytics #FoodWaste #MalaysianSME #RestaurantData

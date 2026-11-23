@@ -52,3 +52,5 @@
 2026-11-21 | expert-chatbot/pharmacy | usecase-spotlight
 2026-11-11 | whatsapp-agent | solution-showcase
 2026-11-14 | whatsapp-agent/food-stall | usecase-spotlight
+2026-11-25 | analytics-agent | solution-showcase
+2026-11-28 | analytics-agent/kopitiam | usecase-spotlight
