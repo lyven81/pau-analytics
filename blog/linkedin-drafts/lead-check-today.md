@@ -1,6 +1,6 @@
-# Lead Check — 2026-11-23
+# Lead Check — 2026-11-24
 
-**Run time:** 2026-11-23 (automated scheduled run)
+**Run time:** 2026-11-24 (automated scheduled run)
 **Status:** ⚠️ API UNREACHABLE
 
 ---
@@ -37,7 +37,9 @@ This is a network policy restriction in the cloud execution environment, not a p
 
 ## Note
 
-This same error also occurred on 2026-11-22. This is a recurring block until the host is allowlisted.
+This same error has occurred on 2026-11-22 and 2026-11-23. This is a recurring block until the host is allowlisted.
+
+The lead check will continue to fail on every scheduled run until the network policy is updated.
 
 ---
 
