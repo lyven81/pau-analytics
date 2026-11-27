@@ -1,7 +1,7 @@
-# Lead Check — 2026-11-26
+# Lead Check — 2026-11-27
 
-**Run time:** 2026-11-26 (automated scheduled run)
-**Status:** ⚠️ API UNREACHABLE — DAY 5
+**Run time:** 2026-11-27 (automated scheduled run)
+**Status:** ⚠️ API UNREACHABLE — DAY 6
 
 ---
 
@@ -43,7 +43,8 @@ This is a network policy restriction in the cloud execution environment, not a p
 | 2026-11-23 | Day 2 |
 | 2026-11-24 | Day 3 |
 | 2026-11-25 | Day 4 |
-| **2026-11-26** | **Day 5 (today)** |
+| 2026-11-26 | Day 5 |
+| **2026-11-27** | **Day 6 (today)** |
 
 The lead check will continue to fail on every scheduled run until the network policy is updated.
 
